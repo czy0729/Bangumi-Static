@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-04-05 03:20:34
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-04-21 00:37:25
+ * @Last Modified time: 2020-04-30 17:27:30
  */
 const fs = require('fs')
 const path = require('path')
@@ -30,7 +30,7 @@ async function downloadImage(cover, subjectId) {
           fs.mkdirSync(dirPath)
         }
 
-        console.log(`- write ${cover}.jpg`)
+        console.log(`- write ${cover}`)
         fs.writeFileSync(filePath, imgData, 'binary', (err) => {
           if (err) console.log('- error ${avatar}')
         })
