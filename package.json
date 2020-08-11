@@ -2,6 +2,9 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio-without-node-native": "0.20.2",
-    "iconv-lite": "^0.6.2"
+    "got": "^11.5.1",
+    "iconv-lite": "^0.6.2",
+    "opn": "^6.0.0",
+    "terminal-image": "^1.2.0"
   }
 }
