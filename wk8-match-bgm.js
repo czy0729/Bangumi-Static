@@ -6,7 +6,7 @@
  * @Author: czy0729
  * @Date: 2020-08-03 09:55:03
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-08-10 11:28:33
+ * @Last Modified time: 2020-08-23 18:24:06
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -14,6 +14,8 @@ const cheerioRN = require('cheerio-without-node-native')
 const utils = require('./utils/utils')
 const readline = require('readline')
 const opn = require('opn')
+const ora = require('ora')
+const ncp = require('copy-paste')
 
 axios.defaults.timeout = 3000
 
@@ -23,9 +25,9 @@ const host = 'https://bangumi.tv'
 const headers = {
   Host: host.split('//')[1],
   Cookie:
-    'chii_cookietime=2592000; prg_display_mode=normal; chii_theme_choose=1; chii_theme=dark; __utmz=1.1589339084.751.82.utmcsr=bgm.tv|utmccn=(referral)|utmcmd=referral|utmcct=/group/topic/356269; __utmc=1; __utma=1.359815985.1557241163.1596459404.1596507054.767; __utmt=1; chii_sid=pnVI57; chii_auth=YUS11qnJW9MTRltnbl0Uy3gD4cN0dYlAv4937ITC8zqH5bh0CSUoq6TGjVsGKWknVVWiywkZOwkbMFZsQqtK3v15ayYW82wSC95C; __utmb=1.4.10.1596507054',
+    'chii_cookietime=2592000; prg_display_mode=normal; chii_theme_choose=1; chii_theme=dark; __utmz=1.1589339084.751.82.utmcsr=bgm.tv|utmccn=(referral)|utmcmd=referral|utmcct=/group/topic/356269; __utma=1.359815985.1557241163.1598173588.1598177402.819; __utmc=1; __utmt=1; chii_searchDateLine=0; chii_sid=16tt6m; chii_auth=v%2FFIw16BrAGj8YnW7bAyVfCWiOofir4aH5HtYYO61UqhjKbKCqT22w%2BmmWYk9q3DOZ7%2Fe%2FB2Hl10LbT6lBlJNY0%2FNX8%2FKwEE9feD; __utmb=1.27.10.1598177402',
   'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36',
 }
 
 // 固定配置
@@ -50,23 +52,7 @@ let rank = ''
 let score = ''
 
 // 工具方法
-let clear
-function loading() {
-  let n = 0
-  const interval = setInterval(() => {
-    n += 1
-    process.stdout.clearLine()
-    process.stdout.write(new Array((n % 8) + 1).join('.'))
-    process.stdout.cursorTo(0)
-  }, 400)
-
-  return () => {
-    clearInterval(interval)
-    process.stdout.clearLine()
-    process.stdout.cursorTo(0)
-    clear = null
-  }
-}
+let spinner
 
 /**
  * cheerio
@@ -126,7 +112,7 @@ const getLine = (function () {
  * 跳过并写入
  */
 function skip() {
-  msg('skip', item.title, '31m')
+  spinner.warn(`skip ${item.title}`)
 
   configData.skip[item.wid] = item
   delete rawData[item.wid]
@@ -146,12 +132,9 @@ function save(immediate) {
   }
 
   if (_save % 10 === 0) {
-    msg(
-      'save',
-      `skip: ${Object.keys(configData.skip).length}, raw: ${
-        Object.keys(rawData).length
-      }, data: ${Object.keys(matchData).length}`
-    )
+    spinner.succeed(`save skip: ${Object.keys(configData.skip).length}, raw: ${
+      Object.keys(rawData).length
+    }, data: ${Object.keys(matchData).length}`)
 
     fs.writeFileSync(configFilePath, JSON.stringify(configData))
     fs.writeFileSync(rawFilePath, JSON.stringify(rawData))
@@ -184,16 +167,14 @@ function reset() {
 async function search(keyword) {
   try {
     console.log('\n')
-    msg('fetch search', keyword, '35m')
-
     keyword = keyword.replace(/\!|\?|\/|／|\.|官方小说/g, '')
 
-    clear = loading()
+    spinner = ora(`search ${keyword}`).start()
     const { data: html } = await axios({
       url: `${host}/subject_search/${encodeURIComponent(keyword)}?cat=1`,
       headers,
     })
-    clear()
+    spinner.succeed()
 
     const $ = cheerio(html)
     const items = (
@@ -221,8 +202,7 @@ async function search(keyword) {
     )
     return items
   } catch (error) {
-    msg('error search', error, '31m')
-    if (clear) clear()
+    await spinner.fail(String(error))
     return search(keyword)
   }
 }
@@ -239,15 +219,15 @@ function next() {
  */
 async function subject(subjectId) {
   const url = `${host}/subject/${subjectId}`
-  msg('fetch subject', url, '35m')
+  spinner.info(`fetch subject ${url}`)
 
   try {
-    clear = loading()
+    spinner = ora(`search ${subjectId}`).start()
     const { data: html } = await axios({
       url,
       headers,
     })
-    clear()
+    spinner.succeed()
 
     const $ = cheerio(html)
     const title = $('h1 a').text().trim()
@@ -262,7 +242,7 @@ async function subject(subjectId) {
     let score = String($('.global_score .number').text().trim())
     score = score ? parseFloat(parseFloat(score).toFixed(1)) : ''
 
-    msg('subject', info, info.includes('小说') ? '36m' : '31m')
+    info.includes('小说') ? spinner.succeed(info) : spinner.warn(info)
     return {
       id: parseInt(subjectId),
       title,
@@ -272,8 +252,7 @@ async function subject(subjectId) {
       info,
     }
   } catch (error) {
-    msg('error fetch subject', error, '31m')
-    if (clear) clear()
+    await spinner.fail(String(error))
     return subject(subjectId)
   }
 }
@@ -311,7 +290,7 @@ async function subject(subjectId) {
         delete matchData[id].w
       }
 
-      msg('confirm', `${JSON.stringify(matchData[id], null, 2)}`, '32m')
+      spinner.succeed(`confirm ${JSON.stringify(matchData[id], null, 2)}`)
       delete rawData[item.wid]
 
       save()
@@ -320,14 +299,15 @@ async function subject(subjectId) {
     // 执行下一次循环
     item = next()
     items = await search(item.title)
+
     if (!items.length) {
       if (autoSkip) {
-        msg('search empty', 'auto skip', '31m')
-
+        spinner.warn(`search empty ${item.author}`)
         skip()
         saveThenNext()
       } else {
-        msg('search empty', '', '31m')
+        spinner.warn(`search empty ${item.author}`)
+        ncp.copy(item.title)
       }
       return
     }
@@ -352,12 +332,9 @@ async function subject(subjectId) {
         }
 
         if (subjectId) {
-          msg(
-            'auto select',
-            `[${
-              items.findIndex((item) => item.id == subjectId) + 1
-            }] ${subjectId} - ${log}`
-          )
+          spinner.info(`auto select [${
+            items.findIndex((item) => item.id == subjectId) + 1
+          }] ${subjectId} - ${log}`)
           temp = await subject(subjectId)
 
           if (
@@ -370,7 +347,7 @@ async function subject(subjectId) {
             rank = temp.rank
             score = temp.score
 
-            msg('auto save', temp.info)
+            spinner.info(`auto save ${temp.info}`)
             saveThenNext()
           } else if (autoSkip) {
             skip()
@@ -405,8 +382,16 @@ async function subject(subjectId) {
         opn(`https://bgm.tv/subject/${id}`)
         break
 
+      case 'oa':
+        opn(`https://bgm.tv/mono_search/${item.author}?cat=prsn`)
+        break
+
+      case 'ob':
+        opn(`https://baike.baidu.com/item/${item.title}`)
+        break
+
       case 'i':
-        msg('open image', `https://lain.bgm.tv/pic/cover/l/${cover}.jpg`)
+        spinner.info(`https://lain.bgm.tv/pic/cover/l/${cover}.jpg`)
         opn(`https://lain.bgm.tv/pic/cover/l/${cover}.jpg`)
         break
 
@@ -443,7 +428,7 @@ async function subject(subjectId) {
               id =
                 Number(commands[i]) > 10
                   ? Number(commands[i])
-                  : Number(items[Number(commands[i]) - 1].id)
+                  : Number(items[Number(commands[i]) - 1] && items[Number(commands[i]) - 1].id)
               temp = await subject(id)
               title = temp.title
               cover = temp.cover
@@ -458,7 +443,7 @@ async function subject(subjectId) {
                 (items.length > 1 && temp.info.includes('小说系列')) ||
                 (items.length === 1 && temp.info.includes('小说'))
               ) {
-                msg('auto save', temp.info)
+                spinner.info(`auto save ${temp.info}`)
                 saveThenNext()
                 break
               } else if (autoSkip) {
