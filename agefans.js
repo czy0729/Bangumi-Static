@@ -1,16 +1,16 @@
 /*
  * https://www.agefans.tv/catalog/all-all-all-all-all-time-1-日本-all-all
+ * https://www.agefans.tv/catalog/all-all-all-all-all-time-1-中国-all-all
  *
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-07-29 15:10:52
+ * @Last Modified time: 2020-09-02 15:06:31
  */
 const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
 const cheerioRN = require('cheerio-without-node-native')
-const bangumiData = require('bangumi-data')
 
 function cheerio(target) {
   return typeof target === 'string'
@@ -39,10 +39,9 @@ function matchInfo(html, keywords) {
 }
 
 async function run() {
-  const config = JSON.parse(fs.readFileSync('./data/agefans/config.json'))
   const data = JSON.parse(fs.readFileSync('./data/agefans/raw.json'))
 
-  for (let page = config._page; page <= 90; page++) {
+  for (let page = 0; page <= 16; page++) {
     const url = `https://www.agefans.tv/catalog/all-all-all-all-all-time-${page}-${encodeURIComponent(
       '日本'
     )}-all-all`
@@ -93,9 +92,6 @@ async function run() {
     })
 
     fs.writeFileSync('./data/agefans/raw.json', JSON.stringify(data))
-
-    config._page = page
-    fs.writeFileSync('./data/agefans/config.json', JSON.stringify(config))
   }
 }
 
