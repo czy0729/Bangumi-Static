@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-04-05 03:20:34
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-04-30 17:27:30
+ * @Last Modified time: 2020-10-11 02:12:54
  */
 const fs = require('fs')
 const path = require('path')
@@ -46,7 +46,7 @@ async function downloadImage(cover, subjectId) {
  */
 async function fetchHome() {
   const data = await fetch.fetchHome()
-  const filePath = './data/discovery/index.json'
+  const filePath = './data/discovery/home.json'
 
   const covers = []
   Object.keys(data).forEach((key) => {
