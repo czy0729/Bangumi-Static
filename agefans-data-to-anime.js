@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-09-27 12:13:23
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-09-27 12:16:53
+ * @Last Modified time: 2020-10-27 16:01:49
  */
 const fs = require('fs')
 
@@ -16,4 +16,4 @@ const array = Object.keys(data).map((key) => {
 })
 
 const animeFilePath = './data/agefans/anime.json'
-fs.writeFileSync(animeFilePath, JSON.stringify(array, null, 2))
+fs.writeFileSync(animeFilePath, JSON.stringify(array))
