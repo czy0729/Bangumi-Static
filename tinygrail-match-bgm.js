@@ -2,24 +2,9 @@
  * @Author: czy0729
  * @Date: 2020-10-28 19:40:30
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-10-29 17:31:37
+ * @Last Modified time: 2020-11-26 14:39:05
  */
 const fs = require('fs')
-
-// const relation = JSON.parse(fs.readFileSync('./data/tinygrail/relation.json'))
-// Object.keys(relation.data).forEach((monoId) => {
-//   delete relation.data[monoId].n
-//   delete relation.data[monoId].i
-//   delete relation.data[monoId].l
-//   if (!relation.data[monoId].r.length) {
-//     delete relation.data[monoId].r
-//   }
-// })
-// fs.writeFileSync(
-//   './data/tinygrail/relation-mini.json',
-//   JSON.stringify(relation)
-// )
-// return
 
 const xsb = {}
 const subject = {}
@@ -103,3 +88,13 @@ fs.writeFileSync(
 function hasIntersection(a, b) {
   return a.findIndex((v) => parseInt(b) === parseInt(v)) !== -1
 }
+
+Object.keys(data.data).forEach((monoId) => {
+  delete data.data[monoId].n
+  delete data.data[monoId].i
+  delete data.data[monoId].l
+  if (!data.data[monoId].r.length) {
+    delete data.data[monoId].r
+  }
+})
+fs.writeFileSync('./data/tinygrail/relation-mini.json', JSON.stringify(data))

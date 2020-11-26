@@ -5,7 +5,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-10-27 15:52:49
+ * @Last Modified time: 2020-11-26 12:06:02
  */
 const fs = require('fs')
 const path = require('path')
@@ -41,7 +41,7 @@ function matchInfo(html, keywords) {
 async function run() {
   const data = JSON.parse(fs.readFileSync('./data/agefans/raw.json'))
 
-  for (let page = 0; page <= 94; page++) {
+  for (let page = 0; page <= 95; page++) {
     const url = `https://www.agefans.tv/catalog/all-all-all-all-all-time-${page}-${encodeURIComponent(
       '日本'
     )}-all-all`
