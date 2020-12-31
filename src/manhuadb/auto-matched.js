@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-31 11:58:22
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-31 21:53:58
+ * @Last Modified time: 2020-12-31 22:07:22
  */
 const utils = require('../utils')
 
@@ -252,7 +252,6 @@ function doConfirm() {
   confirmNum += 1
   if (confirmNum % 10 === 0) {
     doSave()
-    loading.info('【auto save】')
   }
 }
 
@@ -267,10 +266,10 @@ function doAutoSkip() {
   autoSkipNum += 1
   if (autoSkipNum % 10 === 0) {
     doSave()
-    loading.info('【auto save】')
   }
 }
 
 function doSave() {
   utils.write(__detail, detail)
+  loading.info(`【auto save】confirm: ${confirmNum}, skip: ${autoSkipNum}`)
 }

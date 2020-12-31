@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-31 19:47:55
+ * @Last Modified time: 2021-01-01 01:51:26
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -15,6 +15,12 @@ const ora = require('./ora')
 require('events').EventEmitter.defaultMaxListeners = 0
 axios.defaults.timeout = 3000
 
+/*
+  JSON.stringify({
+    'User-Agent': navigator.userAgent,
+    Cookie: document.cookie,
+  })
+*/
 const headers = {
   'User-Agent':
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
@@ -121,6 +127,14 @@ function open(url) {
   return opn(url)
 }
 
+/**
+ *
+ * @param {*} str
+ */
+function htmlTrim(str) {
+  return str.replace(/(\n+)|(<!--.*?-->)|(\/\*.*?\*\/)|/gi, '').replace(/[ ]+</gi, '<')
+}
+
 module.exports = {
   headers,
   read,
@@ -132,4 +146,5 @@ module.exports = {
   log,
   loading,
   open,
+  htmlTrim,
 }

@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-31 14:09:25
+ * @Last Modified time: 2021-01-01 01:51:16
  */
 const utils = require('../utils')
 
@@ -50,10 +50,7 @@ async function run() {
       jp: data.name,
       image:
         data.images && data.images && data.images.large
-          ? data.images.large.replace(
-              /http:\/\/lain.bgm.tv\/pic\/cover\/l\/|.jpg/g,
-              ''
-            )
+          ? data.images.large.replace(/http:\/\/lain.bgm.tv\/pic\/cover\/l\/|.jpg/g, '')
           : '',
       begin: itemDetail.year,
       score: data.rating && data.rating.score ? data.rating.score : 0,
@@ -81,10 +78,3 @@ async function run() {
 }
 
 run()
-
-/*
-  JSON.stringify({
-    'User-Agent': navigator.userAgent,
-    Cookie: document.cookie,
-  })
-*/

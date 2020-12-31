@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-31 18:01:03
+ * @Last Modified time: 2021-01-01 00:37:53
  */
 const utils = require('../utils')
 
@@ -10,12 +10,12 @@ const __raw = '../../data/manhuadb/raw.json'
 const raw = utils.read(__raw)
 
 const pages = [
-  // { y: 2019, p: 14 },
-  // { y: 2018, p: 36 },
-  // { y: 2017, p: 24 },
-  // { y: 2016, p: 20 },
-  // { y: 2015, p: 18 },
-  // { y: 2014, p: 18 },
+  { y: 2019, p: 14 },
+  { y: 2018, p: 36 },
+  { y: 2017, p: 24 },
+  { y: 2016, p: 20 },
+  { y: 2015, p: 18 },
+  { y: 2014, p: 18 },
   { y: 2013, p: 53 },
   { y: 2012, p: 30 },
   { y: 2011, p: 14 },

@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-30 01:11:52
+ * @Last Modified time: 2021-01-01 01:54:10
  */
 const utils = require('../utils')
 
@@ -15,7 +15,7 @@ const rewrite = false
 
 async function run() {
   const idsRaw = Object.keys(raw)
-  for (let indexRaw = 0; indexRaw <= idsRaw.length; indexRaw++) {
+  for (let indexRaw = 0; indexRaw <= idsRaw.length - 1; indexRaw++) {
     const idRaw = idsRaw[indexRaw]
     const itemRaw = raw[idRaw]
     if (!rewrite && idRaw in detail) {
