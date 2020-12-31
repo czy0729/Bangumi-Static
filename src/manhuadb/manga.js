@@ -2,26 +2,20 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-31 11:31:37
+ * @Last Modified time: 2020-12-31 14:09:25
  */
 const utils = require('../utils')
 
+const __matched = '../../data/manhuadb/matched.json'
 const __detail = '../../data/manhuadb/detail.json'
-const __mathced = '../../data/manhuadb/mathced.json'
 const __manga = '../../data/manhuadb/manga.json'
+const matched = utils.read(__matched)
 const detail = utils.read(__detail)
-const mathced = utils.read(__mathced)
 const manga = utils.read(__manga)
 const temp = {}
 manga.forEach((item) => (temp[item.id] = item))
 
 const rewrite = false
-const headers = {
-  'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
-  Cookie:
-    'chii_cookietime=2592000; chii_theme_choose=1; prg_list_mode=full; chii_theme=dark; __utmz=1.1607152658.2102.85.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; chii_auth=Bmn0EEpQr1rIvfuVSrrsM8fnbswYFqk15mgr29Zr32cl7pFtV0LJjXJWaTuHNYbc3DW9OBpOEmavwsz5oreJlyGwId%2BUB9OVn9tB; prg_display_mode=normal; __utmc=1; chii_searchDateLine=0; chii_sid=1353EV; __utma=1.7292625.1567003648.1609210332.1609222388.2184; __utmt=1; __utmb=1.1.10.1609222388',
-}
 
 async function run() {
   const idsDetail = Object.keys(detail)
@@ -38,6 +32,7 @@ async function run() {
     if (!rewrite) {
       const findIndex = manga.findIndex((item) => item.manhuaId === idDetail)
       if (findIndex !== -1) {
+        matched[idDetail] = detail[idDetail]
         continue
       }
     }
@@ -68,6 +63,8 @@ async function run() {
 
     delete temp[idBgm].title
     delete temp[idBgm].year
+
+    matched[idDetail] = detail[idDetail]
   }
 
   utils.write(
@@ -75,6 +72,12 @@ async function run() {
     Object.keys(temp).map((id) => temp[id]),
     true
   )
+
+  Object.keys(matched).forEach((idMathced) => {
+    delete detail[idMathced]
+  })
+  utils.write(__matched, matched)
+  utils.write(__detail, detail)
 }
 
 run()
