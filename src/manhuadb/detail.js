@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-29 13:59:54
+ * @Last Modified time: 2020-12-30 01:11:52
  */
 const utils = require('../utils')
 
@@ -11,7 +11,7 @@ const __detail = '../../data/manhuadb/detail.json'
 const raw = utils.read(__raw)
 const detail = utils.read(__detail)
 
-const rewrite = true
+const rewrite = false
 
 async function run() {
   const idsRaw = Object.keys(raw)

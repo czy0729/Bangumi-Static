@@ -2,13 +2,15 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-12-29 15:13:14
+ * @Last Modified time: 2020-12-31 11:31:37
  */
 const utils = require('../utils')
 
 const __detail = '../../data/manhuadb/detail.json'
+const __mathced = '../../data/manhuadb/mathced.json'
 const __manga = '../../data/manhuadb/manga.json'
 const detail = utils.read(__detail)
+const mathced = utils.read(__mathced)
 const manga = utils.read(__manga)
 const temp = {}
 manga.forEach((item) => (temp[item.id] = item))
