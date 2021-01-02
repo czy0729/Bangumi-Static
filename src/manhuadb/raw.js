@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-01 00:37:53
+ * @Last Modified time: 2021-01-01 18:08:38
  */
 const utils = require('../utils')
 
@@ -85,6 +85,7 @@ async function run() {
       utils.write(__raw, raw)
     }
   }
+  process.exit()
 }
 
 run()

@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-01 01:51:16
+ * @Last Modified time: 2021-01-01 18:08:15
  */
 const utils = require('../utils')
 
@@ -53,14 +53,20 @@ async function run() {
           ? data.images.large.replace(/http:\/\/lain.bgm.tv\/pic\/cover\/l\/|.jpg/g, '')
           : '',
       begin: itemDetail.year,
-      score: data.rating && data.rating.score ? data.rating.score : 0,
+      score: data.rank ? (data.rating && data.rating.score ? data.rating.score : 0) : 0,
+      rank: data.rank || 0,
+      status: itemDetail.status === '完结' ? 1 : 0,
       id: idBgm,
       manhuaId: idDetail,
     }
 
     delete temp[idBgm].title
     delete temp[idBgm].year
-
+    if (temp[idBgm].cn === temp[idBgm].jp) delete temp[idBgm].jp
+    if (temp[idBgm].ep === '') delete temp[idBgm].ep
+    if (temp[idBgm].score === 0) delete temp[idBgm].score
+    if (temp[idBgm].rank === 0) delete temp[idBgm].rank
+    if (temp[idBgm].status === 0) delete temp[idBgm].status
     matched[idDetail] = detail[idDetail]
   }
 
@@ -75,6 +81,7 @@ async function run() {
   })
   utils.write(__matched, matched)
   utils.write(__detail, detail)
+  process.exit()
 }
 
 run()
