@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-02 16:37:59
+ * @Last Modified time: 2021-01-06 22:12:23
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -224,6 +224,107 @@ async function queue(fetchs, num = 2) {
   return true
 }
 
+/**
+ *
+ */
+function getTimestamp() {
+  return Math.floor(new Date().valueOf() / 1000)
+}
+
+/**
+ * 字符串相似度
+ * @param {*} s
+ * @param {*} t
+ * @param {*} f
+ */
+function similar(s, t, f) {
+  if (!s || !t) {
+    return 0
+  }
+  var l = s.length > t.length ? s.length : t.length
+  var n = s.length
+  var m = t.length
+  var d = []
+  f = f || 3
+  var min = function (a, b, c) {
+    return a < b ? (a < c ? a : c) : b < c ? b : c
+  }
+  var i, j, si, tj, cost
+  if (n === 0) return m
+  if (m === 0) return n
+  for (i = 0; i <= n; i++) {
+    d[i] = []
+    d[i][0] = i
+  }
+  for (j = 0; j <= m; j++) {
+    d[0][j] = j
+  }
+  for (i = 1; i <= n; i++) {
+    si = s.charAt(i - 1)
+    for (j = 1; j <= m; j++) {
+      tj = t.charAt(j - 1)
+      if (si === tj) {
+        cost = 0
+      } else {
+        cost = 1
+      }
+      d[i][j] = min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost)
+    }
+  }
+  let res = 1 - d[n][m] / l
+  return res.toFixed(f)
+}
+
+/**
+ *
+ * @param {*} str
+ */
+function HTMLDecode(str = '') {
+  if (str.length === 0) {
+    return ''
+  }
+  return (
+    str
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&nbsp;/g, ' ')
+      // eslint-disable-next-line quotes
+      .replace(/&#39;/g, "'")
+      .replace(/&quot;/g, '"')
+  )
+}
+
+/**
+ * hash
+ */
+const I64BIT_TABLE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-'.split(
+  ''
+)
+function hash(input) {
+  if (!input) {
+    return input
+  }
+  input = `https://lain.bgm.tv/pic/cover/m/${image}.jpg`
+
+  let hash = 5381
+  let i = input.length - 1
+
+  if (typeof input == 'string') {
+    for (; i > -1; i--) hash += (hash << 5) + input.charCodeAt(i)
+  } else {
+    for (; i > -1; i--) hash += (hash << 5) + input[i]
+  }
+  let value = hash & 0x7fffffff
+
+  let retValue = ''
+  do {
+    retValue += I64BIT_TABLE[value & 0x3f]
+  } while ((value >>= 6))
+
+  return retValue
+}
+
 module.exports = {
   headers,
   root,
@@ -240,5 +341,9 @@ module.exports = {
   toSimplifiedChar,
   large,
   download,
-  queue
+  queue,
+  getTimestamp,
+  similar,
+  HTMLDecode,
+  hash
 }

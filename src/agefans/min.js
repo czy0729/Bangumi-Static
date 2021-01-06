@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-06 10:46:45
+ * @Last Modified time: 2021-01-06 12:12:01
  */
 const utils = require('../utils')
 
@@ -27,7 +27,10 @@ const min = anime.map(item => {
   if (item.jp && item.jp !== item.cn) temp.j = item.jp
   if (item.image) temp.i = item.image
   if (item.begin) temp.b = item.begin
-  if (item.rank) temp.s = item.score
+  if (item.rank) {
+    temp.s = item.score
+    temp.r = item.rank
+  }
   return temp
 })
 

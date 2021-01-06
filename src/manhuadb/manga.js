@@ -2,18 +2,20 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-01 18:08:15
+ * @Last Modified time: 2021-01-05 16:13:21
  */
 const utils = require('../utils')
 
-const __matched = '../../data/manhuadb/matched.json'
-const __detail = '../../data/manhuadb/detail.json'
-const __manga = '../../data/manhuadb/manga.json'
+const __matched = utils.root('data/manhuadb/matched.json')
+const __detail = utils.root('data/manhuadb/detail.json')
+const __manga = utils.root('data/manhuadb/manga.json')
+const __unmatched = utils.root('data/manhuadb/unmatched.json')
 const matched = utils.read(__matched)
 const detail = utils.read(__detail)
 const manga = utils.read(__manga)
+const unmatched = utils.read(__unmatched)
 const temp = {}
-manga.forEach((item) => (temp[item.id] = item))
+manga.forEach(item => (temp[item.id] = item))
 
 const rewrite = false
 
@@ -28,9 +30,9 @@ async function run() {
       continue
     }
 
-    // 非重写情况, 若managa中有记录, 跳过
+    // 非重写情况, 若manga中有记录, 跳过
     if (!rewrite) {
-      const findIndex = manga.findIndex((item) => item.manhuaId === idDetail)
+      const findIndex = manga.findIndex(item => item.manhuaId === idDetail)
       if (findIndex !== -1) {
         matched[idDetail] = detail[idDetail]
         continue
@@ -50,14 +52,21 @@ async function run() {
       jp: data.name,
       image:
         data.images && data.images && data.images.large
-          ? data.images.large.replace(/http:\/\/lain.bgm.tv\/pic\/cover\/l\/|.jpg/g, '')
+          ? data.images.large.replace(
+              /http:\/\/lain.bgm.tv\/pic\/cover\/l\/|.jpg/g,
+              ''
+            )
           : '',
       begin: itemDetail.year,
-      score: data.rank ? (data.rating && data.rating.score ? data.rating.score : 0) : 0,
+      score: data.rank
+        ? data.rating && data.rating.score
+          ? data.rating.score
+          : 0
+        : 0,
       rank: data.rank || 0,
       status: itemDetail.status === '完结' ? 1 : 0,
       id: idBgm,
-      manhuaId: idDetail,
+      manhuaId: idDetail
     }
 
     delete temp[idBgm].title
@@ -72,15 +81,23 @@ async function run() {
 
   utils.write(
     __manga,
-    Object.keys(temp).map((id) => temp[id]),
-    true
+    Object.keys(temp).map(id => temp[id])
   )
 
-  Object.keys(matched).forEach((idMathced) => {
+  Object.keys(matched).forEach(idMathced => {
     delete detail[idMathced]
   })
   utils.write(__matched, matched)
+
+  Object.keys(detail).forEach(idDetail => {
+    if (detail[idDetail]._unmatched) {
+      unmatched[idDetail] = detail[idDetail]
+      delete detail[idDetail]
+    }
+  })
   utils.write(__detail, detail)
+  utils.write(__unmatched, unmatched)
+
   process.exit()
 }
 
