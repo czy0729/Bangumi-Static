@@ -5,23 +5,25 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-01 01:20:47
+ * @Last Modified time: 2021-01-06 10:03:31
  */
 const utils = require('../utils')
 
-const __raw = '../../data/agefans/raw.json'
+const __raw = utils.root('data/agefans/raw.json')
 const raw = utils.read(__raw)
 
 const pages = [
-  { type: '日本', p: 97, area: 'jp' },
-  { type: '中国', p: 16, area: 'cn' },
+  { type: '日本', p: 98, area: 'jp' },
+  { type: '中国', p: 16, area: 'cn' }
 ]
 
 async function run() {
   for (let index = 0; index < pages.length; index++) {
     const { type, p, area } = pages[index]
     for (let page = 0; page <= p; page++) {
-      const url = `https://www.agefans.net/catalog/all-all-all-all-all-time-${page}-${encodeURIComponent(type)}-all-all`
+      const url = `https://www.agefans.net/catalog/all-all-all-all-all-time-${page}-${encodeURIComponent(
+        type
+      )}-all-all`
       const data = await utils.fetch(url)
       console.log(url)
 
@@ -32,12 +34,28 @@ async function run() {
       const $ = utils.cheerio(data)
       $('div.cell').map((index, element) => {
         const $row = utils.cheerio(element)
-        const id = Number($row.find('a.cell_poster').attr('href').replace('/detail/', ''))
+        const id = Number(
+          $row.find('a.cell_poster').attr('href').replace('/detail/', '')
+        )
         if (!id) return
 
-        const [type, jp, begin, status, tags, official] = matchInfo(
+        const [
+          type,
+          jp,
+          begin,
+          status,
+          tags,
+          official
+        ] = matchInfo(
           utils.htmlTrim($row.find('div.cell_imform_kvs').html().trim()),
-          ['动画种类', '原版名称', '首播时间', '播放状态', '剧情类型', '制作公司']
+          [
+            '动画种类',
+            '原版名称',
+            '首播时间',
+            '播放状态',
+            '剧情类型',
+            '制作公司'
+          ]
         )
         raw[id] = {
           id,
@@ -49,7 +67,7 @@ async function run() {
           status,
           tags,
           official,
-          area,
+          area
         }
       })
 
@@ -60,7 +78,7 @@ async function run() {
 run()
 
 function matchInfo(html, keywords) {
-  return keywords.map((keyword) => {
+  return keywords.map(keyword => {
     const reg = new RegExp(
       `<span class="cell_imform_tag">${keyword}：</span><span class="cell_imform_value">(.+?)</span>`
     )

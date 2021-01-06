@@ -1,7 +1,14 @@
 {
   "scripts": {
-    "d": "node src/discovery/index.js",
-    "do": "open data/discovery"
+    "discovery": "node src/discovery/index.js",
+    "discovery:open": "open data/discovery",
+    "manhua:match": "node src/manhuadb/auto-matched.js",
+    "manhua:manga": "node src/manhuadb/manga.js",
+    "manhua:min": "node src/manhuadb/min.js",
+    "age": "node src/agefans/raw.js",
+    "age:anime": "node src/agefans/anime.js",
+    "age:min": "node src/agefans/min.js",
+    "wk8:min": "node src/wk8/min.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
