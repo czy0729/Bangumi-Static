@@ -2,18 +2,18 @@
  * @Author: czy0729
  * @Date: 2021-01-10 00:41:45
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-10 04:13:30
+ * @Last Modified time: 2021-01-10 04:27:26
  */
 const utils = require('../utils')
 
-const __detail = utils.root('data/manhuadb/detail-index.json')
+const __detail = utils.root('data/manhuadb/detail.json')
 const detail = utils.read(__detail)
 
 const maxId = 25164
 
 async function run() {
   const fetchs = []
-  for (let id = 56; id < maxId; id += 1) {
+  for (let id = 0; id < maxId; id += 1) {
     if (detail[id]) {
       continue
     }

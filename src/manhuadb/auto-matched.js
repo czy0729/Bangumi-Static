@@ -15,7 +15,6 @@
  * @Last Modified by: czy0729
  * @Last Modified time: 2021-01-08 21:34:38
  */
-
 const utils = require('../utils')
 
 const isAuto = process.argv.includes('--auto')
