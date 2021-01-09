@@ -5,6 +5,7 @@
     "manhua:match": "node src/manhuadb/auto-matched.js",
     "manhua:manga": "node src/manhuadb/manga.js",
     "manhua:min": "node src/manhuadb/min.js",
+    "manhua:tags": "node src/manhuadb/tags.js",
     "age": "node src/agefans/raw.js",
     "age:anime": "node src/agefans/anime.js",
     "age:min": "node src/agefans/min.js",

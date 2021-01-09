@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-06 22:12:23
+ * @Last Modified time: 2021-01-06 22:16:46
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -305,7 +305,7 @@ function hash(input) {
   if (!input) {
     return input
   }
-  input = `https://lain.bgm.tv/pic/cover/m/${image}.jpg`
+  input = `https://lain.bgm.tv/pic/cover/c/${input}.jpg`
 
   let hash = 5381
   let i = input.length - 1

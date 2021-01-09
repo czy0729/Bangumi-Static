@@ -13,7 +13,7 @@
  * @Author: czy0729
  * @Date: 2020-12-31 11:58:22
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-05 15:33:05
+ * @Last Modified time: 2021-01-08 21:34:38
  */
 
 const utils = require('../utils')
@@ -307,9 +307,9 @@ async function next() {
 
 async function search(itemDetail) {
   const q = utils.toSimplifiedChar(
-    (itemDetail.cn || itemDetail.jp || itemDetail.title)
+    (itemDetail.title || itemDetail.cn || itemDetail.jp)
       .split(' / ')[0]
-      .replace(/\!|\?|\/|／|\.|官方漫画|漫画/g, '')
+      .replace(/\!|\?|\/|／|\.|~|官方漫画|漫画/g, ' ')
   )
   loading = utils.loading(
     `[search] ${q} / ${itemDetail.author}${
@@ -338,13 +338,6 @@ async function search(itemDetail) {
         }
       })
       .get() || []
-  ).filter(
-    item =>
-      !(
-        (item.title.includes('<') && item.title.includes('>')) ||
-        (item.title.includes('〈') && item.title.includes('〉')) ||
-        (item.title.includes('第') && item.title.includes('卷'))
-      )
   )
 }
 
