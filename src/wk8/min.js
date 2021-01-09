@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2021-01-06 01:30:20
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-06 15:56:33
+ * @Last Modified time: 2021-01-07 01:03:00
  */
 const utils = require('../utils')
 
@@ -30,10 +30,8 @@ const min = wenku.map(item => {
   if (item.hot) temp.h = item.hot
   if (item.up) temp.u = item.up
   if (item.len) temp.l = item.len
-  if (item.rank) {
-    temp.s = item.score
-    temp.r = item.rank
-  }
+  if (item.score) temp.s = item.score
+  if (item.rank) temp.r = item.rank
   return temp
 })
 
