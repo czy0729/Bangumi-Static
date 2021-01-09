@@ -2,6 +2,7 @@
   "scripts": {
     "discovery": "node src/discovery/index.js",
     "discovery:open": "open data/discovery",
+    "manhua:index": "node src/manhuadb/detail-index.js",
     "manhua:match": "node src/manhuadb/auto-matched.js",
     "manhua:manga": "node src/manhuadb/manga.js",
     "manhua:min": "node src/manhuadb/min.js",

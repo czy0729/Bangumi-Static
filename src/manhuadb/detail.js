@@ -1,45 +1,72 @@
 /*
  * @Author: czy0729
- * @Date: 2020-12-28 15:53:48
+ * @Date: 2021-01-10 00:41:45
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-01 18:08:30
+ * @Last Modified time: 2021-01-10 04:13:30
  */
 const utils = require('../utils')
 
-const __raw = '../../data/manhuadb/raw.json'
-const __detail = '../../data/manhuadb/detail.json'
-const raw = utils.read(__raw)
+const __detail = utils.root('data/manhuadb/detail-index.json')
 const detail = utils.read(__detail)
 
-const rewrite = false
+const maxId = 25164
 
 async function run() {
-  const idsRaw = Object.keys(raw)
-  for (let indexRaw = 0; indexRaw <= idsRaw.length - 1; indexRaw++) {
-    const idRaw = idsRaw[indexRaw]
-    const itemRaw = raw[idRaw]
-    if (!rewrite && idRaw in detail) {
+  const fetchs = []
+  for (let id = 56; id < maxId; id += 1) {
+    if (detail[id]) {
       continue
     }
 
-    const itemDetail = detail[idRaw] || {}
-    const url = `https://www.manhuadb.com/manhua/${idRaw}`
-    const data = await utils.fetch(url)
-    console.log(`[${indexRaw} | ${idsRaw.length}]`, url, itemRaw.title)
+    fetchs.push(async () => {
+      const url = `https://www.manhuadb.com/manhua/${id}`
+      const data = await utils.fetch(url)
 
-    const $ = utils.cheerio(data)
-    detail[idRaw] = {
-      ...itemRaw,
-      ...itemDetail,
-      ep: $('.tab-pane.active .fixed-wd-num:last-child').text().trim(),
-      cn: $('.comic-titles').text().trim(),
-      jp: $('.comic-original-titles').text().trim(),
-    }
+      const $ = utils.cheerio(data)
+      const title = $('.comic-title').text().trim()
+      if (!title) {
+        console.log(`skip ${url}`)
+        return true
+      }
 
-    if (indexRaw % 10 === 0) {
-      utils.write(__detail, detail)
-    }
+      let tags = ''
+      let status = ''
+      $('.tags a').each((index, element) => {
+        if (index === 0) {
+          status = utils.cheerio(element).text().trim().replace(/中|已/g, '')
+        } else {
+          tags += ` ${utils.cheerio(element).text().trim()}`
+        }
+      })
+
+      const ep = $('.tab-pane.active .fixed-wd-num:last-child').text().trim()
+      const vol = $('.tab-pane.active .sort_div:last-child').text().trim()
+      detail[id] = {
+        id,
+        title,
+        status,
+        author: $('.comic-creator').text().trim(),
+        tags,
+        year: $('.comic-pub-date').text().trim(),
+        ep: ep
+          ? ep
+          : vol
+          ? `${vol}${
+              $('.nav-link.active .h3').text().trim() === '单行本' ? '卷' : ''
+            }`
+          : '',
+        cn: $('.comic-titles').text().trim(),
+        jp: $('.comic-original-titles').text().trim()
+      }
+      console.log(url, title)
+
+      if (id % 1000 === 0) {
+        utils.write(__detail, detail)
+      }
+      return true
+    })
   }
+  await utils.queue(fetchs.reverse(), 20)
 
   utils.write(__detail, detail)
   process.exit()
