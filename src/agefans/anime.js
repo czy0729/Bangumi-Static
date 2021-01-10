@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-06 10:39:30
+ * @Last Modified time: 2021-01-10 20:46:48
  */
 const utils = require('../utils')
 
@@ -15,7 +15,7 @@ const matched = utils.read(__matched)
 const temp = {}
 anime.forEach(item => (temp[item.id] = item))
 
-const rewrite = false
+const rewrite = true
 
 async function run() {
   const idsDetail = Object.keys(detail)
@@ -63,10 +63,8 @@ async function run() {
 
     if (temp[idBgm].cn === temp[idBgm].jp) delete temp[idBgm].jp
     if (temp[idBgm].ep === '') delete temp[idBgm].ep
-    if (!temp[idBgm].rank) {
-      delete temp[idBgm].score
-      delete temp[idBgm].rank
-    }
+    if (!temp[idBgm].score) delete temp[idBgm].score
+    if (!temp[idBgm].rank) delete temp[idBgm].rank
     matched[idDetail] = detail[idDetail]
 
     if (indexDetail % 10 === 0) {

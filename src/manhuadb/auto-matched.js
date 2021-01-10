@@ -13,7 +13,7 @@
  * @Author: czy0729
  * @Date: 2020-12-31 11:58:22
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-08 21:34:38
+ * @Last Modified time: 2021-01-10 19:41:32
  */
 const utils = require('../utils')
 
@@ -24,7 +24,7 @@ const isAutoUnmatched = process.argv.includes('--unmatched')
 const __detail = utils.root('data/manhuadb/detail.json')
 const detail = utils.read(__detail)
 
-const idsDetail = Object.keys(detail)
+const idsDetail = Object.keys(detail).reverse()
 console.log(idsDetail.length)
 
 let loading
@@ -149,7 +149,6 @@ async function next() {
   // 取一项
   const idDetail = idsDetail.pop()
   rlManhuaId = idDetail
-
   const itemDetail = detail[idDetail]
   if (itemDetail._unmatched || idDetail != itemDetail.id) {
     return next()
@@ -224,17 +223,16 @@ async function next() {
 
     if (findIndex === -1) {
       // 不跳过模式下, 还要比较标题相似度, > 60% 可以认为是命中
-      let flagSimilar
+      let similarIndex = -1
       if (isNoSkip) {
-        let findIndex = rlItems.findIndex((item, index) => {
+        similarIndex = rlItems.findIndex((item, index) => {
           const l = rlQ.toLowerCase().replace(/(^\s*)|(\s*$)/g, '')
           const r = utils
             .toSimplifiedChar(item.title)
             .toLowerCase()
             .replace(/(^\s*)|(\s*$)/g, '')
           const percent = utils.similar(l, r)
-          if (percent >= 0.5) {
-            flagSimilar = 1
+          if (percent >= 0.7) {
             loading.succeed(
               `[相似命中] [${index + 1}] ${percent * 100}% ${l} <=> ${r}`
             )
@@ -242,7 +240,6 @@ async function next() {
           }
 
           if (l.includes(r)) {
-            flagSimilar = 1
             loading.succeed(`[相似命中] [${index + 1}] include`)
             return 1
           }
@@ -251,8 +248,36 @@ async function next() {
         })
       }
 
-      if (flagSimilar) {
-        return
+      if (similarIndex !== -1) {
+        loading.succeed(`[auto selected] [${similarIndex + 1}]`)
+        rlItem = rlItems[similarIndex]
+
+        const { info, seriesId } = await subject(rlItem)
+        if (info.includes('漫画系列')) {
+          loading.succeed(`[漫画系列] ${info}`)
+          doConfirm()
+          return next()
+        }
+
+        if (!seriesId && info.includes('漫画')) {
+          loading.succeed(`[独立漫画] ${rlItem.id} ${info}`)
+          doConfirm()
+          return next()
+        }
+
+        if (seriesId) {
+          loading.info(`[查询系列] ${seriesId} ${info}`)
+          rlItem.id = seriesId
+          const { info: seriesInfo } = await subject(rlItem)
+
+          if (seriesInfo.includes('漫画系列')) {
+            doConfirm()
+            return next()
+          }
+
+          doAutoSkip()
+          return next()
+        }
       }
 
       doAutoSkip()
@@ -264,15 +289,6 @@ async function next() {
 
     const { info, seriesId } = await subject(rlItem)
 
-    // 非漫画或者漫画系列跳过
-    if (!info.includes('漫画')) {
-      if (!isNoSkip) {
-        doAutoSkip()
-        return next()
-      }
-      return
-    }
-
     // 漫画系列直接提交
     if (info.includes('漫画系列')) {
       loading.succeed(`[漫画系列] ${info}`)
@@ -281,25 +297,27 @@ async function next() {
     }
 
     // 漫画需要判断是不是单行本, 若页面关联没有项, 直接提交
-    if (!seriesId) {
+    if (!seriesId && info.includes('漫画')) {
       loading.succeed(`[独立漫画] ${rlItem.id} ${info}`)
       doConfirm()
       return next()
     }
 
-    // 关联里面发现系列, 使用系列id再请求详情
-    loading.info(`[查询系列] ${seriesId} ${info}`)
-    rlItem.id = seriesId
-    const { info: seriesInfo } = await subject(rlItem)
+    if (seriesId) {
+      loading.info(`[查询系列] ${seriesId} ${info}`)
+      rlItem.id = seriesId
+      const { info: seriesInfo } = await subject(rlItem)
 
-    // 再次请求的系列id不是漫画系列, 抛弃 (这里待优化)
-    if (!seriesInfo.includes('漫画系列')) {
+      if (seriesInfo.includes('漫画系列')) {
+        doConfirm()
+        return next()
+      }
+
       doAutoSkip()
       return next()
     }
 
-    // 漫画系列提交
-    doConfirm()
+    doAutoSkip()
     return next()
   }
 }
@@ -371,7 +389,7 @@ function doConfirm() {
   loading.succeed(JSON.stringify(detail[rlManhuaId], null, 2))
 
   confirmNum += 1
-  if (confirmNum % 10 === 0) {
+  if (confirmNum % 50 === 0) {
     doSave()
   }
 }
@@ -380,7 +398,7 @@ function doSkip() {
   detail[rlManhuaId]._unmatched = 1
 
   skipNum += 1
-  if (skipNum % 10 === 0) {
+  if (skipNum % 50 === 0) {
     doSave()
   }
 }
@@ -390,7 +408,7 @@ function doAutoSkip() {
   loading.fail('[skip]')
 
   skipNum += 1
-  if (skipNum % 10 === 0) {
+  if (skipNum % 50 === 0) {
     doSave()
   }
 }

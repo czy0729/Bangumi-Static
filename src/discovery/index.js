@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-04-05 03:20:34
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-02 16:38:21
+ * @Last Modified time: 2021-01-11 01:34:41
  */
 const utils = require('../utils')
 const { fetchHome } = require('../utils/third-party/old-fetch')
@@ -14,8 +14,6 @@ const __cdn = subjectId =>
 
 async function run() {
   const discovery = await fetchHome()
-  utils.write(__discovery, discovery)
-
   const covers = []
   Object.keys(discovery).forEach(key => {
     if (Array.isArray(discovery[key])) {
@@ -29,6 +27,7 @@ async function run() {
       })
     }
   })
+  utils.write(__discovery, discovery)
 
   await utils.queue(
     covers.map(item => () =>
