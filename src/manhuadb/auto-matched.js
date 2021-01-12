@@ -13,7 +13,7 @@
  * @Author: czy0729
  * @Date: 2020-12-31 11:58:22
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-10 19:41:32
+ * @Last Modified time: 2021-01-11 20:14:59
  */
 const utils = require('../utils')
 
@@ -24,9 +24,15 @@ const isAutoUnmatched = process.argv.includes('--unmatched')
 const __detail = utils.root('data/manhuadb/detail.json')
 const detail = utils.read(__detail)
 
-const idsDetail = Object.keys(detail).reverse()
+const idsDetail = Object.keys(detail).filter(idDetail => {
+  const itemDetail = detail[idDetail]
+  if (itemDetail._unmatched || idDetail != itemDetail.id) return 0
+  if (isAuto && itemDetail._autoskip) return 0
+  return 1
+})
 console.log(idsDetail.length)
 
+const similarRate = 0.7
 let loading
 let rlManhuaId = 0
 let rlQ = ''
@@ -150,13 +156,6 @@ async function next() {
   const idDetail = idsDetail.pop()
   rlManhuaId = idDetail
   const itemDetail = detail[idDetail]
-  if (itemDetail._unmatched || idDetail != itemDetail.id) {
-    return next()
-  }
-
-  if (isAuto && itemDetail._autoskip) {
-    return next()
-  }
 
   // --unmatched, 若ep存在短篇自动unmatched
   if (
@@ -232,7 +231,7 @@ async function next() {
             .toLowerCase()
             .replace(/(^\s*)|(\s*$)/g, '')
           const percent = utils.similar(l, r)
-          if (percent >= 0.7) {
+          if (percent >= similarRate) {
             loading.succeed(
               `[相似命中] [${index + 1}] ${percent * 100}% ${l} <=> ${r}`
             )

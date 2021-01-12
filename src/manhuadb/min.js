@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-09 22:45:50
+ * @Last Modified time: 2021-01-11 20:28:58
  */
 const utils = require('../utils')
 
@@ -12,6 +12,7 @@ const __manga = utils.root('data/manhuadb/manga.json')
 const __min = utils.root('data/manhuadb/manga.min.json')
 const manga = utils.read(__manga)
 const regEp = /(^第\d+话$)|(^第\d+回$)/
+const regVol = /(^第\d+卷$)/
 const regCn = /（(.+?)）/g
 
 const min = manga.map(item => {
@@ -25,11 +26,21 @@ const min = manga.map(item => {
   if (item.ep) {
     const { ep } = item
     temp.e = regEp.test(ep) ? Number(ep.replace(/第|话|回/g, '')) : ep
+    temp.e = regVol.test(ep) ? `${Number(ep.replace(/第|卷/g, ''))}卷` : ep
   }
   if (item.cn) temp.c = utils.HTMLDecode(item.cn.trim()).replace(regCn, '')
   if (item.jp) temp.j = utils.HTMLDecode(item.jp.trim())
   if (item.image) temp.i = item.image
-  if (item.begin) temp.b = item.begin
+  if (item.begin) {
+    const b = Number(item.begin || 0)
+    if (isNaN(b)) {
+      temp.b = item.begin || 0
+    } else {
+      temp.b = b
+    }
+  } else {
+    console.log(item.cn)
+  }
   if (item.score) temp.s = item.score
   if (item.rank) temp.r = item.rank
   return temp

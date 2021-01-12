@@ -7,6 +7,7 @@
     "manhua:manga": "node src/manhuadb/manga.js",
     "manhua:min": "node src/manhuadb/min.js",
     "manhua:tags": "node src/manhuadb/tags.js",
+    "manhua:ids": "node src/manhuadb/ids.js",
     "manhua:fixed": "node src/manhuadb/fixed.js",
     "age": "node src/agefans/raw.js",
     "age:anime": "node src/agefans/anime.js",
