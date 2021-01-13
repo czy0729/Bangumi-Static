@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-06 22:16:46
+ * @Last Modified time: 2021-01-12 10:43:22
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -36,7 +36,7 @@ const headers = {
  * 项目根目录
  * @param {*} filePath
  */
-function root(filePath) {
+function root(filePath = '') {
   return `${path.join(__dirname, '../../')}${filePath}`
 }
 

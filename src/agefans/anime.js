@@ -2,13 +2,15 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-10 20:46:48
+ * @Last Modified time: 2021-01-13 00:39:22
  */
 const utils = require('../utils')
 
+const __raw = utils.root('data/agefans/raw.json')
 const __detail = utils.root('data/agefans/detail.json')
 const __anime = utils.root('data/agefans/anime.json')
 const __matched = utils.root('data/agefans/matched.json')
+const raw = utils.read(__raw)
 const detail = utils.read(__detail)
 const anime = utils.read(__anime)
 const matched = utils.read(__matched)
@@ -75,6 +77,34 @@ async function run() {
     }
   }
 
+  anime.forEach(item => {
+    item.ep = raw[item.ageId].ep
+    item.status = raw[item.ageId].status
+  })
+  if (rewrite) {
+    const idsAnime = Object.keys(anime)
+    for (let indexAnime = 0; indexAnime <= idsAnime.length; indexAnime++) {
+      const idAnime = Number(idsAnime[indexAnime])
+      const itemAnime = anime[idAnime] || {}
+      if (itemAnime.status !== '连载') {
+        continue
+      }
+
+      // 从bgm条目页获取实时数据
+      const idBgm = Number(itemAnime.id)
+      const url = `https://api.bgm.tv/subject/${idBgm}?responseGroup=large`
+      const data = await utils.fetch(url)
+
+      anime[indexAnime].score = data.rating && data.rating.score
+      anime[indexAnime].rank = data.rank
+      console.log(
+        `[${indexAnime} | ${idsAnime.length}]`,
+        itemAnime.cn,
+        anime[indexAnime].score,
+        anime[indexAnime].rank
+      )
+    }
+  }
   utils.write(
     __anime,
     Object.keys(temp).map(id => temp[id])

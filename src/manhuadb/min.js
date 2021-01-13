@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-11 20:28:58
+ * @Last Modified time: 2021-01-12 12:16:52
  */
 const utils = require('../utils')
 
@@ -26,10 +26,12 @@ const min = manga.map(item => {
   if (item.ep) {
     const { ep } = item
     temp.e = regEp.test(ep) ? Number(ep.replace(/第|话|回/g, '')) : ep
-    temp.e = regVol.test(ep) ? `${Number(ep.replace(/第|卷/g, ''))}卷` : ep
+    if (regVol.test(ep)) {
+      temp.e = `${Number(ep.replace(/第|卷/g, ''))}卷`
+    }
   }
   if (item.cn) temp.c = utils.HTMLDecode(item.cn.trim()).replace(regCn, '')
-  if (item.jp) temp.j = utils.HTMLDecode(item.jp.trim())
+  if (item.jp && item.rank) temp.j = utils.HTMLDecode(item.jp.trim())
   if (item.image) temp.i = item.image
   if (item.begin) {
     const b = Number(item.begin || 0)
@@ -38,8 +40,6 @@ const min = manga.map(item => {
     } else {
       temp.b = b
     }
-  } else {
-    console.log(item.cn)
   }
   if (item.score) temp.s = item.score
   if (item.rank) temp.r = item.rank
