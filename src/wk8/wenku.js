@@ -2,20 +2,22 @@
  * @Author: czy0729
  * @Date: 2021-01-06 18:15:49
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-06 20:18:22
+ * @Last Modified time: 2021-01-13 18:35:08
  */
 const utils = require('../utils')
 
+const __raw = utils.root('data/wenku8/raw.json')
 const __detail = utils.root('data/wenku8/detail.json')
 const __wenku = utils.root('data/wenku8/wenku.json')
 const __matched = utils.root('data/wenku8/matched.json')
+const raw = utils.read(__raw)
 const detail = utils.read(__detail)
 const wenku = utils.read(__wenku)
 const matched = utils.read(__matched)
 const temp = {}
 wenku.forEach(item => (temp[item.id] = item))
 
-const rewrite = false
+const rewrite = true
 
 async function run() {
   const idsDetail = Object.keys(detail)
@@ -49,7 +51,7 @@ async function run() {
       id: Number(idBgm),
       wid: Number(idDetail),
       status: itemDetail.status,
-      anime: itemDetail.anime,
+      wenku: itemDetail.wenku,
       author: itemDetail.author,
       ep: itemDetail.ep,
       cn: data.name_cn || itemDetail.cn,
@@ -107,6 +109,70 @@ async function run() {
         Object.keys(temp).map(id => temp[id])
       )
     }
+  }
+
+  wenku.forEach(item => {
+    const itemRaw = raw[item.wid]
+    if (itemRaw) {
+      item.status = itemRaw.status
+      item.update = itemRaw.time
+      item.len = parseInt((itemRaw.len || 0) / 10000)
+      item.hot =
+        itemRaw.hot === 'D'
+          ? 1
+          : itemRaw.hot === 'C'
+          ? 2
+          : itemRaw.hot === 'B'
+          ? 3
+          : itemRaw.hot === 'A'
+          ? 4
+          : itemRaw.hot === 'S'
+          ? 5
+          : 0
+      item.up =
+        itemRaw.up === 'D'
+          ? 1
+          : itemRaw.up === 'C'
+          ? 2
+          : itemRaw.up === 'B'
+          ? 3
+          : itemRaw.up === 'A'
+          ? 4
+          : itemRaw.up === 'S'
+          ? 5
+          : 0
+      item.ep = itemRaw.ep
+      item.wenku = itemRaw.wenku
+    }
+  })
+  if (rewrite) {
+    const idsWenku = Object.keys(wenku)
+    const fetchs = []
+    for (let indexWenku = 0; indexWenku <= idsWenku.length; indexWenku++) {
+      fetchs.push(async () => {
+        try {
+          const idWenku = Number(idsWenku[indexWenku])
+          const itemWenku = wenku[idWenku] || {}
+          // if (itemWenku.status !== '连载') {
+          //   continue
+          // }
+
+          // 从bgm条目页获取实时数据
+          const idBgm = Number(itemWenku.id)
+          const url = `https://api.bgm.tv/subject/${idBgm}?responseGroup=large`
+          const data = await utils.fetch(url)
+          wenku[indexWenku].score = data.rating && data.rating.score
+          wenku[indexWenku].rank = data.rank
+          console.log(
+            `[${indexWenku} | ${idsWenku.length}]`,
+            itemWenku.cn,
+            wenku[indexWenku].score,
+            wenku[indexWenku].rank
+          )
+        } catch (error) {}
+      })
+    }
+    await utils.queue(fetchs, 8)
   }
 
   utils.write(

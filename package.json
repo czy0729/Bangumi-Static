@@ -13,10 +13,12 @@
     "manhua:fixed": "node src/manhuadb/fixed.js",
     "age": "node src/agefans/raw.js",
     "age:anime": "node src/agefans/anime.js",
+    "age:official": "node src/agefans/official.js",
     "age:min": "node src/agefans/min.js",
     "wk8": "node src/wk8/wenku.js",
     "wk8:fixed": "node src/wk8/fixed.js",
-    "wk8:min": "node src/wk8/min.js"
+    "wk8:author": "node src/wk8/author.js",
+    "wk8:cate": "node src/wk8/cate.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
