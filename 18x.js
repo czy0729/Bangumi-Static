@@ -8,32 +8,50 @@
  * @Author: czy0729
  * @Date: 2020-05-18 12:13:16
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-05-20 16:10:01
+ * @Last Modified time: 2021-02-01 18:07:54
  */
 const axios = require('axios')
 const fs = require('fs')
 const cheerio = require('./utils/cheerio')
 const utils = require('./utils/utils')
 
+axios.defaults.timeout = 8000
+
+run()
+
 /**
  * 其实最多只能查到前999页
- * anime 677
+ * anime 737
  * book 7479
+ *  - comic 111
  * game 1370
  */
-;(async () => {
+async function run() {
   const type = 'game'
   const sort = 'rank'
 
   const filePath = `./data/18x/${type}.json`
   const data = JSON.parse(fs.readFileSync(filePath))
   let titles = []
-  for (let page = data.page || 0; page < 1000; page++) {
-    const url = `https://bgm.tv/${type}/browser/?sort=${sort}&page=${page}`
+  for (let page = data.page || 0; page < 216; page++) {
+    const url =
+      type === 'comic'
+        ? `https://bgm.tv/book/browser/comic/?sort=rank&page=${page}`
+        : `https://bgm.tv/${type}/browser/?sort=${sort}&page=${page}`
 
-    const { data: html } = await axios({
-      url,
-    })
+    let html
+    try {
+      const { data } = await axios({
+        url
+      })
+      html = data
+    } catch (error) {
+      const { data } = await axios({
+        url
+      })
+      html = data
+    }
+
     const $ = utils.cheerio(html)
     $('li.item').map((index, element) => {
       const $row = utils.cheerio(element)
@@ -55,4 +73,4 @@ const utils = require('./utils/utils')
     )
     titles = []
   }
-})()
+}
