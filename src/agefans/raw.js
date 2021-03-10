@@ -5,7 +5,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-13 00:26:22
+ * @Last Modified time: 2021-03-09 17:34:26
  */
 const utils = require('../utils')
 
@@ -13,8 +13,8 @@ const __raw = utils.root('data/agefans/raw.json')
 const raw = utils.read(__raw)
 
 const pages = [
-  { type: '日本', p: 99, area: 'jp' },
-  { type: '中国', p: 16, area: 'cn' }
+  { type: '日本', p: 105, area: 'jp' },
+  { type: '中国', p: 18, area: 'cn' }
 ]
 
 async function run() {
