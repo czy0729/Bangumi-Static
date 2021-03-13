@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-13 00:39:22
+ * @Last Modified time: 2021-03-10 10:46:03
  */
 const utils = require('../utils')
 
@@ -17,7 +17,14 @@ const matched = utils.read(__matched)
 const temp = {}
 anime.forEach(item => (temp[item.id] = item))
 
-const rewrite = true
+// 更新raw数据到detail
+Object.keys(raw).forEach(idRaw => {
+  if (!detail[idRaw] && !temp[idRaw]) {
+    detail[idRaw] = raw[idRaw]
+  }
+})
+
+const rewrite = false
 
 async function run() {
   const idsDetail = Object.keys(detail)
@@ -113,6 +120,7 @@ async function run() {
   Object.keys(matched).forEach(idMathced => {
     delete detail[idMathced]
   })
+
   utils.write(__matched, matched)
   utils.write(__detail, detail)
 

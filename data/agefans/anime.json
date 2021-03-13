@@ -254,6 +254,22 @@
     "ageId": 20080007
   },
   {
+    "id": 306,
+    "cn": "我自己；你自己",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "Myself ; Yourself",
+    "begin": "2007-10-02",
+    "status": "完结",
+    "tags": "校园 爱情",
+    "official": "動画工房",
+    "area": "jp",
+    "image": "b2/eb/306_3M03m",
+    "score": 6.7,
+    "rank": 3472,
+    "ageId": 20070048
+  },
+  {
     "id": 309,
     "cn": "真实之泪",
     "ep": "[BD 01-13+SP]",
@@ -300,6 +316,22 @@
     "score": 6.2,
     "rank": 4752,
     "ageId": 20080010
+  },
+  {
+    "id": 330,
+    "cn": "向阳素描×365",
+    "ep": "[BD 01-14]",
+    "type": "TV",
+    "jp": "ひだまりスケッチ×365",
+    "begin": "2008-07-03",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "fe/73/330_ntpZ4",
+    "score": 7.7,
+    "rank": 468,
+    "ageId": 20080052
   },
   {
     "id": 485,
@@ -444,6 +476,22 @@
     "score": 8.3,
     "rank": 106,
     "ageId": 20070021
+  },
+  {
+    "id": 762,
+    "cn": "乃木坂春香的秘密",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "乃木坂春香の秘密",
+    "begin": "2008-07-10",
+    "status": "完结",
+    "tags": "搞笑 校园 后宫",
+    "official": "diomedéa",
+    "area": "jp",
+    "image": "06/99/762_2TFR2",
+    "score": 6.1,
+    "rank": 5158,
+    "ageId": 20080053
   },
   {
     "id": 763,
@@ -685,6 +733,21 @@
     "ageId": 20060020
   },
   {
+    "id": 843,
+    "cn": "妄想代理人",
+    "ep": "[BD 01-13]",
+    "type": "TV",
+    "begin": "2004-02-02",
+    "status": "完结",
+    "tags": "奇幻 悬疑 剧情",
+    "official": "MADHOUSE",
+    "area": "jp",
+    "image": "3d/8e/843_6wj9L",
+    "score": 8.1,
+    "rank": 179,
+    "ageId": 20040016
+  },
+  {
     "id": 849,
     "cn": "出包王女",
     "ep": "[BD 01-26]",
@@ -908,6 +971,22 @@
     "ageId": 20090008
   },
   {
+    "id": 896,
+    "cn": "向阳素描",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "ひだまりスケッチ",
+    "begin": "2007-01-11",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "06/14/896_atzMD",
+    "score": 7.6,
+    "rank": 729,
+    "ageId": 20070045
+  },
+  {
     "id": 899,
     "cn": "名侦探柯南",
     "ep": "19:30 第1057集",
@@ -954,6 +1033,22 @@
     "score": 8.1,
     "rank": 149,
     "ageId": 20080026
+  },
+  {
+    "id": 923,
+    "cn": "尸姬 赫",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "屍姫 赫",
+    "begin": "2008-10-02",
+    "status": "完结",
+    "tags": "奇幻 战斗 悬疑",
+    "official": "GAINAX / feel.",
+    "area": "jp",
+    "image": "c4/01/923_UQ2wS",
+    "score": 6.3,
+    "rank": 4640,
+    "ageId": 20080056
   },
   {
     "id": 927,
@@ -1355,6 +1450,22 @@
     "ageId": 20070041
   },
   {
+    "id": 1275,
+    "cn": "我们的存在",
+    "ep": "[DVD 01-26]",
+    "type": "TV",
+    "jp": "僕等がいた",
+    "begin": "2006-07-05",
+    "status": "完结",
+    "tags": "校园 爱情 治愈 少女",
+    "official": "ARTLAND",
+    "area": "jp",
+    "image": "bb/04/1275_8YK5X",
+    "score": 7.2,
+    "rank": 1597,
+    "ageId": 20060033
+  },
+  {
     "id": 1309,
     "cn": "初音岛II",
     "ep": "[BD 01-13]",
@@ -1369,6 +1480,38 @@
     "score": 6.7,
     "rank": 3353,
     "ageId": 20070034
+  },
+  {
+    "id": 1314,
+    "cn": "下一站巨星",
+    "ep": "[TV 01-25]",
+    "type": "TV",
+    "jp": "スキップ・ビート!",
+    "begin": "2008-10-05",
+    "status": "完结",
+    "tags": "搞笑 励志 少女",
+    "official": "Hal Film Maker",
+    "area": "jp",
+    "image": "50/90/1314_77A69",
+    "score": 7.3,
+    "rank": 1178,
+    "ageId": 20080060
+  },
+  {
+    "id": 1321,
+    "cn": "圣母在上 第4季",
+    "ep": "[BD 01-13+SP]",
+    "type": "TV",
+    "jp": "マリア様がみてる 4thシーズン",
+    "begin": "2009-01-03",
+    "status": "完结",
+    "tags": "校园 百合 治愈",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "f9/be/1321_wMmWM",
+    "score": 7.9,
+    "rank": 372,
+    "ageId": 20090062
   },
   {
     "id": 1326,
@@ -1499,6 +1642,22 @@
     "ageId": 20090027
   },
   {
+    "id": 1436,
+    "cn": "机巧魔神",
+    "ep": "[BD 01-13]",
+    "type": "TV",
+    "jp": "アスラクライン",
+    "begin": "2009-04-02",
+    "status": "完结",
+    "tags": "科幻 后宫 机战 战斗",
+    "official": "Seven Arcs",
+    "area": "jp",
+    "image": "ea/a3/1436_S6699",
+    "score": 6.4,
+    "rank": 4276,
+    "ageId": 20090064
+  },
+  {
     "id": 1450,
     "cn": "初恋限定。",
     "ep": "[BD 01-12]",
@@ -1578,6 +1737,22 @@
     "ageId": 20090003
   },
   {
+    "id": 1533,
+    "cn": "异世界的圣机师物语",
+    "ep": "[BD 01-13]",
+    "type": "OVA",
+    "jp": "異世界の聖機師物語",
+    "begin": "2009-05-01",
+    "status": "完结",
+    "tags": "奇幻 冒险 后宫 战斗",
+    "official": "AIC",
+    "area": "jp",
+    "image": "35/30/1533_DYYBy",
+    "score": 6.9,
+    "rank": 2644,
+    "ageId": 20090066
+  },
+  {
     "id": 1605,
     "cn": "游魂 -Kiss on my Deity-",
     "ep": "[BD 01-12+SP]",
@@ -1608,6 +1783,22 @@
     "score": 7.9,
     "rank": 239,
     "ageId": 20090039
+  },
+  {
+    "id": 1650,
+    "cn": "你所期望的永远",
+    "ep": "[BD 01-14]",
+    "type": "TV",
+    "jp": "君が望む永遠",
+    "begin": "2003-10-06",
+    "status": "完结",
+    "tags": "校园 爱情 治愈",
+    "official": "Studio Fantasia",
+    "area": "jp",
+    "image": "97/3a/1650_JCAjD",
+    "score": 7.3,
+    "rank": 1335,
+    "ageId": 20030017
   },
   {
     "id": 1671,
@@ -1945,6 +2136,22 @@
     "ageId": 20030003
   },
   {
+    "id": 1905,
+    "cn": "夏日大作战",
+    "ep": "[BD全集]",
+    "type": "剧场版",
+    "jp": "サマーウォーズ",
+    "begin": "2009-08-01",
+    "status": "完结",
+    "tags": "青春 治愈",
+    "official": "MADHOUSE",
+    "area": "jp",
+    "image": "73/e0/1905_5tj44",
+    "score": 8,
+    "rank": 241,
+    "ageId": 20090061
+  },
+  {
     "id": 1924,
     "cn": "死神剧场版 钻石星尘的反叛 另一个冰轮丸",
     "ep": "[全集]",
@@ -1975,6 +2182,22 @@
     "score": 6.6,
     "rank": 3707,
     "ageId": 20060025
+  },
+  {
+    "id": 1931,
+    "cn": "最终兵器彼女",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "最終兵器彼女",
+    "begin": "2002-06-02",
+    "status": "完结",
+    "tags": "科幻 校园 爱情",
+    "official": "GONZO",
+    "area": "jp",
+    "image": "15/d1/1931_EPm9d",
+    "score": 7.4,
+    "rank": 1120,
+    "ageId": 20020014
   },
   {
     "id": 1935,
@@ -2009,6 +2232,22 @@
     "ageId": 20030011
   },
   {
+    "id": 1952,
+    "cn": "迦南",
+    "ep": "[BD 01-13]",
+    "type": "TV",
+    "jp": "CANAAN",
+    "begin": "2009-07-04",
+    "status": "完结",
+    "tags": "社会 战斗 百合",
+    "official": "P.A.WORKS",
+    "area": "jp",
+    "image": "11/13/1952_NkgN5",
+    "score": 7,
+    "rank": 2274,
+    "ageId": 20090059
+  },
+  {
     "id": 1967,
     "cn": "英雄时代",
     "ep": "[TV 01-26]",
@@ -2023,6 +2262,38 @@
     "score": 7,
     "rank": 2320,
     "ageId": 20070007
+  },
+  {
+    "id": 1970,
+    "cn": "吸血鬼骑士",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "ヴァンパイア騎士",
+    "begin": "2008-04-07",
+    "status": "完结",
+    "tags": "校园 奇幻 女性向",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "00/04/1970_2306k",
+    "score": 6.3,
+    "rank": 4645,
+    "ageId": 20080054
+  },
+  {
+    "id": 1971,
+    "cn": "吸血鬼骑士 Guilty",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "ヴァンパイア騎士 Guilty",
+    "begin": "2008-10-06",
+    "status": "完结",
+    "tags": "校园 奇幻 女性向",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "de/73/1971_573M3",
+    "score": 6.4,
+    "rank": 4442,
+    "ageId": 20080055
   },
   {
     "id": 1990,
@@ -2281,6 +2552,54 @@
     "ageId": 20020007
   },
   {
+    "id": 2167,
+    "cn": "这丑陋又美丽的世界",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "この醜くも美しい世界",
+    "begin": "2004-04-01",
+    "status": "完结",
+    "tags": "奇幻 爱情",
+    "official": "GAINAX / SHAFT",
+    "area": "jp",
+    "image": "25/96/2167_YlMV8",
+    "score": 6.2,
+    "rank": 4699,
+    "ageId": 20040018
+  },
+  {
+    "id": 2172,
+    "cn": "你所期望的永远 ～Next Season～",
+    "ep": "[BD 01-04]",
+    "type": "OVA",
+    "jp": "君が望む永遠 ～Next Season～",
+    "begin": "2007-12-21",
+    "status": "完结",
+    "tags": "校园 爱情 治愈",
+    "official": "Brain's Base",
+    "area": "jp",
+    "image": "99/78/2172_187Gh",
+    "score": 6.5,
+    "rank": 3686,
+    "ageId": 20070050
+  },
+  {
+    "id": 2174,
+    "cn": "推理之绊",
+    "ep": "[DVD 01-25]",
+    "type": "TV",
+    "jp": "スパイラル ～推理の絆～",
+    "begin": "2002-10-01",
+    "status": "完结",
+    "tags": "校园 推理",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "d1/a2/2174_9sDz4",
+    "score": 6.5,
+    "rank": 3845,
+    "ageId": 20020013
+  },
+  {
     "id": 2216,
     "cn": "皇家国教骑士团",
     "ep": "[DVD 01-13]",
@@ -2295,6 +2614,22 @@
     "score": 6.8,
     "rank": 2762,
     "ageId": 20010004
+  },
+  {
+    "id": 2286,
+    "cn": "隐之王",
+    "ep": "[DVD 01-26]",
+    "type": "TV",
+    "jp": "隠の王",
+    "begin": "2008-04-06",
+    "status": "完结",
+    "tags": "奇幻 战斗 耽美 女性向",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "fa/24/2286_gja2Q",
+    "score": 6.6,
+    "rank": 3594,
+    "ageId": 20080058
   },
   {
     "id": 2293,
@@ -2393,6 +2728,22 @@
     "ageId": 20040012
   },
   {
+    "id": 2453,
+    "cn": "黑岩射手",
+    "ep": "[全集]",
+    "type": "OVA",
+    "jp": "ブラック★ロックシューター",
+    "begin": "2010-07-24",
+    "status": "完结",
+    "tags": "百合 奇幻 治愈",
+    "official": "Ordet",
+    "area": "jp",
+    "image": "8c/9f/2453_0N1d3",
+    "score": 6.5,
+    "rank": 4264,
+    "ageId": 20100068
+  },
+  {
     "id": 2462,
     "cn": "海贼王 强者世界",
     "ep": "[全集]",
@@ -2470,6 +2821,22 @@
     "score": 6.4,
     "rank": 4356,
     "ageId": 20080036
+  },
+  {
+    "id": 2478,
+    "cn": "小鸠",
+    "ep": "[BD 01-24]",
+    "type": "TV",
+    "jp": "こばと。",
+    "begin": "2009-10-06",
+    "status": "完结",
+    "tags": "治愈 恋爱",
+    "official": "MADHOUSE",
+    "area": "jp",
+    "image": "53/f0/2478_ITui7",
+    "score": 7,
+    "rank": 2235,
+    "ageId": 20090067
   },
   {
     "id": 2482,
@@ -2566,6 +2933,54 @@
     "score": 6.5,
     "rank": 4010,
     "ageId": 20090046
+  },
+  {
+    "id": 2608,
+    "cn": "乃木坂春香的秘密 purezza♪",
+    "ep": "[TV 01-12]",
+    "type": "TV",
+    "jp": "乃木坂春香の秘密 ぴゅあれっつぁ♪",
+    "begin": "2009-10-05",
+    "status": "完结",
+    "tags": "搞笑 校园 爱情 后宫",
+    "official": "diomedéa",
+    "area": "jp",
+    "image": "d7/56/2608_JL9LX",
+    "score": 6.1,
+    "rank": 5135,
+    "ageId": 20090058
+  },
+  {
+    "id": 2610,
+    "cn": "机巧魔神2",
+    "ep": "[BD 14-26]",
+    "type": "TV",
+    "jp": "アスラクライン2",
+    "begin": "2009-10-01",
+    "status": "完结",
+    "tags": "科幻 后宫 机战 战斗",
+    "official": "Seven Arcs",
+    "area": "jp",
+    "image": "8d/c5/2610_32q23",
+    "score": 6.6,
+    "rank": 3672,
+    "ageId": 20090065
+  },
+  {
+    "id": 2662,
+    "cn": "向阳素描×365 特别篇",
+    "ep": "[BD 01-02]",
+    "type": "OVA",
+    "jp": "ひだまりスケッチ×365 特別編",
+    "begin": "2009-10-17",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "98/b4/2662_eLO2c",
+    "score": 7.7,
+    "rank": 551,
+    "ageId": 20090057
   },
   {
     "id": 2680,
@@ -2775,6 +3190,22 @@
     "ageId": 20070012
   },
   {
+    "id": 2829,
+    "cn": "糖果男孩",
+    "ep": "[DVD 01-07+EX+OVA]",
+    "type": "WEB",
+    "jp": "Candy boy",
+    "begin": "2008-05-02",
+    "status": "完结",
+    "tags": "百合 治愈",
+    "official": "AIC",
+    "area": "jp",
+    "image": "46/b2/2829_8umZX",
+    "score": 7.5,
+    "rank": 841,
+    "ageId": 20080059
+  },
+  {
     "id": 2875,
     "cn": "死神剧场版 消逝于黑暗中 呼唤着你的名字",
     "ep": "[全集]",
@@ -2805,6 +3236,86 @@
     "score": 7.6,
     "rank": 613,
     "ageId": 20090055
+  },
+  {
+    "id": 2891,
+    "cn": "翼·年代记",
+    "ep": "[BD 01-26]",
+    "type": "TV",
+    "jp": "ツバサ・クロニクル",
+    "begin": "2005-04-09",
+    "status": "完结",
+    "tags": "奇幻 冒险 战斗",
+    "official": "BeeTrain",
+    "area": "jp",
+    "image": "7a/00/2891_xXxME",
+    "score": 7,
+    "rank": 2104,
+    "ageId": 20050032
+  },
+  {
+    "id": 2892,
+    "cn": "翼·年代记 第二部",
+    "ep": "[BD 01-26]",
+    "type": "TV",
+    "jp": "ツバサ・クロニクル 第2シリーズ",
+    "begin": "2006-04-29",
+    "status": "完结",
+    "tags": "奇幻 冒险 战斗",
+    "official": "BeeTrain",
+    "area": "jp",
+    "image": "6f/e1/2892_Zt44z",
+    "score": 7.1,
+    "rank": 2032,
+    "ageId": 20060036
+  },
+  {
+    "id": 2893,
+    "cn": "翼·年代记 鸟笼国的公主",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "劇場版ツバサ・クロニクル 鳥カゴの国の姫君",
+    "begin": "2005-08-20",
+    "status": "完结",
+    "tags": "奇幻 冒险 战斗",
+    "official": "Production I.G",
+    "area": "jp",
+    "image": "97/19/2893_bSnRG",
+    "score": 6.9,
+    "rank": 2519,
+    "ageId": 20050033
+  },
+  {
+    "id": 2894,
+    "cn": "翼·年代记 东京默示录",
+    "ep": "[BD 01-03]",
+    "type": "OVA",
+    "jp": "ツバサ TOKYO REVELATIONS",
+    "begin": "2007-11-16",
+    "status": "完结",
+    "tags": "奇幻 冒险 战斗",
+    "official": "Production I.G",
+    "area": "jp",
+    "image": "5b/41/2894_bPXpr",
+    "score": 7.6,
+    "rank": 662,
+    "ageId": 20070053
+  },
+  {
+    "id": 2895,
+    "cn": "翼·年代记 春雷记",
+    "ep": "[BD 01-02]",
+    "type": "OVA",
+    "jp": "ツバサ 春雷記",
+    "begin": "2009-03-17",
+    "status": "完结",
+    "tags": "奇幻 冒险 战斗",
+    "official": "Production I.G",
+    "area": "jp",
+    "image": "6b/8b/2895_9ZN2y",
+    "score": 7.4,
+    "rank": 1009,
+    "ageId": 20090063
   },
   {
     "id": 2908,
@@ -2885,6 +3396,22 @@
     "ageId": 20070031
   },
   {
+    "id": 3012,
+    "cn": "萌菌物语",
+    "ep": "[TV 01-11]",
+    "type": "TV",
+    "jp": "もやしもん",
+    "begin": "2007-10-11",
+    "status": "完结",
+    "tags": "搞笑 校园 科幻 治愈",
+    "official": "白組 / Telecom Animation Film",
+    "area": "jp",
+    "image": "5a/01/3012_DtVS7",
+    "score": 7.4,
+    "rank": 959,
+    "ageId": 20070051
+  },
+  {
     "id": 3013,
     "cn": "节哀唷♥二之宫同学",
     "ep": "[TV 01-12]",
@@ -2915,6 +3442,38 @@
     "score": 7.4,
     "rank": 1150,
     "ageId": 20090033
+  },
+  {
+    "id": 3059,
+    "cn": "扑杀天使朵库萝",
+    "ep": "[DVD 01-08]",
+    "type": "OVA",
+    "jp": "撲殺天使ドクロちゃん",
+    "begin": "2005-03-25",
+    "status": "完结",
+    "tags": "搞笑 奇幻 校园 血腥",
+    "official": "ハルフィルムメーカー / Hal Film Maker",
+    "area": "jp",
+    "image": "cc/43/3059_BX3r7",
+    "score": 6.9,
+    "rank": 2556,
+    "ageId": 20050027
+  },
+  {
+    "id": 3060,
+    "cn": "扑杀天使朵库萝2",
+    "ep": "[DVD 01-04]",
+    "type": "OVA",
+    "jp": "撲殺天使ドクロちゃん2",
+    "begin": "2007-08-24",
+    "status": "完结",
+    "tags": "搞笑 奇幻 校园 血腥",
+    "official": "ハルフィルムメーカー / Hal Film Maker",
+    "area": "jp",
+    "image": "0a/5c/3060_n94v9",
+    "score": 6.9,
+    "rank": 2487,
+    "ageId": 20070044
   },
   {
     "id": 3091,
@@ -3188,6 +3747,22 @@
     "ageId": 20050012
   },
   {
+    "id": 3422,
+    "cn": "犬神",
+    "ep": "[DVD 01-26]",
+    "type": "TV",
+    "jp": "いぬかみっ!",
+    "begin": "2006-04-05",
+    "status": "完结",
+    "tags": "搞笑 奇幻 校园 后宫",
+    "official": "Seven Arcs",
+    "area": "jp",
+    "image": "73/64/3422_5Zqnn",
+    "score": 6.8,
+    "rank": 2693,
+    "ageId": 20060037
+  },
+  {
     "id": 3428,
     "cn": "爆漫王。",
     "ep": "[TV 01-25]",
@@ -3268,6 +3843,22 @@
     "ageId": 20100028
   },
   {
+    "id": 3484,
+    "cn": "Fate/stay night -UBW- 剧场版",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "Fate/stay night UNLIMITED BLADE WORKS",
+    "begin": "2010-01-23",
+    "status": "完结",
+    "tags": "热血 战斗 奇幻 神魔",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "96/6b/3484_Jha1e",
+    "score": 7,
+    "rank": 2426,
+    "ageId": 20100074
+  },
+  {
     "id": 3485,
     "cn": "魔法少女奈叶 The MOVIE 1st",
     "ep": "[全集]",
@@ -3282,6 +3873,22 @@
     "score": 7.6,
     "rank": 610,
     "ageId": 20100037
+  },
+  {
+    "id": 3489,
+    "cn": "魔女猎人",
+    "ep": "[DVD 01-26]",
+    "type": "TV",
+    "jp": "エル・カザド",
+    "begin": "2007-04-02",
+    "status": "完结",
+    "tags": "百合 冒险 战斗",
+    "official": "ビィートレイン / BeeTrain",
+    "area": "jp",
+    "image": "1b/31/3489_V7vbv",
+    "score": 7,
+    "rank": 2190,
+    "ageId": 20070047
   },
   {
     "id": 3495,
@@ -3364,6 +3971,22 @@
     "ageId": 20040008
   },
   {
+    "id": 3622,
+    "cn": "向阳素描×☆☆☆",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "ひだまりスケッチ×☆☆☆",
+    "begin": "2010-01-07",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "85/6b/3622_KF976",
+    "score": 7.7,
+    "rank": 510,
+    "ageId": 20100069
+  },
+  {
     "id": 3671,
     "cn": "永生之酒",
     "ep": "[BD 01-16]",
@@ -3412,6 +4035,22 @@
     "ageId": 20100019
   },
   {
+    "id": 3795,
+    "cn": "我家也有外星人",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "NieA_7",
+    "begin": "2000-04-26",
+    "status": "完结",
+    "tags": "搞笑 科幻 百合 治愈",
+    "official": "Triangle Staff",
+    "area": "jp",
+    "image": "42/54/3795_lEd8M",
+    "score": 7.2,
+    "rank": 1551,
+    "ageId": 20000024
+  },
+  {
     "id": 3806,
     "cn": "快要坏掉的八音盒",
     "ep": "[全集]",
@@ -3442,6 +4081,22 @@
     "score": 8.9,
     "rank": 16,
     "ageId": 20050002
+  },
+  {
+    "id": 3825,
+    "cn": "速写者",
+    "ep": "[TV 01-24]",
+    "type": "TV",
+    "jp": "SPEED GRAPHER",
+    "begin": "2005-04-07",
+    "status": "完结",
+    "tags": "犯罪 悬疑 爱情 猎奇",
+    "official": "GONZO",
+    "area": "jp",
+    "image": "c2/4f/3825_21kDk",
+    "score": 7,
+    "rank": 2238,
+    "ageId": 20050030
   },
   {
     "id": 3828,
@@ -3492,6 +4147,22 @@
     "ageId": 20070013
   },
   {
+    "id": 3909,
+    "cn": "一骑当千",
+    "ep": "[BD 01-13]",
+    "type": "TV",
+    "jp": "一騎当千",
+    "begin": "2003-07-030",
+    "status": "完结",
+    "tags": "奇幻 校园 百合 战斗",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "41/75/3909_2W6KL",
+    "score": 6.1,
+    "rank": 5068,
+    "ageId": 20030016
+  },
+  {
     "id": 3960,
     "cn": "DARKER THAN BLACK -黑之契约者- 外传",
     "ep": "[BD 01-04]",
@@ -3540,6 +4211,38 @@
     "ageId": 20090048
   },
   {
+    "id": 4010,
+    "cn": "剑豪生死斗",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "シグルイ",
+    "begin": "2007-07-19",
+    "status": "完结",
+    "tags": "历史 热血 战斗 血腥",
+    "official": "MADHOUSE",
+    "area": "jp",
+    "image": "66/93/4010_FLDWc",
+    "score": 7.9,
+    "rank": 310,
+    "ageId": 20070052
+  },
+  {
+    "id": 4021,
+    "cn": "七彩的素描",
+    "ep": "[DVD 01-24]",
+    "type": "TV",
+    "jp": "Canvas2 〜虹色のスケッチ〜",
+    "begin": "2005-10-02",
+    "status": "完结",
+    "tags": "校园 后宫 治愈",
+    "official": "ZEXCS",
+    "area": "jp",
+    "image": "ae/c8/4021_oq8k0",
+    "score": 6.7,
+    "rank": 3053,
+    "ageId": 20050034
+  },
+  {
     "id": 4164,
     "cn": "鬼眼狂刀",
     "ep": "[TV 01-26]",
@@ -3572,6 +4275,54 @@
     "ageId": 20010005
   },
   {
+    "id": 4214,
+    "cn": "圣母在上",
+    "ep": "[BD 01-13+SP]",
+    "type": "TV",
+    "jp": "マリア様がみてる",
+    "begin": "2004-01-07",
+    "status": "完结",
+    "tags": "校园 百合 治愈",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "76/c5/4214_tI3A5",
+    "score": 7.8,
+    "rank": 437,
+    "ageId": 20040017
+  },
+  {
+    "id": 4215,
+    "cn": "圣母在上 春",
+    "ep": "[BD 01-13+SP]",
+    "type": "TV",
+    "jp": "マリア様がみてる 〜春〜",
+    "begin": "2004-07-07",
+    "status": "完结",
+    "tags": "校园 百合 治愈",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "1d/54/4215_ZH066",
+    "score": 7.8,
+    "rank": 381,
+    "ageId": 20040019
+  },
+  {
+    "id": 4216,
+    "cn": "圣母在上 第3季",
+    "ep": "[BD 01-05+SP]",
+    "type": "OVA",
+    "jp": "マリア様がみてる 3rdシーズン",
+    "begin": "2006-11-29",
+    "status": "完结",
+    "tags": "校园 百合 治愈",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "bd/85/4216_qvJdp",
+    "score": 7.9,
+    "rank": 312,
+    "ageId": 20060035
+  },
+  {
     "id": 4255,
     "cn": "迷糊餐厅",
     "ep": "[TV 01-13]",
@@ -3586,6 +4337,22 @@
     "score": 7.6,
     "rank": 655,
     "ageId": 20100013
+  },
+  {
+    "id": 4281,
+    "cn": "一骑当千 XTREME XECUTOR",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "一騎当千 XTREME XECUTOR",
+    "begin": "2010-03-26",
+    "status": "完结",
+    "tags": "奇幻 校园 百合 战斗",
+    "official": "TNK",
+    "area": "jp",
+    "image": "a7/32/4281_0NRUZ",
+    "score": 6.3,
+    "rank": 4512,
+    "ageId": 20100072
   },
   {
     "id": 4283,
@@ -3714,6 +4481,38 @@
     "ageId": 20040015
   },
   {
+    "id": 4383,
+    "cn": "圆盘皇女",
+    "ep": "[DVD 01-12]",
+    "type": "TV",
+    "jp": "円盤皇女ワるきゅーレ",
+    "begin": "2002-07-04",
+    "status": "完结",
+    "tags": "搞笑 奇幻 后宫",
+    "official": "TNK",
+    "area": "jp",
+    "image": "6d/e4/4383_l7n3d",
+    "score": 6.5,
+    "rank": 3223,
+    "ageId": 20020012
+  },
+  {
+    "id": 4384,
+    "cn": "圆盘皇女 十二月的小夜曲",
+    "ep": "[DVD 01-12]",
+    "type": "TV",
+    "jp": "円盤皇女ワるきゅーレ 十二月の夜想曲",
+    "begin": "2003-10-04",
+    "status": "完结",
+    "tags": "搞笑 奇幻 后宫",
+    "official": "TNK",
+    "area": "jp",
+    "image": "12/e5/4384_F2meY",
+    "score": 6.8,
+    "rank": 2533,
+    "ageId": 20030014
+  },
+  {
     "id": 4444,
     "cn": "T.P.樱",
     "ep": "[OVA 01-02]",
@@ -3792,6 +4591,38 @@
     "score": 6.8,
     "rank": 2798,
     "ageId": 20090054
+  },
+  {
+    "id": 4840,
+    "cn": "一骑当千 Dragon Destiny",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "一騎当千 Dragon Destiny",
+    "begin": "2007-02-26",
+    "status": "完结",
+    "tags": "奇幻 校园 百合 战斗",
+    "official": "アームス / ARMS",
+    "area": "jp",
+    "image": "74/24/4840_4Wh3e",
+    "score": 6.2,
+    "rank": 4724,
+    "ageId": 20070049
+  },
+  {
+    "id": 4841,
+    "cn": "一骑当千 Great Guardians",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "一騎当千 Great Guardians",
+    "begin": "2008-06-11",
+    "status": "完结",
+    "tags": "奇幻 校园 百合 战斗",
+    "official": "アームス / ARMS",
+    "area": "jp",
+    "image": "05/ee/4841_EbbI3",
+    "score": 6.2,
+    "rank": 4704,
+    "ageId": 20080057
   },
   {
     "id": 4884,
@@ -3969,6 +4800,22 @@
     "ageId": 20100001
   },
   {
+    "id": 5652,
+    "cn": "大神与七位伙伴",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "オオカミさんと七人の仲間たち",
+    "begin": "2010-07-01",
+    "status": "完结",
+    "tags": "搞笑 校园 热血 恋爱",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "b4/f1/5652_x1l73",
+    "score": 6.5,
+    "rank": 4004,
+    "ageId": 20100075
+  },
+  {
     "id": 5653,
     "cn": "尸鬼",
     "ep": "[TV 01-22]",
@@ -4049,6 +4896,22 @@
     "ageId": 20100010
   },
   {
+    "id": 5874,
+    "cn": "最终兵器彼女 Another love song",
+    "ep": "[OVA 01-02]",
+    "type": "OVA",
+    "jp": "最終兵器彼女 Another love song",
+    "begin": "2005-08-05",
+    "status": "完结",
+    "tags": "科幻 校园 爱情",
+    "official": "Studio Fantasia",
+    "area": "jp",
+    "image": "85/d6/5874_b1BYH",
+    "score": 7.2,
+    "rank": 1726,
+    "ageId": 20050035
+  },
+  {
     "id": 5944,
     "cn": "好想告诉你",
     "ep": "[TV 01-25]",
@@ -4095,6 +4958,22 @@
     "score": 7.2,
     "rank": 1461,
     "ageId": 20100023
+  },
+  {
+    "id": 5977,
+    "cn": "最游记",
+    "ep": "[TV 01-50]",
+    "type": "TV",
+    "jp": "幻想魔伝 最遊記",
+    "begin": "2000-04-04",
+    "status": "完结",
+    "tags": "奇幻 热血 战斗",
+    "official": "小丑社",
+    "area": "jp",
+    "image": "7e/b5/5977_zF2mm",
+    "score": 7,
+    "rank": 2201,
+    "ageId": 20000025
   },
   {
     "id": 6048,
@@ -4175,6 +5054,22 @@
     "score": 7.1,
     "rank": 3001,
     "ageId": 20100029
+  },
+  {
+    "id": 6414,
+    "cn": "我的裘可妹妹",
+    "ep": "[DVD 01-24]",
+    "type": "TV",
+    "jp": "ちょこッとSister",
+    "begin": "2006-07-11",
+    "status": "完结",
+    "tags": "搞笑 治愈",
+    "official": "NOMAD",
+    "area": "jp",
+    "image": "1e/e9/6414_4j440",
+    "score": 6.5,
+    "rank": 3486,
+    "ageId": 20060032
   },
   {
     "id": 6752,
@@ -4336,6 +5231,22 @@
     "ageId": 20050015
   },
   {
+    "id": 7298,
+    "cn": "尸姬 玄",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "屍姫 玄",
+    "begin": "2009-01-01",
+    "status": "完结",
+    "tags": "奇幻 战斗 悬疑",
+    "official": "GAINAX / feel.",
+    "area": "jp",
+    "image": "cc/36/7298_ugN00",
+    "score": 6.4,
+    "rank": 4260,
+    "ageId": 20090060
+  },
+  {
     "id": 7352,
     "cn": "女生万岁 second season",
     "ep": "[DVD 01-13]",
@@ -4350,6 +5261,22 @@
     "score": 6,
     "rank": 4774,
     "ageId": 20050017
+  },
+  {
+    "id": 7397,
+    "cn": "贫穷姐妹物语",
+    "ep": "[DVD 01-10]",
+    "type": "TV",
+    "jp": "貧乏姉妹物語",
+    "begin": "2006-06-29",
+    "status": "完结",
+    "tags": "百合 日常 治愈",
+    "official": "東映動画",
+    "area": "jp",
+    "image": "83/dc/7397_UWWxi",
+    "score": 6.5,
+    "rank": 3691,
+    "ageId": 20060031
   },
   {
     "id": 7707,
@@ -4432,6 +5359,22 @@
     "ageId": 20100020
   },
   {
+    "id": 7844,
+    "cn": "FORTUNE ARTERIAL -赤之约束-",
+    "ep": "[BD 01-12+OAD]",
+    "type": "TV",
+    "jp": "FORTUNE ARTERIAL -赤い約束-",
+    "begin": "2010-10-08",
+    "status": "完结",
+    "tags": "奇幻 校园 爱情",
+    "official": "ZEXCS / feel.",
+    "area": "jp",
+    "image": "b3/56/7844_CP968",
+    "score": 6.3,
+    "rank": 4795,
+    "ageId": 20100071
+  },
+  {
     "id": 7852,
     "cn": "内衣战士玫瑰蝴蝶 New Season",
     "ep": "[DVD 01-06]",
@@ -4445,6 +5388,22 @@
     "image": "b1/65/7852_ilaD0",
     "score": 5.2,
     "ageId": 20060029
+  },
+  {
+    "id": 7860,
+    "cn": "UG☆极限女孩",
+    "ep": "[DVD 01-12]",
+    "type": "TV",
+    "jp": "UG☆アルティメットガール",
+    "begin": "2005-01-10",
+    "status": "完结",
+    "tags": "搞笑 奇幻 百合",
+    "official": "Studio Matrix",
+    "area": "jp",
+    "image": "dd/b4/7860_l8MJQ",
+    "score": 5.7,
+    "rank": 4537,
+    "ageId": 20050031
   },
   {
     "id": 7991,
@@ -4639,6 +5598,22 @@
     "ageId": 20100045
   },
   {
+    "id": 8474,
+    "cn": "放浪男孩",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "放浪息子",
+    "begin": "2011-01-13",
+    "status": "完结",
+    "tags": "校园 青春 治愈",
+    "official": "AIC Classic",
+    "area": "jp",
+    "image": "cb/7c/8474_I1CAM",
+    "score": 7.8,
+    "rank": 413,
+    "ageId": 20110094
+  },
+  {
     "id": 8546,
     "cn": "更多 出包王女",
     "ep": "[BD 01-12]",
@@ -4719,6 +5694,38 @@
     "ageId": 20090002
   },
   {
+    "id": 9639,
+    "cn": "向阳素描×☆☆☆ 特别篇",
+    "ep": "[BD 01-02]",
+    "type": "OVA",
+    "jp": "ひだまりスケッチ×☆☆☆ 特別編",
+    "begin": "2010-10-27",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "26/86/9639_f3ku1",
+    "score": 7.7,
+    "rank": 606,
+    "ageId": 20100070
+  },
+  {
+    "id": 9642,
+    "cn": "向阳素描 特别篇",
+    "ep": "[BD 01-02]",
+    "type": "OVA",
+    "jp": "ひだまりスケッチ 特別編",
+    "begin": "2007-10-18",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "13/7f/9642_5FD55",
+    "score": 7.5,
+    "rank": 805,
+    "ageId": 20070046
+  },
+  {
     "id": 9655,
     "cn": "露蒂的玩具",
     "ep": "[TV 01-12+OVA]",
@@ -4733,6 +5740,22 @@
     "score": 6.3,
     "rank": 4657,
     "ageId": 20110031
+  },
+  {
+    "id": 9716,
+    "cn": "迷糊软网社",
+    "ep": "[BD 01-12+SP]",
+    "type": "TV",
+    "jp": "そふてにっ",
+    "begin": "2011-04-07",
+    "status": "完结",
+    "tags": "搞笑 校园 运动 百合",
+    "official": "XEBEC",
+    "area": "jp",
+    "image": "5c/5b/9716_8m2jC",
+    "score": 6.2,
+    "rank": 4690,
+    "ageId": 20110091
   },
   {
     "id": 9717,
@@ -4877,6 +5900,21 @@
     "score": 5.8,
     "rank": 5615,
     "ageId": 20110004
+  },
+  {
+    "id": 9840,
+    "cn": "魁拔之十万火急",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "begin": "2011-07-08",
+    "status": "完结",
+    "tags": "奇幻 武侠 战斗",
+    "official": "北京青青树动漫科技有限公司",
+    "area": "jp",
+    "image": "62/30/9840_g6wlp",
+    "score": 7.1,
+    "rank": 1997,
+    "ageId": 20110092
   },
   {
     "id": 9912,
@@ -5389,6 +6427,22 @@
     "ageId": 20110017
   },
   {
+    "id": 10840,
+    "cn": "剑风传奇 黄金时代篇I 霸王之卵",
+    "ep": "[BD 01-03]",
+    "type": "剧场版",
+    "jp": "ベルセルク 黄金時代篇I 覇王の卵",
+    "begin": "2012-02-04",
+    "status": "完结",
+    "tags": "冒险 奇幻 战斗 热血",
+    "official": "STUDIO 4℃",
+    "area": "jp",
+    "image": "03/35/10840_r1fkI",
+    "score": 7.7,
+    "rank": 540,
+    "ageId": 20120117
+  },
+  {
     "id": 10842,
     "cn": "未来都市NO.6",
     "ep": "[TV 01-11]",
@@ -5868,6 +6922,22 @@
     "ageId": 20110073
   },
   {
+    "id": 14749,
+    "cn": "京骚戏画",
+    "ep": "[全集]",
+    "type": "WEB",
+    "jp": "京騒戯画",
+    "begin": "2011-12-10",
+    "status": "完结",
+    "tags": "奇幻 猎奇",
+    "official": "東映動画",
+    "area": "jp",
+    "image": "e1/dd/14749_R0ZDJ",
+    "score": 7.1,
+    "rank": 1812,
+    "ageId": 20110093
+  },
+  {
     "id": 14933,
     "cn": "宝贝公主",
     "ep": "[全集]",
@@ -6137,6 +7207,22 @@
     "score": 6.3,
     "rank": 4511,
     "ageId": 20100065
+  },
+  {
+    "id": 18613,
+    "cn": "圆盘皇女 星灵节的新娘",
+    "ep": "[DVD 01-06]",
+    "type": "OVA",
+    "jp": "円盤皇女ワるきゅーレ 星霊節の花嫁",
+    "begin": "2005-05-25",
+    "status": "完结",
+    "tags": "搞笑 奇幻 后宫",
+    "official": "TNK",
+    "area": "jp",
+    "image": "ae/98/18613_Jtz2D",
+    "score": 6.7,
+    "rank": 2498,
+    "ageId": 20050028
   },
   {
     "id": 18624,
@@ -6410,6 +7496,22 @@
     "ageId": 20110039
   },
   {
+    "id": 21898,
+    "cn": "一骑当千 集锷斗士血风录",
+    "ep": "[OVA全集]",
+    "type": "OVA",
+    "jp": "一騎当千 集鍔闘士血風録",
+    "begin": "2011-11-12",
+    "status": "完结",
+    "tags": "奇幻 校园 百合 战斗",
+    "official": "ARMS",
+    "area": "jp",
+    "image": "98/13/21898_40ShN",
+    "score": 6.1,
+    "rank": 4401,
+    "ageId": 20110090
+  },
+  {
     "id": 21900,
     "cn": "轮回的拉格朗日",
     "ep": "[TV 01-12]",
@@ -6424,6 +7526,38 @@
     "score": 6.5,
     "rank": 3932,
     "ageId": 20120084
+  },
+  {
+    "id": 22179,
+    "cn": "黑岩射手",
+    "ep": "[BD 01-08]",
+    "type": "TV",
+    "jp": "ブラック★ロックシューター",
+    "begin": "2012-02-02",
+    "status": "完结",
+    "tags": "百合 奇幻 治愈",
+    "official": "Ordet / サンジゲン",
+    "area": "jp",
+    "image": "fa/4c/22179_fkp9h",
+    "score": 6.4,
+    "rank": 4557,
+    "ageId": 20120111
+  },
+  {
+    "id": 22241,
+    "cn": "向阳素描×SP",
+    "ep": "[BD 01-02]",
+    "type": "OVA",
+    "jp": "ひだまりスケッチ×SP",
+    "begin": "2011-10-29",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "ec/3b/22241_xv62g",
+    "score": 7.6,
+    "rank": 737,
+    "ageId": 20110089
   },
   {
     "id": 22505,
@@ -6456,6 +7590,22 @@
     "score": 6.1,
     "rank": 5062,
     "ageId": 20120022
+  },
+  {
+    "id": 22584,
+    "cn": "乳旋风",
+    "ep": "[DVD 01-02]",
+    "type": "OVA",
+    "jp": "エイケン エイケンヴより愛をこめて",
+    "begin": "2003-06-25",
+    "status": "完结",
+    "tags": "校园 后宫",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "26/6e/22584_H8nCc",
+    "score": 4.6,
+    "rank": 5855,
+    "ageId": 20030018
   },
   {
     "id": 22588,
@@ -6538,6 +7688,20 @@
     "ageId": 20130007
   },
   {
+    "id": 23160,
+    "cn": "TOKKO 特公",
+    "ep": "[TV 01-13]",
+    "type": "TV",
+    "begin": "2006-04-16",
+    "status": "完结",
+    "tags": "猎奇 战斗 血腥",
+    "official": "Group Tac",
+    "area": "jp",
+    "image": "74/d1/23160_369Z6",
+    "score": 5.4,
+    "ageId": 20060034
+  },
+  {
     "id": 23161,
     "cn": "伪物语",
     "ep": "[TV 01-11]",
@@ -6600,6 +7764,22 @@
     "score": 8,
     "rank": 191,
     "ageId": 20120002
+  },
+  {
+    "id": 23535,
+    "cn": "极乐院女子高寮物语",
+    "ep": "[BD 01-13]",
+    "type": "TV",
+    "jp": "ゴクジョッ。～極楽院女子高寮物語～",
+    "begin": "2012-01-16",
+    "status": "完结",
+    "tags": "搞笑 校园 百合",
+    "official": "LMD",
+    "area": "jp",
+    "image": "f5/fe/23535_5jD5h",
+    "score": 6.1,
+    "rank": 4913,
+    "ageId": 20120118
   },
   {
     "id": 23626,
@@ -6793,6 +7973,22 @@
     "ageId": 20120077
   },
   {
+    "id": 24837,
+    "cn": "魁拔2之大战元泱界",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "魁拔II 大战元泱界",
+    "begin": "2013-05-31",
+    "status": "完结",
+    "tags": "奇幻 武侠 战斗",
+    "official": "北京青青树动漫科技有限公司",
+    "area": "cn",
+    "image": "e7/5b/24837_KiOb5",
+    "score": 6.8,
+    "rank": 2814,
+    "ageId": 20130148
+  },
+  {
     "id": 25363,
     "cn": "魔法禁书目录炭",
     "ep": "S3-SP2",
@@ -6935,6 +8131,22 @@
     "score": 6.5,
     "rank": 4211,
     "ageId": 20130064
+  },
+  {
+    "id": 26825,
+    "cn": "夏色奇迹",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "夏色キセキ",
+    "begin": "2012-04-05",
+    "status": "完结",
+    "tags": "校园 百合 治愈",
+    "official": "SUNRISE",
+    "area": "jp",
+    "image": "20/ab/26825_5W8p6",
+    "score": 6.6,
+    "rank": 3792,
+    "ageId": 20120113
   },
   {
     "id": 27236,
@@ -7319,6 +8531,22 @@
     "ageId": 20100025
   },
   {
+    "id": 29883,
+    "cn": "新・福音战士剧场版：终",
+    "ep": "PV",
+    "type": "剧场版",
+    "jp": "シン・エヴァンゲリオン劇場版:│▌",
+    "begin": "2021-03-08",
+    "status": "未播放",
+    "tags": "科幻 机战 爱情",
+    "official": "khara",
+    "area": "jp",
+    "image": "04/dc/29883_PN39n",
+    "score": 7.7,
+    "rank": 579,
+    "ageId": 20210131
+  },
+  {
     "id": 30171,
     "cn": "钢铁杰克",
     "ep": "[TV 01-46]",
@@ -7412,6 +8640,21 @@
     "score": 5.8,
     "rank": 4923,
     "ageId": 20120106
+  },
+  {
+    "id": 31533,
+    "cn": "恋恋七人组",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "こいこい7",
+    "begin": "2005-04-01",
+    "status": "完结",
+    "tags": "搞笑 后宫",
+    "official": "Trinet Entertainment",
+    "area": "jp",
+    "image": "e7/1c/31533_Ie854",
+    "score": 5.2,
+    "ageId": 20050029
   },
   {
     "id": 33352,
@@ -7652,6 +8895,22 @@
     "ageId": 20140117
   },
   {
+    "id": 37449,
+    "cn": "萌菌物语 Returns",
+    "ep": "[TV 01-12]",
+    "type": "TV",
+    "jp": "もやしもん リターンズ",
+    "begin": "2012-07-05",
+    "status": "完结",
+    "tags": "搞笑 校园 科幻 治愈",
+    "official": "白組 / Telecom Animation Film",
+    "area": "jp",
+    "image": "04/0c/37449_0uuQg",
+    "score": 7.1,
+    "rank": 1977,
+    "ageId": 20120115
+  },
+  {
     "id": 37460,
     "cn": "哆啦A梦 大山版",
     "ep": "第582集",
@@ -7778,6 +9037,22 @@
     "score": 8.2,
     "rank": 95,
     "ageId": 20120028
+  },
+  {
+    "id": 37819,
+    "cn": "向阳素描×蜂窝",
+    "ep": "[BD 01-12]",
+    "type": "TV",
+    "jp": "ひだまりスケッチ×ハニカム",
+    "begin": "2012-10-04",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "ac/b4/37819_PwcEd",
+    "score": 7.8,
+    "rank": 417,
+    "ageId": 20120112
   },
   {
     "id": 37870,
@@ -8195,6 +9470,22 @@
     "ageId": 20120045
   },
   {
+    "id": 42342,
+    "cn": "京骚戏画",
+    "ep": "[BD 01-05]",
+    "type": "WEB",
+    "jp": "京騒戯画",
+    "begin": "2012-08-31",
+    "status": "完结",
+    "tags": "奇幻 猎奇",
+    "official": "東映動画",
+    "area": "jp",
+    "image": "7f/72/42342_qA7L1",
+    "score": 7.2,
+    "rank": 1433,
+    "ageId": 20120116
+  },
+  {
     "id": 42707,
     "cn": "伊克西翁传说DT",
     "ep": "[TV 01-25]",
@@ -8257,6 +9548,22 @@
     "score": 6.9,
     "rank": 2492,
     "ageId": 20130133
+  },
+  {
+    "id": 43386,
+    "cn": "犬神 剧场版",
+    "ep": "[DVD全集]",
+    "type": "剧场版",
+    "jp": "いぬかみっ! THE MOVIE 特命霊的捜査官・仮名史郎っ!",
+    "begin": "2007-04-21",
+    "status": "完结",
+    "tags": "搞笑 奇幻 校园 后宫",
+    "official": "Seven Arcs",
+    "area": "jp",
+    "image": "f0/91/43386_Je6E2",
+    "score": 6.4,
+    "rank": 3356,
+    "ageId": 20070054
   },
   {
     "id": 43404,
@@ -8595,6 +9902,22 @@
     "ageId": 20130083
   },
   {
+    "id": 47276,
+    "cn": "乃木坂春香的秘密 Finale♪",
+    "ep": "[OVA 01-04]",
+    "type": "OVA",
+    "jp": "乃木坂春香の秘密 ふぃな〜れ♪",
+    "begin": "2012-08-29",
+    "status": "完结",
+    "tags": "搞笑 校园 爱情 后宫",
+    "official": "diomedéa",
+    "area": "jp",
+    "image": "a0/de/47276_e83D9",
+    "score": 6.2,
+    "rank": 4735,
+    "ageId": 20120114
+  },
+  {
     "id": 47374,
     "cn": "秦时明月大电影之龙腾万里",
     "ep": "[全集]",
@@ -8704,6 +10027,22 @@
     "score": 6.9,
     "rank": 2442,
     "ageId": 20130043
+  },
+  {
+    "id": 48032,
+    "cn": "科学家们",
+    "ep": "[BD全集]",
+    "type": "OVA",
+    "jp": "カガクなヤツら",
+    "begin": "2013-02-20",
+    "status": "完结",
+    "tags": "后宫 其他",
+    "official": "Hoods Entertainment",
+    "area": "jp",
+    "image": "54/43/48032_Q8vL5",
+    "score": 5.3,
+    "rank": 5895,
+    "ageId": 20130146
   },
   {
     "id": 48034,
@@ -10430,6 +11769,36 @@
     "ageId": 20130124
   },
   {
+    "id": 73259,
+    "cn": "圆盘皇女 时空与梦想的银河之宴",
+    "ep": "[DVD 01-02]",
+    "type": "OVA",
+    "jp": "円盤皇女ワるきゅーレ 時と夢と銀河の宴",
+    "begin": "2006-08-25",
+    "status": "完结",
+    "tags": "搞笑 奇幻 后宫",
+    "official": "TNK",
+    "area": "jp",
+    "image": "a2/ac/73259_5tUMX",
+    "score": 6.3,
+    "ageId": 20060030
+  },
+  {
+    "id": 73260,
+    "cn": "圆盘皇女 乱七八糟新娘训练",
+    "ep": "[OVA全集]",
+    "type": "OVA",
+    "jp": "円盤皇女ワるきゅーレ SPECIAL",
+    "begin": "2003-08-23",
+    "status": "完结",
+    "tags": "搞笑 奇幻 后宫",
+    "official": "TNK",
+    "area": "jp",
+    "image": "a6/bb/73260_r19rM",
+    "score": 6.3,
+    "ageId": 20030015
+  },
+  {
     "id": 73440,
     "cn": "当不成勇者的我，只好认真找工作了。",
     "ep": "[BD 01-12+OVA]",
@@ -10524,6 +11893,21 @@
     "score": 6.5,
     "rank": 3924,
     "ageId": 20140127
+  },
+  {
+    "id": 74901,
+    "cn": "魁拔Ⅲ 战神崛起",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "begin": "2014-10-01",
+    "status": "完结",
+    "tags": "奇幻 武侠 战斗",
+    "official": "北京青青树动漫科技有限公司",
+    "area": "cn",
+    "image": "aa/6a/74901_3tjJ0",
+    "score": 6.9,
+    "rank": 2464,
+    "ageId": 20140178
   },
   {
     "id": 75521,
@@ -10910,6 +12294,22 @@
     "ageId": 20130012
   },
   {
+    "id": 79114,
+    "cn": "京骚戏画",
+    "ep": "[BD 00-10]",
+    "type": "TV",
+    "jp": "京騒戯画",
+    "begin": "2013-10-02",
+    "status": "完结",
+    "tags": "奇幻 猎奇",
+    "official": "東映動画",
+    "area": "jp",
+    "image": "3d/a1/79114_FdvzV",
+    "score": 7.4,
+    "rank": 1072,
+    "ageId": 20130149
+  },
+  {
     "id": 79225,
     "cn": "星刻的龙骑士",
     "ep": "[TV 01-12]",
@@ -11166,6 +12566,22 @@
     "ageId": 20140131
   },
   {
+    "id": 80864,
+    "cn": "太空丹迪",
+    "ep": "[TV 01-26]",
+    "type": "TV",
+    "jp": "スペース☆ダンディ",
+    "begin": "2014-01-05",
+    "status": "完结",
+    "tags": "搞笑 科幻 冒险",
+    "official": "BONES",
+    "area": "jp",
+    "image": "61/62/80864_refoz",
+    "score": 8,
+    "rank": 196,
+    "ageId": 20140173
+  },
+  {
     "id": 80913,
     "cn": "凹凸世界",
     "ep": "[TV 01-32]",
@@ -11260,6 +12676,22 @@
     "ageId": 20140123
   },
   {
+    "id": 82233,
+    "cn": "向阳素描 沙英・寻 毕业篇",
+    "ep": "[BD 01-02]",
+    "type": "OVA",
+    "jp": "ひだまりスケッチ 沙英・ヒロ 卒業編",
+    "begin": "2013-11-27",
+    "status": "完结",
+    "tags": "校园 百合 日常 治愈",
+    "official": "SHAFT",
+    "area": "jp",
+    "image": "34/fb/82233_mARRV",
+    "score": 8,
+    "rank": 285,
+    "ageId": 20130147
+  },
+  {
     "id": 82322,
     "cn": "花物语",
     "ep": "[TV 01-05]",
@@ -11322,6 +12754,21 @@
     "score": 7.2,
     "rank": 1643,
     "ageId": 20140001
+  },
+  {
+    "id": 83441,
+    "cn": "魔晶石☆魔法少女",
+    "ep": "[BD全集]",
+    "type": "OVA",
+    "jp": "プリズム☆ま〜じカル 〜 PRISM Generations! 〜",
+    "begin": "2010-08-26",
+    "status": "完结",
+    "tags": "奇幻 后宫",
+    "official": "暂无",
+    "area": "jp",
+    "image": "d9/e0/83441_F7OLo",
+    "score": 5.3,
+    "ageId": 20100073
   },
   {
     "id": 83737,
@@ -12486,6 +13933,22 @@
     "ageId": 20140093
   },
   {
+    "id": 93509,
+    "cn": "犬神同学和猫山同学",
+    "ep": "[BD 01-13]",
+    "type": "TV",
+    "jp": "犬神さんと猫山さん",
+    "begin": "2014-04-10",
+    "status": "完结",
+    "tags": "搞笑 校园 百合 日常",
+    "official": "Seven",
+    "area": "jp",
+    "image": "f7/bd/93509_hF4z6",
+    "score": 6.5,
+    "rank": 3980,
+    "ageId": 20140179
+  },
+  {
     "id": 93545,
     "cn": "甘城光辉游乐园",
     "ep": "[TV 01-13+OVA+SP]",
@@ -12516,6 +13979,22 @@
     "score": 6.4,
     "rank": 4215,
     "ageId": 20140032
+  },
+  {
+    "id": 93739,
+    "cn": "乒乓",
+    "ep": "[TV 01-11]",
+    "type": "TV",
+    "jp": "ピンポン THE ANIMATION",
+    "begin": "2014-04-10",
+    "status": "完结",
+    "tags": "校园 运动 竞技",
+    "official": "龙之子Production",
+    "area": "jp",
+    "image": "1e/63/93739_TZ9dS",
+    "score": 8.4,
+    "rank": 51,
+    "ageId": 20140172
   },
   {
     "id": 93865,
@@ -12819,6 +14298,22 @@
     "ageId": 20140025
   },
   {
+    "id": 98294,
+    "cn": "偶像活动 剧场版",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "劇場版 アイカツ!",
+    "begin": "2014-12-13",
+    "status": "完结",
+    "tags": "校园 励志 歌舞 百合",
+    "official": "SUNRISE",
+    "area": "jp",
+    "image": "cb/18/98294_YZcCP",
+    "score": 7.1,
+    "rank": 1773,
+    "ageId": 20140171
+  },
+  {
     "id": 98638,
     "cn": "命运九重奏",
     "ep": "[TV 01-12]",
@@ -13106,6 +14601,22 @@
     "ageId": 20170125
   },
   {
+    "id": 100448,
+    "cn": "和谐",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "ハーモニー",
+    "begin": "2015-11-13",
+    "status": "完结",
+    "tags": "科幻 百合 社会",
+    "official": "STUDIO 4℃",
+    "area": "jp",
+    "image": "77/88/100448_8sN58",
+    "score": 6.8,
+    "rank": 2865,
+    "ageId": 20150180
+  },
+  {
     "id": 100449,
     "cn": "月刊少女野崎君",
     "ep": "[TV 01-12+SP]",
@@ -13184,6 +14695,22 @@
     "score": 7.1,
     "rank": 1779,
     "ageId": 20140115
+  },
+  {
+    "id": 100568,
+    "cn": "一骑当千 Extravaganza Epoch",
+    "ep": "[BD 01-02]",
+    "type": "TV",
+    "jp": "一騎当千 Extravaganza Epoch",
+    "begin": "2014-12-21",
+    "status": "完结",
+    "tags": "奇幻 校园 百合 战斗",
+    "official": "ARMS",
+    "area": "jp",
+    "image": "be/19/100568_qDUXz",
+    "score": 5.9,
+    "rank": 5017,
+    "ageId": 20140176
   },
   {
     "id": 100799,
@@ -13455,6 +14982,38 @@
     "score": 6.7,
     "rank": 3128,
     "ageId": 20140056
+  },
+  {
+    "id": 103824,
+    "cn": "望实与君雄",
+    "ep": "[DVD 01-03]",
+    "type": "OVA",
+    "jp": "ノゾ×キミ",
+    "begin": "2014-08-18",
+    "status": "完结",
+    "tags": "校园 爱情",
+    "official": "ZEXCS",
+    "area": "jp",
+    "image": "2b/7e/103824_6M4Z5",
+    "score": 5.9,
+    "rank": 5136,
+    "ageId": 20140177
+  },
+  {
+    "id": 103831,
+    "cn": "弥留之国的爱丽丝",
+    "ep": "[OAD 01-03]",
+    "type": "OVA",
+    "jp": "今際の国のアリス",
+    "begin": "2014-10-17",
+    "status": "完结",
+    "tags": "生存 剧情",
+    "official": "SILVER LINK./CONNECT",
+    "area": "jp",
+    "image": "8d/4b/103831_ezynx",
+    "score": 6.5,
+    "rank": 3717,
+    "ageId": 20140175
   },
   {
     "id": 103906,
@@ -13872,6 +15431,22 @@
     "ageId": 20150005
   },
   {
+    "id": 107070,
+    "cn": "环太平洋：黑色禁区",
+    "ep": "第7话(完结)",
+    "type": "WEB",
+    "jp": "Pacific Rim: The Black",
+    "begin": "2021-03-04",
+    "status": "完结",
+    "tags": "科幻 冒险",
+    "official": "PPI",
+    "area": "jp",
+    "image": "aa/d8/107070_zSyZ3",
+    "score": 5.6,
+    "rank": 4819,
+    "ageId": 20210085
+  },
+  {
     "id": 107099,
     "cn": "苍蓝钢铁的琶音 DC",
     "ep": "[全集]",
@@ -14093,6 +15668,21 @@
     "score": 5.7,
     "rank": 4987,
     "ageId": 20140004
+  },
+  {
+    "id": 108918,
+    "cn": "魁拔妖侠传",
+    "ep": "[WEB 01-20]",
+    "type": "WEB",
+    "begin": "2014-07-19",
+    "status": "完结",
+    "tags": "奇幻 武侠 战斗",
+    "official": "北京青青树动漫科技有限公司",
+    "area": "cn",
+    "image": "41/83/108918_sNVkW",
+    "score": 6.4,
+    "rank": 3253,
+    "ageId": 20140174
   },
   {
     "id": 109328,
@@ -15114,6 +16704,22 @@
     "ageId": 20150100
   },
   {
+    "id": 118784,
+    "cn": "尸者的帝国",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "屍者の帝国",
+    "begin": "2015-10-02",
+    "status": "完结",
+    "tags": "科幻 悬疑",
+    "official": "WIT STUDIO",
+    "area": "jp",
+    "image": "61/2d/118784_90x7N",
+    "score": 6,
+    "rank": 5335,
+    "ageId": 20150179
+  },
+  {
     "id": 118785,
     "cn": "乱步奇谭",
     "ep": "[TV 01-11]",
@@ -15304,6 +16910,21 @@
     "score": 6.8,
     "rank": 3000,
     "ageId": 20150022
+  },
+  {
+    "id": 120188,
+    "cn": "偶像活动 MUSIC AWARD 让我们一起领奖吧！",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "アイカツ! ミュージックアワード みんなで賞をもらっちゃいまSHOW!",
+    "begin": "2015-08-22",
+    "status": "完结",
+    "tags": "校园 百合 偶像 歌舞",
+    "official": "BN Pictures",
+    "area": "jp",
+    "image": "67/84/120188_jTvhJ",
+    "score": 6.3,
+    "ageId": 20150178
   },
   {
     "id": 120191,
@@ -19470,6 +21091,21 @@
     "ep": ""
   },
   {
+    "id": 170120,
+    "cn": "剧场版 偶像活动Stars",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "劇場版アイカツスターズ!",
+    "begin": "2016-08-13",
+    "status": "完结",
+    "tags": "校园 励志 歌舞 百合",
+    "official": "BN Pictures",
+    "area": "jp",
+    "image": "14/47/170120_cf2C5",
+    "score": 6.9,
+    "ageId": 20160239
+  },
+  {
     "id": 170191,
     "cn": "机动战士高达 铁血的奥尔芬斯 第二季",
     "ep": "[TV 26-50]",
@@ -21271,6 +22907,22 @@
     "ageId": 20170207
   },
   {
+    "id": 187976,
+    "cn": "最游记 RELOAD BLAST",
+    "ep": "[TV 01-12]",
+    "type": "TV",
+    "jp": "最遊記RELOAD BLAST",
+    "begin": "2017-07-05",
+    "status": "完结",
+    "tags": "奇幻 热血 战斗",
+    "official": "PlatinumVision",
+    "area": "jp",
+    "image": "05/a6/187976_25asz",
+    "score": 6.5,
+    "rank": 3437,
+    "ageId": 20170253
+  },
+  {
     "id": 188050,
     "cn": "一课一练",
     "ep": "[TV 01-12]",
@@ -22618,6 +24270,21 @@
     "ageId": 20170083
   },
   {
+    "id": 200913,
+    "cn": "偶像活动 ~被盯上的魔法偶活卡~",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "アイカツ!～ねらわれた魔法のアイカツ!カ―ド～",
+    "begin": "2016-08-13",
+    "status": "完结",
+    "tags": "校园 励志 歌舞 百合",
+    "official": "BN Pictures",
+    "area": "jp",
+    "image": "ac/ce/200913_1KCz1",
+    "score": 7,
+    "ageId": 20160240
+  },
+  {
     "id": 201212,
     "cn": "Wake Up, Girls! 新章",
     "ep": "[TV 01-13]",
@@ -22997,6 +24664,22 @@
     "ageId": 20190361
   },
   {
+    "id": 204641,
+    "cn": "无畏魔女 彼得堡大战略",
+    "ep": "[OVA全集]",
+    "type": "OVA",
+    "jp": "ブレイブウィッチーズ ペテルブルグ大戦略",
+    "begin": "2017-05-13",
+    "status": "完结",
+    "tags": "战争 百合 科幻 奇幻",
+    "official": "SILVER LINK.",
+    "area": "jp",
+    "image": "b4/3b/204641_SljfY",
+    "score": 7,
+    "rank": 2204,
+    "ageId": 20170252
+  },
+  {
     "id": 204855,
     "cn": "Fate/Apocrypha",
     "ep": "[TV 01-25]",
@@ -23179,6 +24862,22 @@
     "score": 8.2,
     "rank": 125,
     "ageId": 20180028
+  },
+  {
+    "id": 207491,
+    "cn": "偶像活动Stars 第二年",
+    "ep": "[TV 01-50]",
+    "type": "TV",
+    "jp": "アイカツスターズ! 2年目",
+    "begin": "2017-04-06",
+    "status": "完结",
+    "tags": "校园 励志 歌舞 百合",
+    "official": "BN Pictures",
+    "area": "jp",
+    "image": "27/ef/207491_Oih75",
+    "score": 7.4,
+    "rank": 1364,
+    "ageId": 20170251
   },
   {
     "id": 207567,
@@ -24792,6 +26491,21 @@
     "score": 7.1,
     "rank": 2007,
     "ageId": 20180057
+  },
+  {
+    "id": 217285,
+    "cn": "希德尼娅的骑士 编织爱的行星",
+    "ep": "PV",
+    "type": "剧场版",
+    "jp": "シドニアの騎士 あいつむぐほし",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "科幻 爱情 机战",
+    "official": "PPI",
+    "area": "jp",
+    "image": "b7/75/217285_3GYu9",
+    "score": 8.3,
+    "ageId": 20210060
   },
   {
     "id": 217300,
@@ -29859,6 +31573,20 @@
     "ageId": 20200307
   },
   {
+    "id": 244231,
+    "cn": "山河剑心",
+    "ep": "第7集",
+    "type": "WEB",
+    "begin": "2021-02-08",
+    "status": "连载",
+    "tags": "武侠 战斗",
+    "official": "幻维数码",
+    "area": "cn",
+    "image": "03/dd/244231_zgnmj",
+    "score": 9,
+    "ageId": 20210090
+  },
+  {
     "id": 244239,
     "cn": "吞噬星空",
     "ep": "第16集",
@@ -31371,6 +33099,20 @@
     "score": 5.8,
     "rank": 4509,
     "ageId": 20180257
+  },
+  {
+    "id": 257991,
+    "cn": "SAKUGAN",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "サクガン",
+    "begin": "2021-10",
+    "status": "未播放",
+    "tags": "科幻 冒险 战斗",
+    "official": "SATELIGHT",
+    "area": "jp",
+    "image": "b3/20/257991_0MtZn",
+    "ageId": 20210065
   },
   {
     "id": 258081,
@@ -33691,6 +35433,21 @@
     "ageId": 20190186
   },
   {
+    "id": 274234,
+    "cn": "小林家的龙女仆S",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "小林さんちのメイドラゴンS",
+    "begin": "2021-07",
+    "status": "未播放",
+    "tags": "搞笑 奇幻 百合 治愈",
+    "official": "京都动画",
+    "area": "jp",
+    "image": "17/ed/274234_7SjVS",
+    "score": 8.4,
+    "ageId": 20210114
+  },
+  {
     "id": 274239,
     "cn": "二之国",
     "ep": "[全集]",
@@ -35006,6 +36763,20 @@
     "ageId": 20190222
   },
   {
+    "id": 282736,
+    "cn": "魁拔之殊途",
+    "ep": "第7集",
+    "type": "WEB",
+    "begin": "2021-01-17",
+    "status": "连载",
+    "tags": "奇幻 武侠 战斗",
+    "official": "暂无",
+    "area": "cn",
+    "image": "a6/20/282736_6p9xS",
+    "score": 6.7,
+    "ageId": 20210064
+  },
+  {
     "id": 282737,
     "cn": "太乙仙魔录之灵飞纪 第三季",
     "ep": "第26集(完结)",
@@ -35790,6 +37561,21 @@
     "ageId": 20200186
   },
   {
+    "id": 287488,
+    "cn": "佐贺偶像是传奇 复仇",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "ゾンビランドサガ リベンジ",
+    "begin": "2021-04-08",
+    "status": "未播放",
+    "tags": "搞笑 偶像 歌舞",
+    "official": "MAPPA",
+    "area": "jp",
+    "image": "02/c7/287488_ZB1qC",
+    "score": 7,
+    "ageId": 20210108
+  },
+  {
     "id": 287615,
     "cn": "浦岛坂田船的日常",
     "ep": "[TV 01-12]",
@@ -35832,6 +37618,21 @@
     "image": "5d/eb/288384_5IrqQ",
     "score": 4.3,
     "ageId": 20190246
+  },
+  {
+    "id": 288746,
+    "cn": "天地无用! 魉皇鬼 第5期",
+    "ep": "第5话",
+    "type": "OVA",
+    "jp": "天地無用! 魎皇鬼 第五期",
+    "begin": "2020-02-28",
+    "status": "连载",
+    "tags": "搞笑 科幻",
+    "official": "AIC",
+    "area": "jp",
+    "image": "e8/e9/288746_f9ps2",
+    "score": 8.7,
+    "ageId": 20200373
   },
   {
     "id": 288780,
@@ -36107,6 +37908,21 @@
     "score": 4.3,
     "rank": 5987,
     "ageId": 20200021
+  },
+  {
+    "id": 289906,
+    "cn": "盾之勇者成名录 第二季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "盾の勇者の成り上がり Season2",
+    "begin": "2021-10",
+    "status": "未播放",
+    "tags": "冒险 奇幻 后宫 战斗",
+    "official": "KINEMA CITRUS / D.R MOVIE",
+    "area": "jp",
+    "image": "98/f0/289906_81686",
+    "score": 8,
+    "ageId": 20210133
   },
   {
     "id": 289910,
@@ -36694,6 +38510,20 @@
     "ageId": 20200249
   },
   {
+    "id": 292429,
+    "cn": "龙族买房",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "ドラゴン、家を買う。",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "搞笑 奇幻",
+    "official": "シグナル・エムディ / SIGNAL.MD",
+    "area": "jp",
+    "image": "5e/a0/292429_xYZ4E",
+    "ageId": 20210128
+  },
+  {
     "id": 292522,
     "cn": "宝可梦 旅途‎",
     "ep": "第58话",
@@ -36924,6 +38754,21 @@
     "score": 5.8,
     "rank": 5490,
     "ageId": 20200022
+  },
+  {
+    "id": 293887,
+    "cn": "爱情可以分割吗？",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "イエスかノーか半分か",
+    "begin": "2020",
+    "status": "完结",
+    "tags": "耽美 女性向",
+    "official": "暂无",
+    "area": "jp",
+    "image": "b3/93/293887_7u7G5",
+    "score": 6.3,
+    "ageId": 20200374
   },
   {
     "id": 293916,
@@ -37242,6 +39087,22 @@
     "score": 6.3,
     "ageId": 20200059,
     "rank": 4606
+  },
+  {
+    "id": 295090,
+    "cn": "星之梦～雪圏球～",
+    "ep": "[全集]",
+    "type": "OVA",
+    "jp": "planetarian～雪圏球～",
+    "begin": "2021-01-20",
+    "status": "完结",
+    "tags": "科幻 治愈",
+    "official": "Okuruto Noboru",
+    "area": "jp",
+    "image": "c2/69/295090_mRT0M",
+    "score": 7.2,
+    "rank": 1606,
+    "ageId": 20210111
   },
   {
     "id": 295195,
@@ -37620,6 +39481,21 @@
     "ageId": 20200143
   },
   {
+    "id": 296870,
+    "cn": "我们的重制人生",
+    "ep": "PV1",
+    "type": "TV",
+    "jp": "ぼくたちのリメイク",
+    "begin": "2021-07",
+    "status": "未播放",
+    "tags": "校园 恋爱",
+    "official": "feel.",
+    "area": "jp",
+    "image": "1d/ea/296870_gtFm2",
+    "score": 9,
+    "ageId": 20210130
+  },
+  {
     "id": 296875,
     "cn": "境界触发者 第二季",
     "ep": "第8集",
@@ -37929,6 +39805,20 @@
     "rank": 2415
   },
   {
+    "id": 297456,
+    "cn": "这如果叫作爱情 感觉会很恶心",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "恋と呼ぶには気持ち悪い",
+    "begin": "2021-04-05",
+    "status": "未播放",
+    "tags": "校园 恋爱",
+    "official": "NOMAD",
+    "area": "jp",
+    "image": "55/0c/297456_PdjJd",
+    "ageId": 20210078
+  },
+  {
     "id": 297468,
     "cn": "言灵少女 -Microphone soul spinners-",
     "ep": "[WEB 01-24]",
@@ -38172,6 +40062,21 @@
     "ageId": 20200159
   },
   {
+    "id": 299611,
+    "cn": "数码宝贝大冒险20周年 纪念故事",
+    "ep": "第5话(完结)",
+    "type": "WEB",
+    "jp": "デジモンアドベンチャー20th メモリアルストーリー",
+    "begin": "2020-02-01",
+    "status": "完结",
+    "tags": "奇幻 冒险",
+    "official": "暂无",
+    "area": "jp",
+    "image": "d5/2d/299611_5PPFz",
+    "score": 6,
+    "ageId": 20200370
+  },
+  {
     "id": 299673,
     "cn": "转生史莱姆日记",
     "ep": "第PV话",
@@ -38374,6 +40279,48 @@
     "ageId": 20200328
   },
   {
+    "id": 302128,
+    "cn": "约会大作战 第四季",
+    "type": "TV",
+    "jp": "デート・ア・ライブⅣ",
+    "begin": "2021-10",
+    "status": "未播放",
+    "tags": "搞笑 后宫 奇幻 战斗",
+    "official": "GEEKTOYS",
+    "area": "jp",
+    "image": "6c/2a/302128_9GTCT",
+    "score": 7,
+    "ageId": 20210129
+  },
+  {
+    "id": 302189,
+    "cn": "86 -不存在的战区-",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "86―エイティシックス―",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "科幻 战斗",
+    "official": "A-1 Pictures",
+    "area": "jp",
+    "image": "a4/b3/302189_1034v",
+    "ageId": 20210061
+  },
+  {
+    "id": 302190,
+    "cn": "派遣战斗员！",
+    "ep": "PV2",
+    "type": "TV",
+    "jp": "戦闘員、派遣します！",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "奇幻 战斗",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "99/dc/302190_SdY0f",
+    "ageId": 20210080
+  },
+  {
     "id": 302293,
     "cn": "龙与魔女",
     "ep": "第3话",
@@ -38479,6 +40426,21 @@
     "ageId": 20200236
   },
   {
+    "id": 303068,
+    "cn": "舞伎家的料理人",
+    "ep": "第1话(每月更新一集)",
+    "type": "TV",
+    "jp": "舞妓さんちのまかないさん",
+    "begin": "2021-02-25",
+    "status": "连载",
+    "tags": "治愈",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "84/ec/303068_R79G0",
+    "score": 6.9,
+    "ageId": 20210116
+  },
+  {
     "id": 303157,
     "cn": "小碧蓝幻想！",
     "ep": "第12话(完结)",
@@ -38495,6 +40457,21 @@
     "ageId": 20200182
   },
   {
+    "id": 303172,
+    "cn": "魔术士奥芬的无赖之旅 基姆拉克篇",
+    "ep": "21:00 第7话",
+    "type": "TV",
+    "jp": "魔術士オーフェンはぐれ旅 キムラック編",
+    "begin": "2021-01-20",
+    "status": "连载",
+    "tags": "奇幻 冒险 战斗",
+    "official": "Studio DEEN",
+    "area": "jp",
+    "image": "02/23/303172_3ALSz",
+    "score": 5.3,
+    "ageId": 20210046
+  },
+  {
     "id": 303173,
     "cn": "GET UP! GET LIVE!",
     "type": "TV",
@@ -38508,6 +40485,21 @@
     "score": 5.3,
     "ageId": 20200241,
     "ep": "[TV 01-12]"
+  },
+  {
+    "id": 303864,
+    "cn": "异世界魔王与召唤少女的奴隶魔术 OMEGA",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "異世界魔王と召喚少女の奴隷魔術Ω",
+    "begin": "2021-04-08",
+    "status": "未播放",
+    "tags": "冒险 后宫 奇幻",
+    "official": "手冢Production",
+    "area": "jp",
+    "image": "2e/9b/303864_unBs4",
+    "score": 6.8,
+    "ageId": 20210101
   },
   {
     "id": 303963,
@@ -38840,6 +40832,21 @@
     "ageId": 20200227
   },
   {
+    "id": 306559,
+    "cn": "终末的后宫",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "終末のハーレム",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "科幻 后宫",
+    "official": "Studio五組 / AXsiZ",
+    "area": "jp",
+    "image": "f3/0b/306559_TVJHr",
+    "score": 8,
+    "ageId": 20210070
+  },
+  {
     "id": 306706,
     "cn": "无上神帝",
     "ep": "第64话(完结)",
@@ -38985,6 +40992,20 @@
     "ageId": 20200250
   },
   {
+    "id": 307288,
+    "cn": "长剑风云",
+    "ep": "第8集",
+    "type": "WEB",
+    "begin": "2021-01-23",
+    "status": "连载",
+    "tags": "热血 战斗",
+    "official": "虚拟印象工作室",
+    "area": "cn",
+    "image": "d6/6d/307288_2zj2m",
+    "score": 7,
+    "ageId": 20210068
+  },
+  {
     "id": 307925,
     "cn": "剧场版 BEM ～BECOME HUMAN～",
     "ep": "[全集]",
@@ -39028,6 +41049,35 @@
     "image": "bd/ab/308025_NZZ0i",
     "score": 6.4,
     "ageId": 20200343
+  },
+  {
+    "id": 308558,
+    "cn": "通灵王",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "シャーマンキング",
+    "begin": "2021-04",
+    "status": "未搞笑",
+    "tags": "奇幻 冒险 热血 战斗",
+    "official": "Bridge",
+    "area": "jp",
+    "image": "e1/78/308558_n7D29",
+    "score": 7,
+    "ageId": 20210107
+  },
+  {
+    "id": 308588,
+    "cn": "伊甸星原",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "EDENS ZERO",
+    "begin": "2021-04-10",
+    "status": "未播放",
+    "tags": "科幻 冒险",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "6e/a5/308588_KMrSy",
+    "ageId": 20210057
   },
   {
     "id": 308826,
@@ -39084,6 +41134,21 @@
     "image": "34/6e/308958_ZZ0p2",
     "score": 1,
     "ageId": 20190271
+  },
+  {
+    "id": 308961,
+    "cn": "文豪野犬 汪！",
+    "ep": "00:30 第8话",
+    "type": "TV",
+    "jp": "文豪ストレイドッグス わん！",
+    "begin": "2021-01-12",
+    "status": "连载",
+    "tags": "搞笑 奇幻 泡面番",
+    "official": "ノーマッド / BONES",
+    "area": "jp",
+    "image": "09/50/308961_qAV1m",
+    "score": 6.9,
+    "ageId": 20210055
   },
   {
     "id": 308997,
@@ -39157,6 +41222,20 @@
     "ageId": 20200273
   },
   {
+    "id": 309331,
+    "cn": "BATTLE ATHLETESS 大运动会 ReSTART！",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "バトルアスリーテス大運動会 ReSTART!",
+    "begin": "2021-04-10",
+    "status": "未播放",
+    "tags": "运动 百合",
+    "official": "Seven",
+    "area": "jp",
+    "image": "c5/97/309331_644h5",
+    "ageId": 20210106
+  },
+  {
     "id": 309449,
     "cn": "梦游敦煌",
     "ep": "第5话(完结)",
@@ -39183,6 +41262,35 @@
     "image": "a8/8e/309600_5uTrt",
     "score": 6.2,
     "ageId": 20200264
+  },
+  {
+    "id": 309670,
+    "cn": "关于前辈很烦人的事",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "先輩がうざい後輩の話",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "搞笑 恋爱",
+    "official": "動画工房",
+    "area": "jp",
+    "image": "",
+    "ageId": 20210089
+  },
+  {
+    "id": 309753,
+    "cn": "不要欺负我，长瀞同学",
+    "ep": "PV1",
+    "type": "TV",
+    "jp": "イジらないで、長瀞さん",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "搞笑 校园 爱情",
+    "official": "Telecom Animation Film",
+    "area": "jp",
+    "image": "86/f2/309753_jWjwJ",
+    "score": 8,
+    "ageId": 20210066
   },
   {
     "id": 309910,
@@ -39290,6 +41398,21 @@
     "score": 6.3,
     "rank": 3556,
     "ageId": 20200276
+  },
+  {
+    "id": 310950,
+    "cn": "世界魔女 起飞！",
+    "ep": "00:45 第8话",
+    "type": "TV",
+    "jp": "ワールドウィッチーズ 発進しますっ！",
+    "begin": "2021-01-12",
+    "status": "连载",
+    "tags": "搞笑 百合 科幻 奇幻",
+    "official": "Acca effe / 戯画プロダクション",
+    "area": "jp",
+    "image": "56/d9/310950_5mmvt",
+    "score": 6.4,
+    "ageId": 20210054
   },
   {
     "id": 311585,
@@ -39451,6 +41574,48 @@
     "ageId": 20200356
   },
   {
+    "id": 312326,
+    "cn": "水豚汤馆",
+    "ep": "第10集",
+    "type": "WEB",
+    "begin": "2021-01-06",
+    "status": "连载",
+    "tags": "奇幻 治愈",
+    "official": "北京启缘映画",
+    "area": "cn",
+    "image": "a1/0a/312326_EMrRM",
+    "ageId": 20210056
+  },
+  {
+    "id": 312352,
+    "cn": "绝顶",
+    "ep": "第6集",
+    "type": "WEB",
+    "begin": "2021-02-06",
+    "status": "连载",
+    "tags": "搞笑 武侠",
+    "official": "七灵石",
+    "area": "cn",
+    "image": "63/5c/312352_of5Ko",
+    "ageId": 20210119
+  },
+  {
+    "id": 312700,
+    "cn": "伍六七之玄武国篇",
+    "ep": "第5集",
+    "type": "WEB",
+    "jp": "伍六七之玄武国篇 上篇",
+    "begin": "2021-01-27",
+    "status": "连载",
+    "tags": "搞笑 热血 战斗",
+    "official": "小疯映画",
+    "area": "cn",
+    "image": "5d/db/312700_O75OV",
+    "score": 7.4,
+    "rank": 1261,
+    "ageId": 20210071
+  },
+  {
     "id": 312958,
     "cn": "公主连结 Re:Dive 第二季",
     "ep": "PV",
@@ -39606,6 +41771,20 @@
     "ep": "02:25 第9话"
   },
   {
+    "id": 314518,
+    "cn": "圣女的魔力是万能的",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "聖女の魔力は万能です",
+    "begin": "2021-04-06",
+    "status": "未播放",
+    "tags": "搞笑 奇幻 冒险",
+    "official": "diomedéa",
+    "area": "jp",
+    "image": "36/cc/314518_OBGGQ",
+    "ageId": 20210048
+  },
+  {
     "id": 314522,
     "cn": "万界仙踪 第四季",
     "ep": "第96集",
@@ -39648,6 +41827,37 @@
     "ageId": 20210026
   },
   {
+    "id": 315456,
+    "cn": "无限滑板",
+    "ep": "02:30 第9话",
+    "type": "TV",
+    "jp": "SK∞ エスケーエイト",
+    "begin": "2021-01-09",
+    "status": "连载",
+    "tags": "校园 运动",
+    "official": "BONES",
+    "area": "jp",
+    "image": "8b/0f/315456_29h6G",
+    "score": 7.5,
+    "rank": 996,
+    "ageId": 20210049
+  },
+  {
+    "id": 315516,
+    "cn": "水果篮子 最终季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "フルーツバスケット The Final",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "校园 爱情 奇幻 治愈",
+    "official": "暂无",
+    "area": "jp",
+    "image": "d5/a0/315516_ODKBM",
+    "score": 10,
+    "ageId": 20210112
+  },
+  {
     "id": 315574,
     "cn": "赛马娘 Pretty Derby 第二季",
     "ep": "23:00 第10话",
@@ -39679,6 +41889,21 @@
     "ageId": 20210014
   },
   {
+    "id": 315745,
+    "cn": "租借女友 第二季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "彼女、お借りします 二期",
+    "begin": "2022",
+    "status": "未播放",
+    "tags": "搞笑 校园 爱情 后宫",
+    "official": "暂无",
+    "area": "jp",
+    "image": "a6/f0/315745_rmwE3",
+    "score": 7,
+    "ageId": 20220002
+  },
+  {
     "id": 315779,
     "cn": "夏目友人帐 唤石者与怪异的访客",
     "ep": "PV",
@@ -39707,6 +41932,21 @@
     "image": "86/05/315804_GPogW",
     "ageId": 20210041,
     "score": 6.8
+  },
+  {
+    "id": 316104,
+    "cn": "Idolls!",
+    "ep": "第6话",
+    "type": "TV",
+    "jp": "アイドールズ！",
+    "begin": "2021-01-08",
+    "status": "连载",
+    "tags": "偶像 歌舞",
+    "official": "SHIN-EI动画",
+    "area": "jp",
+    "image": "b3/c9/316104_1yKUQ",
+    "score": 5.3,
+    "ageId": 20210059
   },
   {
     "id": 316106,
@@ -39767,6 +42007,22 @@
     "ep": "PV"
   },
   {
+    "id": 316607,
+    "cn": "奇蛋物语",
+    "ep": "23:00 第8话",
+    "type": "TV",
+    "jp": "ワンダーエッグ・プライオリティ",
+    "begin": "2021-01-12",
+    "status": "连载",
+    "tags": "奇幻 治愈",
+    "official": "CloverWorks",
+    "area": "jp",
+    "image": "dd/60/316607_2mvjv",
+    "score": 8,
+    "rank": 223,
+    "ageId": 20210053
+  },
+  {
     "id": 316795,
     "cn": "幼女社长",
     "ep": "第14话(完结)",
@@ -39781,6 +42037,21 @@
     "score": 6,
     "rank": 4524,
     "ageId": 20210031
+  },
+  {
+    "id": 316957,
+    "cn": "影宅",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "シャドーハウス",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "奇幻 悬疑",
+    "official": "CloverWorks",
+    "area": "jp",
+    "image": "01/42/316957_72mpq",
+    "score": 10,
+    "ageId": 20210105
   },
   {
     "id": 317275,
@@ -39840,6 +42111,20 @@
     "ageId": 20210021
   },
   {
+    "id": 317680,
+    "cn": "歌剧少女！！",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "かげきしょうじょ!!",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "偶像 百合",
+    "official": "PINE JAM",
+    "area": "jp",
+    "image": "5f/55/317680_uZ6Qw",
+    "ageId": 20210117
+  },
+  {
     "id": 317683,
     "cn": "分解世界",
     "ep": "[TV 01-26]",
@@ -39854,6 +42139,21 @@
     "ageId": 20160212
   },
   {
+    "id": 317691,
+    "cn": "极主夫道",
+    "ep": "PV",
+    "type": "WEB",
+    "jp": "極主夫道",
+    "begin": "2021-04-08",
+    "status": "未播放",
+    "tags": "搞笑 社会",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "18/51/317691_SiTJ2",
+    "score": 8,
+    "ageId": 20210121
+  },
+  {
     "id": 317693,
     "cn": "天空侵犯",
     "ep": "第12话(完结)",
@@ -39866,6 +42166,77 @@
     "image": "15/1d/317693_3W2J6",
     "score": 7,
     "ageId": 20210024
+  },
+  {
+    "id": 318241,
+    "cn": "流星幻剑",
+    "ep": "第15集",
+    "type": "WEB",
+    "begin": "2021-01-28",
+    "status": "连载",
+    "tags": "玄幻 战斗",
+    "official": "暂无",
+    "area": "cn",
+    "image": "6a/e9/318241_wcgCC",
+    "ageId": 20210072
+  },
+  {
+    "id": 318541,
+    "cn": "后空翻!!",
+    "type": "TV",
+    "jp": "バクテン!!",
+    "begin": "2021-04-08",
+    "status": "未播放",
+    "tags": "运动 竞技",
+    "official": "ZEXCS",
+    "area": "jp",
+    "image": "8b/bf/318541_44KzH",
+    "ageId": 20210118
+  },
+  {
+    "id": 318870,
+    "cn": "教教我吧 北斋！",
+    "ep": "第10话(完结)",
+    "type": "WEB",
+    "jp": "おしえて北斎！ -THE ANIMATION-",
+    "begin": "2021-03-07",
+    "status": "完结",
+    "tags": "校园 日常",
+    "official": "CoMix Wave Films",
+    "area": "jp",
+    "image": "a7/81/318870_X49Zd",
+    "score": 6.6,
+    "ageId": 20210124
+  },
+  {
+    "id": 319739,
+    "cn": "因为不是命中注定的同伴而被赶出了勇者的队伍、从此以后过上了悠闲的隐居生活",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました",
+    "begin": "2021-07",
+    "status": "未播放",
+    "tags": "奇幻 冒险",
+    "official": "Wolfsbane / Studio Flad",
+    "area": "jp",
+    "image": "00/6d/319739_mp9q7",
+    "ageId": 20210135
+  },
+  {
+    "id": 319894,
+    "cn": "地味变!!～改变土妹子的纯洁异性交往～",
+    "ep": "[TV 01-08(R)]",
+    "type": "TV",
+    "jp": "じみへんっ!!～地味子を変えちゃう純異性交遊～",
+    "begin": "2021-01-03",
+    "status": "完结",
+    "tags": "其他",
+    "official": "studio HōKIBOSHI",
+    "area": "jp",
+    "image": "ff/d0/319894_9GIo6",
+    "score": 5.7,
+    "rank": 4856,
+    "ageId": 20210043
   },
   {
     "id": 320148,
@@ -39883,6 +42254,35 @@
     "ageId": 20200360
   },
   {
+    "id": 320493,
+    "cn": "天使降临到了我身边 新作动画",
+    "ep": "PV",
+    "type": "剧场版",
+    "jp": "私に天使が舞い降りた！ 新作アニメ",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "搞笑 校园 百合 治愈",
+    "official": "暂无",
+    "area": "jp",
+    "image": "57/2e/327536_tuBJG",
+    "ageId": 20210088
+  },
+  {
+    "id": 320857,
+    "cn": "Tropical-Rouge！光之美少女",
+    "ep": "第2集",
+    "type": "TV",
+    "jp": "トロピカル～ジュ！プリキュア",
+    "begin": "2021-02-28",
+    "status": "连载",
+    "tags": "搞笑 奇幻 亲子 魔法",
+    "official": "東映動画",
+    "area": "jp",
+    "image": "60/78/320857_Wagwa",
+    "score": 7.8,
+    "ageId": 20210100
+  },
+  {
     "id": 321092,
     "cn": "暗芝居 第八季",
     "type": "TV",
@@ -39896,6 +42296,35 @@
     "score": 5.3,
     "ageId": 20210042,
     "ep": "第9话"
+  },
+  {
+    "id": 321289,
+    "cn": "偶像活动Planet！",
+    "ep": "第9集",
+    "type": "TV",
+    "jp": "アイカツプラネット!",
+    "begin": "2021-01-10",
+    "status": "连载",
+    "tags": "校园 歌舞 百合",
+    "official": "BN Pictures",
+    "area": "jp",
+    "image": "2f/e7/321289_1M1GJ",
+    "score": 6.3,
+    "ageId": 20210051
+  },
+  {
+    "id": 321407,
+    "cn": "如果究极进化的完全沉浸RPG比现实更垃圾的话",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "究極進化したフルダイブRPGが現実よりもクソゲーだったら",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "搞笑 奇幻",
+    "official": "ENGI",
+    "area": "jp",
+    "image": "6c/16/321407_YN7l2",
+    "ageId": 20210109
   },
   {
     "id": 322102,
@@ -39983,6 +42412,20 @@
     "ageId": 20210044
   },
   {
+    "id": 324295,
+    "cn": "我家女友可不止可爱呢",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "可愛いだけじゃない式守さん",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "搞笑 校园 爱情",
+    "official": "動画工房",
+    "area": "jp",
+    "image": "6a/7b/324295_22uD4",
+    "ageId": 20210047
+  },
+  {
     "id": 324495,
     "cn": "暗界神使 日语版",
     "ep": "第12集",
@@ -39996,5 +42439,403 @@
     "image": "fd/06/324495_RUG1N",
     "ageId": 20200364,
     "score": 5
+  },
+  {
+    "id": 324728,
+    "cn": "就算这样，“步”还是靠了过来",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "それでも歩は寄せてくる",
+    "begin": "2022",
+    "status": "未播放",
+    "tags": "搞笑 校园 爱情",
+    "official": "暂无",
+    "area": "jp",
+    "image": "ba/d1/324728_nPM4H",
+    "ageId": 20210052
+  },
+  {
+    "id": 325281,
+    "cn": "白沙Aquatope",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "白い砂のアクアトープ",
+    "begin": "2021-07",
+    "status": "未播放",
+    "tags": "百合 治愈",
+    "official": "P.A.WORKS",
+    "area": "jp",
+    "image": "d4/a3/325281_rg3r6",
+    "ageId": 20210063
+  },
+  {
+    "id": 325286,
+    "cn": "Vivy -Fluorite Eye's Song-",
+    "ep": "PV",
+    "type": "TV",
+    "begin": "2021-04-03",
+    "status": "未播放",
+    "tags": "科幻 战斗",
+    "official": "WIT STUDIO",
+    "area": "jp",
+    "image": "a0/50/325286_xjXHX",
+    "score": 5.5,
+    "ageId": 20210062
+  },
+  {
+    "id": 325727,
+    "cn": "侦探已经死了。",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "探偵はもう、死んでいる。",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "冒险 悬疑",
+    "official": "ENGI",
+    "area": "jp",
+    "image": "e0/8e/325727_5B7Lv",
+    "ageId": 20210067
+  },
+  {
+    "id": 325728,
+    "cn": "剧场版 七大罪 被光诅咒的众人",
+    "ep": "PV",
+    "type": "剧场版",
+    "jp": "劇場版 七つの大罪 光に呪われし者たち",
+    "begin": "2021",
+    "status": "未搞笑",
+    "tags": "热血 奇幻 神魔 战斗",
+    "official": "暂无",
+    "area": "jp",
+    "image": "8a/7a/325728_mvK5x",
+    "score": 7,
+    "ageId": 20210134
+  },
+  {
+    "id": 326513,
+    "cn": "唯我独神",
+    "ep": "第12集",
+    "type": "WEB",
+    "begin": "2021-02-04",
+    "status": "连载",
+    "tags": "玄幻 战斗",
+    "official": "暂无",
+    "area": "cn",
+    "image": "72/51/326513_S6ZS0",
+    "score": 6,
+    "ageId": 20210081
+  },
+  {
+    "id": 326859,
+    "cn": "朋友的妹妹只缠着我",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "友達の妹が俺にだけウザい",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "搞笑 校园 恋爱",
+    "official": "暂无",
+    "area": "jp",
+    "image": "",
+    "ageId": 20210077
+  },
+  {
+    "id": 326867,
+    "cn": "哥布林杀手 第二季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "ゴブリンスレイヤー 2期",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "冒险 后宫 奇幻 战斗",
+    "official": "暂无",
+    "area": "jp",
+    "image": "47/8a/326867_LDYSt",
+    "ageId": 20210076
+  },
+  {
+    "id": 326871,
+    "cn": "处刑少女的生存之道",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "処刑少女の生きる道",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "奇幻 百合 战斗",
+    "official": "暂无",
+    "area": "jp",
+    "image": "b0/95/326871_2e7My",
+    "ageId": 20210075
+  },
+  {
+    "id": 326874,
+    "cn": "期待在地下城邂逅有错吗 第四季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "ダンジョンに出会いを求めるのは間違っているだろうか Ⅳ",
+    "begin": "2022",
+    "status": "未播放",
+    "tags": "冒险 奇幻 后宫 战斗",
+    "official": "暂无",
+    "area": "jp",
+    "image": "",
+    "ageId": 20220001
+  },
+  {
+    "id": 327055,
+    "cn": "死神少爷与黑女仆",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "死神坊ちゃんと黒メイド",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "奇幻 恋爱",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "21/99/327055_Xbmbl",
+    "ageId": 20210079
+  },
+  {
+    "id": 327317,
+    "cn": "七骑士 革命 -英雄的继承者-",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "セブンナイツ レボリューション -英雄の継承者-",
+    "begin": "2021-04",
+    "status": "未播放",
+    "tags": "奇幻 冒险 战斗",
+    "official": "LIDENFILMS / domerica",
+    "area": "jp",
+    "image": "e8/eb/327317_WtWiQ",
+    "ageId": 20210083
+  },
+  {
+    "id": 327373,
+    "cn": "名侦探柯南 绯色的不在场证明",
+    "ep": "[全集]",
+    "type": "剧场版",
+    "jp": "名探偵コナン 緋色の不在証明",
+    "begin": "2021-02-11",
+    "status": "完结",
+    "tags": "悬疑 推理 犯罪",
+    "official": "暂无",
+    "area": "jp",
+    "image": "9d/7c/327373_EcngO",
+    "score": 5.6,
+    "ageId": 20210122
+  },
+  {
+    "id": 327414,
+    "cn": "鬼灭学园 情人节篇",
+    "ep": "[WEB 01-04]",
+    "type": "WEB",
+    "jp": "キメツ学園 バレンタイン編",
+    "begin": "2021-02-14",
+    "status": "完结",
+    "tags": "搞笑 奇幻 治愈",
+    "official": "ufotable",
+    "area": "jp",
+    "image": "ad/42/327414_IUszQ",
+    "score": 5.3,
+    "ageId": 20210097
+  },
+  {
+    "id": 327986,
+    "cn": "变成黑皮辣妹后和朋友做了",
+    "ep": "第1话",
+    "type": "TV",
+    "jp": "黒ギャルになったから親友とヤってみた。",
+    "begin": "2021-04-04",
+    "status": "未播放",
+    "tags": "其他",
+    "official": "いらゐあす",
+    "area": "jp",
+    "image": "d2/bd/327986_kEmv2",
+    "ageId": 20210096
+  },
+  {
+    "id": 328012,
+    "cn": "迷情",
+    "ep": "PV",
+    "type": "WEB",
+    "jp": "めいじょう",
+    "begin": "2021-02-26",
+    "status": "未播放",
+    "tags": "其他",
+    "official": "暂无",
+    "area": "jp",
+    "image": "1b/9a/328012_SVTUU",
+    "score": 2.7,
+    "rank": 6165,
+    "ageId": 20210127
+  },
+  {
+    "id": 328032,
+    "cn": "BLUE REFLECTION RAY / 澪",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "BLUE REFLECTION RAY/澪",
+    "begin": "2021-04-09",
+    "status": "未播放",
+    "tags": "校园 百合",
+    "official": "J.C.STAFF",
+    "area": "jp",
+    "image": "52/22/328032_6dJ6s",
+    "ageId": 20210104
+  },
+  {
+    "id": 328195,
+    "cn": "鬼灭之刃 游郭篇",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "鬼滅の刃 遊郭編",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "奇幻 冒险 热血 战斗",
+    "official": "ufotable",
+    "area": "jp",
+    "image": "7a/26/328195_5pGP8",
+    "score": 1,
+    "ageId": 20210098
+  },
+  {
+    "id": 328447,
+    "cn": "食锈末世录",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "錆喰いビスコ",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "奇幻 冒险",
+    "official": "OZ",
+    "area": "jp",
+    "image": "59/39/328447_mIItz",
+    "ageId": 20210132
+  },
+  {
+    "id": 328466,
+    "cn": "DOTA：龙之血",
+    "ep": "PV",
+    "type": "WEB",
+    "jp": "DOTA: Dragon's Blood",
+    "begin": "2021-03-25",
+    "status": "未播放",
+    "tags": "冒险 奇幻 战斗 游戏",
+    "official": "暂无",
+    "area": "jp",
+    "image": "16/96/328466_vkuvE",
+    "ageId": 20210103
+  },
+  {
+    "id": 328514,
+    "cn": "枕刀歌",
+    "ep": "第6集",
+    "type": "WEB",
+    "begin": "2021-02-19",
+    "status": "连载",
+    "tags": "武侠 战斗",
+    "official": "暂无",
+    "area": "cn",
+    "image": "c4/dd/328514_83G3j",
+    "score": 8,
+    "ageId": 20210110
+  },
+  {
+    "id": 328518,
+    "cn": "星武神诀",
+    "ep": "第16集",
+    "type": "WEB",
+    "begin": "2021-01-28",
+    "status": "连载",
+    "tags": "玄幻 战斗",
+    "official": "暂无",
+    "area": "cn",
+    "image": "0d/39/328518_31zx5",
+    "score": 4,
+    "ageId": 20210073
+  },
+  {
+    "id": 328521,
+    "cn": "万界奇缘",
+    "ep": "第10集",
+    "type": "WEB",
+    "begin": "2021-02-17",
+    "status": "连载",
+    "tags": "玄幻 战斗",
+    "official": "暂无",
+    "area": "cn",
+    "image": "8a/15/328521_XypP7",
+    "ageId": 20210102
+  },
+  {
+    "id": 328582,
+    "cn": "异能的艾希斯",
+    "ep": "第3话",
+    "type": "WEB",
+    "jp": "異能のアイシス",
+    "begin": "2021-02-13",
+    "status": "连载",
+    "tags": "奇幻 校园",
+    "official": "暂无",
+    "area": "jp",
+    "image": "b8/e8/328582_q78G4",
+    "score": 6.2,
+    "ageId": 20210113
+  },
+  {
+    "id": 329436,
+    "cn": "魔法科高校的劣等生 追忆篇",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "魔法科高校の劣等生 追憶編",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "校园 后宫 奇幻 魔法",
+    "official": "暂无",
+    "area": "jp",
+    "image": "b7/ae/329436_hqsBZ",
+    "ageId": 20210120
+  },
+  {
+    "id": 329907,
+    "cn": "外之国的少女",
+    "ep": "制作决定PV",
+    "type": "TV",
+    "jp": "とつくにの少女",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "奇幻 爱情",
+    "official": "WIT STUDIO",
+    "area": "jp",
+    "image": "76/48/329907_dSUQp",
+    "ageId": 20210123
+  },
+  {
+    "id": 330054,
+    "cn": "魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ 第二季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～ 第2期",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "奇幻 战斗 神魔",
+    "official": "SILVER LINK.",
+    "area": "jp",
+    "image": "5e/85/330054_PIm20",
+    "ageId": 20210126
+  },
+  {
+    "id": 330057,
+    "cn": "打工吧！魔王大人 第二季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "はたらく魔王さま! 第2期",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "搞笑 奇幻 神魔 职场",
+    "official": "暂无",
+    "area": "jp",
+    "image": "f7/11/330057_31iak",
+    "ageId": 20210125
   }
 ]
