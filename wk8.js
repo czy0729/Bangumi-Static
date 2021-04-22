@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2020-07-29 15:10:12
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-13 14:59:54
+ * @Last Modified time: 2021-04-22 16:39:14
  */
 const fs = require('fs')
 const path = require('path')
@@ -14,7 +14,7 @@ const iconv = require('iconv-lite')
 
 const fileConfig = './data/wenku8/deprecated/config.json'
 const fileRaw = './data/wenku8/raw.json'
-const pages = 2874
+const pages = 2935
 
 function cheerio(target) {
   return typeof target === 'string'
