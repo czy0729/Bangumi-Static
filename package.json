@@ -1,7 +1,9 @@
 {
   "scripts": {
     "discovery": "node src/discovery/index.js",
+    "d": "node src/discovery/index.js",
     "discovery:open": "open data/discovery",
+    "do": "open data/discovery",
     "bangumi:items": "node src/bangumi-data/items.js",
     "bangumi:min": "node src/bangumi-data/min.js",
     "manhua:detail": "node src/manhuadb/detail.js",
@@ -15,6 +17,7 @@
     "age:anime": "node src/agefans/anime.js",
     "age:official": "node src/agefans/official.js",
     "age:min": "node src/agefans/min.js",
+    "age:update": "node src/agefans/update.js",
     "wk8": "node src/wk8/wenku.js",
     "wk8:fixed": "node src/wk8/fixed.js",
     "wk8:author": "node src/wk8/author.js",

@@ -2,10 +2,11 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-03-10 10:46:03
+ * @Last Modified time: 2021-04-22 15:30:17
  */
 const utils = require('../utils')
 
+const rewrite = false
 const __raw = utils.root('data/agefans/raw.json')
 const __detail = utils.root('data/agefans/detail.json')
 const __anime = utils.root('data/agefans/anime.json')
@@ -23,8 +24,6 @@ Object.keys(raw).forEach(idRaw => {
     detail[idRaw] = raw[idRaw]
   }
 })
-
-const rewrite = false
 
 async function run() {
   const idsDetail = Object.keys(detail)
