@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-01-06 18:15:49
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-22 16:44:02
+ * @Last Modified time: 2021-04-22 20:05:15
  */
 const utils = require('../utils')
 
@@ -17,7 +17,7 @@ const matched = utils.read(__matched)
 const temp = {}
 wenku.forEach(item => (temp[item.id] = item))
 
-const rewrite = false
+const rewrite = true
 
 async function run() {
   const idsDetail = Object.keys(detail)
