@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-22 15:30:17
+ * @Last Modified time: 2021-05-17 11:19:43
  */
 const utils = require('../utils')
 
@@ -84,8 +84,10 @@ async function run() {
   }
 
   anime.forEach(item => {
-    item.ep = raw[item.ageId].ep
-    item.status = raw[item.ageId].status
+    if (raw[item.ageId]) {
+      item.ep = raw[item.ageId].ep
+      item.status = raw[item.ageId].status
+    }
   })
   if (rewrite) {
     const idsAnime = Object.keys(anime)

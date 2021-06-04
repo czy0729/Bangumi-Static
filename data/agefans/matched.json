@@ -791,6 +791,18 @@
     "official": "小丑社",
     "area": "jp"
   },
+  "20030021": {
+    "id": 4370,
+    "cn": "爱的魔法",
+    "ep": "",
+    "type": "TV",
+    "jp": "まぶらほ",
+    "begin": "2003-10-14",
+    "status": "完结",
+    "tags": "搞笑 奇幻 后宫",
+    "official": "J.C.STAFF",
+    "area": "jp"
+  },
   "20040001": {
     "id": 536,
     "cn": "妖精的旋律",
@@ -4101,6 +4113,18 @@
     "status": "完结",
     "tags": "治愈 恋爱",
     "official": "MADHOUSE",
+    "area": "jp"
+  },
+  "20090068": {
+    "id": 5640,
+    "cn": "对学生会长的忠告",
+    "ep": "[OVA 01-02]",
+    "type": "OVA",
+    "jp": "生徒会長に忠告",
+    "begin": "2009-11-27",
+    "status": "完结",
+    "tags": "校园 耽美",
+    "official": "PrimeTime",
     "area": "jp"
   },
   "20100001": {
@@ -33239,6 +33263,18 @@
     "official": "彗星社",
     "area": "jp"
   },
+  "20210141": {
+    "id": 330652,
+    "cn": "魔卡派对",
+    "ep": "",
+    "type": "TV",
+    "jp": "マジカパーティ",
+    "begin": "2021-04-04",
+    "status": "未播放",
+    "tags": "科幻 亲子",
+    "official": "暂无",
+    "area": "jp"
+  },
   "20210142": {
     "id": 330394,
     "cn": "魔法使的新娘 西之少年与青岚的骑士",
@@ -33609,6 +33645,114 @@
     "status": "未播放",
     "tags": "奇幻 战斗",
     "official": "LIDENFILMS",
+    "area": "jp"
+  },
+  "20210190": {
+    "id": 251674,
+    "cn": "东离剑游纪3",
+    "ep": "第4集",
+    "type": "WEB",
+    "jp": "Thunderbolt Fantasy 東離劍遊紀 3",
+    "begin": "2021-04",
+    "status": "连载",
+    "tags": "奇幻 武侠 战斗",
+    "official": "暂无",
+    "area": "jp"
+  },
+  "20210194": {
+    "id": 277360,
+    "cn": "武士弥助",
+    "ep": "第6集",
+    "type": "WEB",
+    "jp": "Yasuke -ヤスケ-",
+    "begin": "2021-04-29",
+    "status": "完结",
+    "tags": "热血 战斗",
+    "official": "MAPPA",
+    "area": "jp"
+  },
+  "20210198": {
+    "id": 319286,
+    "cn": "见面5秒开始战斗",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "出会って5秒でバトル",
+    "begin": "2021-07-12",
+    "status": "未播放",
+    "tags": "奇幻 战斗",
+    "official": "暂无",
+    "area": "jp"
+  },
+  "20210199": {
+    "id": 335225,
+    "cn": "古见同学有交流障碍症",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "古見さんは、コミュ症です。",
+    "begin": "2021-10",
+    "status": "未播放",
+    "tags": "搞笑 校园",
+    "official": "OLM",
+    "area": "jp"
+  },
+  "20210201": {
+    "id": 329909,
+    "cn": "RE-MAIN",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "RE-MAIN",
+    "begin": "2021-07-03",
+    "status": "完结",
+    "tags": "运动",
+    "official": "MAPPA",
+    "area": "jp"
+  },
+  "20210202": {
+    "id": 331031,
+    "cn": "绯红结系",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "SCARLET NEXUS",
+    "begin": "2021-07-01",
+    "status": "未播放",
+    "tags": "奇幻 战斗",
+    "official": "SUNRISE",
+    "area": "jp"
+  },
+  "20210203": {
+    "id": 335389,
+    "cn": "OVERLORD 第四季",
+    "ep": "",
+    "type": "TV",
+    "jp": "オーバーロードIV",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "冒险 后宫 奇幻",
+    "official": "MADHOUSE",
+    "area": "jp"
+  },
+  "20210204": {
+    "id": 332570,
+    "cn": "小林家的龙女仆 迷你龙",
+    "ep": "第6集",
+    "type": "WEB",
+    "jp": "ミニドラ",
+    "begin": "2021-04-07",
+    "status": "连载",
+    "tags": "搞笑 奇幻",
+    "official": "京都动画",
+    "area": "jp"
+  },
+  "20210205": {
+    "id": 333349,
+    "cn": "迦希女王不会放弃",
+    "ep": "",
+    "type": "TV",
+    "jp": "ジャヒー様はくじけない！",
+    "begin": "2021-07-31",
+    "status": "未播放",
+    "tags": "奇幻 励志",
+    "official": "SILVER LINK.",
     "area": "jp"
   },
   "20220001": {

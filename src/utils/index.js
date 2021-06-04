@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-12 15:27:25
+ * @Last Modified time: 2021-06-05 07:31:42
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -202,6 +202,40 @@ async function download(url, pathData) {
   })
 }
 
+async function download2(url, pathData) {
+  return new Promise(async (resolve, reject) => {
+    if (fs.existsSync(pathData)) {
+      console.log(`- skip ${pathData}`)
+      return resolve(true)
+    }
+
+    const dirPath = path.dirname(pathData)
+    if (!fs.existsSync(dirPath)) {
+      const rootPath = path.join(dirPath, '..')
+      if (!fs.existsSync(rootPath)) {
+        fs.mkdirSync(rootPath)
+      }
+      fs.mkdirSync(dirPath)
+    }
+
+    const writer = fs.createWriteStream(pathData)
+    const response = await axios({
+      url: `https:${url}`,
+      method: 'GET',
+      responseType: 'stream'
+      // headers: {
+      //   referer: 'http://bgm.tv/'
+      // }
+    })
+
+    response.data.pipe(writer)
+    writer.on('finish', () => {
+      console.log(url)
+      resolve()
+    })
+  })
+}
+
 /**
  *
  * @param {*} fetchs
@@ -298,9 +332,8 @@ function HTMLDecode(str = '') {
 /**
  * hash
  */
-const I64BIT_TABLE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-'.split(
-  ''
-)
+const I64BIT_TABLE =
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-'.split('')
 function hash(input) {
   if (!input) {
     return input
@@ -341,6 +374,7 @@ module.exports = {
   toSimplifiedChar,
   large,
   download,
+  download2,
   queue,
   getTimestamp,
   similar,

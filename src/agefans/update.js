@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-22 16:33:52
+ * @Last Modified time: 2021-05-17 14:17:13
  */
 const utils = require('../utils')
 
@@ -11,7 +11,7 @@ const anime = utils.read(__anime)
 
 async function run() {
   const idsAnime = Object.keys(anime)
-  for (let indexAnime = 0; indexAnime <= idsAnime.length; indexAnime++) {
+  for (let indexAnime = 2780; indexAnime <= idsAnime.length; indexAnime++) {
     const itemAnime = anime[indexAnime] || {}
     if (itemAnime) {
       // 从bgm条目页获取实时数据
@@ -19,14 +19,16 @@ async function run() {
       const url = `https://api.bgm.tv/subject/${idBgm}?responseGroup=large`
       const data = await utils.fetch(url)
 
-      anime[indexAnime].score = data.rating && data.rating.score
-      anime[indexAnime].rank = data.rank
-      console.log(
-        `[${indexAnime} | ${idsAnime.length}]`,
-        itemAnime.cn,
-        anime[indexAnime].score,
-        anime[indexAnime].rank
-      )
+      if (data && anime[indexAnime]) {
+        anime[indexAnime].score = data.rating && data.rating.score
+        anime[indexAnime].rank = data.rank
+        console.log(
+          `[${indexAnime} | ${idsAnime.length}]`,
+          itemAnime.cn,
+          anime[indexAnime].score,
+          anime[indexAnime].rank
+        )
+      }
 
       if (indexAnime % 20 === 0) {
         console.log('save', indexAnime)

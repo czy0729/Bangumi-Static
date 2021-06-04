@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-04-05 03:20:34
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-11 01:34:41
+ * @Last Modified time: 2021-06-05 07:30:06
  */
 const utils = require('../utils')
 const { fetchHome } = require('../utils/third-party/old-fetch')
@@ -31,7 +31,7 @@ async function run() {
 
   await utils.queue(
     covers.map(item => () =>
-      utils.download(item.cover, __cover(item.subjectId))
+      utils.download2(item.cover, __cover(item.subjectId))
     ),
     2
   )
