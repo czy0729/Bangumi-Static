@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-17 14:17:13
+ * @Last Modified time: 2021-06-11 02:23:55
  */
 const utils = require('../utils')
 
@@ -11,7 +11,7 @@ const anime = utils.read(__anime)
 
 async function run() {
   const idsAnime = Object.keys(anime)
-  for (let indexAnime = 2780; indexAnime <= idsAnime.length; indexAnime++) {
+  for (let indexAnime = 0; indexAnime <= idsAnime.length; indexAnime++) {
     const itemAnime = anime[indexAnime] || {}
     if (itemAnime) {
       // 从bgm条目页获取实时数据

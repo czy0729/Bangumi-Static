@@ -5,13 +5,14 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-22 15:02:09
+ * @Last Modified time: 2021-06-11 02:08:31
  */
 const utils = require('../utils')
 
 const __raw = utils.root('data/agefans/raw.json')
 const raw = utils.read(__raw)
 
+const host = 'https://www.agefans.cc'
 const pages = [
   { type: '日本', p: 108, area: 'jp' },
   { type: '中国', p: 19, area: 'cn' }
@@ -21,7 +22,7 @@ async function run() {
   for (let index = 0; index < pages.length; index++) {
     const { type, p, area } = pages[index]
     for (let page = 0; page <= p; page++) {
-      const url = `https://www.agefans.net/catalog/all-all-all-all-all-time-${page}-${encodeURIComponent(
+      const url = `${host}/catalog/all-all-all-all-all-time-${page}-${encodeURIComponent(
         type
       )}-all-all`
       const data = await utils.fetch(url)
@@ -39,14 +40,7 @@ async function run() {
         )
         if (!id) return
 
-        const [
-          type,
-          jp,
-          begin,
-          status,
-          tags,
-          official
-        ] = matchInfo(
+        const [type, jp, begin, status, tags, official] = matchInfo(
           utils.htmlTrim($row.find('div.cell_imform_kvs').html().trim()),
           [
             '动画种类',
