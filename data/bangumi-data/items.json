@@ -121626,6 +121626,10 @@
       {
         "site": "bangumi",
         "id": "303399"
+      },
+      {
+        "site": "gamer",
+        "id": "110755"
       }
     ],
     "titleTranslate": {
@@ -121689,6 +121693,14 @@
       {
         "site": "bilibili",
         "id": "28233904"
+      },
+      {
+        "site": "gamer",
+        "id": "114038"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjvJN2SFMgzFzhqxMLM4n2D"
       }
     ],
     "titleTranslate": {
@@ -121708,6 +121720,14 @@
       {
         "site": "bilibili",
         "id": "28233251"
+      },
+      {
+        "site": "gamer",
+        "id": "106934"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchZ-FgfIawwu0qyC5T1sh9A"
       }
     ],
     "titleTranslate": {
@@ -121746,6 +121766,14 @@
       {
         "site": "nicovideo",
         "id": "higehiro-anime"
+      },
+      {
+        "site": "gamer",
+        "id": "112745"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchHiNDYxFn-UaEPsQD-cL1l"
       }
     ],
     "titleTranslate": {
@@ -121773,6 +121801,10 @@
       {
         "site": "acfun",
         "id": "6005304"
+      },
+      {
+        "site": "gamer",
+        "id": "112916"
       }
     ],
     "titleTranslate": {
@@ -121800,6 +121832,14 @@
       {
         "site": "acfun",
         "id": "6005296"
+      },
+      {
+        "site": "gamer",
+        "id": "113545"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucga-y8Lo_49r61L_tFwShuR"
       }
     ],
     "titleTranslate": {
@@ -121823,6 +121863,10 @@
       {
         "site": "bilibili",
         "id": "28233903"
+      },
+      {
+        "site": "gamer",
+        "id": "116061"
       }
     ],
     "titleTranslate": {
@@ -121850,6 +121894,10 @@
       {
         "site": "acfun",
         "id": "6005278"
+      },
+      {
+        "site": "gamer",
+        "id": "108268"
       }
     ],
     "titleTranslate": {
@@ -121903,6 +121951,14 @@
       {
         "site": "bangumi",
         "id": "308936"
+      },
+      {
+        "site": "gamer",
+        "id": "112046"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch24ToiTn-Yl1UyX7r-RFzB"
       }
     ],
     "titleTranslate": {
@@ -121918,6 +121974,14 @@
       {
         "site": "bangumi",
         "id": "319252"
+      },
+      {
+        "site": "gamer",
+        "id": "116524"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchtU-rMECl3p2BQGbCGe16c"
       }
     ],
     "titleTranslate": {
@@ -121941,6 +122005,10 @@
       {
         "site": "bilibili",
         "id": "6005304"
+      },
+      {
+        "site": "gamer",
+        "id": "113810"
       }
     ],
     "titleTranslate": {
@@ -121964,6 +122032,14 @@
       {
         "site": "acfun",
         "id": "6005289"
+      },
+      {
+        "site": "gamer",
+        "id": "108840"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchJtkD2pc0O_W-7bn-jBCHn"
       }
     ],
     "titleTranslate": {
@@ -122002,6 +122078,10 @@
       {
         "site": "youku",
         "id": "acea9ca68d7d439aa7a0"
+      },
+      {
+        "site": "gamer",
+        "id": "114853"
       }
     ],
     "titleTranslate": {
@@ -122021,6 +122101,14 @@
       {
         "site": "acfun",
         "id": "6005288"
+      },
+      {
+        "site": "gamer",
+        "id": "110445"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjbUiGCAoS1N8NCaOoIFqLS"
       }
     ],
     "titleTranslate": {
@@ -122040,6 +122128,10 @@
       {
         "site": "nicovideo",
         "id": "kabaddi"
+      },
+      {
+        "site": "gamer",
+        "id": "114035"
       }
     ],
     "titleTranslate": {
@@ -122059,8 +122151,17 @@
       {
         "site": "nicovideo",
         "id": "oddtaxi"
+      },
+      {
+        "site": "gamer",
+        "id": "115368"
       }
-    ]
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "奇巧计程车"
+      ]
+    }
   },
   {
     "title": "SHAMAN KING",
@@ -122119,6 +122220,10 @@
       {
         "site": "nicovideo",
         "id": "cf-vanguard_overdress"
+      },
+      {
+        "site": "gamer",
+        "id": "115927"
       }
     ],
     "titleTranslate": {
@@ -122138,6 +122243,10 @@
       {
         "site": "bilibili",
         "id": "28233896"
+      },
+      {
+        "site": "gamer",
+        "id": "109471"
       }
     ],
     "titleTranslate": {
@@ -122205,6 +122314,10 @@
       {
         "site": "acfun",
         "id": "6005297"
+      },
+      {
+        "site": "gamer",
+        "id": "112786"
       }
     ],
     "titleTranslate": {
@@ -122220,6 +122333,10 @@
       {
         "site": "bangumi",
         "id": "327771"
+      },
+      {
+        "site": "gamer",
+        "id": "115000"
       }
     ]
   },
@@ -122281,6 +122398,10 @@
       {
         "site": "acfun",
         "id": "6005298"
+      },
+      {
+        "site": "gamer",
+        "id": "112286"
       }
     ],
     "titleTranslate": {
@@ -122304,6 +122425,10 @@
       {
         "site": "acfun",
         "id": "6005287"
+      },
+      {
+        "site": "gamer",
+        "id": "113490"
       }
     ],
     "titleTranslate": {
@@ -122327,6 +122452,10 @@
       {
         "site": "bilibili",
         "id": "28233921"
+      },
+      {
+        "site": "gamer",
+        "id": "115850"
       }
     ]
   },
@@ -122365,6 +122494,10 @@
       {
         "site": "nicovideo",
         "id": "sushisumo"
+      },
+      {
+        "site": "gamer",
+        "id": "116720"
       }
     ]
   },
@@ -122383,6 +122516,10 @@
       {
         "site": "bilibili",
         "id": "28233941"
+      },
+      {
+        "site": "gamer",
+        "id": "114177"
       }
     ],
     "titleTranslate": {
@@ -122406,6 +122543,10 @@
       {
         "site": "bilibili",
         "id": "28233940"
+      },
+      {
+        "site": "gamer",
+        "id": "110437"
       }
     ],
     "titleTranslate": {
@@ -122454,6 +122595,10 @@
       {
         "site": "nicovideo",
         "id": "joran"
+      },
+      {
+        "site": "gamer",
+        "id": "115852"
       }
     ],
     "titleTranslate": {
@@ -122477,6 +122622,10 @@
       {
         "site": "bilibili",
         "id": "28233942"
+      },
+      {
+        "site": "gamer",
+        "id": "115369"
       }
     ],
     "titleTranslate": {
@@ -122496,6 +122645,14 @@
       {
         "site": "nicovideo",
         "id": "sevenknights-anime"
+      },
+      {
+        "site": "gamer",
+        "id": "115759"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcivLSgm5i_gPfjLWrOZRdg9"
       }
     ],
     "titleTranslate": {
@@ -122562,6 +122719,10 @@
       {
         "site": "bilibili",
         "id": "28233916"
+      },
+      {
+        "site": "gamer",
+        "id": "115627"
       }
     ],
     "titleTranslate": {
@@ -122577,6 +122738,10 @@
       {
         "site": "bangumi",
         "id": "318541"
+      },
+      {
+        "site": "gamer",
+        "id": "114476"
       }
     ],
     "titleTranslate": {
@@ -122600,6 +122765,10 @@
       {
         "site": "bilibili",
         "id": "28233920"
+      },
+      {
+        "site": "gamer",
+        "id": "112159"
       }
     ],
     "titleTranslate": {
@@ -122644,6 +122813,14 @@
       {
         "site": "nicovideo",
         "id": "hetalia-ws"
+      },
+      {
+        "site": "gamer",
+        "id": "114343"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucjw-J3kkXs12FL_oKMSK5NI"
       }
     ],
     "titleTranslate": {
@@ -122663,6 +122840,10 @@
       {
         "site": "nicovideo",
         "id": "kurogal_cf-anime"
+      },
+      {
+        "site": "gamer",
+        "id": "116249"
       }
     ],
     "titleTranslate": {
@@ -122686,6 +122867,14 @@
       {
         "site": "acfun",
         "id": "6005303"
+      },
+      {
+        "site": "gamer",
+        "id": "110335"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjZ2OmQhdJqxJ1NNDqac_lu"
       }
     ],
     "titleTranslate": {
