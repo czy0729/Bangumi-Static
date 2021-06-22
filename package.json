@@ -22,7 +22,10 @@
     "wk8:min": "node src/wk8/min.js",
     "wk8:fixed": "node src/wk8/fixed.js",
     "wk8:author": "node src/wk8/author.js",
-    "wk8:cate": "node src/wk8/cate.js"
+    "wk8:cate": "node src/wk8/cate.js",
+    "h": "node src/h/raw.js",
+    "h:list": "node src/h/list.js",
+    "h:detail": "node src/h/detail.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
