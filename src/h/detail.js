@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-06-23 06:06:49
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-23 07:21:51
+ * @Last Modified time: 2021-06-24 04:30:46
  */
 const utils = require('../utils')
 
@@ -61,8 +61,9 @@ async function run() {
             : ''
         itemDetail.jp = data.name || ''
         itemDetail.cn = data.name_cn || ''
-        itemDetail.score = data.rating && data.rating.score
-        itemDetail.rank = data.rank
+        itemDetail.score = (data.rating && data.rating.score) || 0
+        itemDetail.rank = data.rank || 0
+        itemDetail.total = (data.rating && data.rating.total) || 0
       }
     }
 

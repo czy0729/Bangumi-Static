@@ -25,7 +25,8 @@
     "wk8:cate": "node src/wk8/cate.js",
     "h": "node src/h/raw.js",
     "h:list": "node src/h/list.js",
-    "h:detail": "node src/h/detail.js"
+    "h:detail": "node src/h/detail.js",
+    "h:search": "node src/h/search.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
