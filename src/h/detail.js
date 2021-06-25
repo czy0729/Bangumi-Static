@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-06-23 06:06:49
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-24 04:30:46
+ * @Last Modified time: 2021-06-25 11:07:13
  */
 const utils = require('../utils')
 
@@ -21,7 +21,6 @@ async function run() {
     )
     if (!idBgm) continue
     if (detail[idBgm]) {
-      console.log('skip')
       continue
     }
 
@@ -34,7 +33,6 @@ async function run() {
 
     if (itemDetail.h) {
       const url = `${host}/watch?v=${itemDetail.h}`
-      console.log(url)
       const data = await utils.fetch(url)
 
       const $ = utils.cheerio(data)
@@ -49,7 +47,6 @@ async function run() {
 
     if (itemDetail.id) {
       const url = `https://api.bgm.tv/subject/${itemDetail.id}?responseGroup=large`
-      console.log(url)
       const data = await utils.fetch(url)
       if (data) {
         itemDetail.images =
@@ -64,10 +61,16 @@ async function run() {
         itemDetail.score = (data.rating && data.rating.score) || 0
         itemDetail.rank = data.rank || 0
         itemDetail.total = (data.rating && data.rating.total) || 0
+        itemDetail.air = data.air_date || ''
+        itemDetail.ep = data.eps_count || ''
       }
     }
 
     detail[itemDetail.id] = itemDetail
+    console.log(
+      `https://bgm.tv/subject/${itemDetail.id}`,
+      detail[itemDetail.id].cn || detail[itemDetail.id].jp
+    )
 
     if (index % 10 === 0) {
       utils.write(__detail, detail)

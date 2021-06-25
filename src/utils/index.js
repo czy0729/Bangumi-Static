@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-05 07:31:42
+ * @Last Modified time: 2021-06-25 13:50:47
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -14,6 +14,7 @@ const path = require('path')
 const http = require('http')
 const cnchars = require('cn-chars')
 const ora = require('./third-party/ora')
+const cnChar = require('./third-party/cn-char/index')
 
 require('events').EventEmitter.defaultMaxListeners = 0
 axios.defaults.timeout = 3000
@@ -379,5 +380,6 @@ module.exports = {
   getTimestamp,
   similar,
   HTMLDecode,
-  hash
+  hash,
+  t2s: cnChar.t2s
 }

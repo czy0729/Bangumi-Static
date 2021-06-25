@@ -26,7 +26,8 @@
     "h": "node src/h/raw.js",
     "h:list": "node src/h/list.js",
     "h:detail": "node src/h/detail.js",
-    "h:search": "node src/h/search.js"
+    "h:search": "node src/h/search.js",
+    "h:min": "node src/h/min.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
