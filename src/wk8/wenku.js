@@ -2,26 +2,31 @@
  * @Author: czy0729
  * @Date: 2021-01-06 18:15:49
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-22 20:05:15
+ * @Last Modified time: 2021-06-26 16:10:54
  */
 const utils = require('../utils')
 
-const __raw = utils.root('data/wenku8/raw.json')
 const __detail = utils.root('data/wenku8/detail.json')
 const __wenku = utils.root('data/wenku8/wenku.json')
 const __matched = utils.root('data/wenku8/matched.json')
-const raw = utils.read(__raw)
+const raw = utils.read(utils.root('data/wenku8/raw.json'))
 const detail = utils.read(__detail)
 const wenku = utils.read(__wenku)
 const matched = utils.read(__matched)
+
 const temp = {}
 wenku.forEach(item => (temp[item.id] = item))
 
 const rewrite = true
+const startIndex = 0
 
 async function run() {
   const idsDetail = Object.keys(detail)
-  for (let indexDetail = 0; indexDetail <= idsDetail.length; indexDetail++) {
+  for (
+    let indexDetail = startIndex;
+    indexDetail <= idsDetail.length;
+    indexDetail++
+  ) {
     const idDetail = Number(idsDetail[indexDetail])
     const itemDetail = detail[idDetail] || {}
 

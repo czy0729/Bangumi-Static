@@ -6,7 +6,7 @@
  * @Author: czy0729
  * @Date: 2020-08-03 09:55:03
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-08-23 18:24:06
+ * @Last Modified time: 2021-06-26 16:40:40
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -25,15 +25,15 @@ const host = 'https://bangumi.tv'
 const headers = {
   Host: host.split('//')[1],
   Cookie:
-    'chii_cookietime=2592000; prg_display_mode=normal; chii_theme_choose=1; chii_theme=dark; __utmz=1.1589339084.751.82.utmcsr=bgm.tv|utmccn=(referral)|utmcmd=referral|utmcct=/group/topic/356269; __utma=1.359815985.1557241163.1598173588.1598177402.819; __utmc=1; __utmt=1; chii_searchDateLine=0; chii_sid=16tt6m; chii_auth=v%2FFIw16BrAGj8YnW7bAyVfCWiOofir4aH5HtYYO61UqhjKbKCqT22w%2BmmWYk9q3DOZ7%2Fe%2FB2Hl10LbT6lBlJNY0%2FNX8%2FKwEE9feD; __utmb=1.27.10.1598177402',
+    'chii_sec_id=gKB4FVqYg8LPoxJJctmSAsCl5PZ8bR5Vs%2BGdgLWE; chii_cookietime=2592000; chii_theme_choose=1; __utmz=1.1621966126.187.10.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; chii_theme=dark; chii_auth=ayzByt8yYpFTz1wAk9dKpUZ0WmvrnKChvSMBmJPkS4ccadkUQweDf0NjJCbgfmAjGS4%2FMK03D4%2BypWrbXi8WkJ5Xd2cydK05CukX; prg_display_mode=tiny; chii_sid=VZXw6T; __utma=1.859723941.1616215584.1624586631.1624694129.212; __utmc=1; __utmt=1; __utmb=1.29.10.1624694129',
   'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
 }
 
 // 固定配置
-const configFilePath = './data/wenku8/config.json'
-const rawFilePath = './data/wenku8/raw.json'
-const dataFilePath = './data/wenku8/data.json'
+const configFilePath = './data/wenku8/deprecated/config.json'
+const rawFilePath = './data/wenku8/deprecated/raw.json'
+const dataFilePath = './data/wenku8/deprecated/data.json'
 const configData = JSON.parse(fs.readFileSync(configFilePath))
 const matchData = JSON.parse(fs.readFileSync(dataFilePath))
 const rawData = JSON.parse(fs.readFileSync(rawFilePath))

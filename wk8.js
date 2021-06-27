@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2020-07-29 15:10:12
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-22 16:39:14
+ * @Last Modified time: 2021-06-26 15:44:01
  */
 const fs = require('fs')
 const path = require('path')
@@ -14,7 +14,7 @@ const iconv = require('iconv-lite')
 
 const fileConfig = './data/wenku8/deprecated/config.json'
 const fileRaw = './data/wenku8/raw.json'
-const pages = 2935
+const pages = 2966
 
 function cheerio(target) {
   return typeof target === 'string'
@@ -64,8 +64,8 @@ async function getHtml(url) {
 }
 
 function save(config, data) {
-  fs.writeFileSync(fileConfig, JSON.stringify(config))
-  fs.writeFileSync(fileRaw, JSON.stringify(data))
+  fs.writeFileSync(fileConfig, JSON.stringify(config, null, 2))
+  fs.writeFileSync(fileRaw, JSON.stringify(data, null, 2))
   console.log('save', config)
 }
 

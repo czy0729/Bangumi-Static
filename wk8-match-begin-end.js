@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-09-03 14:14:28
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-09-03 20:06:38
+ * @Last Modified time: 2021-06-27 08:36:44
  */
 const fs = require('fs')
 
@@ -12,7 +12,7 @@ function fixed(time) {
       .replace(/年|月/g, '-')
       .replace(/[^\d|-]/g, '')
       .split('-')
-      .map((item) => (Number(item) < 10 ? `0${Number(item)}` : item))
+      .map(item => (Number(item) < 10 ? `0${Number(item)}` : item))
       .join('-')
   }
 
@@ -20,7 +20,7 @@ function fixed(time) {
     .replace(/年/g, '-')
     .replace(/[^\d|-]/g, '')
     .split('-')
-    .map((item) => (Number(item) < 10 ? `0${Number(item)}` : item))
+    .map(item => (Number(item) < 10 ? `0${Number(item)}` : item))
     .join('-')
 }
 
@@ -28,8 +28,8 @@ function fixed(time) {
   const notFindIds = []
   const finallyNotFindIds = []
 
-  const data = JSON.parse(fs.readFileSync('./data/wenku8/data.json'))
-  Object.keys(data).forEach((id) => {
+  const data = JSON.parse(fs.readFileSync('./data/wenku8/deprecated/data.json'))
+  Object.keys(data).forEach(id => {
     const filePath = `../Bangumi-Subject/data/${Math.floor(
       id / 100
     )}/${id}.json`
@@ -39,7 +39,10 @@ function fixed(time) {
       return
     }
 
-    const subject = JSON.parse(fs.readFileSync(filePath))
+    let subject = {}
+    try {
+      subject = JSON.parse(fs.readFileSync(filePath))
+    } catch (error) {}
     if (!subject.info) {
       notFindIds.push(id)
       return
@@ -63,7 +66,7 @@ function fixed(time) {
   })
 
   // 从单行本1中获取begin
-  notFindIds.forEach((id) => {
+  notFindIds.forEach(id => {
     let filePath = `../Bangumi-Subject/data/${Math.floor(id / 100)}/${id}.json`
 
     if (!fs.existsSync(filePath)) {
@@ -71,7 +74,10 @@ function fixed(time) {
       return
     }
 
-    let subject = JSON.parse(fs.readFileSync(filePath))
+    let subject = {}
+    try {
+      subject = JSON.parse(fs.readFileSync(filePath))
+    } catch (error) {}
     if (
       !(Array.isArray(subject.comic) && subject.comic[0] && subject.comic[0].id)
     ) {
@@ -87,7 +93,9 @@ function fixed(time) {
       return
     }
 
-    subject = JSON.parse(fs.readFileSync(filePath))
+    try {
+      subject = JSON.parse(fs.readFileSync(filePath))
+    } catch (error) {}
     if (!subject.info) {
       finallyNotFindIds.push(id)
       return
@@ -110,7 +118,7 @@ function fixed(time) {
     data[id].begin = fixed(match[2])
   })
 
-  const wenku = Object.keys(data).map((id) => {
+  const wenku = Object.keys(data).map(id => {
     const item = data[id]
     return {
       cn: item.w || '',
@@ -151,11 +159,14 @@ function fixed(time) {
           ? 4
           : item.up === 'S'
           ? 5
-          : 0,
+          : 0
     }
   })
 
-  fs.writeFileSync('./data/wenku8/wenku.json', JSON.stringify(wenku, null, 2))
+  fs.writeFileSync(
+    './data/wenku8/deprecated/wenku.json',
+    JSON.stringify(wenku, null, 2)
+  )
 
   console.log(
     'finallyNotFindCount',
