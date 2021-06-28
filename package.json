@@ -18,6 +18,7 @@
     "age:official": "node src/agefans/official.js",
     "age:min": "node src/agefans/min.js",
     "age:update": "node src/agefans/update.js",
+    "age:app": "node src/agefans/app-fallback.js",
     "wk8": "node src/wk8/wenku.js",
     "wk8:min": "node src/wk8/min.js",
     "wk8:fixed": "node src/wk8/fixed.js",

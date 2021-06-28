@@ -4,34 +4,29 @@
  * @Author: czy0729
  * @Date: 2021-01-06 01:30:20
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-28 13:53:12
+ * @Last Modified time: 2021-06-28 20:44:20
  */
 const utils = require('../utils')
 
-const __min = utils.root('data/wenku8/wenku.min.json')
+const __min = utils.root('data/agefans/anime.min.json')
 const min = utils.read(__min)
-const __app = utils.root('data/wenku8/wenku.app.json')
+const __app = utils.root('data/agefans/anime.app.json')
 
 // 挑选有 rank, 今年和去年的
 // const eg = [
-//   {
-//     id: 29,
-//     w: 38,
-//     an: 1,
-//     a: '新海诚',
-//     e: '第一卷 一卷全',
-//     c: '云之彼端约定之地',
-//     j: '雲のむこう、約束の場所',
-//     i: '44/13/11408_jp',
-//     b: '2006-01-05',
-//     up: '2009-03-08',
-//     ca: 'Fami通文库',
-//     h: 1,
-//     u: 1,
-//     l: 2,
-//     s: 7.6,
-//     r: 1673
-//   }
+// {
+//   "id": 259,
+//   "a": 20080002,
+//   "o": "Brain's Base",
+//   "t": "奇幻 搞笑 神魔 励志 治愈",
+//   "e": "TV 01-13",
+//   "c": "夏目友人帐",
+//   "j": "夏目友人帳",
+//   "i": "cf/a0/259_BlBeX",
+//   "b": "2008-07-07",
+//   "s": 8.1,
+//   "r": 183
+// }
 // ]
 const app = min
   .filter(item => {
@@ -44,8 +39,10 @@ const app = min
     return item.r <= 2000
   })
   .map(item => {
+    delete item.a
+    delete item.o
+    delete item.e
     delete item.j
-    delete item.ca
     return item
   })
 

@@ -2639,6 +2639,42 @@
     "official": "Seven Arcs",
     "area": "jp"
   },
+  "20070055": {
+    "id": 19136,
+    "cn": "神曲奏界",
+    "ep": "[DVD 01-12]",
+    "type": "TV",
+    "jp": "神曲奏界ポリフォニカ",
+    "begin": "2007-04-03",
+    "status": "完结",
+    "tags": "校园 奇幻 后宫",
+    "official": "銀画屋",
+    "area": "jp"
+  },
+  "20070056": {
+    "id": 4803,
+    "cn": "暗夜魔法使",
+    "ep": "[DVD 01-13]",
+    "type": "TV",
+    "jp": "ナイトウィザード The ANIMATION",
+    "begin": "2007-10-02",
+    "status": "完结",
+    "tags": "奇幻 战斗 后宫",
+    "official": "ハルフィルムメーカー / Hal Film Maker",
+    "area": "jp"
+  },
+  "20070057": {
+    "id": 1375,
+    "cn": "骑士战场",
+    "ep": "[DVD 01-12+SP]",
+    "type": "TV",
+    "jp": "PRISM ARK",
+    "begin": "2007-10-07",
+    "status": "完结",
+    "tags": "搞笑 奇幻 后宫",
+    "official": "FRONT LINE",
+    "area": "jp"
+  },
   "20070062": {
     "id": 19136,
     "cn": "神曲奏界",
@@ -4209,6 +4245,18 @@
     "status": "完结",
     "tags": "校园 耽美",
     "official": "PrimeTime",
+    "area": "jp"
+  },
+  "20090069": {
+    "id": 1442,
+    "cn": "神曲奏界 第二季",
+    "ep": "[DVD 01-12]",
+    "type": "TV",
+    "jp": "神曲奏界ポリフォニカ クリムゾンS",
+    "begin": "2009-04-04",
+    "status": "完结",
+    "tags": "校园 奇幻 后宫",
+    "official": "diomedéa",
     "area": "jp"
   },
   "20090071": {
@@ -6273,6 +6321,18 @@
     "status": "完结",
     "tags": "科幻 热血 机战",
     "official": "SUNRISE",
+    "area": "jp"
+  },
+  "20110096": {
+    "id": 10760,
+    "cn": "游戏王ZEXAL",
+    "ep": "第146集(完结)",
+    "type": "TV",
+    "jp": "遊☆戯☆王ZEXAL",
+    "begin": "2011-04-11",
+    "status": "完结",
+    "tags": "奇幻 竞技",
+    "official": "Studio Gallop",
     "area": "jp"
   },
   "20110100": {
@@ -16655,6 +16715,18 @@
     "official": "BN Pictures",
     "area": "jp"
   },
+  "20160241": {
+    "id": 110658,
+    "cn": "Under The Dog",
+    "ep": "[全集]",
+    "type": "OVA",
+    "jp": "Under The Dog",
+    "begin": "2016-08-01",
+    "status": "完结",
+    "tags": "科幻 战斗",
+    "official": "KINEMA CITRUS / Orange",
+    "area": "jp"
+  },
   "20160242": {
     "id": 110658,
     "cn": "Under The Dog",
@@ -23854,6 +23926,18 @@
     "tags": "奇幻 战斗",
     "official": "XFLAG",
     "area": "jp"
+  },
+  "20180360": {
+    "id": 240738,
+    "cn": "少年歌行",
+    "ep": "第26集(完结)",
+    "type": "WEB",
+    "jp": "少年歌行",
+    "begin": "2018-12-26",
+    "status": "完结",
+    "tags": "武侠 战斗",
+    "official": "中影年年",
+    "area": "cn"
   },
   "20180361": {
     "id": 240738,
@@ -31943,6 +32027,18 @@
     "official": "东映动画",
     "area": "jp"
   },
+  "20200376": {
+    "id": 299264,
+    "cn": "西行纪之再见悟空",
+    "ep": "[全集]",
+    "type": "WEB",
+    "jp": "西行纪之再见悟空",
+    "begin": "2020-05",
+    "status": "完结",
+    "tags": "奇幻 热血 战斗",
+    "official": "暂无",
+    "area": "cn"
+  },
   "20210001": {
     "id": 299709,
     "cn": "MARS RED",
@@ -34247,6 +34343,18 @@
     "official": "Fanworks / スペースネコカンパニー",
     "area": "jp"
   },
+  "20210229": {
+    "id": 327561,
+    "cn": "D4DJ Petit Mix",
+    "ep": "第20集",
+    "type": "TV",
+    "jp": "ぷっちみく D4DJ Petit Mix",
+    "begin": "2021-02-05",
+    "status": "连载",
+    "tags": "偶像 歌舞",
+    "official": "DMM.futureworks / ダブトゥーンスタジオ",
+    "area": "jp"
+  },
   "20210230": {
     "id": 234094,
     "cn": "TSUKIPRO THE ANIMATION 第二季",
@@ -34271,6 +34379,150 @@
     "official": "暂无",
     "area": "jp"
   },
+  "20210234": {
+    "id": 286339,
+    "cn": "眷思量",
+    "ep": "第4集",
+    "type": "WEB",
+    "jp": "眷思量",
+    "begin": "2021-06-14",
+    "status": "连载",
+    "tags": "奇幻 玄幻",
+    "official": "暂无",
+    "area": "cn"
+  },
+  "20210235": {
+    "id": 322900,
+    "cn": "终末的女武神",
+    "ep": "第12集(完结)",
+    "type": "WEB",
+    "jp": "終末のワルキューレ",
+    "begin": "2021-06-17",
+    "status": "完结",
+    "tags": "奇幻 热血 战斗",
+    "official": "Graphinica",
+    "area": "jp"
+  },
+  "20210236": {
+    "id": 311310,
+    "cn": "海贼王女",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "海賊王女",
+    "begin": "2021-10",
+    "status": "未播放",
+    "tags": "冒险",
+    "official": "Production I.G",
+    "area": "jp"
+  },
+  "20210239": {
+    "id": 330882,
+    "cn": "D_CIDE TRAUMEREI",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "D_CIDE TRAUMEREI THE ANIMATION",
+    "begin": "2021-07-10",
+    "status": "未播放",
+    "tags": "奇幻 战斗",
+    "official": "SANZIGEN",
+    "area": "jp"
+  },
+  "20210240": {
+    "id": 339515,
+    "cn": "幼女战记 第二季",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "幼女戦記Ⅱ",
+    "begin": "2021",
+    "status": "未播放",
+    "tags": "冒险 奇幻 战争",
+    "official": "NUT",
+    "area": "jp"
+  },
+  "20210242": {
+    "id": 339694,
+    "cn": "如果烧陶的话也做个马克杯吧 第二季",
+    "ep": "",
+    "type": "TV",
+    "jp": "やくならマグカップも 第2期",
+    "begin": "2021-10",
+    "status": "未播放",
+    "tags": "搞笑 校园 百合",
+    "official": "暂无",
+    "area": "jp"
+  },
+  "20210243": {
+    "id": 318602,
+    "cn": "暗夜第六感 2041",
+    "ep": "PV",
+    "type": "TV",
+    "jp": "NIGHT HEAD 2041",
+    "begin": "2021-07-14",
+    "status": "未播放",
+    "tags": "科幻 战斗",
+    "official": "白組",
+    "area": "jp"
+  },
+  "20210244": {
+    "id": 338201,
+    "cn": "暗芝居 第九季",
+    "ep": "",
+    "type": "TV",
+    "jp": "闇芝居 第9期",
+    "begin": "2021-07-11",
+    "status": "未播放",
+    "tags": "恐怖",
+    "official": "暂无",
+    "area": "jp"
+  },
+  "20210245": {
+    "id": 331559,
+    "cn": "咒术回战 0",
+    "ep": "PV",
+    "type": "剧场版",
+    "jp": "劇場版 呪術廻戦 0",
+    "begin": "2021-12-24",
+    "status": "未播放",
+    "tags": "奇幻 热血 战斗",
+    "official": "MAPPA",
+    "area": "jp"
+  },
+  "20210246": {
+    "id": 302373,
+    "cn": "黄金拼图 Thank you!!",
+    "ep": "PV",
+    "type": "剧场版",
+    "jp": "きんいろモザイク Thank you!!",
+    "begin": "2021-08-20",
+    "status": "未播放",
+    "tags": "百合 治愈",
+    "official": "Studio五組 / AXsiZ",
+    "area": "jp"
+  },
+  "20210249": {
+    "id": 331887,
+    "cn": "86-不存在的地域- 第二季",
+    "ep": "",
+    "type": "TV",
+    "jp": "86―エイティシックス― 第2クール",
+    "begin": "2021-10",
+    "status": "未播放",
+    "tags": "科幻 战争",
+    "official": "A-1 Pictures",
+    "area": "jp"
+  },
+  "20210250": {
+    "id": 339708,
+    "cn": "万界仙踪 第五季",
+    "ep": "第3集",
+    "type": "WEB",
+    "jp": "万界仙踪 第五季",
+    "begin": "2021-06-28",
+    "status": "连载",
+    "tags": "奇幻 玄幻",
+    "official": "暂无",
+    "area": "cn"
+  },
   "20220001": {
     "id": 326874,
     "cn": "期待在地下城邂逅有错吗 第四季",
@@ -34292,6 +34544,18 @@
     "begin": "2022",
     "status": "未播放",
     "tags": "搞笑 校园 爱情 后宫",
+    "official": "暂无",
+    "area": "jp"
+  },
+  "20220003": {
+    "id": 313852,
+    "cn": "街角魔族 第二季",
+    "ep": "",
+    "type": "TV",
+    "jp": "まちカドまぞく 2期",
+    "begin": "2022-04",
+    "status": "未播放",
+    "tags": "搞笑 奇幻 百合",
     "official": "暂无",
     "area": "jp"
   }
