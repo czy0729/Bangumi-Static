@@ -23,6 +23,7 @@
     "wk8:fixed": "node src/wk8/fixed.js",
     "wk8:author": "node src/wk8/author.js",
     "wk8:cate": "node src/wk8/cate.js",
+    "wk8:app": "node src/wk8/app-fallback.js",
     "h": "node src/h/raw.js",
     "h:list": "node src/h/list.js",
     "h:detail": "node src/h/detail.js",
