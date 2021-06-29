@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-28 15:53:48
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-29 08:46:29
+ * @Last Modified time: 2021-06-29 09:40:46
  */
 const utils = require('../utils')
 
@@ -27,6 +27,20 @@ async function run() {
 
     // 若item中id和key一样, 就是没处理过的数据, 跳过
     if (!itemDetail.id || itemDetail.id == idDetail) {
+      if (itemDetail.id) {
+        const mangaItem = manga.find(
+          item =>
+            item.manhuaId == itemDetail.id && item.author == itemDetail.author
+        )
+        if (mangaItem) {
+          if (itemDetail.year) temp[mangaItem.id].year = itemDetail.year
+          if (itemDetail.status) temp[mangaItem.id].status = itemDetail.status
+          if (itemDetail.tags) temp[mangaItem.id].tags = itemDetail.tags
+          if (itemDetail.ep) temp[mangaItem.id].ep = itemDetail.ep
+
+          delete detail[idDetail]
+        }
+      }
       continue
     }
 
@@ -48,6 +62,10 @@ async function run() {
     temp[idBgm] = {
       ...itemDetail,
       ...(temp[idBgm] || {}),
+      id: idBgm,
+      author: itemDetail.author || '',
+      tags: itemDetail.tags || '',
+      ep: itemDetail.ep || '',
       cn: data.name_cn || itemDetail.title,
       jp: data.name,
       image:
@@ -64,9 +82,8 @@ async function run() {
           : 0
         : 0,
       rank: data.rank || 0,
-      status: itemDetail.status == '完结' ? 1 : 0,
-      id: idBgm,
-      manhuaId: idDetail
+      manhuaId: idDetail,
+      status: itemDetail.status == '完结' ? 1 : 0
     }
 
     delete temp[idBgm].title
@@ -77,24 +94,6 @@ async function run() {
     if (temp[idBgm].rank == 0) delete temp[idBgm].rank
     if (temp[idBgm].status == 0) delete temp[idBgm].status
     matched[idDetail] = detail[idDetail]
-  }
-
-  if (rewrite) {
-    const idsMatched = Object.keys(matched)
-    for (
-      let indexMatched = 0;
-      indexMatched <= idsMatched.length;
-      indexMatched++
-    ) {
-      const idMatched = idsMatched[indexMatched]
-      const itemMatched = matched[idMatched]
-      if (itemMatched) {
-        if (itemMatched.year) temp[itemMatched.id].year = itemMatched.year
-        if (itemMatched.status) temp[itemMatched.id].status = itemMatched.status
-        if (itemMatched.tags) temp[itemMatched.id].tags = itemMatched.tags
-        if (itemMatched.ep) temp[itemMatched.id].ep = itemMatched.ep
-      }
-    }
   }
 
   utils.write(
