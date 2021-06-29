@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2021-01-06 01:30:20
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-28 20:44:20
+ * @Last Modified time: 2021-06-29 06:27:37
  */
 const utils = require('../utils')
 
@@ -36,13 +36,25 @@ const app = min
 
     if (!item.r) return false
 
-    return item.r <= 2000
+    return item.r <= 800
   })
   .map(item => {
     delete item.a
     delete item.o
     delete item.e
     delete item.j
+    if (item.b) {
+      item.b = item.b
+        .split('-')
+        .filter((i, index) => index < 2)
+        .join('-')
+    }
+    // if (item.t) {
+    //   item.t = item.t
+    //     .split(' ')
+    //     .filter((i, index) => index < 2)
+    //     .join(' ')
+    // }
     return item
   })
 

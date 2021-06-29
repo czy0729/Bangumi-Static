@@ -2,14 +2,14 @@
  * @Author: czy0729
  * @Date: 2021-01-10 00:41:45
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-01-10 04:27:26
+ * @Last Modified time: 2021-06-29 07:48:23
  */
 const utils = require('../utils')
 
 const __detail = utils.root('data/manhuadb/detail.json')
 const detail = utils.read(__detail)
 
-const maxId = 25164
+const maxId = 25800
 
 async function run() {
   const fetchs = []
