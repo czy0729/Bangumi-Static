@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2021-01-06 01:30:20
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-29 08:23:29
+ * @Last Modified time: 2021-06-29 17:24:22
  */
 const utils = require('../utils')
 
@@ -20,9 +20,9 @@ const __app = utils.root('data/manhuadb/manga.app.json')
 //     st: 1,
 //     a: '新海诚',
 //     t: '爱情 生活',
-//     e: '1卷',
+// x   e: '1卷',
 //     c: '云之彼端，约定的地方',
-//     j: '雲のむこう、約束の場所',
+// x   j: '雲のむこう、約束の場所',
 //     i: '44/13/11408_jp',
 //     b: 2012,
 //     s: 7.6,
