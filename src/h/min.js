@@ -2,13 +2,13 @@
  * @Author: czy0729
  * @Date: 2021-06-25 13:51:11
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-25 20:33:01
+ * @Last Modified time: 2021-06-30 09:53:44
  */
 const utils = require('../utils')
 
 const __detail = utils.root('data/h/detail.json')
 const detail = utils.read(__detail)
-const __min = utils.root('data/h/h.json')
+const __min = utils.root('data/h/hentai.min.json')
 
 const allTags = [
   // 人物設定
@@ -114,7 +114,7 @@ const min = Object.keys(detail)
     if (item.jp && item.jp !== item.cn) temp.j = utils.t2s(item.jp)
     if (item.images) temp.i = item.images
     if (item.score) temp.s = item.score
-    if (item.r) temp.r = item.rank
+    if (item.rank) temp.r = item.rank
     if (item.total) temp.n = item.total
     if (item.air && item.air !== '0000-00-00') temp.a = item.air
     if (item.ep) temp.e = item.ep
