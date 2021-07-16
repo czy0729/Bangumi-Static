@@ -1,11 +1,11 @@
 /*
- * https://www.agefans.net/catalog/all-all-all-all-all-time-1-日本-all-all
- * https://www.agefans.net/catalog/all-all-all-all-all-time-1-中国-all-all
+ * https://www.agefans.cc/catalog/all-all-all-all-all-time-1-日本-all-all
+ * https://www.agefans.cc/catalog/all-all-all-all-all-time-1-中国-all-all
  *
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-28 13:19:26
+ * @Last Modified time: 2021-07-16 11:16:37
  */
 const utils = require('../utils')
 
@@ -14,8 +14,8 @@ const raw = utils.read(__raw)
 
 const host = 'https://www.agefans.cc'
 const pages = [
-  { type: '日本', p: 109, area: 'jp' },
-  { type: '中国', p: 19, area: 'cn' }
+  { type: '日本', p: 110, area: 'jp' },
+  { type: '中国', p: 20, area: 'cn' }
 ]
 
 async function run() {
