@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-23 07:04:57
+ * @Last Modified time: 2021-07-17 01:12:55
  */
 const utils = require('../utils')
 
@@ -20,6 +20,7 @@ async function run() {
       const data = await utils.fetch(url)
 
       if (data && anime[indexAnime]) {
+        if (data.air_date) anime[indexAnime].begin = data.air_date
         anime[indexAnime].score = data.rating && data.rating.score
         anime[indexAnime].rank = data.rank
         console.log(
