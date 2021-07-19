@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-10-28 19:40:30
  * @Last Modified by: czy0729
- * @Last Modified time: 2020-11-26 14:39:05
+ * @Last Modified time: 2021-07-19 15:14:08
  */
 const fs = require('fs')
 
@@ -97,4 +97,4 @@ Object.keys(data.data).forEach((monoId) => {
     delete data.data[monoId].r
   }
 })
-fs.writeFileSync('./data/tinygrail/relation-mini.json', JSON.stringify(data))
+fs.writeFileSync('./data/tinygrail/relation.min.json', JSON.stringify(data))
