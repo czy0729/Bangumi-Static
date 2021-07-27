@@ -4685,6 +4685,10 @@
       {
         "site": "bangumi",
         "id": "4583"
+      },
+      {
+        "site": "nicovideo",
+        "id": "gundam-cca"
       }
     ],
     "titleTranslate": {
@@ -13212,6 +13216,10 @@
       {
         "site": "bangumi",
         "id": "23213"
+      },
+      {
+        "site": "nicovideo",
+        "id": "getterrobot1"
       }
     ],
     "titleTranslate": {
@@ -16421,6 +16429,10 @@
       {
         "site": "bangumi",
         "id": "25919"
+      },
+      {
+        "site": "nicovideo",
+        "id": "getterrobot2"
       }
     ],
     "titleTranslate": {
@@ -22617,6 +22629,10 @@
       {
         "site": "bilibili",
         "id": "1996"
+      },
+      {
+        "site": "nicovideo",
+        "id": "planet-es"
       }
     ],
     "titleTranslate": {
@@ -24197,6 +24213,10 @@
       {
         "site": "letv",
         "id": "20755"
+      },
+      {
+        "site": "nicovideo",
+        "id": "tenten-anime"
       }
     ],
     "titleTranslate": {
@@ -24644,6 +24664,10 @@
       {
         "site": "bangumi",
         "id": "25920"
+      },
+      {
+        "site": "nicovideo",
+        "id": "getterrobot3"
       }
     ],
     "titleTranslate": {
@@ -27083,6 +27107,25 @@
     "titleTranslate": {
       "zh-Hans": [
         "扑杀天使朵库萝"
+      ]
+    }
+  },
+  {
+    "title": "天上天下 ULTIMATE FIGHT",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "38766"
+      },
+      {
+        "site": "nicovideo",
+        "id": "tenten-anime-uf"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "天上天下 终极格斗"
       ]
     }
   },
@@ -91839,6 +91882,25 @@
     }
   },
   {
+    "title": "銀魂 愛染香篇",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "161710"
+      },
+      {
+        "site": "nicovideo",
+        "id": "gintama-aizenkouhen1"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "银魂 爱染香篇"
+      ]
+    }
+  },
+  {
     "title": "ヘボット！",
     "type": "tv",
     "sites": [
@@ -94587,6 +94649,10 @@
       {
         "site": "bangumi",
         "id": "170762"
+      },
+      {
+        "site": "nicovideo",
+        "id": "ansatsu2-kagaijugyo"
       }
     ],
     "titleTranslate": {
@@ -102818,6 +102884,25 @@
     }
   },
   {
+    "title": "エスカクロン",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "194852"
+      },
+      {
+        "site": "nicovideo",
+        "id": "escha-chron"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "ESCHA CHRON"
+      ]
+    }
+  },
+  {
     "title": "曇天に笑う＜外伝＞～決別、犲の誓い～",
     "type": "movie",
     "sites": [
@@ -108610,6 +108695,25 @@
     }
   },
   {
+    "title": "劇場版 若おかみは小学生!",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "242483"
+      },
+      {
+        "site": "nicovideo",
+        "id": "waka-okami-movie"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "剧场版 温泉屋的小老板娘"
+      ]
+    }
+  },
+  {
     "title": "映画 HUGっと！プリキュア♡ふたりはプリキュア",
     "type": "movie",
     "sites": [
@@ -110382,6 +110486,25 @@
     }
   },
   {
+    "title": "ドラゴンボール超 ブロリー",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "240287"
+      },
+      {
+        "site": "nicovideo",
+        "id": "dragonball-broly"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "龙珠超 布罗利"
+      ]
+    }
+  },
+  {
     "title": "ドメスティックな彼女",
     "type": "tv",
     "sites": [
@@ -111458,6 +111581,25 @@
     "titleTranslate": {
       "zh-Hans": [
         "LoveLive! Sunshine!! 剧场版 彩虹之上"
+      ]
+    }
+  },
+  {
+    "title": "一騎当千 Western Wolves",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "262276"
+      },
+      {
+        "site": "nicovideo",
+        "id": "ikkitousen"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "一骑当千 Western Wolves"
       ]
     }
   },
@@ -113129,6 +113271,25 @@
     "titleTranslate": {
       "zh-Hans": [
         "少女与战车 最终章 第2话"
+      ]
+    }
+  },
+  {
+    "title": "劇場版 うたの☆プリンスさまっ♪ マジLOVEキングダム",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "203863"
+      },
+      {
+        "site": "nicovideo",
+        "id": "utapri-movie"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "剧场版 歌之王子殿下 真爱王国"
       ]
     }
   },
@@ -117070,6 +117231,10 @@
       {
         "site": "bilibili",
         "id": "28230042"
+      },
+      {
+        "site": "nicovideo",
+        "id": "miabyss-movie2"
       }
     ],
     "titleTranslate": {
@@ -117245,6 +117410,25 @@
     }
   },
   {
+    "title": "世界一初恋～プロポーズ編～",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "289601"
+      },
+      {
+        "site": "nicovideo",
+        "id": "sekai-ichi"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "世界第一初恋～求婚篇～"
+      ]
+    }
+  },
+  {
     "title": "ACCA13区監察課 Regards",
     "type": "ova",
     "sites": [
@@ -117374,6 +117558,10 @@
       {
         "site": "bangumi",
         "id": "272188"
+      },
+      {
+        "site": "nicovideo",
+        "id": "jashinchan2"
       }
     ],
     "titleTranslate": {
@@ -117874,6 +118062,10 @@
       {
         "site": "bangumi",
         "id": "285762"
+      },
+      {
+        "site": "nicovideo",
+        "id": "zorori1_anime"
       }
     ]
   },
@@ -120348,6 +120540,58 @@
     }
   },
   {
+    "title": "モンスターストライク THE MOVIE ルシファー 絶望の夜明け",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "305578"
+      },
+      {
+        "site": "nicovideo",
+        "id": "movie-monster-strike"
+      }
+    ]
+  },
+  {
+    "title": "君は彼方",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "301462"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kimikana"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "你是彼方"
+      ]
+    }
+  },
+  {
+    "title": "グリザイア：ファントムトリガー THE ANIMATION スターゲイザー",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "281325"
+      },
+      {
+        "site": "nicovideo",
+        "id": "grisaia-pt-movie"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "灰色：幻影扳机 STARGAZER"
+      ]
+    }
+  },
+  {
     "title": "進撃の巨人 The Final Season",
     "type": "tv",
     "sites": [
@@ -120410,6 +120654,25 @@
         "id": "kigushun"
       }
     ]
+  },
+  {
+    "title": "劇場版 Fate/Grand Order -神聖円卓領域キャメロット- 前編 Wandering; Agateram",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "255525"
+      },
+      {
+        "site": "nicovideo",
+        "id": "movie-fgo-1wa"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "剧场版 Fate/Grand Order 神圣圆桌领域卡美洛 前篇 Wandering; Agateram"
+      ]
+    }
   },
   {
     "title": "のんのんびより のんすとっぷ",
@@ -121670,6 +121933,10 @@
       {
         "site": "bangumi",
         "id": "325638"
+      },
+      {
+        "site": "nicovideo",
+        "id": "shinkalion_Z"
       }
     ],
     "titleTranslate": {
@@ -121728,6 +121995,10 @@
       {
         "site": "muse_hk",
         "id": "PLuxqoToY7UchZ-FgfIawwu0qyC5T1sh9A"
+      },
+      {
+        "site": "nicovideo",
+        "id": "zombielandsaga-r"
       }
     ],
     "titleTranslate": {
@@ -121917,6 +122188,10 @@
       {
         "site": "bilibili",
         "id": "28233603"
+      },
+      {
+        "site": "nicovideo",
+        "id": "koikimo"
       }
     ],
     "titleTranslate": {
@@ -121936,6 +122211,10 @@
       {
         "site": "bilibili",
         "id": "28232007"
+      },
+      {
+        "site": "nicovideo",
+        "id": "bishonen-tanteidan"
       }
     ],
     "titleTranslate": {
@@ -121959,6 +122238,10 @@
       {
         "site": "muse_hk",
         "id": "PLuxqoToY7Uch24ToiTn-Yl1UyX7r-RFzB"
+      },
+      {
+        "site": "nicovideo",
+        "id": "tokyo-revengers-anime"
       }
     ],
     "titleTranslate": {
@@ -122059,6 +122342,10 @@
       {
         "site": "bilibili",
         "id": "28233919"
+      },
+      {
+        "site": "nicovideo",
+        "id": "doraie"
       }
     ],
     "titleTranslate": {
@@ -122082,6 +122369,10 @@
       {
         "site": "gamer",
         "id": "114853"
+      },
+      {
+        "site": "nicovideo",
+        "id": "fulldive-rpg"
       }
     ],
     "titleTranslate": {
@@ -122109,6 +122400,10 @@
       {
         "site": "muse_hk",
         "id": "PLuxqoToY7UcjbUiGCAoS1N8NCaOoIFqLS"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kisaragi_anime"
       }
     ],
     "titleTranslate": {
@@ -122189,7 +122484,16 @@
   {
     "title": "もっと！まじめにふまじめ かいけつゾロリ(第2シリーズ)",
     "type": "tv",
-    "sites": []
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "336281"
+      },
+      {
+        "site": "nicovideo",
+        "id": "zorori_anime"
+      }
+    ]
   },
   {
     "title": "SSSS.DYNAZENON",
@@ -122566,6 +122870,10 @@
       {
         "site": "bilibili",
         "id": "28233159"
+      },
+      {
+        "site": "nicovideo",
+        "id": "daiundoukai-restart"
       }
     ],
     "titleTranslate": {
@@ -122581,6 +122889,10 @@
       {
         "site": "bangumi",
         "id": "299709"
+      },
+      {
+        "site": "nicovideo",
+        "id": "marsred"
       }
     ]
   },
@@ -122676,6 +122988,10 @@
       {
         "site": "acfun",
         "id": "6005279"
+      },
+      {
+        "site": "nicovideo",
+        "id": "edens-zero"
       }
     ],
     "titleTranslate": {
@@ -122784,6 +123100,10 @@
       {
         "site": "bangumi",
         "id": "326644"
+      },
+      {
+        "site": "nicovideo",
+        "id": "yuyuyu_churutto"
       }
     ]
   },
@@ -122905,5 +123225,909 @@
         "极主夫道"
       ]
     }
+  },
+  {
+    "title": "ミュークルドリーミー みっくす！",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "321387"
+      },
+      {
+        "site": "nicovideo",
+        "id": "mewkledreamy_m"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "甜梦猫 MIX!"
+      ]
+    }
+  },
+  {
+    "title": "妖怪ウォッチ♪",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "333033"
+      },
+      {
+        "site": "nicovideo",
+        "id": "youkai-watch2021"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "妖怪手表♪"
+      ]
+    }
+  },
+  {
+    "title": "Thunderbolt Fantasy 東離劍遊紀 3",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "251674"
+      },
+      {
+        "site": "nicovideo",
+        "id": "thunderboltfantasy3"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "Thunderbolt Fantasy 东离剑游纪 3"
+      ]
+    }
+  },
+  {
+    "title": "猫ジョッキー",
+    "type": "tv",
+    "sites": []
+  },
+  {
+    "title": "劇場版 Fate/Grand Order -神聖円卓領域キャメロット- 後編 Paladin; Agateram",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "255530"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "剧场版 Fate/Grand Order 神圣圆桌领域卡美洛 后篇 Paladin; Agateram"
+      ]
+    }
+  },
+  {
+    "title": "レゴ フレンズ(シーズン2)",
+    "type": "tv",
+    "sites": []
+  },
+  {
+    "title": "よるわまわるよ",
+    "type": "tv",
+    "sites": []
+  },
+  {
+    "title": "ゲッターロボアーク",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "318261"
+      },
+      {
+        "site": "nicovideo",
+        "id": "getterrobot-arc"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "盖塔机器人ARC"
+      ]
+    }
+  },
+  {
+    "title": "白い砂のアクアトープ",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "325281"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchI8eLvRPMGGFHxVD7ynzRI"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234647"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234706"
+      },
+      {
+        "site": "nicovideo",
+        "id": "aquatope-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "白砂的水族馆"
+      ]
+    }
+  },
+  {
+    "title": "SCARLET NEXUS",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "331031"
+      },
+      {
+        "site": "nicovideo",
+        "id": "snx-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "绯红结系"
+      ]
+    }
+  },
+  {
+    "title": "カノジョも彼女",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "319513"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjVW-uvuxJdfBiIaX9uMdLt"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234732"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kanokano-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "女友成双"
+      ]
+    }
+  },
+  {
+    "title": "ぼくたちのリメイク",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "296870"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234556"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234715"
+      },
+      {
+        "site": "nicovideo",
+        "id": "bokurema"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "我们的重制人生"
+      ]
+    }
+  },
+  {
+    "title": "探偵はもう、死んでいる。",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "325727"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234637"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234730"
+      },
+      {
+        "site": "nicovideo",
+        "id": "tanmoshi-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "侦探已经死了。"
+      ]
+    }
+  },
+  {
+    "title": "死神坊ちゃんと黒メイド",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "327055"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234412"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234714"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "死神少爷与黑女仆"
+      ]
+    }
+  },
+  {
+    "title": "月が導く異世界道中",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "317275"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234623"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234719"
+      },
+      {
+        "site": "nicovideo",
+        "id": "tsukimichi"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "月光下的异世界之旅"
+      ]
+    }
+  },
+  {
+    "title": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…X",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "309056"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234614"
+      },
+      {
+        "site": "nicovideo",
+        "id": "hamehura-x-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "转生恶役只好拔除破灭旗标…Ｘ"
+      ]
+    }
+  },
+  {
+    "title": "魔法科高校の優等生",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "323840"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234734"
+      },
+      {
+        "site": "nicovideo",
+        "id": "mahouka-yuutousei"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "魔法科高校的优等生"
+      ]
+    }
+  },
+  {
+    "title": "ひぐらしのなく頃に卒",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "331033"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234723"
+      },
+      {
+        "site": "nicovideo",
+        "id": "higurashianime_202107"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "寒蝉鸣泣之时 卒"
+      ]
+    }
+  },
+  {
+    "title": "小林さんちのメイドラゴンS",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "274234"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234613"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234716"
+      },
+      {
+        "site": "nicovideo",
+        "id": "maidragon_S"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "小林家的龙女仆S"
+      ]
+    }
+  },
+  {
+    "title": "うらみちお兄さん",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "292832"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234615"
+      },
+      {
+        "site": "nicovideo",
+        "id": "uramichi-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "阴晴不定大哥哥"
+      ]
+    }
+  },
+  {
+    "title": "俺、つしま",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "329202"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uchk4hJsWSmNo8er4tbhDW66"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "我，小怼"
+      ]
+    }
+  },
+  {
+    "title": "RE-MAIN",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "329909"
+      },
+      {
+        "site": "nicovideo",
+        "id": "re-main"
+      }
+    ]
+  },
+  {
+    "title": "ヴァニタスの手記",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "331692"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234705"
+      },
+      {
+        "site": "nicovideo",
+        "id": "vanitas-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "瓦尼塔斯的手札"
+      ]
+    }
+  },
+  {
+    "title": "チート薬師のスローライフ～異世界に作ろうドラッグストア～",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "297361"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234707"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "开挂药师的休闲生活～异世界里开药店～"
+      ]
+    }
+  },
+  {
+    "title": "迷宮ブラックカンパニー",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "309668"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234626"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234721"
+      },
+      {
+        "site": "nicovideo",
+        "id": "meikyubc-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "异世界迷宫黑心企业"
+      ]
+    }
+  },
+  {
+    "title": "ジャヒー様はくじけない！",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "333349"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "迦希女王不会放弃"
+      ]
+    }
+  },
+  {
+    "title": "ピーチボーイリバーサイド",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "312223"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234640"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234722"
+      },
+      {
+        "site": "nicovideo",
+        "id": "peachboyriverside"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "桃子男孩渡海而来"
+      ]
+    }
+  },
+  {
+    "title": "Sonny Boy -サニーボーイ-",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "332649"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234650"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234735"
+      },
+      {
+        "site": "nicovideo",
+        "id": "sonny-boy"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "Sonny Boy"
+      ]
+    }
+  },
+  {
+    "title": "ラブライブ！スーパースター!!",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "306742"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchxEhmHdYIzu9Xwtv5cCLN2"
+      },
+      {
+        "site": "nicovideo",
+        "id": "yuigaoka"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "Love Live! Superstar!!"
+      ]
+    }
+  },
+  {
+    "title": "精霊幻想記",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "320851"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234625"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234720"
+      },
+      {
+        "site": "nicovideo",
+        "id": "seireigensouki"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "精灵幻想记"
+      ]
+    }
+  },
+  {
+    "title": "現実主義勇者の王国再建記",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "304319"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234644"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234733"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "现实主义勇者的王国再建记"
+      ]
+    }
+  },
+  {
+    "title": "指先から本気の熱情2-恋人は消防士-",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "332655"
+      },
+      {
+        "site": "nicovideo",
+        "id": "yubinetsu2"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "指尖传出的真挚热情2-恋人是消防员-"
+      ]
+    }
+  },
+  {
+    "title": "出会って5秒でバトル",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "319286"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucin4gYt5FYbWjLn6NDJ8itB"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234627"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234727"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "见面之后5秒开始战斗"
+      ]
+    }
+  },
+  {
+    "title": "女神寮の寮母くん。",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "305390"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234740"
+      },
+      {
+        "site": "nicovideo",
+        "id": "megamiryou"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "女神宿舍的宿管君"
+      ]
+    }
+  },
+  {
+    "title": "アイドリッシュセブン Third BEAT!",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "323960"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234738"
+      },
+      {
+        "site": "nicovideo",
+        "id": "aninana_3"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "IDOLiSH7-偶像星愿- Third BEAT!"
+      ]
+    }
+  },
+  {
+    "title": "かげきしょうじょ!!",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "317680"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234655"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234737"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kageki-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "歌剧少女！！"
+      ]
+    }
+  },
+  {
+    "title": "D_CIDE TRAUMEREI THE ANIMATION",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "330882"
+      },
+      {
+        "site": "nicovideo",
+        "id": "dctm-pj"
+      }
+    ]
+  },
+  {
+    "title": "戦乙女の食卓II",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "310687"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "女武神的餐桌II"
+      ]
+    }
+  },
+  {
+    "title": "TSUKIPRO THE ANIMATION2",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "234094"
+      },
+      {
+        "site": "nicovideo",
+        "id": "tsukipro-anime2"
+      }
+    ]
+  },
+  {
+    "title": "マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "302875"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "魔法纪录 魔法少女小圆外传 第二季 -觉醒前夜-"
+      ]
+    }
+  },
+  {
+    "title": "天官賜福",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "nicovideo",
+        "id": "tgcf-anime"
+      }
+    ]
+  },
+  {
+    "title": "NIGHT HEAD 2041",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "318602"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "暗夜第六感 2041"
+      ]
+    }
+  },
+  {
+    "title": "100万の命の上に俺は立っている(第2シーズン)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "322859"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234641"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234731"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "我立于百万生命之上"
+      ]
+    }
+  },
+  {
+    "title": "転生したらスライムだった件 第2期 第2部",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "302523"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "关于我转生变成史莱姆这档事 第二季"
+      ]
+    }
+  },
+  {
+    "title": "Obey Me!",
+    "type": "web",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "341513"
+      },
+      {
+        "site": "nicovideo",
+        "id": "obeyme"
+      }
+    ]
   }
 ]
