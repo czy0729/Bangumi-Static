@@ -1,46 +1,46 @@
 {
   "anime": [
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/274234.jpg",
-      "title": "小林さんちのメイドラゴンS",
-      "subjectId": "274234",
-      "info": "4859人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/312723.jpg",
-      "title": "平穏世代の韋駄天達",
-      "subjectId": "312723",
-      "info": "1522人关注"
-    },
-    {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/302875.jpg",
       "title": "マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-",
       "subjectId": "302875",
-      "info": "1715人关注"
+      "info": "1926人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/332649.jpg",
-      "title": "Sonny Boy -サニーボーイ-",
-      "subjectId": "332649",
-      "info": "3028人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/274234.jpg",
+      "title": "小林さんちのメイドラゴンS",
+      "subjectId": "274234",
+      "info": "5153人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/306742.jpg",
       "title": "ラブライブ！スーパースター!!",
       "subjectId": "306742",
-      "info": "2173人关注"
+      "info": "2481人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/312723.jpg",
+      "title": "平穏世代の韋駄天達",
+      "subjectId": "312723",
+      "info": "1779人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/332649.jpg",
+      "title": "Sonny Boy -サニーボーイ-",
+      "subjectId": "332649",
+      "info": "3222人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/309668.jpg",
       "title": "迷宮ブラックカンパニー",
       "subjectId": "309668",
-      "info": "1952人关注"
+      "info": "2166人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/333349.jpg",
       "title": "ジャヒー様はくじけない！",
       "subjectId": "333349",
-      "info": "1152人关注"
+      "info": "1235人关注"
     }
   ],
   "game": [
@@ -48,87 +48,87 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/284157.jpg",
       "title": "原神",
       "subjectId": "284157",
-      "info": "1082人关注"
+      "info": "1113人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/316637.jpg",
-      "title": "冥契のルペルカリア",
-      "subjectId": "316637",
-      "info": "706人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/317672.jpg",
-      "title": "LOOPERS",
-      "subjectId": "317672",
-      "info": "631人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/295364.jpg",
+      "title": "ハミダシクリエイティブ",
+      "subjectId": "295364",
+      "info": "673人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/344272.jpg",
       "title": "PARQUET",
       "subjectId": "344272",
-      "info": "200人关注"
+      "info": "266人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/309777.jpg",
-      "title": "紅月ゆれる恋あかり",
-      "subjectId": "309777",
-      "info": "326人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/46874.jpg",
+      "title": "月姫 -A piece of blue glass moon-",
+      "subjectId": "46874",
+      "info": "677人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/22423.jpg",
       "title": "サクラノ詩 —櫻の森の上を舞う—",
       "subjectId": "22423",
-      "info": "4498人关注"
+      "info": "4556人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/319807.jpg",
-      "title": "天結いラビリンスマイスター",
-      "subjectId": "319807",
-      "info": "209人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/4639.jpg",
+      "title": "素晴らしき日々～不連続存在～",
+      "subjectId": "4639",
+      "info": "6278人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/316637.jpg",
+      "title": "冥契のルペルカリア",
+      "subjectId": "316637",
+      "info": "737人关注"
     }
   ],
   "book": [
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/342254.jpg",
-      "title": "ルックバック",
-      "subjectId": "342254",
-      "info": "678人关注"
-    },
-    {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/268279.jpg",
       "title": "チェンソーマン",
       "subjectId": "268279",
-      "info": "2731人关注"
+      "info": "2792人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/342254.jpg",
+      "title": "ルックバック",
+      "subjectId": "342254",
+      "info": "745人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/179872.jpg",
       "title": "ファイアパンチ",
       "subjectId": "179872",
-      "info": "1694人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/305429.jpg",
-      "title": "葬送のフリーレン",
-      "subjectId": "305429",
-      "info": "863人关注"
+      "info": "1739人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/135218.jpg",
       "title": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
       "subjectId": "135218",
-      "info": "1697人关注"
+      "info": "1715人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/305429.jpg",
+      "title": "葬送のフリーレン",
+      "subjectId": "305429",
+      "info": "881人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/4923.jpg",
       "title": "鋼の錬金術師",
       "subjectId": "4923",
-      "info": "2116人关注"
+      "info": "2142人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/9640.jpg",
       "title": "ベルセルク",
       "subjectId": "9640",
-      "info": "1903人关注"
+      "info": "1927人关注"
     }
   ],
   "music": [
@@ -136,43 +136,43 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/321924.jpg",
       "title": "One Last Kiss",
       "subjectId": "321924",
-      "info": "341人关注"
+      "info": "372人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/238923.jpg",
       "title": "Xenoblade2 Original Soundtrack",
       "subjectId": "238923",
-      "info": "501人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/616.jpg",
-      "title": "CLANNAD Original SoundTrack",
-      "subjectId": "616",
-      "info": "2208人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/342373.jpg",
-      "title": "原神-珍珠之歌 The Shimmering Voyage",
-      "subjectId": "342373",
-      "info": "45人关注"
+      "info": "513人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/323831.jpg",
       "title": "Shiro SAGISU Music from“SHIN EVANGELION&quot;",
       "subjectId": "323831",
-      "info": "63人关注"
+      "info": "75人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/616.jpg",
+      "title": "CLANNAD Original SoundTrack",
+      "subjectId": "616",
+      "info": "2223人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/163164.jpg",
       "title": "サクラノ詩 サウンドトラックCD",
       "subjectId": "163164",
-      "info": "1082人关注"
+      "info": "1098人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/336243.jpg",
-      "title": "月海の揺り籠",
-      "subjectId": "336243",
-      "info": "27人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/8063.jpg",
+      "title": "素晴らしき日々 サウンドトラックCD",
+      "subjectId": "8063",
+      "info": "845人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/343611.jpg",
+      "title": "THE IDOLM＠STERシリーズ イメージソング2021「VOY＠GER」【765PRO ALLSTARS盤】",
+      "subjectId": "343611",
+      "info": "25人关注"
     }
   ],
   "real": [
@@ -180,44 +180,44 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/333282.jpg",
       "title": "ウルトラマントリガー NEW GENERATION TIGA",
       "subjectId": "333282",
-      "info": "185人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/334587.jpg",
-      "title": "ハコヅメ～たたかう！交番女子～",
-      "subjectId": "334587",
-      "info": "96人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/334706.jpg",
-      "title": "觉醒年代",
-      "subjectId": "334706",
-      "info": "118人关注"
+      "info": "197人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/340045.jpg",
       "title": "来世ではちゃんとします2",
       "subjectId": "340045",
-      "info": "20人关注"
+      "info": "30人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/347257.jpg",
+      "title": "扫黑风暴",
+      "subjectId": "347257",
+      "info": "25人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/334587.jpg",
+      "title": "ハコヅメ～たたかう！交番女子～",
+      "subjectId": "334587",
+      "info": "103人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/311585.jpg",
       "title": "仮面ライダーセイバー",
       "subjectId": "311585",
-      "info": "197人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/304573.jpg",
-      "title": "ウルトラマンゼット",
-      "subjectId": "304573",
-      "info": "573人关注"
+      "info": "206人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/338446.jpg",
       "title": "孤独のグルメ Season9",
       "subjectId": "338446",
-      "info": "38人关注"
+      "info": "42人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/334706.jpg",
+      "title": "觉醒年代",
+      "subjectId": "334706",
+      "info": "129人关注"
     }
   ],
-  "today": "今日上映 15 部，共 11455 人收看"
+  "today": "今日上映 7 部，共 2796 人收看"
 }
