@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-25 13:50:47
+ * @Last Modified time: 2021-09-29 07:18:28
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -177,7 +177,7 @@ function large(src = '') {
 async function download(url, pathData) {
   return new Promise((resolve, reject) => {
     if (fs.existsSync(pathData)) {
-      console.log(`- skip ${pathData}`)
+      // console.log(`- skip ${pathData}`)
       return resolve(true)
     }
 
@@ -206,7 +206,7 @@ async function download(url, pathData) {
 async function download2(url, pathData) {
   return new Promise(async (resolve, reject) => {
     if (fs.existsSync(pathData)) {
-      console.log(`- skip ${pathData}`)
+      // console.log(`- skip ${pathData}`)
       return resolve(true)
     }
 
