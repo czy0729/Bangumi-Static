@@ -5,7 +5,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-11-04 09:02:01
+ * @Last Modified time: 2021-12-05 08:57:12
  */
 const utils = require('../utils')
 
@@ -14,8 +14,8 @@ const raw = utils.read(__raw)
 
 const host = 'https://www.agefans.vip' // .life
 const pages = [
-  { type: '日本', p: 115, area: 'jp' },
-  { type: '中国', p: 22, area: 'cn' }
+  { type: '日本', p: 116, area: 'jp' },
+  { type: '中国', p: 24, area: 'cn' }
 ]
 
 async function run() {
