@@ -1,90 +1,90 @@
 {
   "anime": [
     {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/332261.jpg",
+      "title": "ジョジョの奇妙な冒険 ストーンオーシャン",
+      "subjectId": "332261",
+      "info": "2055人关注"
+    },
+    {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/296109.jpg",
       "title": "王様ランキング",
       "subjectId": "296109",
-      "info": "4662人关注"
+      "info": "4767人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/335036.jpg",
       "title": "Arcane",
       "subjectId": "335036",
-      "info": "1953人关注"
+      "info": "2187人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/332261.jpg",
-      "title": "ジョジョの奇妙な冒険 ストーンオーシャン",
-      "subjectId": "332261",
-      "info": "1555人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/328195.jpg",
+      "title": "鬼滅の刃 遊郭編",
+      "subjectId": "328195",
+      "info": "1402人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/325585.jpg",
       "title": "無職転生 ～異世界行ったら本気だす～ 第2クール",
       "subjectId": "325585",
-      "info": "5005人关注"
+      "info": "5244人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/328313.jpg",
       "title": "世界最高の暗殺者、異世界貴族に転生する",
       "subjectId": "328313",
-      "info": "2961人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/335225.jpg",
-      "title": "古見さんは、コミュ症です。",
-      "subjectId": "335225",
-      "info": "2997人关注"
+      "info": "3055人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/319739.jpg",
       "title": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました",
       "subjectId": "319739",
-      "info": "1780人关注"
+      "info": "1863人关注"
     }
   ],
   "game": [
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/314512.jpg",
-      "title": "終ノ空 remake",
-      "subjectId": "314512",
-      "info": "821人关注"
-    },
-    {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/336983.jpg",
       "title": "創作彼女の恋愛公式",
       "subjectId": "336983",
-      "info": "394人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/228423.jpg",
-      "title": "真・女神転生V",
-      "subjectId": "228423",
-      "info": "192人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/338909.jpg",
-      "title": "Forza Horizon 5",
-      "subjectId": "338909",
-      "info": "105人关注"
+      "info": "427人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/284157.jpg",
       "title": "原神",
       "subjectId": "284157",
-      "info": "1301人关注"
+      "info": "1323人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/322181.jpg",
       "title": "ウチはもう、延期できない。",
       "subjectId": "322181",
-      "info": "134人关注"
+      "info": "208人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/228423.jpg",
+      "title": "真・女神転生V",
+      "subjectId": "228423",
+      "info": "202人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/314512.jpg",
+      "title": "終ノ空 remake",
+      "subjectId": "314512",
+      "info": "840人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/293734.jpg",
       "title": "俺の姿が、透明に！？ 不可視の薬（インビジブル）と数奇な運命",
       "subjectId": "293734",
-      "info": "301人关注"
+      "info": "304人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/324663.jpg",
+      "title": "小白兔电商",
+      "subjectId": "324663",
+      "info": "134人关注"
     }
   ],
   "book": [
@@ -92,43 +92,43 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/268279.jpg",
       "title": "チェンソーマン",
       "subjectId": "268279",
-      "info": "3117人关注"
+      "info": "3151人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/279379.jpg",
       "title": "SPY×FAMILY",
       "subjectId": "279379",
-      "info": "827人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/297409.jpg",
-      "title": "王様ランキング",
-      "subjectId": "297409",
-      "info": "184人关注"
+      "info": "847人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/305429.jpg",
       "title": "葬送のフリーレン",
       "subjectId": "305429",
-      "info": "1059人关注"
+      "info": "1071人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/303186.jpg",
       "title": "【推しの子】",
       "subjectId": "303186",
-      "info": "788人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/135218.jpg",
-      "title": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
-      "subjectId": "135218",
-      "info": "1857人关注"
+      "info": "795人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/179872.jpg",
       "title": "ファイアパンチ",
       "subjectId": "179872",
-      "info": "1974人关注"
+      "info": "2001人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/135218.jpg",
+      "title": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+      "subjectId": "135218",
+      "info": "1865人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/297409.jpg",
+      "title": "王様ランキング",
+      "subjectId": "297409",
+      "info": "192人关注"
     }
   ],
   "music": [
@@ -136,43 +136,43 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/321924.jpg",
       "title": "One Last Kiss",
       "subjectId": "321924",
-      "info": "495人关注"
+      "info": "508人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/163164.jpg",
       "title": "サクラノ詩 サウンドトラックCD",
       "subjectId": "163164",
-      "info": "1176人关注"
+      "info": "1186人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/616.jpg",
       "title": "CLANNAD Original SoundTrack",
       "subjectId": "616",
-      "info": "2309人关注"
+      "info": "2317人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/238923.jpg",
       "title": "Xenoblade2 Original Soundtrack",
       "subjectId": "238923",
-      "info": "596人关注"
+      "info": "601人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/8063.jpg",
       "title": "素晴らしき日々 サウンドトラックCD",
       "subjectId": "8063",
-      "info": "903人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/339410.jpg",
-      "title": "TV ANIMATION「Sonny Boy」soundtrack",
-      "subjectId": "339410",
-      "info": "87人关注"
+      "info": "910人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/349507.jpg",
       "title": "ヒカレイノチ",
       "subjectId": "349507",
-      "info": "26人关注"
+      "info": "27人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/339410.jpg",
+      "title": "TV ANIMATION「Sonny Boy」soundtrack",
+      "subjectId": "339410",
+      "info": "93人关注"
     }
   ],
   "real": [
@@ -180,44 +180,44 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/346327.jpg",
       "title": "最愛",
       "subjectId": "346327",
-      "info": "140人关注"
+      "info": "150人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/343491.jpg",
       "title": "仮面ライダーリバイス",
       "subjectId": "343491",
-      "info": "278人关注"
+      "info": "286人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/280916.jpg",
       "title": "Hawkeye",
       "subjectId": "280916",
-      "info": "31人关注"
+      "info": "36人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/216514.jpg",
       "title": "Cowboy Bebop",
       "subjectId": "216514",
-      "info": "51人关注"
+      "info": "54人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/333282.jpg",
-      "title": "ウルトラマントリガー NEW GENERATION TIGA",
-      "subjectId": "333282",
-      "info": "268人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/342276.jpg",
-      "title": "恋です！〜ヤンキー君と白杖ガール〜",
-      "subjectId": "342276",
-      "info": "49人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/316043.jpg",
+      "title": "日本沈没ー希望のひとー",
+      "subjectId": "316043",
+      "info": "63人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/349534.jpg",
       "title": "오징어 게임",
       "subjectId": "349534",
-      "info": "314人关注"
+      "info": "321人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/353565.jpg",
+      "title": "美しい彼",
+      "subjectId": "353565",
+      "info": "15人关注"
     }
   ],
-  "today": "今日上映 13 部，共 15160 人收看"
+  "today": "今日上映 17 部，共 10586 人收看"
 }
