@@ -5482,6 +5482,10 @@
       {
         "site": "bilibili",
         "id": "2397"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjuFGSZR8N3SEYTVStToEcF"
       }
     ],
     "titleTranslate": {
@@ -6594,6 +6598,10 @@
       {
         "site": "bilibili",
         "id": "2350"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgRTB106KfQHKncVda6Z4gs"
       }
     ],
     "titleTranslate": {
@@ -7652,6 +7660,10 @@
       {
         "site": "bilibili",
         "id": "3808"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jgvd7Mh1tBfgWmitzhSZk8n"
       }
     ],
     "titleTranslate": {
@@ -8240,6 +8252,10 @@
       {
         "site": "nicovideo",
         "id": "SLAM_DUNK"
+      },
+      {
+        "site": "viu",
+        "id": "6979"
       }
     ],
     "titleTranslate": {
@@ -8758,6 +8774,10 @@
       {
         "site": "bilibili",
         "id": "3809"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jgv63BpD8ovpSFlCSOu8DvO"
       }
     ],
     "titleTranslate": {
@@ -10859,6 +10879,10 @@
       {
         "site": "bilibili",
         "id": "3810"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgQvieGk4fBN7k5kOkV39n7"
       }
     ],
     "titleTranslate": {
@@ -11885,6 +11909,25 @@
     "titleTranslate": {
       "zh-Hans": [
         "魔法骑士雷阿斯OVA"
+      ]
+    }
+  },
+  {
+    "title": "爆走兄弟レッツ&amp;ゴー!!WGP 暴走ミニ四駆大追跡!",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "47761"
+      },
+      {
+        "site": "nicovideo",
+        "id": "let_go_movie"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "四驱兄弟WGP 暴走四驱大追踪"
       ]
     }
   },
@@ -13472,6 +13515,10 @@
       {
         "site": "bangumi",
         "id": "2049"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjnSpufHgb5n149YLV40nGq"
       }
     ],
     "titleTranslate": {
@@ -13705,6 +13752,10 @@
       {
         "site": "bilibili",
         "id": "3811"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jhvg0oQv2-2zfLLsPAIVtV8"
       }
     ],
     "titleTranslate": {
@@ -14857,6 +14908,10 @@
       {
         "site": "bangumi",
         "id": "975"
+      },
+      {
+        "site": "viu",
+        "id": "111395"
       }
     ],
     "titleTranslate": {
@@ -17809,6 +17864,10 @@
       {
         "site": "youku",
         "id": "cc006556962411de83b1"
+      },
+      {
+        "site": "viu",
+        "id": "113004"
       }
     ],
     "titleTranslate": {
@@ -25791,6 +25850,10 @@
       {
         "site": "letv",
         "id": "43214"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uchz6Zsp3CFQn2pQCj41n128"
       }
     ],
     "titleTranslate": {
@@ -29192,6 +29255,10 @@
       {
         "site": "qq",
         "id": "k/kb4dc9q9gm1bycn"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JidaDsFTVB4wTaYX2xTfVEu"
       }
     ],
     "titleTranslate": {
@@ -33131,6 +33198,14 @@
       {
         "site": "nicovideo",
         "id": "geass-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjAnuR364t-jBwsAaVxuFI-"
+      },
+      {
+        "site": "viu",
+        "id": "139787"
       }
     ],
     "titleTranslate": {
@@ -33558,6 +33633,10 @@
       {
         "site": "qq",
         "id": "j/j4ythupw8fnzge6"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jg4yMjLRe171bWygUuGsBUp"
       }
     ],
     "titleTranslate": {
@@ -33726,6 +33805,10 @@
       {
         "site": "bangumi",
         "id": "11121"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kabuto_borg"
       }
     ],
     "titleTranslate": {
@@ -34720,6 +34803,10 @@
       {
         "site": "qq",
         "id": "s/szdqwhbgc8ndydf"
+      },
+      {
+        "site": "viu",
+        "id": "300892"
       }
     ],
     "titleTranslate": {
@@ -39250,6 +39337,14 @@
       {
         "site": "nicovideo",
         "id": "geass-r2-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhJi1De2SBVmkdPbKKUHZcg"
+      },
+      {
+        "site": "viu",
+        "id": "142095"
       }
     ],
     "titleTranslate": {
@@ -41074,6 +41169,10 @@
       {
         "site": "qq",
         "id": "l/l17dlx05njwfkg8"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jg-1AyeZte-bfluCiRe4H4R"
       }
     ],
     "titleTranslate": {
@@ -41388,6 +41487,10 @@
       {
         "site": "bilibili",
         "id": "1201"
+      },
+      {
+        "site": "nicovideo",
+        "id": "ga-rei-zero"
       }
     ],
     "titleTranslate": {
@@ -41630,6 +41733,10 @@
       {
         "site": "bilibili",
         "id": "963"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjExwGpdRIIlhUwSdoBgR3B"
       }
     ],
     "titleTranslate": {
@@ -43297,6 +43404,10 @@
       {
         "site": "youku",
         "id": "028d1d1aca8911de97c0"
+      },
+      {
+        "site": "viu",
+        "id": "50830"
       }
     ],
     "titleTranslate": {
@@ -45629,6 +45740,10 @@
       {
         "site": "acfun",
         "id": "6000272"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchoOeTFg7F04N_ohKEskLW6"
       }
     ],
     "titleTranslate": {
@@ -46110,6 +46225,10 @@
       {
         "site": "qq",
         "id": "m/mzc00200oaoutfz"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjRO9Fe_YimRDz_MS1TAyz1"
       }
     ],
     "titleTranslate": {
@@ -49307,6 +49426,10 @@
       {
         "site": "bilibili",
         "id": "964"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjyuDiweddsPnMOyjjMItIA"
       }
     ],
     "titleTranslate": {
@@ -50646,6 +50769,10 @@
       {
         "site": "bilibili",
         "id": "952"
+      },
+      {
+        "site": "viu",
+        "id": "319209"
       }
     ],
     "titleTranslate": {
@@ -50692,6 +50819,10 @@
       {
         "site": "nicovideo",
         "id": "is"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucg7wR1-DayExCINPEOMfetm"
       }
     ],
     "titleTranslate": {
@@ -53251,6 +53382,10 @@
       {
         "site": "youku",
         "id": "8b010d64a6ab11e0a046"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgAs47XGUZfNJpf6dPQwPaq"
       }
     ],
     "titleTranslate": {
@@ -54461,6 +54596,10 @@
       {
         "site": "qq",
         "id": "7/7jz9cvnvr3s21ot"
+      },
+      {
+        "site": "viu",
+        "id": "125149"
       }
     ],
     "titleTranslate": {
@@ -54685,6 +54824,10 @@
       {
         "site": "bilibili",
         "id": "2717"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiabJWgeHEguAWjwwJ-3_un"
       }
     ],
     "titleTranslate": {
@@ -57600,6 +57743,10 @@
       {
         "site": "nicovideo",
         "id": "kotenbu"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjiORqMgRYYU6MhBCjYhF3C"
       }
     ],
     "titleTranslate": {
@@ -58950,6 +59097,10 @@
       {
         "site": "qq",
         "id": "9/9k7p6iy908sypi2"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgC8tIHKgmLxxPx64AS2Xw_"
       }
     ],
     "titleTranslate": {
@@ -60603,6 +60754,10 @@
       {
         "site": "bilibili",
         "id": "28223479"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucji0PcTAIZ2yiMhi3Q923_D"
       }
     ],
     "titleTranslate": {
@@ -60949,6 +61104,10 @@
       {
         "site": "bilibili",
         "id": "470"
+      },
+      {
+        "site": "viu",
+        "id": "361140"
       }
     ],
     "titleTranslate": {
@@ -62419,6 +62578,10 @@
       {
         "site": "bilibili",
         "id": "3068"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucg911FcLdA8NU1ttLzxtnHO"
       }
     ],
     "titleTranslate": {
@@ -62442,6 +62605,10 @@
       {
         "site": "bilibili",
         "id": "134672"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchMT5iL2ctCE2z7zkrNuicX"
       }
     ],
     "titleTranslate": {
@@ -62967,6 +63134,14 @@
       {
         "site": "bilibili",
         "id": "965"
+      },
+      {
+        "site": "nicovideo",
+        "id": "toaru-index-movie"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjyuDiweddsPnMOyjjMItIA"
       }
     ],
     "titleTranslate": {
@@ -63627,6 +63802,10 @@
       {
         "site": "bilibili",
         "id": "2932"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uchhhuv2hCfFrHiiG6pocIyJ"
       }
     ],
     "titleTranslate": {
@@ -63865,6 +64044,10 @@
       {
         "site": "acfun",
         "id": "6000233"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchL8hhmBeb-W17GFGnEhbQS"
       }
     ],
     "titleTranslate": {
@@ -64104,6 +64287,10 @@
       {
         "site": "youku",
         "id": "7042f73e7bd511e296ac"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjDMRPsKRbZ81TH-EUiWu3K"
       }
     ],
     "titleTranslate": {
@@ -65707,6 +65894,10 @@
       {
         "site": "bilibili",
         "id": "4404"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JguvDcNjXMoExm2aM847RJY"
       }
     ],
     "titleTranslate": {
@@ -65900,6 +66091,10 @@
       {
         "site": "iqiyi",
         "id": "a_ahwc19gr8l"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgKJSiAv3T_rKUjH-uSG3Td"
       }
     ],
     "titleTranslate": {
@@ -67349,6 +67544,10 @@
       {
         "site": "bilibili",
         "id": "3489"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjWeYHDlP1RLcz3O_SNQQ0X"
       }
     ],
     "titleTranslate": {
@@ -67636,6 +67835,10 @@
       {
         "site": "youku",
         "id": "95002512e3cf11e29748"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Ji9l-zVZPIfBAe6sw36m8Q7"
       }
     ],
     "titleTranslate": {
@@ -67787,6 +67990,10 @@
       {
         "site": "netflix",
         "id": "80028089"
+      },
+      {
+        "site": "viu",
+        "id": "362040"
       }
     ],
     "titleTranslate": {
@@ -68004,6 +68211,10 @@
       {
         "site": "qq",
         "id": "3/38fl6pnhzlfo25d"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiyjiUHOCej8aPmPoOqWmNV"
       }
     ],
     "titleTranslate": {
@@ -68142,6 +68353,10 @@
       {
         "site": "nicovideo",
         "id": "tokyo-ravens"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Ji-CNndI9zyymP9FYpl4QvR"
       }
     ],
     "titleTranslate": {
@@ -69064,6 +69279,25 @@
     }
   },
   {
+    "title": "進撃の巨人 OAD",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "80993"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcisKxV6lK7plJ2rIATfqPOn"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "进击的巨人 OAD"
+      ]
+    }
+  },
+  {
     "title": "フューチャーカード バディファイト",
     "type": "tv",
     "sites": [
@@ -69727,6 +69961,10 @@
       {
         "site": "nicovideo",
         "id": "hozukino-reitetsu"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch2vrqtQARKtuW44rJD-A9G"
       }
     ],
     "titleTranslate": {
@@ -69762,6 +70000,10 @@
       {
         "site": "acfun",
         "id": "6003887"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgPfOJS-e6QUe8ctz2hGg-S"
       }
     ],
     "titleTranslate": {
@@ -71220,6 +71462,10 @@
       {
         "site": "qq",
         "id": "z/zvl5lvvvv30mdul"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgV7pj508-vG2SEJK0Hv38a"
       }
     ],
     "titleTranslate": {
@@ -71251,6 +71497,10 @@
       {
         "site": "bilibili",
         "id": "28223481"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjJs5nKHF6g9nA7wG5FuFxe"
       }
     ],
     "titleTranslate": {
@@ -71702,6 +71952,10 @@
       {
         "site": "nicovideo",
         "id": "lovelive02"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucg4UxOWY1bcKt0jYEjtsJMs"
       }
     ],
     "titleTranslate": {
@@ -71752,6 +72006,14 @@
       {
         "site": "bilibili",
         "id": "28221614"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jj89wMj2yzRnsY-db5DswlG"
+      },
+      {
+        "site": "viu",
+        "id": "370818"
       }
     ],
     "titleTranslate": {
@@ -71946,6 +72208,10 @@
       {
         "site": "nicovideo",
         "id": "yugioh-arcv"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgizmNAVjEKGo53-7I2Trqf"
       }
     ],
     "titleTranslate": {
@@ -72174,6 +72440,10 @@
       {
         "site": "acfun",
         "id": "6003895"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciKHm0HCsEPMX0sCf0vg-Kf"
       }
     ],
     "titleTranslate": {
@@ -72279,6 +72549,10 @@
       {
         "site": "acfun",
         "id": "6000708"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JglGq-5PMtbewK96Z_7Au8J"
       }
     ],
     "titleTranslate": {
@@ -72387,6 +72661,10 @@
       {
         "site": "nicovideo",
         "id": "gochiusa"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciEERWYj2dr6LVgNP-L2Bga"
       }
     ],
     "titleTranslate": {
@@ -72745,6 +73023,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrgyi8b9"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci3v8pLJ-qgBD_ObQgcmRpb"
       }
     ],
     "titleTranslate": {
@@ -72909,6 +73191,10 @@
       {
         "site": "bilibili",
         "id": "3803"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgqFnHYwmroqvGkXgBJrb-4"
       }
     ],
     "titleTranslate": {
@@ -73647,6 +73933,10 @@
       {
         "site": "nicovideo",
         "id": "sailormoon-Crystal"
+      },
+      {
+        "site": "viu",
+        "id": "379979"
       }
     ],
     "titleTranslate": {
@@ -73767,6 +74057,10 @@
       {
         "site": "bilibili",
         "id": "28229392"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucgb77h-YILZHjNv9JPVsRVI"
       }
     ],
     "titleTranslate": {
@@ -74277,6 +74571,10 @@
       {
         "site": "bilibili",
         "id": "102352"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchMT5iL2ctCE2z7zkrNuicX"
       }
     ],
     "titleTranslate": {
@@ -74350,6 +74648,10 @@
       {
         "site": "nicovideo",
         "id": "prisma-illya-2wei"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjsjPs89xphZwisLfHCkAny"
       }
     ],
     "titleTranslate": {
@@ -74446,6 +74748,10 @@
       {
         "site": "nicovideo",
         "id": "p4g"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgNN070eeo92TdTrySLWxzP"
       }
     ],
     "titleTranslate": {
@@ -75584,6 +75890,10 @@
       {
         "site": "acfun",
         "id": "6003942"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jjqnrf4PJ0NWxsLLn42Rt_v"
       }
     ],
     "titleTranslate": {
@@ -75673,6 +75983,10 @@
       {
         "site": "bilibili",
         "id": "4067"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgyXhmETAaJ8rrotQADqhPe"
       }
     ],
     "titleTranslate": {
@@ -75840,6 +76154,10 @@
       {
         "site": "nicovideo",
         "id": "grisaia-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhoQiWYSrbkpGFSn1nq8GWB"
       }
     ],
     "titleTranslate": {
@@ -75998,6 +76316,10 @@
       {
         "site": "bilibili",
         "id": "4058"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjLA1p6DAUFlWn8FHu3b7kC"
       }
     ],
     "titleTranslate": {
@@ -76543,7 +76865,7 @@
       },
       {
         "site": "nicovideo",
-        "id": "bonkoi"
+        "id": "bonkoi-anime"
       },
       {
         "site": "youku",
@@ -77440,6 +77762,25 @@
     }
   },
   {
+    "title": "進撃の巨人 悔いなき選択 OAD",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "110049"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcisKxV6lK7plJ2rIATfqPOn"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "进击的巨人 无悔的选择"
+      ]
+    }
+  },
+  {
     "title": "探偵歌劇 ミルキィホームズ TD",
     "type": "tv",
     "sites": [
@@ -77570,6 +77911,10 @@
       {
         "site": "bilibili",
         "id": "4216"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucikfi0FYpjkxJx7Uure9ARj"
       }
     ],
     "titleTranslate": {
@@ -78179,6 +78524,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrhay5ht"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucib76kq1h8C6T0TTmG-bW9b"
       }
     ],
     "titleTranslate": {
@@ -78233,6 +78582,10 @@
       {
         "site": "bilibili",
         "id": "28229393"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucgb77h-YILZHjNv9JPVsRVI"
       }
     ],
     "titleTranslate": {
@@ -78501,6 +78854,10 @@
       {
         "site": "bangumi",
         "id": "147686"
+      },
+      {
+        "site": "viu",
+        "id": "379979"
       }
     ],
     "titleTranslate": {
@@ -79480,6 +79837,10 @@
       {
         "site": "qq",
         "id": "r/re90b178rfe6z5a"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjJRtW-6ARI19jYmjSNC028"
       }
     ],
     "titleTranslate": {
@@ -79724,6 +80085,10 @@
       {
         "site": "nicovideo",
         "id": "utapri3"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjygPwlUHLiYLA3lKnvR1Z0"
       }
     ],
     "titleTranslate": {
@@ -80518,6 +80883,10 @@
       {
         "site": "nicovideo",
         "id": "yamajo"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjskJ0TWP1V9KqH-szrYbpi"
       }
     ],
     "titleTranslate": {
@@ -80549,6 +80918,10 @@
       {
         "site": "qq",
         "id": "d/dxyo394yfz7t0ml"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JijxJQAQavVv6JFeVjCY2OK"
       }
     ],
     "titleTranslate": {
@@ -80618,6 +80991,10 @@
       {
         "site": "qq",
         "id": "b/bfvf34glatn9uu0"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Ji6EKF5EhBvz03AXzb52Ywi"
       }
     ],
     "titleTranslate": {
@@ -81358,6 +81735,10 @@
       {
         "site": "nicovideo",
         "id": "lovelive-school-idol-movie"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucg911FcLdA8NU1ttLzxtnHO"
       }
     ],
     "titleTranslate": {
@@ -81664,6 +82045,10 @@
       {
         "site": "bangumi",
         "id": "124185"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgAOiMCdN3ne3RUCEOrBQJE"
       }
     ],
     "titleTranslate": {
@@ -82137,6 +82522,10 @@
       {
         "site": "bangumi",
         "id": "132220"
+      },
+      {
+        "site": "viu",
+        "id": "72669"
       }
     ],
     "titleTranslate": {
@@ -82283,6 +82672,10 @@
       {
         "site": "nicovideo",
         "id": "overlord-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiIura5SogPzrVGaujqXYsc"
       }
     ],
     "titleTranslate": {
@@ -82762,6 +83155,10 @@
       {
         "site": "nicovideo",
         "id": "prisma-illya02"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjKvkZM_SA5vMvFSJaOpQ2m"
       }
     ],
     "titleTranslate": {
@@ -83342,6 +83739,10 @@
       {
         "site": "youku",
         "id": "64d9893a55d011e5b5ce"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjA7aCvdC0Hxot6oJWMcD5j"
       }
     ],
     "titleTranslate": {
@@ -83604,6 +84005,10 @@
       {
         "site": "qq",
         "id": "m/mzc00200qe4kro7"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchX3ZhQcPolG1Ho73Zcq6B-"
       }
     ],
     "titleTranslate": {
@@ -83947,6 +84352,14 @@
       {
         "site": "nicovideo",
         "id": "haikyu02"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh1Q9eywt3xbryU2shwg488"
+      },
+      {
+        "site": "viu",
+        "id": "370821"
       }
     ],
     "titleTranslate": {
@@ -84699,6 +85112,10 @@
       {
         "site": "nicovideo",
         "id": "gochiusa2"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchRGJOkrh2Kw0kfVtTWpn_k"
       }
     ],
     "titleTranslate": {
@@ -85150,6 +85567,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrh5n9sd"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch2nFpGgRSQvgcTHojOsjH3"
       }
     ]
   },
@@ -85991,6 +86412,10 @@
       {
         "site": "bangumi",
         "id": "131891"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucib76kq1h8C6T0TTmG-bW9b"
       }
     ],
     "titleTranslate": {
@@ -86411,6 +86836,10 @@
       {
         "site": "bilibili",
         "id": "28228828"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uchh8rGKrjw30uI-nTjyLKcL"
       }
     ],
     "titleTranslate": {
@@ -86461,6 +86890,10 @@
       {
         "site": "bilibili",
         "id": "28228557"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch_qwCEoVJ0WlEq-3nJoISb"
       }
     ],
     "titleTranslate": {
@@ -86801,6 +87234,10 @@
       {
         "site": "nicovideo",
         "id": "konosuba"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiyHGbqVQuTTs9ZFqu3wYNM"
       }
     ],
     "titleTranslate": {
@@ -87621,6 +88058,10 @@
       {
         "site": "bangumi",
         "id": "143740"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgAOiMCdN3ne3RUCEOrBQJE"
       }
     ],
     "titleTranslate": {
@@ -87644,6 +88085,10 @@
       {
         "site": "bilibili",
         "id": "140552"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchKWuj91hWDx7Bngip5Xy9J"
       }
     ],
     "titleTranslate": {
@@ -87925,6 +88370,10 @@
       {
         "site": "bilibili",
         "id": "98612"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchQeJqIQzPxNIPx5M8w5nr1"
       }
     ],
     "titleTranslate": {
@@ -87972,6 +88421,10 @@
       {
         "site": "acfun",
         "id": "6000687"
+      },
+      {
+        "site": "viu",
+        "id": "356295"
       }
     ],
     "titleTranslate": {
@@ -88219,6 +88672,10 @@
       {
         "site": "nicovideo",
         "id": "sailormoon-Crystal3"
+      },
+      {
+        "site": "viu",
+        "id": "379979"
       }
     ],
     "titleTranslate": {
@@ -88451,6 +88908,10 @@
       {
         "site": "nicovideo",
         "id": "superlovers"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JglWiR0yhW9tGY-dt5XVAqX"
       }
     ],
     "titleTranslate": {
@@ -88609,6 +89070,10 @@
       {
         "site": "nicovideo",
         "id": "anne-happy"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchtesPXiCv7U6YvLmFq9ZB4"
       }
     ],
     "titleTranslate": {
@@ -90039,6 +90504,10 @@
       {
         "site": "qq",
         "id": "i/imqk1qifdgm1dzl"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgTgsM6BnDVeDfBnNExmKXc"
       }
     ],
     "titleTranslate": {
@@ -90082,6 +90551,10 @@
       {
         "site": "qq",
         "id": "u/u3kwskxncklutmx"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgURYn1RtR0Owrr3Gu2ukSa"
       }
     ],
     "titleTranslate": {
@@ -90152,6 +90625,14 @@
       {
         "site": "youku",
         "id": "16a925c83a7611e69b6d"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjC6Atr2SaYeVJyC1kkzQOa"
+      },
+      {
+        "site": "viu",
+        "id": "16538"
       }
     ],
     "titleTranslate": {
@@ -90479,6 +90960,10 @@
       {
         "site": "bilibili",
         "id": "5026"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjJSQURgyx2NQaDHdBpueq9"
       }
     ],
     "titleTranslate": {
@@ -90623,6 +91108,10 @@
       {
         "site": "iqiyi",
         "id": "a_a6firi0fe1"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucin1S0BBvaye-StIcK-qpSA"
       }
     ],
     "titleTranslate": {
@@ -90766,6 +91255,10 @@
       {
         "site": "bilibili",
         "id": "18747402"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcihVwmQwxWdRcN555bW3veO"
       }
     ],
     "titleTranslate": {
@@ -90871,6 +91364,10 @@
       {
         "site": "bilibili",
         "id": "10464925"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjJznxwWKttm2EI1LpgB1Vc"
       }
     ],
     "titleTranslate": {
@@ -91451,6 +91948,14 @@
       {
         "site": "mgtv",
         "id": "294676"
+      },
+      {
+        "site": "viu",
+        "id": "296315"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjZls7Pqu1zF780TYxysarw"
       }
     ],
     "titleTranslate": {
@@ -91486,6 +91991,10 @@
       {
         "site": "iqiyi",
         "id": "a_s5gwy31rpl"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgKUrvcvORuYyWui5_tWIzr"
       }
     ],
     "titleTranslate": {
@@ -91552,6 +92061,10 @@
       {
         "site": "iqiyi",
         "id": "a_xnuvg1xb5t"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch1-tlqZtf91yfJj60Ew9FK"
       }
     ],
     "titleTranslate": {
@@ -92920,6 +93433,10 @@
       {
         "site": "nicovideo",
         "id": "UTAPRI-LS"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgiPBchlRn3LgdDfZMfQ10b"
       }
     ],
     "titleTranslate": {
@@ -92982,6 +93499,10 @@
       {
         "site": "qq",
         "id": "m/mdp5slz8yh5nk4e"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgLdE6znVjefzpQ72G0ZNhL"
       }
     ],
     "titleTranslate": {
@@ -93109,6 +93630,10 @@
       {
         "site": "nicovideo",
         "id": "j-haikyu"
+      },
+      {
+        "site": "viu",
+        "id": "370822"
       }
     ],
     "titleTranslate": {
@@ -93183,6 +93708,10 @@
       {
         "site": "qq",
         "id": "m/mzc00200s4mm5q5"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchPC2fP7xrA7z3LxnFSscFE"
       }
     ],
     "titleTranslate": {
@@ -93535,6 +94064,10 @@
       {
         "site": "bangumi",
         "id": "168634"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JihoHAg6oR0cN5Fm9U1vNxa"
       }
     ],
     "titleTranslate": {
@@ -94022,6 +94555,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrh5nc6d"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucj1SBF1569ae2ysB5Z1gPvF"
       }
     ]
   },
@@ -94132,6 +94669,10 @@
       {
         "site": "nicovideo",
         "id": "PBM"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjL5gbB-F-XL6SdM3IMVf4Z"
       }
     ],
     "titleTranslate": {
@@ -95283,6 +95824,10 @@
       {
         "site": "nicovideo",
         "id": "konosuba2"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjBrlCcD2AFans0YqvZCF0f"
       }
     ],
     "titleTranslate": {
@@ -95337,6 +95882,10 @@
       {
         "site": "nicovideo",
         "id": "bang-dream"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciCvWvVC4M2bEh4o06lvQ-K"
       }
     ],
     "titleTranslate": {
@@ -95538,6 +96087,10 @@
       {
         "site": "qq",
         "id": "t/ty44odmyxqmkg2v"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JipogV7W74-hbDbYaQx78Oq"
       }
     ],
     "titleTranslate": {
@@ -95584,6 +96137,10 @@
       {
         "site": "nicovideo",
         "id": "minakama-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch8ZhIUvy3F4cdEjzIzKeeC"
       }
     ],
     "titleTranslate": {
@@ -95696,6 +96253,10 @@
       {
         "site": "nicovideo",
         "id": "chronicle-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciV2GCnU5z2tmeazhxsjISV"
       }
     ],
     "titleTranslate": {
@@ -95952,6 +96513,10 @@
       {
         "site": "qq",
         "id": "m/mzc00200kzm5l04"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgZaXNngPvKiDT0b_b0ul7R"
       }
     ],
     "titleTranslate": {
@@ -96118,6 +96683,10 @@
       {
         "site": "nicovideo",
         "id": "superlovers2"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhyjmWrOjshiPzt2wIkDJ2t"
       }
     ],
     "titleTranslate": {
@@ -97147,6 +97716,10 @@
       {
         "site": "bilibili",
         "id": "28228037"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjjOJ9nWXXro1Y9rQv04c2C"
       }
     ],
     "titleTranslate": {
@@ -97186,6 +97759,10 @@
       {
         "site": "acfun",
         "id": "6003894"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucio698xvGdbbZtRLzqwyL8_"
       }
     ],
     "titleTranslate": {
@@ -97329,6 +97906,10 @@
       {
         "site": "bilibili",
         "id": "28230162"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhgECCmAq4rlTGlPT-5AvuA"
       }
     ],
     "titleTranslate": {
@@ -97391,6 +97972,10 @@
       {
         "site": "qq",
         "id": "0/0js9smvlptpgtol"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciBdfbJ1yxz5l5VuJhZfBRe"
       }
     ],
     "titleTranslate": {
@@ -97456,6 +98041,10 @@
       {
         "site": "nicovideo",
         "id": "sukasuka_anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgzArKinjJ5ohkHYKYE9v7G"
       }
     ],
     "titleTranslate": {
@@ -97502,6 +98091,10 @@
       {
         "site": "qq",
         "id": "1/1vs7qcavuhkbl0v"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucijtu2qDGXBPta-G2fPbx1P"
       }
     ],
     "titleTranslate": {
@@ -97626,6 +98219,10 @@
       {
         "site": "acfun",
         "id": "6000688"
+      },
+      {
+        "site": "viu",
+        "id": "358935"
       }
     ],
     "titleTranslate": {
@@ -97773,6 +98370,10 @@
       {
         "site": "nicovideo",
         "id": "machiavellism"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjJUudQE3g3K3yiyoaJot1q"
       }
     ],
     "titleTranslate": {
@@ -97900,6 +98501,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrh83325"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgZGPNXrBwwtjdQDf1ZvdK8"
       }
     ],
     "titleTranslate": {
@@ -98562,6 +99167,10 @@
       {
         "site": "nicovideo",
         "id": "hinakonote"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgxwFThB5rk1sXCgsiWhHr6"
       }
     ],
     "titleTranslate": {
@@ -99129,6 +99738,10 @@
       {
         "site": "bilibili",
         "id": "6408"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjCJqSxL2mNygVVDyuPKn7y"
       }
     ],
     "titleTranslate": {
@@ -99171,6 +99784,10 @@
       {
         "site": "nicovideo",
         "id": "hinalogic"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchBiL65g7zjlL85NA5SXC4z"
       }
     ],
     "titleTranslate": {
@@ -99487,6 +100104,10 @@
       {
         "site": "nicovideo",
         "id": "hajimete-no-gal"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhmXGQSIlo0KR3dNq_TtGYX"
       }
     ],
     "titleTranslate": {
@@ -99510,6 +100131,10 @@
       {
         "site": "nicovideo",
         "id": "you-zitsu"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci-lr0rpTkQPv7Cirwe8wDz"
       }
     ],
     "titleTranslate": {
@@ -99587,6 +100212,10 @@
       {
         "site": "nicovideo",
         "id": "pripri-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh56pZmXUN4hXRLtCx_0r3r"
       }
     ],
     "titleTranslate": {
@@ -99660,6 +100289,10 @@
       {
         "site": "nicovideo",
         "id": "saiyuki_rb"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcizuGtUfA-gp7F4rGczy1LG"
       }
     ],
     "titleTranslate": {
@@ -99841,6 +100474,10 @@
       {
         "site": "nicovideo",
         "id": "koiuso-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchDqQrYC32LZR2T_PUtc2cU"
       }
     ],
     "titleTranslate": {
@@ -99922,6 +100559,10 @@
       {
         "site": "nicovideo",
         "id": "kisekichosakan"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jhxm-PJydm2A2Ph3fjI1J4N"
       }
     ],
     "titleTranslate": {
@@ -100886,6 +101527,10 @@
       {
         "site": "bilibili",
         "id": "141252"
+      },
+      {
+        "site": "nicovideo",
+        "id": "prisma-illya-movie-sekka"
       }
     ],
     "titleTranslate": {
@@ -101162,6 +101807,10 @@
       {
         "site": "nicovideo",
         "id": "imotosae"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciutJKF8qxmFgMy82KtLXtE"
       }
     ],
     "titleTranslate": {
@@ -101193,6 +101842,10 @@
       {
         "site": "qq",
         "id": "r/rnufhk35pwvs24e"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgXBYLqX4eBAZztqmBwFNWe"
       }
     ]
   },
@@ -101265,6 +101918,10 @@
       {
         "site": "nicovideo",
         "id": "majimesugiru"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch7mqO9BGax1L3nLqNWE_-2"
       }
     ],
     "titleTranslate": {
@@ -101437,6 +102094,10 @@
       {
         "site": "nicovideo",
         "id": "girls-last-tour"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucjmy1IuuvJhyOqqrScSCjtf"
       }
     ],
     "titleTranslate": {
@@ -101649,6 +102310,10 @@
       {
         "site": "nicovideo",
         "id": "hozukino-reitetsu2"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchLAm_aSjc04YjrNZEsGhi7"
       }
     ],
     "titleTranslate": {
@@ -102062,6 +102727,10 @@
       {
         "site": "nicovideo",
         "id": "bclover"
+      },
+      {
+        "site": "viu",
+        "id": "85635"
       }
     ],
     "titleTranslate": {
@@ -102093,6 +102762,10 @@
       {
         "site": "youku",
         "id": "efbfbd4fefbfbd61efbf"
+      },
+      {
+        "site": "viu",
+        "id": "62556"
       }
     ],
     "titleTranslate": {
@@ -103002,6 +103675,25 @@
     }
   },
   {
+    "title": "進撃の巨人 LOST GIRLS",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "221781"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcisKxV6lK7plJ2rIATfqPOn"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "进击的巨人 LOST GIRLS"
+      ]
+    }
+  },
+  {
     "title": "三ツ星カラーズ",
     "type": "tv",
     "sites": [
@@ -103043,6 +103735,10 @@
       {
         "site": "nicovideo",
         "id": "citrus-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jg4IP_nznPuJptBvNyXhZsc"
       }
     ],
     "titleTranslate": {
@@ -103135,6 +103831,10 @@
       {
         "site": "nicovideo",
         "id": "deathma"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucil7LXRJOySari-HvVWPxTY"
       }
     ],
     "titleTranslate": {
@@ -103162,6 +103862,10 @@
       {
         "site": "netflix",
         "id": "81029050"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucg44wXxg4kqdB4Wqgiy83oQ"
       }
     ],
     "titleTranslate": {
@@ -103470,6 +104174,10 @@
       {
         "site": "acfun",
         "id": "6000991"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh5nBsvSq-SCgEhgSYSdNZl"
       }
     ],
     "titleTranslate": {
@@ -103574,6 +104282,10 @@
       {
         "site": "bilibili",
         "id": "9192"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjvZK6hU4wJsFheFnX3Arsb"
       }
     ],
     "titleTranslate": {
@@ -103825,6 +104537,10 @@
       {
         "site": "nicovideo",
         "id": "overlord-anime2"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjWZYyjY91LNUlpFOsDMYJZ"
       }
     ],
     "titleTranslate": {
@@ -103848,6 +104564,10 @@
       {
         "site": "nicovideo",
         "id": "itojunji-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucj4GWytGa0k1K1cCCBpPYTF"
       }
     ],
     "titleTranslate": {
@@ -104903,6 +105623,10 @@
       {
         "site": "nicovideo",
         "id": "hozukino-reitetsu2"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchLAm_aSjc04YjrNZEsGhi7"
       }
     ],
     "titleTranslate": {
@@ -104926,6 +105650,10 @@
       {
         "site": "nicovideo",
         "id": "tadakoi"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucj2ZzNQGR8QezYoVa6yPUzw"
       }
     ],
     "titleTranslate": {
@@ -105191,6 +105919,10 @@
       {
         "site": "bilibili",
         "id": "28229528"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgUYMtVYbYRhtu1UVRIeQSO"
       }
     ],
     "titleTranslate": {
@@ -105661,6 +106393,10 @@
       {
         "site": "bilibili",
         "id": "28230073"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchW3480J4w-RptCG40WEPrN"
       }
     ],
     "titleTranslate": {
@@ -105877,6 +106613,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrh0gytx"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uchk0W0ocvb7rv8E0d_VaFY9"
       }
     ],
     "titleTranslate": {
@@ -106332,6 +107072,10 @@
       {
         "site": "nicovideo",
         "id": "megalobox"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgoFEVBdHozDwI-MCXpDoHK"
       }
     ],
     "titleTranslate": {
@@ -106406,6 +107150,10 @@
       {
         "site": "acfun",
         "id": "6000689"
+      },
+      {
+        "site": "viu",
+        "id": "361199"
       }
     ],
     "titleTranslate": {
@@ -106771,6 +107519,10 @@
       {
         "site": "qq",
         "id": "s/snzs99rlt7a71n8"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucin1S0BBvaye-StIcK-qpSA"
       }
     ],
     "titleTranslate": {
@@ -107531,6 +108283,10 @@
       {
         "site": "youku",
         "id": "6d7c7cd82c1e46bdb213"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh4PnnM6ue8PV5OwsDIynhs"
       }
     ],
     "titleTranslate": {
@@ -107868,6 +108624,10 @@
       {
         "site": "bilibili",
         "id": "95292"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgOs6MidwR0fKv6F4g9ZXCE"
       }
     ]
   },
@@ -107974,6 +108734,10 @@
       {
         "site": "nicovideo",
         "id": "overlord-anime3"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jj-qPvH9bUUeEKo26qicFm_"
       }
     ],
     "titleTranslate": {
@@ -108777,6 +109541,10 @@
       {
         "site": "bilibili",
         "id": "135652"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjXN8OhmbLJ7EA01LHGi1fA"
       }
     ],
     "titleTranslate": {
@@ -108927,6 +109695,10 @@
       {
         "site": "mgtv",
         "id": "327848"
+      },
+      {
+        "site": "viu",
+        "id": "108613"
       }
     ],
     "titleTranslate": {
@@ -108985,6 +109757,10 @@
       {
         "site": "nicovideo",
         "id": "index_3"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchQT42yKMc5tL51NGuIW6qf"
       }
     ],
     "titleTranslate": {
@@ -109081,6 +109857,10 @@
       {
         "site": "nicovideo",
         "id": "uzamaid"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Ji1kaoLKe07NPpPsPaTvLRa"
       }
     ],
     "titleTranslate": {
@@ -109443,6 +110223,10 @@
       {
         "site": "youku",
         "id": "39abc53891a1483d906e"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciWxvzhBFq1EUOjoicaTWiG"
       }
     ],
     "titleTranslate": {
@@ -109531,6 +110315,10 @@
       {
         "site": "nicovideo",
         "id": "rerided"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgzVOmsMSNZnRbsSf_ZHBa8"
       }
     ],
     "titleTranslate": {
@@ -110090,6 +110878,10 @@
       {
         "site": "bangumi",
         "id": "262112"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchFY5GjYgcPrcKuU-qnBOfZ"
       }
     ],
     "titleTranslate": {
@@ -110569,6 +111361,10 @@
       {
         "site": "nicovideo",
         "id": "kaguya_love"
+      },
+      {
+        "site": "viu",
+        "id": "123101"
       }
     ],
     "titleTranslate": {
@@ -110643,6 +111439,10 @@
       {
         "site": "bilibili",
         "id": "28228699"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgQfL8n7aV7H4DtgeeNYp0e"
       }
     ],
     "titleTranslate": {
@@ -110697,6 +111497,10 @@
       {
         "site": "youku",
         "id": "2fe8a9c3f30c4045b6f9"
+      },
+      {
+        "site": "viu",
+        "id": "121520"
       }
     ],
     "titleTranslate": {
@@ -110789,6 +111593,10 @@
       {
         "site": "nicovideo",
         "id": "egaonodaika"
+      },
+      {
+        "site": "viu",
+        "id": "122119"
       }
     ],
     "titleTranslate": {
@@ -110935,6 +111743,10 @@
       {
         "site": "nicovideo",
         "id": "hizaue"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgXjxwXV7Ero7lqV8xrbkq5"
       }
     ],
     "titleTranslate": {
@@ -110954,6 +111766,10 @@
       {
         "site": "bilibili",
         "id": "4762734"
+      },
+      {
+        "site": "viu",
+        "id": "297272"
       }
     ],
     "titleTranslate": {
@@ -110981,6 +111797,10 @@
       {
         "site": "youku",
         "id": "4f231cec4d2a4191af96"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucj2EXO0UvWSnPn_PEZl4U3i"
       }
     ],
     "titleTranslate": {
@@ -111027,6 +111847,10 @@
       {
         "site": "nicovideo",
         "id": "miss-ueno"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgVheCzoWgik8FW0vT6KF-z"
       }
     ],
     "titleTranslate": {
@@ -111050,6 +111874,10 @@
       {
         "site": "nicovideo",
         "id": "bang-dream_2nd"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciwhBaR6QHIEbDmdK32uLD0"
       }
     ],
     "titleTranslate": {
@@ -112043,6 +112871,10 @@
       {
         "site": "nicovideo",
         "id": "hitoribocchi"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci1SwdhbKonVs_iNBUBw9TB"
       }
     ],
     "titleTranslate": {
@@ -112066,6 +112898,10 @@
       {
         "site": "nicovideo",
         "id": "senryu-girl"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgTgDr4XV13p4Gn89zpGlGu"
       }
     ],
     "titleTranslate": {
@@ -112089,6 +112925,10 @@
       {
         "site": "nicovideo",
         "id": "aochan-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucgp8oxXX_I7-5u_CoPD-j58"
       }
     ],
     "titleTranslate": {
@@ -112120,6 +112960,10 @@
       {
         "site": "youku",
         "id": "bdfeb430c54f4fdb8e4d"
+      },
+      {
+        "site": "viu",
+        "id": "396713"
       }
     ],
     "titleTranslate": {
@@ -112143,6 +112987,10 @@
       {
         "site": "qq",
         "id": "5/5rs71cp7oy0429e"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgZZqOdH5UGX0ffb3fhXjfd"
       }
     ],
     "titleTranslate": {
@@ -112212,6 +113060,10 @@
       {
         "site": "nicovideo",
         "id": "kimetsu"
+      },
+      {
+        "site": "viu",
+        "id": "137208"
       }
     ],
     "titleTranslate": {
@@ -112460,6 +113312,10 @@
       {
         "site": "nicovideo",
         "id": "diaace_2"
+      },
+      {
+        "site": "viu",
+        "id": "136879"
       }
     ],
     "titleTranslate": {
@@ -112529,6 +113385,10 @@
       {
         "site": "bilibili",
         "id": "25380076"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciwB7rKGTk3u_AkJt6SwZ4i"
       }
     ],
     "titleTranslate": {
@@ -112704,6 +113564,10 @@
       {
         "site": "nicovideo",
         "id": "konooto-anime"
+      },
+      {
+        "site": "viu",
+        "id": "137233"
       }
     ],
     "titleTranslate": {
@@ -113308,6 +114172,10 @@
       {
         "site": "nicovideo",
         "id": "uchinoko-anime"
+      },
+      {
+        "site": "viu",
+        "id": "176296"
       }
     ],
     "titleTranslate": {
@@ -113343,6 +114211,10 @@
       {
         "site": "qq",
         "id": "5/5adizjcg9ycyaje"
+      },
+      {
+        "site": "viu",
+        "id": "180262"
       }
     ],
     "titleTranslate": {
@@ -113389,6 +114261,10 @@
       {
         "site": "nicovideo",
         "id": "toaru-accelerator"
+      },
+      {
+        "site": "viu",
+        "id": "180038"
       }
     ],
     "titleTranslate": {
@@ -113462,6 +114338,10 @@
       {
         "site": "bilibili",
         "id": "28221415"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchzJGpfXUGeQXQ27rN2bJ90"
       }
     ],
     "titleTranslate": {
@@ -113485,6 +114365,10 @@
       {
         "site": "bilibili",
         "id": "28221414"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjB7z6V6C9BQuc6SQ_pdxLr"
       }
     ],
     "titleTranslate": {
@@ -113577,6 +114461,10 @@
       {
         "site": "bilibili",
         "id": "28221412"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh8hxcblZc6gHcGUq28Xp7S"
       }
     ],
     "titleTranslate": {
@@ -113612,6 +114500,10 @@
       {
         "site": "youku",
         "id": "aaefad43df614355a726"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucj7WVmeIz_-5OBcjJnTB2GV"
       }
     ],
     "titleTranslate": {
@@ -113708,6 +114600,10 @@
       {
         "site": "bilibili",
         "id": "28221421"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchCJDs65R8KI8MOAYDCvPlR"
       }
     ],
     "titleTranslate": {
@@ -113824,6 +114720,10 @@
       {
         "site": "bilibili",
         "id": "28228703"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchhxGH_Zl_9GGOb1XRUQVgL"
       }
     ]
   },
@@ -113896,6 +114796,10 @@
       {
         "site": "pptv",
         "id": "W4hl40uxIVicCQKg"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjKS52JHz9UKkpm59FFR593"
       }
     ],
     "titleTranslate": {
@@ -113923,6 +114827,10 @@
       {
         "site": "qq",
         "id": "w/w9gve1bs4mqvkup"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjSlI0FlKiwODU3pi-YmEQh"
       }
     ],
     "titleTranslate": {
@@ -113988,6 +114896,10 @@
       {
         "site": "pptv",
         "id": "JnJb2UGnF1W4Np4"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgRqbPOD2SQLAy6262FeozL"
       }
     ],
     "titleTranslate": {
@@ -114019,6 +114931,10 @@
       {
         "site": "youku",
         "id": "ddff1f70b24c4bf99456"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgNMizGUmDQYOD5juzzM47A"
       }
     ],
     "titleTranslate": {
@@ -114042,6 +114958,10 @@
       {
         "site": "pptv",
         "id": "Xo1q6FC2JmTHRa0"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgpHuqXzVppXTA6Nc7LXkiV"
       }
     ],
     "titleTranslate": {
@@ -114084,6 +115004,10 @@
       {
         "site": "nicovideo",
         "id": "pirikarakochan"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jjprl_mJiiRAz2gWU2MXPMw"
       }
     ]
   },
@@ -114102,6 +115026,10 @@
       {
         "site": "nicovideo",
         "id": "anime_elmelloi"
+      },
+      {
+        "site": "viu",
+        "id": "121518"
       }
     ],
     "titleTranslate": {
@@ -114361,6 +115289,25 @@
     }
   },
   {
+    "title": "転生したらスライムだった件 OAD",
+    "type": "ova",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "268726"
+      },
+      {
+        "site": "nicovideo",
+        "id": "ten-sura-oad"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "关于我转生变成史莱姆这档事 OAD"
+      ]
+    }
+  },
+  {
     "title": "カードファイト!! ヴァンガード(新右衛門編)",
     "type": "tv",
     "sites": [
@@ -114501,6 +115448,10 @@
       {
         "site": "youku",
         "id": "ccfbf14a43504c7b8aa6"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgYlcdbTLD-clFGEgbt5mZC"
       }
     ],
     "titleTranslate": {
@@ -114562,6 +115513,10 @@
       {
         "site": "bilibili",
         "id": "28227003"
+      },
+      {
+        "site": "nicovideo",
+        "id": "bang-dream-film-live"
       }
     ]
   },
@@ -114703,6 +115658,10 @@
       {
         "site": "youku",
         "id": "aedae208197e424ea223"
+      },
+      {
+        "site": "viu",
+        "id": "215749"
       }
     ],
     "titleTranslate": {
@@ -114787,6 +115746,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rri0rvpt"
+      },
+      {
+        "site": "viu",
+        "id": "217712"
       }
     ],
     "titleTranslate": {
@@ -114810,6 +115773,10 @@
       {
         "site": "nicovideo",
         "id": "chidori-high-school"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchrysSXGQFkgY52Mc2HNyzO"
       }
     ],
     "titleTranslate": {
@@ -114872,6 +115839,10 @@
       {
         "site": "youku",
         "id": "feddb8b330944aff896f"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jj3WjKVfQMssxMY-FNYEf7t"
       }
     ],
     "titleTranslate": {
@@ -114907,6 +115878,10 @@
       {
         "site": "youku",
         "id": "fddc8686d06048dc964f"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcitDUiMIHLpLLNtrP0f_Csw"
       }
     ],
     "titleTranslate": {
@@ -115009,6 +115984,10 @@
       {
         "site": "nicovideo",
         "id": "urashimasakatasen"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgrH_EHaFdtL9-V1YS2O1yx"
       }
     ],
     "titleTranslate": {
@@ -115055,6 +116034,10 @@
       {
         "site": "acfun",
         "id": "6000220"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciBjUHxXFhP5IbnLVjloUeD"
       }
     ],
     "titleTranslate": {
@@ -115124,6 +116107,10 @@
       {
         "site": "nicovideo",
         "id": "zxtcg_reunion"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjkfpIohlioz0xi0H8ffmQ_"
       }
     ],
     "titleTranslate": {
@@ -115170,6 +116157,10 @@
       {
         "site": "nicovideo",
         "id": "chubyou"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucj4wLpXGg56IcbGW00P-mLz"
       }
     ],
     "titleTranslate": {
@@ -115216,6 +116207,10 @@
       {
         "site": "qq",
         "id": "m/mzc00200t7d5jfb"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciCMzJCNgXZ1dgLKQ7MlJEW"
       }
     ],
     "titleTranslate": {
@@ -115335,6 +116330,10 @@
       {
         "site": "nicovideo",
         "id": "pso2_eporacle"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgNYvH4dHww4HSufuuvP4dI"
       }
     ],
     "titleTranslate": {
@@ -115377,6 +116376,10 @@
       {
         "site": "nicovideo",
         "id": "7-taizai-kamigaminogekirin"
+      },
+      {
+        "site": "viu",
+        "id": "219686"
       }
     ],
     "titleTranslate": {
@@ -115400,6 +116403,10 @@
       {
         "site": "bilibili",
         "id": "28222743"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciWdtNHC2qlu1IC7oShO6As"
       }
     ]
   },
@@ -115510,6 +116517,10 @@
       {
         "site": "nicovideo",
         "id": "nullpeta"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucgbi0MaI5QMNmVDmXE17rGg"
       }
     ],
     "titleTranslate": {
@@ -115533,6 +116544,10 @@
       {
         "site": "nicovideo",
         "id": "nogunslife"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgRAtoPF79ZlgAeKP6u3erA"
       }
     ],
     "titleTranslate": {
@@ -115583,6 +116598,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rri0rwyx"
+      },
+      {
+        "site": "viu",
+        "id": "358194"
       }
     ],
     "titleTranslate": {
@@ -115623,6 +116642,10 @@
       {
         "site": "bangumi",
         "id": "270060"
+      },
+      {
+        "site": "viu",
+        "id": "216187"
       }
     ],
     "titleTranslate": {
@@ -115700,6 +116723,10 @@
       {
         "site": "nicovideo",
         "id": "ep7-tv"
+      },
+      {
+        "site": "viu",
+        "id": "208945"
       }
     ],
     "titleTranslate": {
@@ -116315,6 +117342,10 @@
       {
         "site": "bilibili",
         "id": "28224128"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci2AaJynaGoTn467Dr2j7-F"
       }
     ],
     "titleTranslate": {
@@ -116361,6 +117392,10 @@
       {
         "site": "bilibili",
         "id": "28223817"
+      },
+      {
+        "site": "viu",
+        "id": "237802"
       }
     ],
     "titleTranslate": {
@@ -116384,6 +117419,10 @@
       {
         "site": "acfun",
         "id": "6000901"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhHkq4IMAvPXbl1JpcjHViU"
       }
     ],
     "titleTranslate": {
@@ -116453,6 +117492,10 @@
       {
         "site": "youku",
         "id": "cedf7f259d594ace967e"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjIwyEPUhDJSbJGzo5IaDD3"
       }
     ],
     "titleTranslate": {
@@ -116476,6 +117519,10 @@
       {
         "site": "bilibili",
         "id": "28224137"
+      },
+      {
+        "site": "viu",
+        "id": "240074"
       }
     ],
     "titleTranslate": {
@@ -116553,6 +117600,10 @@
       {
         "site": "bilibili",
         "id": "28224121"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciBWxOuVdi7xaQn9m0cTlLT"
       }
     ],
     "titleTranslate": {
@@ -116586,6 +117637,10 @@
       {
         "site": "acfun",
         "id": "6000900"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jik2vpUVcSQhgVnuPJ2h4xm"
       }
     ],
     "titleTranslate": {
@@ -116780,6 +117835,10 @@
       {
         "site": "acfun",
         "id": "6000897"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgoBOsT8lFRygyPf6Lw8Kfs"
       }
     ],
     "titleTranslate": {
@@ -116834,6 +117893,10 @@
       {
         "site": "nicovideo",
         "id": "isekai-quartet2"
+      },
+      {
+        "site": "viu",
+        "id": "241430"
       }
     ],
     "titleTranslate": {
@@ -116857,6 +117920,10 @@
       {
         "site": "bilibili",
         "id": "28224078"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgjRVDjkC1Ag8hX7XZY14P6"
       }
     ],
     "titleTranslate": {
@@ -116908,6 +117975,10 @@
       {
         "site": "acfun",
         "id": "6000902"
+      },
+      {
+        "site": "viu",
+        "id": "238670"
       }
     ],
     "titleTranslate": {
@@ -116931,6 +118002,10 @@
       {
         "site": "acfun",
         "id": "6000898"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiazRuzo7l7hCx6ul7r8Oxc"
       }
     ],
     "titleTranslate": {
@@ -117046,6 +118121,10 @@
       {
         "site": "bangumi",
         "id": "266301"
+      },
+      {
+        "site": "nicovideo",
+        "id": "dorohedoro"
       }
     ],
     "titleTranslate": {
@@ -117152,6 +118231,10 @@
       {
         "site": "youku",
         "id": "bafa149a350a4e9a8b68"
+      },
+      {
+        "site": "viu",
+        "id": "371669"
       }
     ],
     "titleTranslate": {
@@ -117183,6 +118266,10 @@
       {
         "site": "youku",
         "id": "aebee63137c44667a25f"
+      },
+      {
+        "site": "viu",
+        "id": "282287"
       }
     ],
     "titleTranslate": {
@@ -117217,6 +118304,10 @@
       {
         "site": "nicovideo",
         "id": "kotodama-shoujo"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjS174UQ7__i18cNe9Vxtoc"
       }
     ]
   },
@@ -117489,6 +118580,10 @@
       {
         "site": "nicovideo",
         "id": "kaguya_love_anime"
+      },
+      {
+        "site": "viu",
+        "id": "261792"
       }
     ],
     "titleTranslate": {
@@ -117612,6 +118707,10 @@
       {
         "site": "youku",
         "id": "eebd269c956e42d7905e"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci6SSlE8twE2qq24GAa7k3z"
       }
     ],
     "titleTranslate": {
@@ -117664,6 +118763,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrhwkra1"
+      },
+      {
+        "site": "viu",
+        "id": "261228"
       }
     ],
     "titleTranslate": {
@@ -117695,6 +118798,10 @@
       {
         "site": "youku",
         "id": "fafe56cd23b04fcda3e8"
+      },
+      {
+        "site": "viu",
+        "id": "397210"
       }
     ],
     "titleTranslate": {
@@ -117814,6 +118921,10 @@
       {
         "site": "qq",
         "id": "m/mzc00200i2qe3br"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucg8iiiVK1a0eU83ZWwkLZlZ"
       }
     ],
     "titleTranslate": {
@@ -117837,6 +118948,10 @@
       {
         "site": "nicovideo",
         "id": "shachibato"
+      },
+      {
+        "site": "viu",
+        "id": "258029"
       }
     ],
     "titleTranslate": {
@@ -117872,6 +118987,10 @@
       {
         "site": "youku",
         "id": "acaf72ebe1f149758e9a"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjvWDxCjMQbi1IAmFldK-K6"
       }
     ],
     "titleTranslate": {
@@ -117895,6 +119014,10 @@
       {
         "site": "nicovideo",
         "id": "zero_chronicle"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci7M3RpDPyR52CK7QEfFKcN"
       }
     ],
     "titleTranslate": {
@@ -117918,6 +119041,10 @@
       {
         "site": "nicovideo",
         "id": "teibotv"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uchs4Lz5vMPM5c5lV7o2tzro"
       }
     ],
     "titleTranslate": {
@@ -118006,6 +119133,10 @@
       {
         "site": "nicovideo",
         "id": "arte-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchI13stFCuOHTjvPKBxbAXs"
       }
     ],
     "titleTranslate": {
@@ -118103,6 +119234,10 @@
       {
         "site": "nicovideo",
         "id": "sakura-taisen-theanimation"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiOdci6TOWOrs1GPxQMGowJ"
       }
     ],
     "titleTranslate": {
@@ -118180,6 +119315,10 @@
       {
         "site": "qq",
         "id": "m/mzc00200aemagk4"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucjl51ygO__WeHCzcMKSEu_a"
       }
     ],
     "titleTranslate": {
@@ -118245,6 +119384,10 @@
       {
         "site": "nicovideo",
         "id": "gleipnir-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhHQTmes2_rNlNCK7hMT_Nt"
       }
     ],
     "titleTranslate": {
@@ -118264,6 +119407,10 @@
       {
         "site": "bangumi",
         "id": "294202"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciCjc3y1gSBcZDLN602_sBG"
       }
     ],
     "titleTranslate": {
@@ -118414,6 +119561,10 @@
       {
         "site": "nicovideo",
         "id": "fugoukeiji-bul"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjK6AR9OjeYkwGCVTgCFEWz"
       }
     ],
     "titleTranslate": {
@@ -118437,6 +119588,10 @@
       {
         "site": "nicovideo",
         "id": "tatamichan"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Ji3VklTcrJ8g9BwEgXKdnVl"
       }
     ],
     "titleTranslate": {
@@ -118599,6 +119754,10 @@
       {
         "site": "acfun",
         "id": "6002672"
+      },
+      {
+        "site": "viu",
+        "id": "269092"
       }
     ],
     "titleTranslate": {
@@ -118686,6 +119845,10 @@
       {
         "site": "nicovideo",
         "id": "nogunslife2"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgGV-PHu1LGFmKtUWwe-Plw"
       }
     ],
     "titleTranslate": {
@@ -118755,6 +119918,10 @@
       {
         "site": "nicovideo",
         "id": "maohgakuin"
+      },
+      {
+        "site": "viu",
+        "id": "279592"
       }
     ],
     "titleTranslate": {
@@ -118790,6 +119957,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrhx0jw5"
+      },
+      {
+        "site": "viu",
+        "id": "280718"
       }
     ],
     "titleTranslate": {
@@ -118813,6 +119984,10 @@
       {
         "site": "nicovideo",
         "id": "mon-isha"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgpnORnaGJAzzB8e2bW8OZe"
       }
     ],
     "titleTranslate": {
@@ -118859,6 +120034,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrhlpm9p"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci0sz86Rwh8b1btAKspLKGA"
       }
     ],
     "titleTranslate": {
@@ -118901,6 +120080,10 @@
       {
         "site": "nicovideo",
         "id": "lapisrelights"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucgt1vHxpaHNekcPKlDr4Qsb"
       }
     ],
     "titleTranslate": {
@@ -118939,6 +120122,10 @@
       {
         "site": "youku",
         "id": "afdc3828a6cd4c36ad5b"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgdCUuGLoe4ILFq3qDpftzk"
       }
     ],
     "titleTranslate": {
@@ -118962,6 +120149,10 @@
       {
         "site": "nicovideo",
         "id": "umayon"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgoFyk6x8eQATBy4o_VUEs6"
       }
     ],
     "titleTranslate": {
@@ -119011,7 +120202,7 @@
       },
       {
         "site": "nicovideo",
-        "id": "GIBIATE"
+        "id": "gibiate-anime"
       }
     ],
     "titleTranslate": {
@@ -119152,6 +120343,10 @@
       {
         "site": "nicovideo",
         "id": "mahouritsu2-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgSIiXaZVb8UgfAemqTGskj"
       }
     ],
     "titleTranslate": {
@@ -119324,6 +120519,10 @@
       {
         "site": "bilibili",
         "id": "28229884"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucjbkic2nljsvbGpzj54_C-p"
       }
     ],
     "titleTranslate": {
@@ -119374,6 +120573,10 @@
       {
         "site": "bilibili",
         "id": "28229869"
+      },
+      {
+        "site": "viu",
+        "id": "299729"
       }
     ],
     "titleTranslate": {
@@ -119431,6 +120634,10 @@
       {
         "site": "nicovideo",
         "id": "mahouka2"
+      },
+      {
+        "site": "viu",
+        "id": "299455"
       }
     ],
     "titleTranslate": {
@@ -119454,6 +120661,10 @@
       {
         "site": "bilibili",
         "id": "28229879"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci7tFpA_cb0uMPaAPMd_H-s"
       }
     ],
     "titleTranslate": {
@@ -119463,7 +120674,7 @@
     }
   },
   {
-    "title": "ひぐらしのなく頃に(新)",
+    "title": "ひぐらしのなく頃に 業",
     "type": "tv",
     "sites": [
       {
@@ -119473,11 +120684,15 @@
       {
         "site": "nicovideo",
         "id": "higurashianime_202010"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jj1KDCcoLBqT6tpeSjzbFN9"
       }
     ],
     "titleTranslate": {
       "zh-Hans": [
-        "寒蝉鸣泣之时"
+        "寒蝉鸣泣之时 业"
       ]
     }
   },
@@ -119496,6 +120711,10 @@
       {
         "site": "bilibili",
         "id": "28229902"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjixIi-QPRM73VB13yMfOsW"
       }
     ],
     "titleTranslate": {
@@ -119542,6 +120761,10 @@
       {
         "site": "bilibili",
         "id": "28229893"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiVGfOfzmkABWP_-0P6biY_"
       }
     ],
     "titleTranslate": {
@@ -119588,6 +120811,10 @@
       {
         "site": "bilibili",
         "id": "28229881"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgkVjESaBGuR_ZMlXTPKYFF"
       }
     ],
     "titleTranslate": {
@@ -119680,6 +120907,10 @@
       {
         "site": "bilibili",
         "id": "28229885"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchE-rJfZBf1nqdHCVMUGp4Y"
       }
     ],
     "titleTranslate": {
@@ -119857,6 +121088,10 @@
       {
         "site": "bilibili",
         "id": "28229877"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchtU-rMECl3p2BQGbCGe16c"
       }
     ],
     "titleTranslate": {
@@ -119984,6 +121219,10 @@
       {
         "site": "bilibili",
         "id": "28229887"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgeKWzJxJa_nVptrFD2-_uP"
       }
     ],
     "titleTranslate": {
@@ -120003,6 +121242,10 @@
       {
         "site": "youku",
         "id": "bafa149a350a4e9a8b68"
+      },
+      {
+        "site": "viu",
+        "id": "371669"
       }
     ],
     "titleTranslate": {
@@ -120030,6 +121273,10 @@
       {
         "site": "iqiyi",
         "id": "a_xnuvg1xks1"
+      },
+      {
+        "site": "viu",
+        "id": "299475"
       }
     ],
     "titleTranslate": {
@@ -120053,6 +121300,10 @@
       {
         "site": "nicovideo",
         "id": "magatsu-wahrheit"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjrzZF2-WOQ08QdVDmvLx1c"
       }
     ],
     "titleTranslate": {
@@ -120105,6 +121356,10 @@
       {
         "site": "nicovideo",
         "id": "railromanesque"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjjlPP0lEuQ8hfnXyqw_tVD"
       }
     ],
     "titleTranslate": {
@@ -120128,6 +121383,10 @@
       {
         "site": "bilibili",
         "id": "28229296"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgQ0zKV6h0tq1IvyUW_lR89"
       }
     ],
     "titleTranslate": {
@@ -120189,6 +121448,10 @@
       {
         "site": "iqiyi",
         "id": "a_21rewxdo5mt"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchQAACi10reXj-LLT-3jIEe"
       }
     ],
     "titleTranslate": {
@@ -120208,6 +121471,10 @@
       {
         "site": "nicovideo",
         "id": "d4dj-pj"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JheWdrZyyskVBvGFjm8WyWK"
       }
     ]
   },
@@ -120318,6 +121585,10 @@
       {
         "site": "bilibili",
         "id": "28229867"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucgw-zpFKom3g_HBHf2MwbWX"
       }
     ],
     "titleTranslate": {
@@ -120341,6 +121612,10 @@
       {
         "site": "nicovideo",
         "id": "guraburu-granbluefantasy"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jizam_K1c4BX1jgvqjJs9u7"
       }
     ],
     "titleTranslate": {
@@ -120479,6 +121754,10 @@
       {
         "site": "bilibili",
         "id": "28229901"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjhMqu-ihplQpqAG0e3BRZ2"
       }
     ]
   },
@@ -120512,11 +121791,91 @@
       {
         "site": "nicovideo",
         "id": "bem-movie"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgNMizGUmDQYOD5juzzM47A"
       }
     ],
     "titleTranslate": {
       "zh-Hans": [
         "剧场版 BEM ～BECOME HUMAN～"
+      ]
+    }
+  },
+  {
+    "title": "鬼滅の刃 兄妹の絆",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "294137"
+      },
+      {
+        "site": "viu",
+        "id": "378326"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "鬼灭之刃 兄妹的羁绊"
+      ]
+    }
+  },
+  {
+    "title": "鬼滅の刃 那田蜘蛛山編",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "317002"
+      },
+      {
+        "site": "viu",
+        "id": "378714"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "鬼灭之刃 那田蜘蛛山篇"
+      ]
+    }
+  },
+  {
+    "title": "鬼滅の刃 柱合会議・蝶屋敷編",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "322102"
+      },
+      {
+        "site": "viu",
+        "id": "378448"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "鬼灭之刃 柱合会议・蝶屋敷篇"
+      ]
+    }
+  },
+  {
+    "title": "劇場版 鬼滅の刃 無限列車編",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "291494"
+      },
+      {
+        "site": "viu",
+        "id": "381883"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "剧场版 鬼灭の刃 无限列车编"
       ]
     }
   },
@@ -120614,6 +121973,10 @@
       {
         "site": "nicovideo",
         "id": "shingeki_final"
+      },
+      {
+        "site": "viu",
+        "id": "317442"
       }
     ],
     "titleTranslate": {
@@ -120675,6 +122038,25 @@
     }
   },
   {
+    "title": "ジョゼと虎と魚たち",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "295778"
+      },
+      {
+        "site": "nicovideo",
+        "id": "joseetora"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "乔西的虎与鱼"
+      ]
+    }
+  },
+  {
     "title": "のんのんびより のんすとっぷ",
     "type": "tv",
     "sites": [
@@ -120730,7 +122112,12 @@
   {
     "title": "エビシー修業日記",
     "type": "tv",
-    "sites": []
+    "sites": [
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhnjCV8G6KU3crrzcVVpHpI"
+      }
+    ]
   },
   {
     "title": "たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語",
@@ -120755,6 +122142,10 @@
       {
         "site": "nicovideo",
         "id": "lasdan"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchDu8J4JnEW4hBLiVtcTU9_"
       }
     ],
     "titleTranslate": {
@@ -120778,6 +122169,10 @@
       {
         "site": "nicovideo",
         "id": "yurucamp_second"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhsFhLkiHzyfMeO5unNiOEc"
       }
     ],
     "titleTranslate": {
@@ -120801,6 +122196,10 @@
       {
         "site": "nicovideo",
         "id": "kumo-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh0Urq4XJv3SkmYTq-goyCo"
       }
     ],
     "titleTranslate": {
@@ -120847,6 +122246,10 @@
       {
         "site": "nicovideo",
         "id": "othersidepicnic"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhuqqXxuJ3FjDyQ0ISzzBZ7"
       }
     ],
     "titleTranslate": {
@@ -120916,6 +122319,10 @@
       {
         "site": "nicovideo",
         "id": "ten-sura2"
+      },
+      {
+        "site": "viu",
+        "id": "326150"
       }
     ],
     "titleTranslate": {
@@ -120974,6 +122381,10 @@
       {
         "site": "nicovideo",
         "id": "tendebu"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucgq0vFuXPczkpUQubnlCnKG"
       }
     ],
     "titleTranslate": {
@@ -121047,6 +122458,10 @@
       {
         "site": "nicovideo",
         "id": "showbyrock-anime-s"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jg-H3LCLflZvXPqNzBBcgPe"
       }
     ],
     "titleTranslate": {
@@ -121070,6 +122485,14 @@
       {
         "site": "nicovideo",
         "id": "mushokutensei"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchqUd-1T62aLI2Ea44DMnQD"
+      },
+      {
+        "site": "viu",
+        "id": "326915"
       }
     ],
     "titleTranslate": {
@@ -121181,6 +122604,10 @@
       {
         "site": "bilibili",
         "id": "28232073"
+      },
+      {
+        "site": "viu",
+        "id": "280718"
       }
     ],
     "titleTranslate": {
@@ -121260,6 +122687,10 @@
       {
         "site": "nicovideo",
         "id": "project-scard"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjBBCj4wBdCNSUSHC_mP1vU"
       }
     ],
     "titleTranslate": {
@@ -121306,6 +122737,10 @@
       {
         "site": "nicovideo",
         "id": "back-arrow"
+      },
+      {
+        "site": "viu",
+        "id": "326928"
       }
     ],
     "titleTranslate": {
@@ -121375,6 +122810,10 @@
       {
         "site": "nicovideo",
         "id": "ramune-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchVjLOiCYh8s5EC1-Ic0jOl"
       }
     ],
     "titleTranslate": {
@@ -121413,6 +122852,10 @@
       {
         "site": "nicovideo",
         "id": "otonabougu_l"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucj7x5STu19zDhp4MWFZ1oa2"
       }
     ],
     "titleTranslate": {
@@ -121436,6 +122879,10 @@
       {
         "site": "nicovideo",
         "id": "ssorphen-anime_02"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjRWjpydulq6sytW7djJXwY"
       }
     ],
     "titleTranslate": {
@@ -121549,6 +122996,10 @@
       {
         "site": "nicovideo",
         "id": "i-chu"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchDbyB76-7nIUJGkzPQp4Jg"
       }
     ],
     "titleTranslate": {
@@ -121655,6 +123106,10 @@
       {
         "site": "iqiyi",
         "id": "a_19rrhlplux"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhI_jQt9Ivtl_N_rDOaSQyU"
       }
     ],
     "titleTranslate": {
@@ -121670,6 +123125,10 @@
       {
         "site": "bangumi",
         "id": "269565"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjRJO5uP7qEKv2NoErzw0wJ"
       }
     ],
     "titleTranslate": {
@@ -121710,6 +123169,10 @@
       {
         "site": "nicovideo",
         "id": "kemonojihen-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucjy2NpxOdkGR2q4xhTjBxrs"
       }
     ],
     "titleTranslate": {
@@ -121772,6 +123235,10 @@
       {
         "site": "bilibili",
         "id": "28232033"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjSiVggG7D0bM6tyadqA6oN"
       }
     ],
     "titleTranslate": {
@@ -121806,6 +123273,14 @@
       {
         "site": "bangumi",
         "id": "325178"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcjZNOMONkXpHrYS0gjbiY5c"
+      },
+      {
+        "site": "viu",
+        "id": "339273"
       }
     ],
     "titleTranslate": {
@@ -121893,6 +123368,10 @@
       {
         "site": "gamer",
         "id": "110755"
+      },
+      {
+        "site": "viu",
+        "id": "347465"
       }
     ],
     "titleTranslate": {
@@ -121923,6 +123402,44 @@
     "titleTranslate": {
       "zh-Hans": [
         "实况力量职业棒球"
+      ]
+    }
+  },
+  {
+    "title": "おしえて北斎！ -THE ANIMATION-",
+    "type": "web",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "318870"
+      },
+      {
+        "site": "nicovideo",
+        "id": "hokusai-anime"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "教教我吧 北斋！"
+      ]
+    }
+  },
+  {
+    "title": "ARIA The CREPUSCOLO",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "304087"
+      },
+      {
+        "site": "nicovideo",
+        "id": "aria-crepuscolo"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "水星领航员 The CREPUSCOLO"
       ]
     }
   },
@@ -121994,11 +123511,15 @@
       },
       {
         "site": "muse_hk",
-        "id": "PLuxqoToY7UchZ-FgfIawwu0qyC5T1sh9A"
+        "id": "PLuxqoToY7Uch8ZEfM-EYB6d7DulRBsKle"
       },
       {
         "site": "nicovideo",
         "id": "zombielandsaga-r"
+      },
+      {
+        "site": "viu",
+        "id": "350462"
       }
     ],
     "titleTranslate": {
@@ -122138,6 +123659,10 @@
       {
         "site": "gamer",
         "id": "116061"
+      },
+      {
+        "site": "viu",
+        "id": "349985"
       }
     ],
     "titleTranslate": {
@@ -122169,6 +123694,14 @@
       {
         "site": "gamer",
         "id": "108268"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uciv5iUrrsiwM6T8SKcRgdWo"
+      },
+      {
+        "site": "viu",
+        "id": "350869"
       }
     ],
     "titleTranslate": {
@@ -122296,6 +123829,10 @@
       {
         "site": "gamer",
         "id": "113810"
+      },
+      {
+        "site": "viu",
+        "id": "397452"
       }
     ],
     "titleTranslate": {
@@ -122555,6 +124092,10 @@
       {
         "site": "gamer",
         "id": "109471"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgxV0mDkMNtd0TczCCvLb-N"
       }
     ],
     "titleTranslate": {
@@ -122626,6 +124167,10 @@
       {
         "site": "gamer",
         "id": "112786"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JitxjngMqmgU7hFC7TOPZwa"
       }
     ],
     "titleTranslate": {
@@ -122645,6 +124190,10 @@
       {
         "site": "gamer",
         "id": "115000"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jj_vQ1YG75iGHsFxUbrEYfS"
       }
     ]
   },
@@ -122806,6 +124355,10 @@
       {
         "site": "gamer",
         "id": "116720"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh-o-8f8JyILvJoMO4ltkwu"
       }
     ]
   },
@@ -122915,6 +124468,10 @@
       {
         "site": "gamer",
         "id": "115852"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiVNXgTNnZWA36aZpgV0g8G"
       }
     ],
     "titleTranslate": {
@@ -123043,6 +124600,10 @@
       {
         "site": "gamer",
         "id": "115627"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JgAzPqskHYtlznaK7Q-JpCS"
       }
     ],
     "titleTranslate": {
@@ -123062,6 +124623,10 @@
       {
         "site": "gamer",
         "id": "114476"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjeBa1rZFpnIGEBtTj3iLxJ"
       }
     ],
     "titleTranslate": {
@@ -123308,6 +124873,25 @@
     }
   },
   {
+    "title": "えとたま ～猫客万来～",
+    "type": "web",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "237992"
+      },
+      {
+        "site": "nicovideo",
+        "id": "etotama-nyankyakubanrai"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "干支魂 ～猫客万来～"
+      ]
+    }
+  },
+  {
     "title": "レゴ フレンズ(シーズン2)",
     "type": "tv",
     "sites": []
@@ -123328,6 +124912,10 @@
       {
         "site": "nicovideo",
         "id": "getterrobot-arc"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhHilZTy4u4rr_s8-nEM1-8"
       }
     ],
     "titleTranslate": {
@@ -123378,6 +124966,10 @@
       {
         "site": "nicovideo",
         "id": "snx-anime"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jg9olNs9aYTSFjc6PM5vrbU"
       }
     ],
     "titleTranslate": {
@@ -123432,6 +125024,10 @@
       {
         "site": "nicovideo",
         "id": "bokurema"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jjad7wjjOwOoFgbHC5ZXhtG"
       }
     ],
     "titleTranslate": {
@@ -123459,6 +125055,10 @@
       {
         "site": "nicovideo",
         "id": "tanmoshi-anime"
+      },
+      {
+        "site": "viu",
+        "id": "371756"
       }
     ],
     "titleTranslate": {
@@ -123482,6 +125082,10 @@
       {
         "site": "bilibili_hk_mo_tw",
         "id": "28234714"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjgkhOb47BoCqBL3-HkjLEM"
       }
     ],
     "titleTranslate": {
@@ -123509,6 +125113,10 @@
       {
         "site": "nicovideo",
         "id": "tsukimichi"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jjz3JEX5tSOiRFK59VGimN5"
       }
     ],
     "titleTranslate": {
@@ -123532,6 +125140,10 @@
       {
         "site": "nicovideo",
         "id": "hamehura-x-anime"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UciceC14F8-9VyfN1xuSJt_d"
       }
     ],
     "titleTranslate": {
@@ -123578,6 +125190,10 @@
       {
         "site": "nicovideo",
         "id": "higurashianime_202107"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh7yn1GT-SfcTUqt5B_A7wf"
       }
     ],
     "titleTranslate": {
@@ -123666,6 +125282,14 @@
       {
         "site": "nicovideo",
         "id": "re-main"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhnfTQGx_aB4V2B6mc6a3gx"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235025"
       }
     ]
   },
@@ -123684,6 +125308,10 @@
       {
         "site": "nicovideo",
         "id": "vanitas-anime"
+      },
+      {
+        "site": "viu",
+        "id": "371199"
       }
     ],
     "titleTranslate": {
@@ -123703,6 +125331,10 @@
       {
         "site": "bilibili_hk_mo_tw",
         "id": "28234707"
+      },
+      {
+        "site": "viu",
+        "id": "372971"
       }
     ],
     "titleTranslate": {
@@ -123745,6 +125377,14 @@
       {
         "site": "bangumi",
         "id": "333349"
+      },
+      {
+        "site": "nicovideo",
+        "id": "jahysama-anime"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28234736"
       }
     ],
     "titleTranslate": {
@@ -123772,6 +125412,10 @@
       {
         "site": "nicovideo",
         "id": "peachboyriverside"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh8mDfdlDbC1fVDFoAMiDR4"
       }
     ],
     "titleTranslate": {
@@ -123799,6 +125443,10 @@
       {
         "site": "nicovideo",
         "id": "sonny-boy"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh5cTYOJ44AOGwWLAap7dCU"
       }
     ],
     "titleTranslate": {
@@ -124049,6 +125697,10 @@
       {
         "site": "bangumi",
         "id": "302875"
+      },
+      {
+        "site": "nicovideo",
+        "id": "magireco_2nd"
       }
     ],
     "titleTranslate": {
@@ -124097,6 +125749,10 @@
       {
         "site": "bilibili_hk_mo_tw",
         "id": "28234731"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjKw5ncC_0--FNdRLeMEbNW"
       }
     ],
     "titleTranslate": {
@@ -124112,6 +125768,10 @@
       {
         "site": "bangumi",
         "id": "302523"
+      },
+      {
+        "site": "viu",
+        "id": "370898"
       }
     ],
     "titleTranslate": {
@@ -124145,11 +125805,34 @@
       {
         "site": "gamer",
         "id": "113084"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhpvTizNfzlPX1tEERYVA97"
       }
     ],
     "titleTranslate": {
       "zh-Hans": [
         "平稳世代的韦驮天们"
+      ]
+    }
+  },
+  {
+    "title": "劇場編集版かくしごと ―ひめごとはなんですか―",
+    "type": "movie",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "322349"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kakushigoto-movie"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "剧场编集版 隐瞒之事 -秘密是什么-"
       ]
     }
   },
@@ -124160,6 +125843,10 @@
       {
         "site": "bangumi",
         "id": "346242"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uch1pVm3ukGPX1wy-efZqS8t"
       }
     ],
     "titleTranslate": {
@@ -124175,11 +125862,53 @@
       {
         "site": "bangumi",
         "id": "349616"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Uci1bE-BkrnAKmuzvPulQGqp"
       }
     ],
     "titleTranslate": {
       "zh-Hans": [
         "星期一的丰满 第二季"
+      ]
+    }
+  },
+  {
+    "title": "鬼滅の刃 浅草編",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "349032"
+      },
+      {
+        "site": "viu",
+        "id": "415241"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "鬼灭之刃 浅草篇"
+      ]
+    }
+  },
+  {
+    "title": "鬼滅の刃 鼓屋敷編",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "349033"
+      },
+      {
+        "site": "viu",
+        "id": "415448"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "鬼灭之刃 鼓屋敷篇"
       ]
     }
   },
@@ -124190,6 +125919,18 @@
       {
         "site": "bangumi",
         "id": "339694"
+      },
+      {
+        "site": "nicovideo",
+        "id": "yakumo-project_2"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JhdByPH2YetobD2dOivIiGr"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235145"
       }
     ],
     "titleTranslate": {
@@ -124205,6 +125946,10 @@
       {
         "site": "bangumi",
         "id": "309792"
+      },
+      {
+        "site": "nicovideo",
+        "id": "sankakumado-anime"
       }
     ],
     "titleTranslate": {
@@ -124220,6 +125965,18 @@
       {
         "site": "bangumi",
         "id": "323158"
+      },
+      {
+        "site": "nicovideo",
+        "id": "taisho-otome"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgF1IwTL_cMWqdxAN8fj6c_"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235177"
       }
     ],
     "titleTranslate": {
@@ -124235,6 +125992,18 @@
       {
         "site": "bangumi",
         "id": "309670"
+      },
+      {
+        "site": "nicovideo",
+        "id": "senpaiga-uzai"
+      },
+      {
+        "site": "viu",
+        "id": "397958"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235116"
       }
     ],
     "titleTranslate": {
@@ -124250,6 +126019,10 @@
       {
         "site": "bangumi",
         "id": "325585"
+      },
+      {
+        "site": "viu",
+        "id": "326915"
       }
     ],
     "titleTranslate": {
@@ -124280,6 +126053,14 @@
       {
         "site": "bangumi",
         "id": "333853"
+      },
+      {
+        "site": "nicovideo",
+        "id": "isekai-shokudo2"
+      },
+      {
+        "site": "viu",
+        "id": "396385"
       }
     ],
     "titleTranslate": {
@@ -124310,6 +126091,14 @@
       {
         "site": "bangumi",
         "id": "330973"
+      },
+      {
+        "site": "nicovideo",
+        "id": "mierukochan"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcguBStO4V7i0fdZWV6HdrK8"
       }
     ],
     "titleTranslate": {
@@ -124325,6 +126114,10 @@
       {
         "site": "bangumi",
         "id": "330918"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh3O6xMZONZpvbnybf8-EcQ"
       }
     ],
     "titleTranslate": {
@@ -124340,6 +126133,14 @@
       {
         "site": "bangumi",
         "id": "305579"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7Ucidnc7fLDplg42rCXt_ckSQ"
+      },
+      {
+        "site": "nicovideo",
+        "id": "sugushinu"
       }
     ],
     "titleTranslate": {
@@ -124355,6 +126156,14 @@
       {
         "site": "bangumi",
         "id": "311759"
+      },
+      {
+        "site": "nicovideo",
+        "id": "daimankai"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235178"
       }
     ],
     "titleTranslate": {
@@ -124385,6 +126194,18 @@
       {
         "site": "bangumi",
         "id": "333442"
+      },
+      {
+        "site": "nicovideo",
+        "id": "farawaypaladin"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jh_QWr3eCIlSbMAhE2eo-5r"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235026"
       }
     ],
     "titleTranslate": {
@@ -124400,6 +126221,10 @@
       {
         "site": "bangumi",
         "id": "322955"
+      },
+      {
+        "site": "nicovideo",
+        "id": "anime-platinumend"
       }
     ],
     "titleTranslate": {
@@ -124415,6 +126240,14 @@
       {
         "site": "bangumi",
         "id": "322193"
+      },
+      {
+        "site": "nicovideo",
+        "id": "puraore"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjNjGOUu_OBOQEV6ngrgK1j"
       }
     ]
   },
@@ -124425,6 +126258,14 @@
       {
         "site": "bangumi",
         "id": "319739"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235153"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28235268"
       }
     ],
     "titleTranslate": {
@@ -124440,6 +126281,14 @@
       {
         "site": "bangumi",
         "id": "283636"
+      },
+      {
+        "site": "nicovideo",
+        "id": "muteking_TDH"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235143"
       }
     ],
     "titleTranslate": {
@@ -124455,6 +126304,10 @@
       {
         "site": "bangumi",
         "id": "330894"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kyoukai-senki"
       }
     ],
     "titleTranslate": {
@@ -124470,6 +126323,10 @@
       {
         "site": "bangumi",
         "id": "331592"
+      },
+      {
+        "site": "nicovideo",
+        "id": "visualprison"
       }
     ],
     "titleTranslate": {
@@ -124485,6 +126342,10 @@
       {
         "site": "bangumi",
         "id": "342672"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235175"
       }
     ],
     "titleTranslate": {
@@ -124500,11 +126361,27 @@
       {
         "site": "bangumi",
         "id": "331535"
+      },
+      {
+        "site": "nicovideo",
+        "id": "takt-op"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7Jgp5-czzbc2NrWBg5g2qz7n"
+      },
+      {
+        "site": "viu",
+        "id": "396997"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235155"
       }
     ],
     "titleTranslate": {
       "zh-Hans": [
-        "宿命回响"
+        "宿命回响：命运节拍"
       ]
     }
   },
@@ -124515,6 +126392,14 @@
       {
         "site": "bangumi",
         "id": "321190"
+      },
+      {
+        "site": "nicovideo",
+        "id": "pjselection"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UchBBA373LpxqyHoLFedO9yf"
       }
     ]
   },
@@ -124525,6 +126410,10 @@
       {
         "site": "bangumi",
         "id": "325612"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235156"
       }
     ],
     "titleTranslate": {
@@ -124540,6 +126429,14 @@
       {
         "site": "bangumi",
         "id": "257991"
+      },
+      {
+        "site": "nicovideo",
+        "id": "sakugan-anime"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235174"
       }
     ],
     "titleTranslate": {
@@ -124555,6 +126452,10 @@
       {
         "site": "bangumi",
         "id": "262547"
+      },
+      {
+        "site": "nicovideo",
+        "id": "shikizakura-anime"
       }
     ],
     "titleTranslate": {
@@ -124570,6 +126471,22 @@
       {
         "site": "bangumi",
         "id": "328313"
+      },
+      {
+        "site": "nicovideo",
+        "id": "ansatsu-kizoku"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgAgalhgX5UlSOdg_EJtVea"
+      },
+      {
+        "site": "viu",
+        "id": "397343"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235173"
       }
     ],
     "titleTranslate": {
@@ -124585,6 +126502,10 @@
       {
         "site": "bangumi",
         "id": "345771"
+      },
+      {
+        "site": "nicovideo",
+        "id": "showtime_af"
       }
     ],
     "titleTranslate": {
@@ -124600,6 +126521,10 @@
       {
         "site": "bangumi",
         "id": "328356"
+      },
+      {
+        "site": "nicovideo",
+        "id": "maoibu_af"
       }
     ],
     "titleTranslate": {
@@ -124630,6 +126555,10 @@
       {
         "site": "bangumi",
         "id": "343125"
+      },
+      {
+        "site": "nicovideo",
+        "id": "megaton-musashi"
       }
     ],
     "titleTranslate": {
@@ -124645,6 +126574,18 @@
       {
         "site": "bangumi",
         "id": "337430"
+      },
+      {
+        "site": "nicovideo",
+        "id": "lupin-pt6"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjINA8RUCtiuDnEPsZMduGh"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235160"
       }
     ],
     "titleTranslate": {
@@ -124675,6 +126616,18 @@
       {
         "site": "bangumi",
         "id": "326505"
+      },
+      {
+        "site": "nicovideo",
+        "id": "shinkanomi"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjJbln83lUKLrhXMvu57JXk"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235053"
       }
     ],
     "titleTranslate": {
@@ -124690,6 +126643,10 @@
       {
         "site": "bangumi",
         "id": "332467"
+      },
+      {
+        "site": "nicovideo",
+        "id": "teslanote"
       }
     ],
     "titleTranslate": {
@@ -124705,6 +126662,14 @@
       {
         "site": "bangumi",
         "id": "296109"
+      },
+      {
+        "site": "nicovideo",
+        "id": "osama-ranking"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235154"
       }
     ],
     "titleTranslate": {
@@ -124720,6 +126685,14 @@
       {
         "site": "bangumi",
         "id": "332117"
+      },
+      {
+        "site": "nicovideo",
+        "id": "denchi-project"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgplWkR57G_op_0JlGO7-js"
       }
     ],
     "titleTranslate": {
@@ -124735,6 +126708,14 @@
       {
         "site": "bangumi",
         "id": "339969"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JjmsVmFRjMFgquw0gsde2pR"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235140"
       }
     ],
     "titleTranslate": {
@@ -124765,6 +126746,10 @@
       {
         "site": "bangumi",
         "id": "339904"
+      },
+      {
+        "site": "nicovideo",
+        "id": "primagi"
       }
     ]
   },
@@ -124775,6 +126760,14 @@
       {
         "site": "bangumi",
         "id": "331164"
+      },
+      {
+        "site": "ani_one_asia",
+        "id": "PLxSscENEp7JiBkNCZlFsKwmdtzlUR4Y58"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235176"
       }
     ],
     "titleTranslate": {
@@ -124790,6 +126783,10 @@
       {
         "site": "bangumi",
         "id": "293532"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgkuuO40w0_KB0Is4ESyCBJ"
       }
     ],
     "titleTranslate": {
@@ -124805,6 +126802,10 @@
       {
         "site": "bangumi",
         "id": "347792"
+      },
+      {
+        "site": "nicovideo",
+        "id": "fitboxing"
       }
     ],
     "titleTranslate": {
@@ -124835,6 +126836,14 @@
       {
         "site": "bangumi",
         "id": "333623"
+      },
+      {
+        "site": "nicovideo",
+        "id": "build-divide"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235179"
       }
     ],
     "titleTranslate": {
@@ -124856,7 +126865,21 @@
   {
     "title": "BanG Dream! ガルパ☆ピコ ふぃーばー！",
     "type": "tv",
-    "sites": []
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "338400"
+      },
+      {
+        "site": "nicovideo",
+        "id": "bang-dream-pico-fever"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "BanG Dream! 少女乐团派对！☆PICO FEVER！"
+      ]
+    }
   },
   {
     "title": "海賊王女",
@@ -124880,6 +126903,14 @@
       {
         "site": "bangumi",
         "id": "333598"
+      },
+      {
+        "site": "muse_hk",
+        "id": "PLuxqoToY7UcgKfi6aztuX5VXyu6nBg-Tg"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235130"
       }
     ],
     "titleTranslate": {
@@ -124904,8 +126935,232 @@
     }
   },
   {
-    "title": "鬼滅の刃 無限列車編(テレビ放送版)",
+    "title": "鬼滅の刃 無限列車編",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "350764"
+      },
+      {
+        "site": "nicovideo",
+        "id": "kimetsu_mugenresshahen"
+      },
+      {
+        "site": "viu",
+        "id": "398200"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28235287"
+      }
+    ]
+  },
+  {
+    "title": "斗神姬",
+    "type": "web",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "320220"
+      },
+      {
+        "site": "nicovideo",
+        "id": "ag-f"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "斗神姬"
+      ]
+    }
+  },
+  {
+    "title": "猫ジョッキー(第2期)",
     "type": "tv",
     "sites": []
+  },
+  {
+    "title": "鬼滅の刃 遊郭編",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "328195"
+      },
+      {
+        "site": "viu",
+        "id": "411458"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "鬼灭之刃 游郭篇"
+      ]
+    }
+  },
+  {
+    "title": "幻想三國誌 天元霊心記",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "286211"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "幻想三国志 -天元灵心记-"
+      ]
+    }
+  },
+  {
+    "title": "ジョジョの奇妙な冒険 ストーンオーシャン",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "332261"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235123"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "JOJO的奇妙冒险 石之海"
+      ]
+    }
+  },
+  {
+    "title": "プリンセスコネクト！Re:Dive Season 2",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "312958"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "公主连结 Re:Dive 第二季"
+      ]
+    }
+  },
+  {
+    "title": "スローループ",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "323626"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "Slow Loop"
+      ]
+    }
+  },
+  {
+    "title": "ハコヅメ～交番女子の逆襲～",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "344422"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "秘密内幕～女子警察的逆袭～"
+      ]
+    }
+  },
+  {
+    "title": "天才王子の赤字国家再生術",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "326868"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "天才王子的赤字国家振兴术"
+      ]
+    }
+  },
+  {
+    "title": "ありふれた職業で世界最強 2nd season",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "292316"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "平凡职业成就世界最强 第二季"
+      ]
+    }
+  },
+  {
+    "title": "CUE!",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "318227"
+      }
+    ]
+  },
+  {
+    "title": "からかい上手の高木さん3",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "347887"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "擅长捉弄的高木同学 第三季"
+      ]
+    }
+  },
+  {
+    "title": "その着せ替え人形は恋をする",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "333158"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "更衣人偶坠入爱河"
+      ]
+    }
+  },
+  {
+    "title": "王子の本命は悪役令嬢",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "339062"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "王子的本命是恶役千金"
+      ]
+    }
   }
 ]
