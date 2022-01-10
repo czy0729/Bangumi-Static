@@ -1,90 +1,90 @@
 {
   "anime": [
     {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/333158.jpg",
+      "title": "その着せ替え人形は恋をする",
+      "subjectId": "333158",
+      "info": "1723人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/331480.jpg",
+      "title": "明日ちゃんのセーラー服",
+      "subjectId": "331480",
+      "info": "1373人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/347887.jpg",
+      "title": "からかい上手の高木さん③",
+      "subjectId": "347887",
+      "info": "1177人关注"
+    },
+    {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/328195.jpg",
       "title": "鬼滅の刃 遊郭編",
       "subjectId": "328195",
-      "info": "2025人关注"
+      "info": "2235人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/332261.jpg",
-      "title": "ジョジョの奇妙な冒険 ストーンオーシャン",
-      "subjectId": "332261",
-      "info": "2654人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/323626.jpg",
+      "title": "スローループ",
+      "subjectId": "323626",
+      "info": "1057人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/325585.jpg",
-      "title": "無職転生 ～異世界行ったら本気だす～ 第2クール",
-      "subjectId": "325585",
-      "info": "6592人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/344422.jpg",
+      "title": "ハコヅメ～交番女子の逆襲～",
+      "subjectId": "344422",
+      "info": "825人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/296109.jpg",
-      "title": "王様ランキング",
-      "subjectId": "296109",
-      "info": "4973人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/328313.jpg",
-      "title": "世界最高の暗殺者、異世界貴族に転生する",
-      "subjectId": "328313",
-      "info": "3544人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/319739.jpg",
-      "title": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました",
-      "subjectId": "319739",
-      "info": "2250人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/294135.jpg",
-      "title": "劇場版 少女☆歌劇 レヴュースタァライト",
-      "subjectId": "294135",
-      "info": "2059人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/331752.jpg",
+      "title": "進撃の巨人 The Final Season Part.2",
+      "subjectId": "331752",
+      "info": "1583人关注"
     }
   ],
   "game": [
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/284157.jpg",
-      "title": "原神",
-      "subjectId": "284157",
-      "info": "1394人关注"
-    },
-    {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/347490.jpg",
       "title": "クナド国記",
       "subjectId": "347490",
-      "info": "277人关注"
+      "info": "296人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/322181.jpg",
-      "title": "ウチはもう、延期できない。",
-      "subjectId": "322181",
-      "info": "287人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/284157.jpg",
+      "title": "原神",
+      "subjectId": "284157",
+      "info": "1419人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/308947.jpg",
       "title": "It Takes Two",
       "subjectId": "308947",
-      "info": "618人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/291280.jpg",
-      "title": "Disco Elysium",
-      "subjectId": "291280",
-      "info": "1101人关注"
+      "info": "648人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/22423.jpg",
       "title": "サクラノ詩 —櫻の森の上を舞う—",
       "subjectId": "22423",
-      "info": "4937人关注"
+      "info": "4964人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/336983.jpg",
-      "title": "創作彼女の恋愛公式",
-      "subjectId": "336983",
-      "info": "482人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/62229.jpg",
+      "title": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+      "subjectId": "62229",
+      "info": "4405人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/317674.jpg",
+      "title": "LUNARiA -Virtualized Moonchild-",
+      "subjectId": "317674",
+      "info": "226人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/137458.jpg",
+      "title": "FINAL FANTASY VII REMAKE",
+      "subjectId": "137458",
+      "info": "1170人关注"
     }
   ],
   "book": [
@@ -92,43 +92,43 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/268279.jpg",
       "title": "チェンソーマン",
       "subjectId": "268279",
-      "info": "3262人关注"
+      "info": "3291人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/101114.jpg",
       "title": "無職転生 ～異世界行ったら本気だす～",
       "subjectId": "101114",
-      "info": "1047人关注"
+      "info": "1072人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/279379.jpg",
       "title": "SPY×FAMILY",
       "subjectId": "279379",
-      "info": "911人关注"
+      "info": "934人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/305429.jpg",
       "title": "葬送のフリーレン",
       "subjectId": "305429",
-      "info": "1116人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/179872.jpg",
-      "title": "ファイアパンチ",
-      "subjectId": "179872",
-      "info": "2070人关注"
+      "info": "1128人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/135218.jpg",
       "title": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
       "subjectId": "135218",
-      "info": "1897人关注"
+      "info": "1906人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/179872.jpg",
+      "title": "ファイアパンチ",
+      "subjectId": "179872",
+      "info": "2093人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/303186.jpg",
       "title": "【推しの子】",
       "subjectId": "303186",
-      "info": "831人关注"
+      "info": "838人关注"
     }
   ],
   "music": [
@@ -136,88 +136,88 @@
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/350639.jpg",
       "title": "『無職転生 ～異世界行ったら本気だす～』Theme Song Collection",
       "subjectId": "350639",
-      "info": "92人关注"
+      "info": "112人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/321924.jpg",
       "title": "One Last Kiss",
       "subjectId": "321924",
-      "info": "540人关注"
+      "info": "549人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/163164.jpg",
       "title": "サクラノ詩 サウンドトラックCD",
       "subjectId": "163164",
-      "info": "1203人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/616.jpg",
-      "title": "CLANNAD Original SoundTrack",
-      "subjectId": "616",
-      "info": "2332人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/238923.jpg",
-      "title": "Xenoblade2 Original Soundtrack",
-      "subjectId": "238923",
-      "info": "614人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/360765.jpg",
-      "title": "Rewrite 10th memorial Arrange Album 'Forestia'",
-      "subjectId": "360765",
-      "info": "20人关注"
+      "info": "1212人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/334020.jpg",
       "title": "劇場版 少女☆歌劇 レヴュースタァライト 劇中歌アルバムVol.2",
       "subjectId": "334020",
-      "info": "30人关注"
+      "info": "37人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/616.jpg",
+      "title": "CLANNAD Original SoundTrack",
+      "subjectId": "616",
+      "info": "2340人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/238923.jpg",
+      "title": "Xenoblade2 Original Soundtrack",
+      "subjectId": "238923",
+      "info": "623人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/334019.jpg",
+      "title": "劇場版 少女☆歌劇 レヴュースタァライト 劇中歌アルバムVol.1",
+      "subjectId": "334019",
+      "info": "35人关注"
     }
   ],
   "real": [
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/343491.jpg",
-      "title": "仮面ライダーリバイス",
-      "subjectId": "343491",
-      "info": "306人关注"
-    },
-    {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/294690.jpg",
       "title": "The Witcher Season 2",
       "subjectId": "294690",
-      "info": "64人关注"
+      "info": "70人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/343491.jpg",
+      "title": "仮面ライダーリバイス",
+      "subjectId": "343491",
+      "info": "311人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/346327.jpg",
       "title": "最愛",
       "subjectId": "346327",
-      "info": "176人关注"
-    },
-    {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/280916.jpg",
-      "title": "Hawkeye",
-      "subjectId": "280916",
-      "info": "64人关注"
+      "info": "177人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/361295.jpg",
       "title": "雪中悍刀行",
       "subjectId": "361295",
-      "info": "17人关注"
+      "info": "18人关注"
     },
     {
-      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/353565.jpg",
-      "title": "美しい彼",
-      "subjectId": "353565",
-      "info": "28人关注"
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/355320.jpg",
+      "title": "The Book of Boba Fett",
+      "subjectId": "355320",
+      "info": "18人关注"
     },
     {
       "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/333282.jpg",
       "title": "ウルトラマントリガー NEW GENERATION TIGA",
       "subjectId": "333282",
-      "info": "274人关注"
+      "info": "276人关注"
+    },
+    {
+      "cover": "https://cdn.jsdelivr.net/gh/czy0729/Bangumi-Static@master/data/discovery/cover/280916.jpg",
+      "title": "Hawkeye",
+      "subjectId": "280916",
+      "info": "71人关注"
     }
   ],
-  "today": "今日上映 6 部，共 324 人收看"
+  "today": "今日上映 6 部，共 741 人收看"
 }
