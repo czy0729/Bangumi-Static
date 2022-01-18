@@ -31,7 +31,8 @@
     "h:list": "node src/h/list.js",
     "h:detail": "node src/h/detail.js",
     "h:search": "node src/h/search.js",
-    "h:min": "node src/h/min.js"
+    "h:min": "node src/h/min.js",
+    "onair": "node src/onair/index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
