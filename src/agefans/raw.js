@@ -1,21 +1,21 @@
 /*
- * https://www.agefans.vip/catalog/all-all-all-all-all-time-1-日本-all-all
- * https://www.agefans.vip/catalog/all-all-all-all-all-time-1-中国-all-all
+ * https://www.agemys.com/catalog/all-all-all-all-all-time-1-日本-all-all
+ * https://www.agemys.com/catalog/all-all-all-all-all-time-1-中国-all-all
  *
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-01-03 04:42:15
+ * @Last Modified time: 2022-02-23 06:23:17
  */
 const utils = require('../utils')
 
 const __raw = utils.root('data/agefans/raw.json')
 const raw = utils.read(__raw)
 
-const host = 'https://www.agefans.vip' // .life
+const host = 'https://www.agemys.com'
 const pages = [
-  { type: '日本', p: 117, area: 'jp' },
-  { type: '中国', p: 24, area: 'cn' }
+  { type: '日本', p: 119, area: 'jp' },
+  { type: '中国', p: 26, area: 'cn' }
 ]
 
 async function run() {

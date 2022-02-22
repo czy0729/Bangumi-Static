@@ -15,4 +15,7 @@
     更新所有数据的 bgm 信息
 
 6.  yarn age:min
-    生成 anime.min.json 和 anime.app.json
+    生成 anime.min.json
+
+7.  yarn age:app
+    生成 anime.app.json
