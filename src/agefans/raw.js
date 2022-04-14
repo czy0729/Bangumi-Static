@@ -5,7 +5,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-02-23 06:23:17
+ * @Last Modified time: 2022-04-14 15:13:24
  */
 const utils = require('../utils')
 
@@ -14,7 +14,7 @@ const raw = utils.read(__raw)
 
 const host = 'https://www.agemys.com'
 const pages = [
-  { type: '日本', p: 119, area: 'jp' },
+  { type: '日本', p: 120, area: 'jp' },
   { type: '中国', p: 26, area: 'cn' }
 ]
 
