@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-01-12 16:39:05
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-29 18:01:44
+ * @Last Modified time: 2022-04-27 18:42:55
  */
 const utils = require('../utils')
 
@@ -19,6 +19,7 @@ const items = utils.read(__items)
 const sitesMap = {
   acfun: 'a',
   bilibili: 'b',
+  bilibili_hk_mo_tw: 'bhmt',
   sohu: 's',
   youku: 'y',
   qq: 'q',
