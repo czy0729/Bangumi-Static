@@ -128104,6 +128104,10 @@
       {
         "site": "bilibili_hk_mo_tw",
         "id": "28237167"
+      },
+      {
+        "site": "bilibili",
+        "id": "28234872"
       }
     ],
     "titleTranslate": {
@@ -128457,7 +128461,12 @@
         "site": "ani_one_asia",
         "id": "PLxSscENEp7JhTcld54szOhI4UZJeSJrJc"
       }
-    ]
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "Love All Play热血羽毛球"
+      ]
+    }
   },
   {
     "title": "デュエル・マスターズ キングMAX",
@@ -128627,6 +128636,10 @@
       {
         "site": "bilibili_hk_mo_tw",
         "id": "28237195"
+      },
+      {
+        "site": "bilibili",
+        "id": "28235419"
       }
     ],
     "titleTranslate": {
@@ -128767,7 +128780,11 @@
         "id": "317613"
       },
       {
-        "site": "bilibili_hk_mo_tw",
+        "site": "bilibili_tw",
+        "id": "28237179"
+      },
+      {
+        "site": "bilibili_hk_mo",
         "id": "28237259"
       },
       {
@@ -128922,6 +128939,10 @@
       {
         "site": "bangumi",
         "id": "327606"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28237186"
       }
     ],
     "titleTranslate": {
