@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-04-05 03:20:34
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-05 07:30:06
+ * @Last Modified time: 2022-05-16 19:30:12
  */
 const utils = require('../utils')
 const { fetchHome } = require('../utils/third-party/old-fetch')
@@ -15,6 +15,7 @@ const __cdn = subjectId =>
 async function run() {
   const discovery = await fetchHome()
   const covers = []
+
   Object.keys(discovery).forEach(key => {
     if (Array.isArray(discovery[key])) {
       discovery[key].forEach(item => {
@@ -23,7 +24,8 @@ async function run() {
           subjectId,
           cover: utils.large(cover)
         })
-        item.cover = __cdn(subjectId)
+        // item.cover = __cdn(subjectId)
+        item.cover = utils.large(cover)
       })
     }
   })
