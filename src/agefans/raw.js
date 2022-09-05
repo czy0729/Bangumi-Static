@@ -5,17 +5,17 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-06-18 09:45:54
+ * @Last Modified time: 2022-09-04 20:29:59
  */
 const utils = require('../utils')
 
 const __raw = utils.root('data/agefans/raw.json')
 const raw = utils.read(__raw)
 
-const host = 'https://www.agemys.com'
+const host = 'https://www.agemys.cc'
 const pages = [
-  { type: '日本', p: 122, area: 'jp' },
-  { type: '中国', p: 26, area: 'cn' }
+  { type: '日本', p: 123, area: 'jp' },
+  // { type: '中国', p: 26, area: 'cn' }
 ]
 
 async function run() {
