@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-04 20:40:01
+ * @Last Modified time: 2022-09-05 16:06:57
  */
 const utils = require('../utils')
 
@@ -23,6 +23,11 @@ async function run() {
         if (data.air_date) anime[indexAnime].begin = data.air_date
         anime[indexAnime].score = data.rating && data.rating.score
         anime[indexAnime].rank = data.rank
+        if (data.images && data.images.medium)
+          anime[indexAnime].image = data.images.medium
+            .replace('http://lain.bgm.tv/pic/cover/m/', '')
+            .replace('.jpg', '')
+
         console.log(
           `[${indexAnime} | ${idsAnime.length}]`,
           itemAnime.cn,
