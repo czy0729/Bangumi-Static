@@ -4,7 +4,7 @@
  * @Author: czy0729
  * @Date: 2020-07-29 15:10:12
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-26 15:44:01
+ * @Last Modified time: 2022-09-15 17:40:05
  */
 const fs = require('fs')
 const path = require('path')
@@ -14,7 +14,7 @@ const iconv = require('iconv-lite')
 
 const fileConfig = './data/wenku8/deprecated/config.json'
 const fileRaw = './data/wenku8/raw.json'
-const pages = 2966
+const pages = 3274
 
 function cheerio(target) {
   return typeof target === 'string'
@@ -88,7 +88,7 @@ function save(config, data) {
         '全文长度',
       ])
 
-      let hot = html.match(/作品热度：(.+?)级 ，/)
+      let hot = html.match(/作品热度：(.+?)级，/)
       hot = (hot && hot[1]) || ''
 
       let up = html.match(/当前热度上升指数为：(.+?)级/)
@@ -99,18 +99,22 @@ function save(config, data) {
       )
       ep = (ep && ep[1]) || ''
 
+      let tags = html.match(/<span class="hottext" style="font-size:13px;"><b>作品Tags：(.+?)<\/b><\/span>/)
+      tags = (tags && tags[1]) || ''
+
       data[page] = {
         wid: page,
         title,
         // img: // 有规律不需要分析 http://img.wenku8.com/image/{0/2/2s}.jpg,
         cate,
         author,
-        status: status === '已完成' ? 1 : 0, // 连载中 0 | 已完成 1
+        status: status === '已完结' ? 1 : 0, // 连载中 0 | 已完结 1
         time,
         len: parseInt(len.replace('字', '')),
         hot,
         up,
         ep,
+        tags,
         anime: html.includes('本作已动画化') ? 1 : 0,
       }
       console.log(url, data[page].title)

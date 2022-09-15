@@ -2,13 +2,14 @@
  * @Author: czy0729
  * @Date: 2021-01-06 18:15:49
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-26 16:10:54
+ * @Last Modified time: 2022-09-15 18:06:01
  */
 const utils = require('../utils')
 
 const __detail = utils.root('data/wenku8/detail.json')
 const __wenku = utils.root('data/wenku8/wenku.json')
 const __matched = utils.root('data/wenku8/matched.json')
+
 const raw = utils.read(utils.root('data/wenku8/raw.json'))
 const detail = utils.read(__detail)
 const wenku = utils.read(__wenku)

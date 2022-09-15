@@ -6,7 +6,7 @@
  * @Author: czy0729
  * @Date: 2020-08-03 09:55:03
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-26 16:40:40
+ * @Last Modified time: 2022-09-15 19:28:15
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -20,24 +20,26 @@ const ncp = require('copy-paste')
 axios.defaults.timeout = 3000
 
 // 配置
-const autoSkip = false // 是否开启全自动
-const host = 'https://bangumi.tv'
+const autoSkip = true // 是否开启全自动
+const host = 'https://bgm.tv'
 const headers = {
   Host: host.split('//')[1],
   Cookie:
-    'chii_sec_id=gKB4FVqYg8LPoxJJctmSAsCl5PZ8bR5Vs%2BGdgLWE; chii_cookietime=2592000; chii_theme_choose=1; __utmz=1.1621966126.187.10.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; chii_theme=dark; chii_auth=ayzByt8yYpFTz1wAk9dKpUZ0WmvrnKChvSMBmJPkS4ccadkUQweDf0NjJCbgfmAjGS4%2FMK03D4%2BypWrbXi8WkJ5Xd2cydK05CukX; prg_display_mode=tiny; chii_sid=VZXw6T; __utma=1.859723941.1616215584.1624586631.1624694129.212; __utmc=1; __utmt=1; __utmb=1.29.10.1624694129',
+    'chii_sec_id=UbWhSkzVgWMCEAMVkRyXrW04%2BPftIpKVVfG6965j; chii_cookietime=2592000; chii_theme_choose=1; chii_theme=dark; prg_display_mode=normal; prg_list_mode=full; chii_auth=8m92d08nnEwIs5QW11vYBJyPmnpOBQqX9BwU70Lf6qkXMvKdD%2BTKjbHoQcaXalLXwF8YdCO2eLIXxXOkgOEtLuv06qd22BS3y1F%2F; __utmz=1.1662831581.1779.27.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; __utmc=1; chii_sid=Uj56yb; __utma=1.825736922.1638495774.1663234883.1663239961.1811; __utmt=1; __utmb=1.3.10.1663239961',
   'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
 }
 
 // 固定配置
-const configFilePath = './data/wenku8/deprecated/config.json'
-const rawFilePath = './data/wenku8/deprecated/raw.json'
-const dataFilePath = './data/wenku8/deprecated/data.json'
-const configData = JSON.parse(fs.readFileSync(configFilePath))
-const matchData = JSON.parse(fs.readFileSync(dataFilePath))
-const rawData = JSON.parse(fs.readFileSync(rawFilePath))
-const rawArray = Object.keys(rawData).map((key) => rawData[key])
+const __config = './data/wenku8/deprecated/config.json'
+const __raw = './data/wenku8/deprecated/raw.json'
+const __data = './data/wenku8/deprecated/data.json'
+
+const config = JSON.parse(fs.readFileSync(__config))
+const raw = JSON.parse(fs.readFileSync(__raw))
+const data = JSON.parse(fs.readFileSync(__data))
+
+const rawArr = Object.keys(raw).map((key) => raw[key])
 
 // 临时变量
 let commands = []
@@ -54,10 +56,7 @@ let score = ''
 // 工具方法
 let spinner
 
-/**
- * cheerio
- * @param {*} target
- */
+/** cheerio */
 function cheerio(target) {
   return typeof target === 'string'
     ? cheerioRN.load(target, undefined, undefined, {
@@ -68,10 +67,7 @@ function cheerio(target) {
       })
 }
 
-/**
- * 睡眠
- * @param {*} ms
- */
+/** 睡眠 */
 function sleep(ms = 1200) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
@@ -91,9 +87,7 @@ function msg(type, msg, color = '33m') {
   console.log('\x1b[40m \x1b[' + color + '[' + type + '] ' + msg + '\x1b[0m')
 }
 
-/**
- * 获取键盘输入命令
- */
+/** 获取键盘输入命令 */
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -107,22 +101,17 @@ const getLine = (function () {
   return async () => (await getLineGen.next()).value
 })()
 
-// 逻辑方法
-/**
- * 跳过并写入
- */
+/** 跳过并写入 */
 function skip() {
   spinner.warn(`skip ${item.title}`)
 
-  configData.skip[item.wid] = item
-  delete rawData[item.wid]
+  config.skip[item.wid] = item
+  delete raw[item.wid]
 
   save()
 }
 
-/**
- * 写入保存
- */
+/** 写入保存 */
 let _save = 0
 function save(immediate) {
   if (immediate) {
@@ -132,21 +121,19 @@ function save(immediate) {
   }
 
   if (_save % 10 === 0) {
-    spinner.succeed(`save skip: ${Object.keys(configData.skip).length}, raw: ${
-      Object.keys(rawData).length
-    }, data: ${Object.keys(matchData).length}`)
+    spinner.succeed(`save skip: ${Object.keys(config.skip).length}, raw: ${
+      Object.keys(raw).length
+    }, data: ${Object.keys(data).length}`)
 
-    fs.writeFileSync(configFilePath, JSON.stringify(configData))
-    fs.writeFileSync(rawFilePath, JSON.stringify(rawData))
-    fs.writeFileSync(dataFilePath, JSON.stringify(matchData))
+    fs.writeFileSync(__config, JSON.stringify(config, null, 2))
+    fs.writeFileSync(__raw, JSON.stringify(raw))
+    fs.writeFileSync(__data, JSON.stringify(data, null, 2))
   }
 
   reset()
 }
 
-/**
- * 写入成功后重置临时变量
- */
+/** 写入成功后重置临时变量 */
 function reset() {
   temp = null
   url = ''
@@ -160,10 +147,7 @@ function reset() {
   score = ''
 }
 
-/**
- * Bangumi搜索
- * @param {*} keyword
- */
+/** Bangumi搜索 */
 async function search(keyword) {
   try {
     console.log('\n')
@@ -195,7 +179,6 @@ async function search(keyword) {
           (item.title.includes('第') && item.title.includes('卷'))
         )
     )
-    // .sort((a, b) => a.title.length - b.title.length)
 
     items.forEach((item, index) =>
       console.log(` [${index + 1}] ${item.id} - ${item.title}`)
@@ -207,16 +190,12 @@ async function search(keyword) {
   }
 }
 
-/**
- * 获取下一个原始数据
- */
+/** 获取下一个原始数据 */
 function next() {
-  return rawArray.shift()
+  return rawArr.shift()
 }
 
-/**
- * Bangumi查询条目
- */
+/** Bangumi 查询条目 */
 async function subject(subjectId) {
   const url = `${host}/subject/${subjectId}`
   spinner.info(`fetch subject ${url}`)
@@ -257,9 +236,7 @@ async function subject(subjectId) {
   }
 }
 
-/**
- * 爬爬
- */
+/** 爬爬 */
 ;(async function () {
   const saveThenNext = async () => {
     if (autoSkip) {
@@ -268,7 +245,7 @@ async function subject(subjectId) {
 
     // 递归, 有id则保存
     if (id) {
-      matchData[id] = {
+      data[id] = {
         id,
         wid: item.wid,
         cover,
@@ -286,12 +263,12 @@ async function subject(subjectId) {
         ep: item.ep,
         anime: item.anime,
       }
-      if (matchData[id].title === matchData[id].w) {
-        delete matchData[id].w
+      if (data[id].title === data[id].w) {
+        delete data[id].w
       }
 
-      spinner.succeed(`confirm ${JSON.stringify(matchData[id], null, 2)}`)
-      delete rawData[item.wid]
+      spinner.succeed(`confirm ${JSON.stringify(data[id], null, 2)}`)
+      delete raw[item.wid]
 
       save()
     }

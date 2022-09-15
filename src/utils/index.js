@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-09-29 07:18:28
+ * @Last Modified time: 2022-09-14 19:55:47
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -17,7 +17,7 @@ const ora = require('./third-party/ora')
 const cnChar = require('./third-party/cn-char/index')
 
 require('events').EventEmitter.defaultMaxListeners = 0
-axios.defaults.timeout = 3000
+axios.defaults.timeout = 8000
 
 /*
   JSON.stringify({
@@ -74,15 +74,11 @@ async function fetch(
       'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
   }
 ) {
-  try {
-    const { data } = await axios({
-      url,
-      headers
-    })
-    return data
-  } catch (error) {
-    return fetch(url, headers)
-  }
+  const { data } = await axios({
+    url,
+    headers
+  })
+  return data
 }
 
 /**
