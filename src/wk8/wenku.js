@@ -2,196 +2,134 @@
  * @Author: czy0729
  * @Date: 2021-01-06 18:15:49
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-15 18:06:01
+ * @Last Modified time: 2022-09-16 16:04:45
  */
 const utils = require('../utils')
 
-const __detail = utils.root('data/wenku8/detail.json')
-const __wenku = utils.root('data/wenku8/wenku.json')
 const __matched = utils.root('data/wenku8/matched.json')
+const __wenku = utils.root('data/wenku8/wenku.v2.json')
 
 const raw = utils.read(utils.root('data/wenku8/raw.json'))
-const detail = utils.read(__detail)
-const wenku = utils.read(__wenku)
 const matched = utils.read(__matched)
 
-const temp = {}
-wenku.forEach(item => (temp[item.id] = item))
+const accessToken = {
+  access_token: 'efe06c7b9980f817b38b9c4f08d902540c729f80',
+  expires_in: 604800,
+  token_type: 'Bearer',
+  scope: null,
+  user_id: 456208,
+  refresh_token: '746ed5496b7795f414452093a2580a82fefbbbee'
+}
 
-const rewrite = true
-const startIndex = 0
+const map = {}
+Object.keys(matched).forEach(bgmId => {
+  map[bgmId] = matched[bgmId].wid
+})
 
+const wenku = utils.read(__wenku)
 async function run() {
-  const idsDetail = Object.keys(detail)
-  for (
-    let indexDetail = startIndex;
-    indexDetail <= idsDetail.length;
-    indexDetail++
-  ) {
-    const idDetail = Number(idsDetail[indexDetail])
-    const itemDetail = detail[idDetail] || {}
-
-    // 若item中id和key一样, 就是没处理过的数据, 跳过
-    if (!itemDetail.id || itemDetail.id === idDetail) {
+  const bgmIds = Object.keys(map)
+  for (let i = 0; i <= bgmIds.length; i += 1) {
+    const bgmId = bgmIds[i]
+    if (!bgmId || wenku.find(item => item.id == bgmId)) {
       continue
     }
 
-    // 非重写情况, 若wenku中有记录, 跳过
-    if (!rewrite) {
-      const findIndex = wenku.findIndex(item => item.ageId === idDetail)
-      if (findIndex !== -1) {
-        matched[idDetail] = detail[idDetail]
-        continue
+    const wId = map[bgmId]
+    const item = raw[wId] || {}
+
+    const url = `https://api.bgm.tv/v0/subjects/${bgmId}?app_id=bgm8885c4d524cd61fc`
+    const data = await utils.fetch(url, {
+      Authorization: `${accessToken.token_type} ${accessToken.access_token}`,
+      'User-Agent':
+        'Dalvik/2.1.0 (Linux; U; Android 12; Mi 10 Build/SKQ1.211006.001) 1661803607'
+    })
+
+    if (data) {
+      const itemData = {
+        cn: data.name_cn || item.title || '',
+        jp: data.name || '',
+        ep: item.ep || '',
+        update: item.time || '',
+        begin: data.date || '',
+        status: item.status || 0,
+        anime: item.anime || 0,
+        cate: item.cate || '',
+        author: item.author || '',
+        score: (data.rating && data.rating.score) || 0,
+        rank: (data.rating && data.rating.rank) || 0,
+        total: (data.rating && data.rating.total) || 0,
+        image:
+          data.images && data.images.large
+            ? data.images.large.replace(
+                /https:\/\/lain.bgm.tv\/pic\/cover\/l\/|.jpg/g,
+                ''
+              )
+            : '',
+        id: Number(bgmId),
+        wid: Number(wId),
+        len: parseInt((item.len || 0) / 10000),
+        tags: item.tags || '',
+        hot:
+          item.hot === 'D'
+            ? 1
+            : item.hot === 'C'
+            ? 2
+            : item.hot === 'B'
+            ? 3
+            : item.hot === 'A'
+            ? 4
+            : item.hot === 'S'
+            ? 5
+            : 0,
+        up:
+          item.up === 'D'
+            ? 1
+            : item.up === 'C'
+            ? 2
+            : item.up === 'B'
+            ? 3
+            : item.up === 'A'
+            ? 4
+            : item.up === 'S'
+            ? 5
+            : 0
       }
-    }
-
-    // 从bgm条目页获取实时数据
-    const idBgm = Number(itemDetail.id)
-    const url = `https://api.bgm.tv/subject/${idBgm}?responseGroup=large`
-    const data = await utils.fetch(url)
-    console.log(`[${indexDetail} | ${idsDetail.length}]`, url, itemDetail.cn)
-
-    temp[idBgm] = {
-      ...itemDetail,
-      ...(temp[idBgm] || {}),
-      id: Number(idBgm),
-      wid: Number(idDetail),
-      status: itemDetail.status,
-      wenku: itemDetail.wenku,
-      author: itemDetail.author,
-      ep: itemDetail.ep,
-      cn: data.name_cn || itemDetail.cn,
-      jp: data.name || itemDetail.jp,
-      image:
-        data.images && data.images && data.images.large
-          ? data.images.large.replace(
-              /http:\/\/lain.bgm.tv\/pic\/cover\/l\/|.jpg/g,
-              ''
-            )
-          : '',
-      begin: itemDetail.begin,
-      update: itemDetail.update,
-      cate: itemDetail.cate,
-      hot:
-        itemDetail.hot === 'D'
-          ? 1
-          : itemDetail.hot === 'C'
-          ? 2
-          : itemDetail.hot === 'B'
-          ? 3
-          : itemDetail.hot === 'A'
-          ? 4
-          : itemDetail.hot === 'S'
-          ? 5
-          : 0,
-      up:
-        itemDetail.up === 'D'
-          ? 1
-          : itemDetail.up === 'C'
-          ? 2
-          : itemDetail.up === 'B'
-          ? 3
-          : itemDetail.up === 'A'
-          ? 4
-          : itemDetail.up === 'S'
-          ? 5
-          : 0,
-      len: parseInt((itemDetail.len || 0) / 10000),
-      rank: data.rank,
-      score: data.rating && data.rating.score
-    }
-
-    if (temp[idBgm].cn === temp[idBgm].jp) delete temp[idBgm].jp
-    if (temp[idBgm].ep === '') delete temp[idBgm].ep
-    if (!temp[idBgm].rank) {
-      delete temp[idBgm].score
-      delete temp[idBgm].rank
-    }
-    matched[idDetail] = detail[idDetail]
-
-    if (indexDetail % 10 === 0) {
-      utils.write(
-        __wenku,
-        Object.keys(temp).map(id => temp[id])
+      wenku.push(itemData)
+      console.log(
+        `${i + 1} / ${bgmIds.length}`,
+        itemData.cn || itemData.jp,
+        itemData.score,
+        itemData.rank,
+        itemData.total
       )
+    } else {
+      console.log('error', bgmId, wId)
+    }
+
+    if (i && i % 10 === 0) {
+      utils.write(__wenku, wenku)
     }
   }
 
+  // 去重
+  const unique = {}
+  const _wenku = []
   wenku.forEach(item => {
-    const itemRaw = raw[item.wid]
-    if (itemRaw) {
-      item.status = itemRaw.status
-      item.update = itemRaw.time
-      item.len = parseInt((itemRaw.len || 0) / 10000)
-      item.hot =
-        itemRaw.hot === 'D'
-          ? 1
-          : itemRaw.hot === 'C'
-          ? 2
-          : itemRaw.hot === 'B'
-          ? 3
-          : itemRaw.hot === 'A'
-          ? 4
-          : itemRaw.hot === 'S'
-          ? 5
-          : 0
-      item.up =
-        itemRaw.up === 'D'
-          ? 1
-          : itemRaw.up === 'C'
-          ? 2
-          : itemRaw.up === 'B'
-          ? 3
-          : itemRaw.up === 'A'
-          ? 4
-          : itemRaw.up === 'S'
-          ? 5
-          : 0
-      item.ep = itemRaw.ep
-      item.wenku = itemRaw.wenku
+    if (!unique[item.id]) {
+      unique[item.id] = true
+      _wenku.push(item)
     }
   })
-  if (rewrite) {
-    const idsWenku = Object.keys(wenku)
-    const fetchs = []
-    for (let indexWenku = 0; indexWenku <= idsWenku.length; indexWenku++) {
-      fetchs.push(async () => {
-        try {
-          const idWenku = Number(idsWenku[indexWenku])
-          const itemWenku = wenku[idWenku] || {}
-          // if (itemWenku.status !== '连载') {
-          //   continue
-          // }
-
-          // 从bgm条目页获取实时数据
-          const idBgm = Number(itemWenku.id)
-          const url = `https://api.bgm.tv/subject/${idBgm}?responseGroup=large`
-          const data = await utils.fetch(url)
-          wenku[indexWenku].score = data.rating && data.rating.score
-          wenku[indexWenku].rank = data.rank
-          console.log(
-            `[${indexWenku} | ${idsWenku.length}]`,
-            itemWenku.cn,
-            wenku[indexWenku].score,
-            wenku[indexWenku].rank
-          )
-        } catch (error) {}
-      })
-    }
-    await utils.queue(fetchs, 8)
-  }
 
   utils.write(
     __wenku,
-    Object.keys(temp).map(id => temp[id])
+    _wenku.sort((a, b) => {
+      if (a.rank || b.rank) return (a.rank || 9999) - (b.rank || 9999)
+      if (a.total || b.total) return b.total - a.total
+      return b.id - a.id
+    })
   )
-
-  Object.keys(matched).forEach(idMathced => {
-    delete detail[idMathced]
-  })
-  utils.write(__matched, matched)
-  utils.write(__detail, detail)
-
   process.exit()
 }
 run()
