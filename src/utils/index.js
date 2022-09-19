@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-14 19:55:47
+ * @Last Modified time: 2022-09-18 21:20:28
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -14,10 +14,10 @@ const path = require('path')
 const http = require('http')
 const cnchars = require('cn-chars')
 const ora = require('./third-party/ora')
-const cnChar = require('./third-party/cn-char/index')
+const cnChar = require('./simplebig/index')
 
 require('events').EventEmitter.defaultMaxListeners = 0
-axios.defaults.timeout = 8000
+axios.defaults.timeout = 5000
 
 /*
   JSON.stringify({
@@ -71,12 +71,13 @@ async function fetch(
   url,
   headers = {
     'User-Agent':
-      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4103.97 Safari/537.36'
   }
 ) {
   const { data } = await axios({
     url,
-    headers
+    headers,
+    maxRedirects: 0
   })
   return data
 }
@@ -155,8 +156,12 @@ function htmlTrim(str) {
 function toSimplifiedChar(str) {
   return str
     .split('')
-    .map(s => cnchars.toSimplifiedChar(s))
+    .map(s => cnChar.t2s(s))
     .join('')
+}
+
+function rmSpec(str) {
+  return str.replace(/（|）|\(|\)|,|，|!|！|\?|？|~/g, '')
 }
 
 /**
@@ -369,6 +374,7 @@ module.exports = {
   open,
   htmlTrim,
   toSimplifiedChar,
+  rmSpec,
   large,
   download,
   download2,

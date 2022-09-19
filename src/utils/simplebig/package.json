@@ -1,0 +1,22 @@
+{
+  "name": "simplebig",
+  "version": "0.0.2",
+  "description": "Simplified Chinease and BIG5 Character Inter-conversion; 简体、繁体字符转换",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobinQu/simplebig.git"
+  },
+  "keywords": [
+    "gb2312",
+    "big5",
+    "simplified",
+    "chinese",
+    "traditonal",
+    "chinese"
+  ],
+  "author": "RobinQu",
+  "license": "BSD"
+}
