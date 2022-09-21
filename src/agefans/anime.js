@@ -2,27 +2,37 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-17 11:19:43
+ * @Last Modified time: 2022-09-21 16:07:30
  */
 const utils = require('../utils')
 
-const rewrite = false
 const __raw = utils.root('data/agefans/raw.json')
-const __detail = utils.root('data/agefans/detail.json')
 const __anime = utils.root('data/agefans/anime.json')
+const __detail = utils.root('data/agefans/detail.json')
 const __matched = utils.root('data/agefans/matched.json')
+
 const raw = utils.read(__raw)
-const detail = utils.read(__detail)
 const anime = utils.read(__anime)
+const detail = utils.read(__detail)
 const matched = utils.read(__matched)
+
+Object.keys(matched).forEach(aid => {
+  if (matched[aid].cn.includes('动态漫')) {
+    delete detail[aid]
+    delete matched[aid]
+  }
+})
+
+const rewrite = false
+
 const temp = {}
 anime.forEach(item => (temp[item.id] = item))
 
 // 更新raw数据到detail
 Object.keys(raw).forEach(idRaw => {
-  if (!detail[idRaw] && !temp[idRaw]) {
-    detail[idRaw] = raw[idRaw]
-  }
+  if (raw[idRaw].cn.includes('动态漫')) return
+
+  if (!detail[idRaw] && !temp[idRaw]) detail[idRaw] = raw[idRaw]
 })
 
 async function run() {

@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-18 21:20:28
+ * @Last Modified time: 2022-09-20 18:20:44
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -76,8 +76,8 @@ async function fetch(
 ) {
   const { data } = await axios({
     url,
-    headers,
-    maxRedirects: 0
+    headers
+    // maxRedirects: 0
   })
   return data
 }

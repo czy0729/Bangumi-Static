@@ -4,15 +4,26 @@
  * @Author: czy0729
  * @Date: 2021-01-06 01:30:20
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-16 16:13:26
+ * @Last Modified time: 2022-09-21 02:16:19
  */
 const utils = require('../utils')
 
 const __wenku = utils.root('data/wenku8/wenku.v2.json')
 const __min = utils.root('data/wenku8/wenku.min.json')
-const wenku = utils.read(__wenku)
+let wenku = utils.read(__wenku)
 
 // i w v m a e t o b u c h p l s r k j
+const unique = {}
+wenku = wenku
+  .sort((a, b) => b.begin.localeCompare(a.begin))
+  .filter(item => {
+    if (!unique[item.id]) {
+      unique[item.id] = 1
+      return true
+    }
+
+    return false
+  })
 
 const min = wenku.map(item => {
   const temp = {
@@ -24,7 +35,7 @@ const min = wenku.map(item => {
   if (item.author) temp.a = utils.HTMLDecode(item.author)
   if (item.ep) {
     temp.e = utils.HTMLDecode(item.ep)
-    if(temp.e.includes('卷 ')) {
+    if (temp.e.includes('卷 ')) {
       temp.e = `${temp.e.split('卷 ')[0]}卷`
     }
   }
@@ -33,7 +44,8 @@ const min = wenku.map(item => {
   if (item.image) temp.o = item.image
   if (item.begin) temp.b = item.begin
   if (item.update) temp.u = item.update
-  if (item.cate && item.cate !== '其他文库') temp.c = utils.HTMLDecode(item.cate)
+  if (item.cate && item.cate !== '其他文库')
+    temp.c = utils.HTMLDecode(item.cate)
   if (item.hot) temp.h = item.hot
   if (item.up) temp.p = item.up
   if (item.len) temp.l = item.len

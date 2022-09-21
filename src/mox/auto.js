@@ -2,27 +2,30 @@
  * @Author: czy0729
  * @Date: 2022-09-17 16:29:27
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-19 18:40:38
+ * @Last Modified time: 2022-09-20 00:08:10
  */
 const readline = require('readline')
 const utils = require('../utils')
 
 // root
+const __detail = utils.root('data/mox/detail.json')
 const __map = utils.root('data/mox/map.json')
 const __searchTemp = utils.root('data/mox/search_temp.json')
+const detail = utils.read(__detail) || {}
 const map = utils.read(__map) || {}
 const searchTemp = utils.read(__searchTemp) || {}
 
 // config
 const auto = false // 是否自动匹配
-const skipLevel = 0 // 跳过级别
+const skipLevel = 10 // 跳过级别
 const isFromSub = false // 是否搜索子标题 (可以先设置为 false 跑完一遍再打开)
+
 const headers = {
   referer: 'https://bgm.tv/subject_search/air?cat=all',
   cookie:
-    'chii_cookietime=2592000; chii_theme_choose=1; chii_theme=dark; __utmz=1.1639221005.505.17.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; prg_display_mode=normal; chii_sec_id=Pjz%2FbqReK6sWyhxjcLxSCO2F1Rv2e7maP6zs; chii_auth=Pjv8PqFeL6oDyU5pd7lYbrfsvk%2BsL6SSGqvL0TcDKdRQudc4DPYSBe7jfKHzB6xV0EWarCJgWMhheUpklA%2FDNlYmXts%2BZKf4tWwJ; __utma=1.859723941.1616215584.1663353475.1663489475.573; __utmt=1; chii_sid=A4955U; __utmc=1; chii_searchDateLine=0; __utmb=1.6.10.1663489475',
+    'chii_sec_id=UbWhSkzVgWMCEAMVkRyXrW04%2BPftIpKVVfG6965j; chii_cookietime=2592000; chii_theme_choose=1; chii_theme=dark; prg_display_mode=normal; prg_list_mode=full; chii_auth=8m92d08nnEwIs5QW11vYBJyPmnpOBQqX9BwU70Lf6qkXMvKdD%2BTKjbHoQcaXalLXwF8YdCO2eLIXxXOkgOEtLuv06qd22BS3y1F%2F; __utmz=1.1663248419.1814.28.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmc=1; __utma=1.825736922.1638495774.1663584548.1663598745.1853; chii_sid=5RBdhK; __utmt=1; chii_searchDateLine=1663603488; __utmb=1.142.10.1663598745',
   userAgent:
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36'
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
 }
 
 // other
@@ -43,25 +46,59 @@ const getLine = (function () {
 })()
 
 async function run() {
-  const maps = Object.keys(map)
+  const maps = Object.keys(map).sort(
+    (a, b) => Number(detail[b].hot) - Number(detail[a].hot)
+  )
   for (let i = 0; i <= maps.length; i += 1) {
     const item = map[maps[i]] || {}
-    if (
-      item.id
-      // || item._skip >= skipLevel
-    )
+    if (item.id || item._skip >= skipLevel) {
       continue
+    }
 
     const title = isFromSub
-      ? clean((item.sub || '').split(')')?.[1] || '')
+      ? clean(((item.sub || '').split(')')?.[1] || '').split(',')[0])
       : clean(item.title)
-    if (!title) continue
+    if (!title) {
+      continue
+    }
 
     console.log(`\n================== ${i} / ${maps.length} ==================`)
+    if (!auto) {
+      log('mox.moe', `https://mox.moe/c/${maps[i]}.htm`)
+      log(
+        'search',
+        `https://bgm.tv/subject_search/${encodeURIComponent(
+          utils.toSimplifiedChar(title)
+        )}?cat=1`
+      )
+
+      const sub = (item.sub || '').split(')')?.[1] || ''
+      if (sub) {
+        log(
+          'search 2',
+          `https://bgm.tv/subject_search/${encodeURIComponent(
+            utils.toSimplifiedChar(sub)
+          )}?cat=1`
+        )
+      }
+
+      log(
+        'author',
+        `https://bgm.tv/mono_search/${utils.toSimplifiedChar(
+          detail[maps[i]].author
+        )}?cat=prsn`
+      )
+    }
+
     const { items, cache } = await search(title)
     let temp = items
       .filter((item, index) => index < 6)
-      .sort((a, b) => a.title.length - b.title.length)
+      .sort((a, b) => {
+        return (
+          (b.title === title ? 99 : b.title.length) -
+          (a.title === title ? 99 : a.title.length)
+        )
+      })
 
     if (auto) {
       if (temp.length) {
@@ -89,8 +126,7 @@ async function run() {
 
           temp = await subject(subjectId1)
           if (
-            (items.length > 1 && temp.info.includes('漫画系列')) ||
-            (items.length < 4 && temp.info.includes('漫画')) ||
+            (temp._hasVol && temp.info.includes('漫画系列')) ||
             (!temp._hasVol && temp.info.includes('漫画'))
           ) {
             merge(item, temp)
@@ -134,25 +170,42 @@ async function run() {
         await sleep()
       }
     } else {
+      let subjectTemp
       while (1) {
         const command = String(await getLine()).trim()
+
         if (command === 'n') {
           skip(item, 99)
+          subjectTemp = null
           break
         } else if (command === 's') {
           write()
+        } else if (command === 'c') {
+          merge(item, subjectTemp)
+          subjectTemp = null
+          log('merge', item, 1)
           break
         } else if (command) {
           if (/^(\d| ){1,}$/.test(command)) {
             const id = Number(command.split(' ').filter(item => !!item))
             if (!Number.isNaN(id)) {
+              let subjectId
               if (id >= 10) {
-
+                subjectId = id
               } else {
                 const item = items[id - 1]
-                if (item) {
-                  temp = await subject(item.id)
-                  console.log(temp)
+                if (item) subjectId = item.id
+              }
+
+              if (subjectId) {
+                subjectTemp = await subject(subjectId)
+                if (subjectTemp && subjectTemp.info.includes('漫画')) {
+                  merge(item, subjectTemp)
+                  subjectTemp = null
+                  log('merge', item, 1)
+                  break
+                } else {
+                  console.log(subjectTemp)
                 }
               }
             }
@@ -178,9 +231,17 @@ async function search(keyword) {
       const items = searchTemp[keyword]
       if (!auto) {
         if (items.length) {
-          items.forEach((item, index) =>
-            console.log(`    [${index + 1}] ${item.id} - ${item.title}`)
-          )
+          items.forEach((item, index) => {
+            const data = [
+              `    [${index + 1}] ${item.id} - ${fill(
+                item.title,
+                undefined,
+                '　'
+              )}`
+            ]
+            if (!auto) data.push(`https://bgm.tv/subject/${item.id}`)
+            console.log(...data)
+          })
         } else {
           console.log(`    [0] 空`)
         }
@@ -243,10 +304,10 @@ async function search(keyword) {
 async function subject(subjectId) {
   try {
     log('subject', subjectId)
-    const html = await utils.fetch(
-      `https://bgm.tv/subject/${subjectId}`,
-      headers
-    )
+    const html = await utils.fetch(`https://bgm.tv/subject/${subjectId}`, {
+      cookie: headers.cookie,
+      userAgent: headers.userAgent
+    })
 
     const $ = utils.cheerio(html)
     const title = $('h1 a').text().trim()
@@ -287,7 +348,9 @@ function sleep(ms = 200) {
 /** 净化搜索关键词 */
 function clean(str) {
   if (!str) return ''
-  return utils.rmSpec(utils.toSimplifiedChar(String(str).trim()))
+  return utils
+    .rmSpec(utils.toSimplifiedChar(String(str).trim()))
+    .replace(/全彩版|简体|繁体/g, '')
 }
 
 /** 认为是匹配命中 */
@@ -330,13 +393,13 @@ function skip(item, val = 2) {
 }
 
 /** 补长 */
-function fill(str) {
+function fill(str, len = 10, mark = ' ') {
   if (str?.length > _fillLen) _fillLen = str.length
 
   let _str = str
   if (_str.length > _fillLen) return _str
 
-  for (let i = _str.length; i < _fillLen; i += 1) _str += ' '
+  for (let i = _str.length; i < (len || _fillLen); i += 1) _str += mark
   return _str
 }
 

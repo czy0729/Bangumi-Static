@@ -2,37 +2,60 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-05 16:06:57
+ * @Last Modified time: 2022-09-21 19:15:02
  */
 const utils = require('../utils')
 
 const __anime = utils.root('data/agefans/anime.json')
 const anime = utils.read(__anime)
 
+const accessToken = {
+  access_token: '369aa586dd76d44dc6f7d85c09e8982087018bc2',
+  expires_in: 604800,
+  token_type: 'Bearer',
+  scope: null,
+  user_id: 456208,
+  refresh_token: '3cdeee299f3f60777eb6a4e0081f4470fa5357aa'
+}
+const headers = {
+  Authorization: `${accessToken.token_type} ${accessToken.access_token}`,
+  'User-Agent':
+    'Dalvik/2.1.0 (Linux; U; Android 12; Mi 10 Build/SKQ1.211006.001) 1661803607'
+}
+
 async function run() {
   const idsAnime = Object.keys(anime)
   for (let indexAnime = 0; indexAnime <= idsAnime.length; indexAnime++) {
     const itemAnime = anime[indexAnime] || {}
-    if (itemAnime) {
-      // 从bgm条目页获取实时数据
-      const idBgm = Number(itemAnime.id)
-      const url = `https://api.bgm.tv/subject/${idBgm}?responseGroup=large`
-      const data = await utils.fetch(url)
+    if (itemAnime.cn || itemAnime.jp) continue
 
-      if (data && anime[indexAnime]) {
-        if (data.air_date) anime[indexAnime].begin = data.air_date
-        anime[indexAnime].score = data.rating && data.rating.score
-        anime[indexAnime].rank = data.rank
-        if (data.images && data.images.medium)
-          anime[indexAnime].image = data.images.medium
+    const idBgm = Number(itemAnime.id)
+    if (itemAnime && idBgm) {
+      // 从bgm条目页获取实时数据
+      const url = `https://api.bgm.tv/v0/subjects/${idBgm}?app_id=bgm8885c4d524cd61fc`
+      const data = await utils.fetch(url, headers)
+
+      const item = anime[indexAnime]
+      if (data && item) {
+        if (data.date) item.begin = data.date
+
+        item.score = data.rating.score || 0
+        item.rank = data.rating.rank || 0
+        item.total = data.rating.total || 0
+
+        item.jp = data.name || ''
+        item.cn = data.name_cn || ''
+        if (data.images && data.images.medium) {
+          item.image = data.images.medium
             .replace('http://lain.bgm.tv/pic/cover/m/', '')
             .replace('.jpg', '')
+        }
 
         console.log(
           `[${indexAnime} | ${idsAnime.length}]`,
-          itemAnime.cn,
-          anime[indexAnime].score,
-          anime[indexAnime].rank
+          item.cn || item.jp,
+          item.score,
+          item.rank
         )
       }
 
