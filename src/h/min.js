@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-06-25 13:51:11
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-15 03:13:55
+ * @Last Modified time: 2022-09-22 04:55:51
  */
 const utils = require('../utils')
 
@@ -110,7 +110,7 @@ const min = Object.keys(detail)
       id: Number(item.id),
       h: Number(item.h)
     }
-    if (item.cn || item.jp) temp.c = utils.t2s(item.cn || item.jp)
+    if (item.title) temp.c = utils.t2s(item.title)
     if (item.images) temp.i = item.images
     if (item.score) temp.s = item.score
     if (item.rank) temp.r = item.rank

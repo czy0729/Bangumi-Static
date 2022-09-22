@@ -1,13 +1,14 @@
 .expo
 .expo-shared
 .vscode
+5t5.js
 ApplePushServices.p12
 KEYSTORE.MD
 android/
 bangumi.jks
 bangumi.mobileprovision
-dist/
 data/discovery/lain/
+dist/
 iPhoneDistribution.p12
 ios/
 node_modules

@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2022-09-17 16:29:27
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-20 00:08:10
+ * @Last Modified time: 2022-09-22 05:22:58
  */
 const readline = require('readline')
 const utils = require('../utils')
@@ -23,7 +23,7 @@ const isFromSub = false // 是否搜索子标题 (可以先设置为 false 跑�
 const headers = {
   referer: 'https://bgm.tv/subject_search/air?cat=all',
   cookie:
-    'chii_sec_id=UbWhSkzVgWMCEAMVkRyXrW04%2BPftIpKVVfG6965j; chii_cookietime=2592000; chii_theme_choose=1; chii_theme=dark; prg_display_mode=normal; prg_list_mode=full; chii_auth=8m92d08nnEwIs5QW11vYBJyPmnpOBQqX9BwU70Lf6qkXMvKdD%2BTKjbHoQcaXalLXwF8YdCO2eLIXxXOkgOEtLuv06qd22BS3y1F%2F; __utmz=1.1663248419.1814.28.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmc=1; __utma=1.825736922.1638495774.1663584548.1663598745.1853; chii_sid=5RBdhK; __utmt=1; chii_searchDateLine=1663603488; __utmb=1.142.10.1663598745',
+    'chii_sec_id=UbWhSkzVgWMCEAMVkRyXrW04%2BPftIpKVVfG6965j; chii_cookietime=2592000; chii_theme_choose=1; chii_theme=dark; prg_display_mode=normal; prg_list_mode=full; chii_auth=8m92d08nnEwIs5QW11vYBJyPmnpOBQqX9BwU70Lf6qkXMvKdD%2BTKjbHoQcaXalLXwF8YdCO2eLIXxXOkgOEtLuv06qd22BS3y1F%2F; __utmz=1.1663248419.1814.28.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmc=1; chii_sid=C1NuW8; __utma=1.825736922.1638495774.1663789079.1663794984.1871; __utmt=1; chii_searchDateLine=1663795308; __utmb=1.53.10.1663794984',
   userAgent:
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
 }

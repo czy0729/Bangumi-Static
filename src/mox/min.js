@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2022-09-19 15:33:42
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-19 16:49:03
+ * @Last Modified time: 2022-09-22 07:07:15
  */
 const utils = require('../utils')
 
@@ -15,9 +15,11 @@ const __minHasRank = utils.root('data/mox/mox.min.rank.json')
 const detail = utils.read(__detail)
 const map = utils.read(__map)
 
+const unique = {}
+
 const mox = []
 Object.keys(detail).forEach(mid => {
-  if (!map[mid]?.id) return
+  if (!map[mid]?.id || unique[map[mid]?.id]) return
 
   const itemDetail = detail[mid]
   const itemMap = map[mid]
@@ -48,6 +50,7 @@ Object.keys(detail).forEach(mid => {
     hot: Number(itemDetail.hot || 0)
   }
   mox.push(_item)
+  unique[_item.id] = true
 })
 
 const min = []
@@ -57,16 +60,21 @@ mox.forEach(item => {
   const i = {
     i: item.id,
     m: item.mid,
-    t: item.title
+    t: item.title.split('(')[0].trim()
   }
 
   if (item.image) i.c = item.image
   if (item.score) i.s = item.score
   if (item.rank) i.r = item.rank
+  if (item.total) i.l = item.total
   if (item.o) i.q = item.o
   if (item.ep) {
     const num = item.ep.match(/\d+/g)?.[0]
-    if (!Number.isNaN(Number(num))) i.e = Number(num)
+    if (!Number.isNaN(Number(num))) {
+      i.e = Number(num)
+    } else {
+      i.e = item.ep.replace(/第|話/g, '').trim()
+    }
   }
 
   if (item.author) i.a = item.author

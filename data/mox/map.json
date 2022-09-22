@@ -1012,7 +1012,7 @@
     "id": "",
     "title": "SF短篇集",
     "sub": "(SF Short Stories)",
-    "_skip": 5
+    "_skip": 99
   },
   "10118": {
     "id": "",
@@ -1303,10 +1303,14 @@
     "_total": "95 votes"
   },
   "10150": {
-    "id": "",
+    "id": 55907,
     "title": "RIN~凜~",
     "sub": "(RIN)",
-    "_skip": 5
+    "_title": "RiN",
+    "_cover": "5a/6b/55907_icWgC",
+    "_rank": 4110,
+    "_score": 6.8,
+    "_total": "33 votes"
   },
   "10151": {
     "id": 44596,
@@ -1359,10 +1363,14 @@
     "_total": "52 votes"
   },
   "10156": {
-    "id": "",
+    "id": 74582,
     "title": "勇午",
     "sub": "(YUGO)   勇午交涉人,YUGO the Negotiator",
-    "_skip": 5
+    "_title": "勇午",
+    "_cover": "96/3d/74582_dhwnc",
+    "_rank": "",
+    "_score": 8.7,
+    "_total": "3 votes"
   },
   "10157": {
     "id": 57837,
@@ -1511,10 +1519,14 @@
     "_total": "469 votes"
   },
   "10174": {
-    "id": "",
+    "id": 41803,
     "title": "貓先生拉麵屋",
     "sub": "(Neko Rahmen)   貓先生的拉面屋",
-    "_skip": 5
+    "_title": "猫ラーメン",
+    "_cover": "a0/b1/41803_miAMz",
+    "_rank": "",
+    "_score": 7.5,
+    "_total": "13 votes"
   },
   "10175": {
     "id": "",
@@ -1533,10 +1545,14 @@
     "_total": "4 votes"
   },
   "10177": {
-    "id": "",
+    "id": 133455,
     "title": "古書堂事件手帖",
     "sub": "(Ancient Memories)   彼布利亞古書堂事件簿",
-    "_skip": 3
+    "_title": "ビブリア古書堂の事件手帖",
+    "_cover": "51/44/133455_cS9z1",
+    "_rank": "",
+    "_score": 7.1,
+    "_total": "8 votes"
   },
   "10178": {
     "id": 54306,
@@ -2516,7 +2532,7 @@
     "id": "",
     "title": "月光迷情",
     "sub": "(Moon Child)",
-    "_skip": 5
+    "_skip": 99
   },
   "10292": {
     "id": 60124,
@@ -2887,10 +2903,14 @@
     "_total": "62 votes"
   },
   "10338": {
-    "id": "",
+    "id": 70854,
     "title": "龍的可愛七子",
     "sub": "(Ryuu No Kawaii Nanatsu No Ko)",
-    "_skip": 5
+    "_title": "竜のかわいい七つの子 - 九井諒子作品集",
+    "_cover": "a7/3a/70854_h4989",
+    "_rank": 950,
+    "_score": 7.9,
+    "_total": "146 votes"
   },
   "10339": {
     "id": 5679,
@@ -2926,7 +2946,7 @@
     "id": "",
     "title": "日本沉沒(第1部)",
     "sub": "(Sinking Japan)",
-    "_skip": 5
+    "_skip": 99
   },
   "10344": {
     "id": 116271,
@@ -3427,10 +3447,14 @@
     "_total": "92 votes"
   },
   "10508": {
-    "id": "",
+    "id": 32706,
     "title": "美雪·美雪",
     "sub": "(Miyuki)",
-    "_skip": 5
+    "_title": "みゆき",
+    "_cover": "8d/3d/32706_qX3zY",
+    "_rank": 2692,
+    "_score": 7.4,
+    "_total": "91 votes"
   },
   "10509": {
     "id": 32780,
@@ -3456,7 +3480,7 @@
     "id": "",
     "title": "安達充短篇作品集",
     "sub": "(Short Program)",
-    "_skip": 5
+    "_skip": 99
   },
   "10512": {
     "id": 10645,
@@ -3707,10 +3731,14 @@
     "_total": "135 votes"
   },
   "10540": {
-    "id": "",
+    "id": 73949,
     "title": "辛巴達的冒險",
     "sub": "(Magi Sinbad No Boken)   MAGI魔奇少年前傳",
-    "_skip": 5
+    "_title": "マギ シンドバッドの冒険",
+    "_cover": "5d/fe/73949_uFs46",
+    "_rank": 1997,
+    "_score": 7.6,
+    "_total": "38 votes"
   },
   "10542": {
     "id": 45684,
@@ -4115,10 +4143,14 @@
     "_total": "8 votes"
   },
   "10590": {
-    "id": "",
+    "id": 27471,
     "title": "少女革命",
     "sub": "(Girls Revolution)",
-    "_skip": 5
+    "_title": "少女革命ウテナ",
+    "_cover": "23/00/27471_AInxK",
+    "_rank": 4088,
+    "_score": 6.8,
+    "_total": "35 votes"
   },
   "10591": {
     "id": 29597,
@@ -4858,13 +4890,13 @@
     "id": "",
     "title": "哈爾的移動城堡",
     "sub": "(Howl's Moving Castle)   哈爾移動城堡",
-    "_skip": 5
+    "_skip": 99
   },
   "10676": {
     "id": "",
     "title": "平成狸合戰",
     "sub": "(Pom Poko)   歡喜碰碰狐",
-    "_skip": 5
+    "_skip": 99
   },
   "10677": {
     "id": 83382,
@@ -4955,10 +4987,14 @@
     "_total": "8 votes"
   },
   "10687": {
-    "id": "",
+    "id": 102389,
     "title": "妖怪少女",
     "sub": "(Monster Girl)",
-    "_skip": 5
+    "_title": "妖怪少女 —モンスガ—",
+    "_cover": "9c/14/102389_I3ie2",
+    "_rank": 4859,
+    "_score": 6.3,
+    "_total": "45 votes"
   },
   "10688": {
     "id": 33137,
@@ -5159,10 +5195,14 @@
     "_skip": 5
   },
   "10712": {
-    "id": "",
+    "id": 56819,
     "title": "桃色牛奶",
     "sub": "(Momoiro Milk)",
-    "_skip": 5
+    "_title": "ももいろミルク",
+    "_cover": "8a/3a/56819_jp",
+    "_rank": "",
+    "_score": 5.8,
+    "_total": "11 votes"
   },
   "10713": {
     "id": 172430,
@@ -5413,10 +5453,14 @@
     "_total": "734 votes"
   },
   "10744": {
-    "id": "",
+    "id": 48089,
     "title": "愛心動物醫生",
     "sub": "(Animal Doctor)",
-    "_skip": 5
+    "_title": "動物のお医者さん",
+    "_cover": "7a/04/48089_Ll8J8",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "2 votes"
   },
   "10745": {
     "id": "",
@@ -5435,10 +5479,14 @@
     "_total": "323 votes"
   },
   "10747": {
-    "id": "",
+    "id": 48107,
     "title": "爆笑筋肉人",
     "sub": "(JinRou)",
-    "_skip": 5
+    "_title": "キン肉マン",
+    "_cover": "7c/f3/48107_IEtC1",
+    "_rank": "",
+    "_score": 8,
+    "_total": "3 votes"
   },
   "10748": {
     "id": 60488,
@@ -5566,7 +5614,7 @@
     "id": "",
     "title": "闇夜女教父",
     "sub": "(Night Gokusen)",
-    "_skip": 5
+    "_skip": 99
   },
   "10762": {
     "id": 42819,
@@ -6817,10 +6865,14 @@
     "_total": "25 votes"
   },
   "10909": {
-    "id": "",
+    "id": 33271,
     "title": "DNA2",
     "sub": "(DNA2)",
-    "_skip": 5
+    "_title": "D・N・A² 〜何処かで失くしたあいつのアイツ〜",
+    "_cover": "00/40/33271_hgc58",
+    "_rank": 4501,
+    "_score": 6.7,
+    "_total": "65 votes"
   },
   "10910": {
     "id": 169652,
@@ -6943,10 +6995,14 @@
     "_total": "12 votes"
   },
   "10924": {
-    "id": "",
+    "id": 13403,
     "title": "地上最強的新娘",
     "sub": "(Sumomomo Momomo)   地上最強新娘,鐵拳少女桃子",
-    "_skip": 5
+    "_title": "すもももももも~地上最強のヨメ~",
+    "_cover": "a6/ed/13403_aN04P",
+    "_rank": 3731,
+    "_score": 7,
+    "_total": "34 votes"
   },
   "10925": {
     "id": 162557,
@@ -7551,10 +7607,14 @@
     "_total": "46 votes"
   },
   "10994": {
-    "id": "",
+    "id": 116933,
     "title": "天地吞食",
     "sub": "(Heaven Devour)",
-    "_skip": 5
+    "_title": "天地を喰らう",
+    "_cover": "7b/d9/116933_3fgPO",
+    "_rank": "",
+    "_score": 4.7,
+    "_total": "7 votes"
   },
   "10995": {
     "id": 106366,
@@ -8661,7 +8721,7 @@
     "id": "",
     "title": "亂世豪傑",
     "sub": "(The Two Men)   男貳",
-    "_skip": 5
+    "_skip": 99
   },
   "11129": {
     "id": 180985,
@@ -8684,10 +8744,14 @@
     "_total": "97 votes"
   },
   "11131": {
-    "id": "",
+    "id": 146736,
     "title": "民法改正",
     "sub": "(Civil Law Correction)   民法修正～一夫多妻時代來臨～",
-    "_skip": 5
+    "_title": "民法改正〜日本は一夫多妻制になった〜",
+    "_cover": "6e/94/146736_m0Zpf",
+    "_rank": 5170,
+    "_score": 5.8,
+    "_total": "40 votes"
   },
   "11132": {
     "id": 36305,
@@ -8808,10 +8872,14 @@
     "_total": "46 votes"
   },
   "11145": {
-    "id": "",
+    "id": 11666,
     "title": "和平捍衛隊·鐵",
     "sub": "(Peace Maker)   新撰組異聞列傳鐵",
-    "_skip": 5
+    "_title": "新撰組異聞PEACE MAKER",
+    "_cover": "13/25/11666_ES0ef",
+    "_rank": 2201,
+    "_score": 7.5,
+    "_total": "46 votes"
   },
   "11146": {
     "id": 111125,
@@ -9056,10 +9124,14 @@
     "_total": "8 votes"
   },
   "11174": {
-    "id": "",
+    "id": 21093,
     "title": "機動戰士高達天空的學校",
     "sub": "(GUNDAM Ecole Du Ciel)",
-    "_skip": 5
+    "_title": "機動戦士ガンダム エコール・デュ・シエル 天空の学校",
+    "_cover": "da/cb/21093_xXKdc",
+    "_rank": "",
+    "_score": 7.6,
+    "_total": "19 votes"
   },
   "11175": {
     "id": 151424,
@@ -9182,10 +9254,14 @@
     "_skip": 10
   },
   "11189": {
-    "id": "",
+    "id": 21677,
     "title": "極樂女子宿舍",
     "sub": "(Girl Dorm)",
-    "_skip": 5
+    "_title": "ゴクジョッ。〜極楽院女子高寮物語〜",
+    "_cover": "43/cc/21677_xhkvV",
+    "_rank": 4086,
+    "_score": 6.8,
+    "_total": "27 votes"
   },
   "11190": {
     "id": 93692,
@@ -9544,10 +9620,14 @@
     "_total": "8 votes"
   },
   "11232": {
-    "id": "",
+    "id": 142003,
     "title": "灌籃少年Act II",
     "sub": "(Dear Boys Act II)   籃球少年II,灌籃少年2",
-    "_skip": 5
+    "_title": "DEAR BOYS ACT II",
+    "_cover": "3a/d1/142003_Gwi99",
+    "_rank": "",
+    "_score": 6.3,
+    "_total": "4 votes"
   },
   "11233": {
     "id": "",
@@ -10536,7 +10616,7 @@
     "id": "",
     "title": "問題小子孫六",
     "sub": "(Nanto Magoroku)",
-    "_skip": 5
+    "_skip": 99
   },
   "11386": {
     "id": 230592,
@@ -11113,10 +11193,14 @@
     "_total": "25 votes"
   },
   "11516": {
-    "id": "",
+    "id": 83914,
     "title": "口袋妖怪皮皮傳",
     "sub": "(Pocket Monsters)   寶可夢,神奇寶貝皮皮傳,寵物小精靈皮皮傳",
-    "_skip": 5
+    "_title": "ポケットモンスター",
+    "_cover": "6b/0e/83914_qDVOh",
+    "_rank": "",
+    "_score": 8.2,
+    "_total": "11 votes"
   },
   "11517": {
     "id": 231923,
@@ -11227,10 +11311,14 @@
     "_total": "1 votes"
   },
   "11534": {
-    "id": "",
+    "id": 62660,
     "title": "空之境界",
     "sub": "(The Garden Of Sinners)",
-    "_skip": 3
+    "_title": "空の境界 the Garden of sinners",
+    "_cover": "a3/4d/62660_ffg0s",
+    "_rank": 1996,
+    "_score": 7.7,
+    "_total": "25 votes"
   },
   "11535": {
     "id": 224299,
@@ -11549,7 +11637,7 @@
     "id": "",
     "title": "我的太太是女高中生",
     "sub": "(Hiyoko Brand)   我太太是女子高中生,情陷女子高中生",
-    "_skip": 5
+    "_skip": 99
   },
   "11620": {
     "id": 156244,
@@ -11795,10 +11883,14 @@
     "_total": "9 votes"
   },
   "11676": {
-    "id": "",
+    "id": 107547,
     "title": "奧爾菲斯之窗",
     "sub": "(Aoerfeisizhichuang)   奧爾佛士之窗",
-    "_skip": 5
+    "_title": "オルフェウスの窓",
+    "_cover": "d8/b9/107547_101Pu",
+    "_rank": "",
+    "_score": 9,
+    "_total": "3 votes"
   },
   "11677": {
     "id": "",
@@ -11878,7 +11970,7 @@
     "id": "",
     "title": "魔物之國的漫步指南",
     "sub": "(A Walking Guide To The Land Of Demons)",
-    "_skip": 5
+    "_skip": 99
   },
   "11780": {
     "id": 102370,
@@ -12863,10 +12955,14 @@
     "_total": "1 votes"
   },
   "12010": {
-    "id": "",
+    "id": 106612,
     "title": "Vanitas",
     "sub": "(Vanitas)",
-    "_skip": 5
+    "_title": "VANITAS~ヴァニタス",
+    "_cover": "e0/fa/106612_jp",
+    "_rank": "",
+    "_score": 6.4,
+    "_total": "5 votes"
   },
   "12011": {
     "id": 290789,
@@ -13034,7 +13130,7 @@
     "id": "",
     "title": "傷追之人",
     "sub": "(White Hair Demon)",
-    "_skip": 5
+    "_skip": 99
   },
   "12044": {
     "id": 178684,
@@ -13117,10 +13213,14 @@
     "_total": "27 votes"
   },
   "12059": {
-    "id": "",
+    "id": 89419,
     "title": "阿爾蒂",
     "sub": "(ARTE)",
-    "_skip": 5
+    "_title": "アルテ",
+    "_cover": "b3/fa/89419_NpVYx",
+    "_rank": 2554,
+    "_score": 7.4,
+    "_total": "53 votes"
   },
   "12061": {
     "id": 162853,
@@ -13146,7 +13246,7 @@
     "id": "",
     "title": "餓男",
     "sub": "(E Nan)",
-    "_skip": 5
+    "_skip": 99
   },
   "12064": {
     "id": "",
@@ -13414,7 +13514,7 @@
     "id": "",
     "title": "鬼太郎大全集",
     "sub": "(Ge Ge Ge No Kitaro)",
-    "_skip": 5
+    "_skip": 99
   },
   "12108": {
     "id": 274148,
@@ -14036,7 +14136,7 @@
     "id": "",
     "title": "彼岸花綻放之夜",
     "sub": "(Night Blooming Bana)",
-    "_skip": 5
+    "_skip": 99
   },
   "12209": {
     "id": 67103,
@@ -14129,10 +14229,14 @@
     "_total": "1 votes"
   },
   "12223": {
-    "id": "",
+    "id": 39152,
     "title": "熱舞女孩",
     "sub": "(SKEETER RABBIT!!)   スキーターらびっと!!",
-    "_skip": 5
+    "_title": "BUTTER!!!",
+    "_cover": "b6/b3/39152_5HdZb",
+    "_rank": "",
+    "_score": 8.5,
+    "_total": "2 votes"
   },
   "12225": {
     "id": 261063,
@@ -14480,7 +14584,7 @@
     "id": "",
     "title": "情場霸王",
     "sub": "(Qingchang)   戀愛名人,戀愛名流,最愛貴公子",
-    "_skip": 5
+    "_skip": 99
   },
   "12307": {
     "id": "",
@@ -14836,7 +14940,7 @@
     "id": "",
     "title": "老師!",
     "sub": "(Sensei)",
-    "_skip": 5
+    "_skip": 99
   },
   "12383": {
     "id": 2669,
@@ -15670,7 +15774,7 @@
     "id": "",
     "title": "信號",
     "sub": "(Signal)",
-    "_skip": 5
+    "_skip": 99
   },
   "12539": {
     "id": 188584,
@@ -15729,10 +15833,14 @@
     "_total": "7 votes"
   },
   "12550": {
-    "id": "",
+    "id": 88448,
     "title": "白色相簿2",
     "sub": "(WHITE ALBUM2)",
-    "_skip": 5
+    "_title": "WHITE ALBUM2",
+    "_cover": "23/44/88448_t2n54",
+    "_rank": "",
+    "_score": 6.4,
+    "_total": "8 votes"
   },
   "12551": {
     "id": "",
@@ -16276,7 +16384,7 @@
     "id": "",
     "title": "女孩好色",
     "sub": "(Binkan Kanojo)   好色女孩 敏感彼女",
-    "_skip": 5
+    "_skip": 99
   },
   "12646": {
     "id": 147007,
@@ -17156,7 +17264,7 @@
     "id": "",
     "title": "深淵",
     "sub": "(Abyss)",
-    "_skip": 5
+    "_skip": 99
   },
   "12806": {
     "id": 22729,
@@ -17401,10 +17509,14 @@
     "_total": "10 votes"
   },
   "12850": {
-    "id": "",
+    "id": 44878,
     "title": "高校鐵拳傳",
     "sub": "(High School Exciting)",
-    "_skip": 5
+    "_title": "高校鉄拳伝タフ",
+    "_cover": "f0/29/44878_4TZf4",
+    "_rank": "",
+    "_score": 7,
+    "_total": "5 votes"
   },
   "12852": {
     "id": 165282,
@@ -18137,7 +18249,7 @@
     "id": "",
     "title": "Life~人生~",
     "sub": "(Life)",
-    "_skip": 5
+    "_skip": 99
   },
   "12984": {
     "id": "",
@@ -18948,10 +19060,14 @@
     "_total": "1 votes"
   },
   "13102": {
-    "id": "",
+    "id": 149379,
     "title": "Only Sense Online 絕對神境",
     "sub": "(Only Sense Online)",
-    "_skip": 3
+    "_title": "Only Sense Online −オンリーセンス・オンライン−",
+    "_cover": "53/09/149379_iQOgd",
+    "_rank": "",
+    "_score": 5.8,
+    "_total": "13 votes"
   },
   "13103": {
     "id": 263374,
@@ -19254,10 +19370,14 @@
     "_total": "10 votes"
   },
   "13155": {
-    "id": "",
+    "id": 237068,
     "title": "女孩子之間的(過分)親密生活",
     "sub": "(Girls'(excessive) Intimacy)",
-    "_skip": 5
+    "_title": "ガールズ×セクハライフ",
+    "_cover": "ae/ee/237068_5eHSf",
+    "_rank": 4232,
+    "_score": 6.6,
+    "_total": "21 votes"
   },
   "13156": {
     "id": 178487,
@@ -20978,10 +21098,14 @@
     "_skip": 10
   },
   "13452": {
-    "id": "",
+    "id": 279871,
     "title": "憧憬成為魔法少女",
     "sub": "(Looking Forward To Becoming A Magic Girl)",
-    "_skip": 5
+    "_title": "魔法少女にあこがれて",
+    "_cover": "92/3d/279871_4a7Zi",
+    "_rank": 1664,
+    "_score": 7.7,
+    "_total": "64 votes"
   },
   "13454": {
     "id": 206784,
@@ -21500,10 +21624,14 @@
     "_total": "11 votes"
   },
   "13538": {
-    "id": "",
+    "id": 134328,
     "title": "新撰組鎮魂歌",
     "sub": "(Chiru Ran)   新選組鎮魂歌",
-    "_skip": 5
+    "_title": "ちるらん 新撰組鎮魂歌",
+    "_cover": "93/66/134328_TMSTO",
+    "_rank": "",
+    "_score": 6,
+    "_total": "1 votes"
   },
   "13539": {
     "id": 169708,
@@ -22727,7 +22855,7 @@
     "id": "",
     "title": "男組",
     "sub": "(Nan Zu)",
-    "_skip": 5
+    "_skip": 99
   },
   "13739": {
     "id": "",
@@ -23338,10 +23466,14 @@
     "_total": "7 votes"
   },
   "13833": {
-    "id": "",
+    "id": 198809,
     "title": "沃特尼亞戰記",
     "sub": "(Wortenia Senki)",
-    "_skip": 4
+    "_title": "ウォルテニア戦記",
+    "_cover": "a5/9a/198809_G3q48",
+    "_rank": "",
+    "_score": 6.1,
+    "_total": "7 votes"
   },
   "13834": {
     "id": 216061,
@@ -23476,10 +23608,14 @@
     "_total": "2 votes"
   },
   "13854": {
-    "id": "",
+    "id": 248254,
     "title": "不可解的我的一切",
     "sub": "(Wodeyiqie)   無法理解我的全部",
-    "_skip": 5
+    "_title": "不可解なぼくのすべてを",
+    "_cover": "36/41/248254_m6rl3",
+    "_rank": 3247,
+    "_score": 7.2,
+    "_total": "91 votes"
   },
   "13855": {
     "id": 240874,
@@ -23746,10 +23882,14 @@
     "_total": "59 votes"
   },
   "13911": {
-    "id": "",
+    "id": 375007,
     "title": "桐人的一千零一夜-桐人的Gun Gale wars",
     "sub": "(One Thousand And One Nights Of Tongren)",
-    "_skip": 5
+    "_title": "ソードアート・オンライン キリトの千夜一夜騒動",
+    "_cover": "74/e9/375007_RjH8H",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "13912": {
     "id": 195701,
@@ -24358,10 +24498,14 @@
     "_total": "48 votes"
   },
   "14000": {
-    "id": "",
+    "id": 209258,
     "title": "Honey come honey",
     "sub": "(Honey Come Honey)",
-    "_skip": 5
+    "_title": "はにかむハニー",
+    "_cover": "45/31/209258_ay4kN",
+    "_rank": "",
+    "_score": 5.7,
+    "_total": "7 votes"
   },
   "14001": {
     "id": 187520,
@@ -25419,7 +25563,7 @@
     "id": "",
     "title": "戰空之魂",
     "sub": "(Zhan Kong Zhi Hun)",
-    "_skip": 5
+    "_skip": 99
   },
   "14182": {
     "id": 229644,
@@ -25600,10 +25744,14 @@
     "_total": "50 votes"
   },
   "14216": {
-    "id": "",
+    "id": 288810,
     "title": "對你上頭了",
     "sub": "(Muchuu Sa, Kimi Ni.)   夢中さ、きみに。為你著迷",
-    "_skip": 5
+    "_title": "夢中さ、きみに。",
+    "_cover": "b0/0a/288810_5cZuB",
+    "_rank": 3215,
+    "_score": 7.2,
+    "_total": "71 votes"
   },
   "14218": {
     "id": 61272,
@@ -25737,7 +25885,7 @@
     "id": "",
     "title": "明王傳",
     "sub": "(The Legend Of Acala)",
-    "_skip": 5
+    "_skip": 99
   },
   "14271": {
     "id": 212074,
@@ -25820,10 +25968,14 @@
     "_total": "1 votes"
   },
   "14289": {
-    "id": "",
+    "id": 159338,
     "title": "CRIMINALE!",
     "sub": "(CRIMINALE!)   クリミナーレ！",
-    "_skip": 5
+    "_title": "クリミナーレ!",
+    "_cover": "90/ff/159338_3Eu64",
+    "_rank": 3676,
+    "_score": 7.1,
+    "_total": "80 votes"
   },
   "14292": {
     "id": 291305,
@@ -25862,10 +26014,14 @@
     "_total": "4 votes"
   },
   "14313": {
-    "id": "",
+    "id": 283049,
     "title": "媽媽、不要跟我來冒險！",
     "sub": "(Mom, Don't Take Risks With Me!)",
-    "_skip": 5
+    "_title": "冒険に、ついてこないでお母さん！ ~ 超過保護な最強ドラゴンに育てられた息子、母親同伴で冒険者になる",
+    "_cover": "6e/64/283049_P3X01",
+    "_rank": "",
+    "_score": 6.2,
+    "_total": "19 votes"
   },
   "14314": {
     "id": 282716,
@@ -26040,10 +26196,14 @@
     "_skip": 3
   },
   "14343": {
-    "id": "",
+    "id": 31353,
     "title": "刻刻",
     "sub": "(Kokkoku)",
-    "_skip": 5
+    "_title": "刻刻",
+    "_cover": "e1/7e/31353_vzvSu",
+    "_rank": 3911,
+    "_score": 7,
+    "_total": "84 votes"
   },
   "14344": {
     "id": 292572,
@@ -26156,10 +26316,14 @@
     "_total": "9 votes"
   },
   "14363": {
-    "id": "",
+    "id": 69001,
     "title": "小超人帕門",
     "sub": "(Parman)   神奇小子/小超人/超人小天使 / 小超人帕門/飛人",
-    "_skip": 5
+    "_title": "パーマン",
+    "_cover": "d2/d7/69001_wkCB6",
+    "_rank": "",
+    "_score": 7.2,
+    "_total": "16 votes"
   },
   "14364": {
     "id": 223564,
@@ -26374,10 +26538,14 @@
     "_total": "3 votes"
   },
   "14397": {
-    "id": "",
+    "id": 235035,
     "title": "本田小狼與我",
     "sub": "(Super Cub)",
-    "_skip": 3
+    "_title": "スーパーカブ",
+    "_cover": "2b/fc/235035_rQ2R8",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "17 votes"
   },
   "14398": {
     "id": 235973,
@@ -26736,10 +26904,14 @@
     "_total": "5 votes"
   },
   "14454": {
-    "id": "",
+    "id": 235966,
     "title": "吾乃食草龍",
     "sub": "(Yowai 5000nen Yada)",
-    "_skip": 5
+    "_title": "齢5000年の草食ドラゴン、いわれなき邪竜認定 ～やだこの生贄、人の話を聞いてくれない～",
+    "_cover": "d4/5c/235966_IY64Q",
+    "_rank": "",
+    "_score": 6.7,
+    "_total": "16 votes"
   },
   "14455": {
     "id": 237549,
@@ -28474,10 +28646,14 @@
     "_total": "11 votes"
   },
   "14723": {
-    "id": "",
+    "id": 292226,
     "title": "愛書的下克上2",
     "sub": "(Honzuki No Gekokujou)   小書的下克上2,愛書的下克上第二部,本好きの下剋上 ~司書になるためには手段を選んでいられません~",
-    "_skip": 5
+    "_title": "本好きの下剋上~司書になるためには手段を選んでいられません~第二部 「本のためなら巫女になる! 」",
+    "_cover": "89/e4/292226_Bd5Y4",
+    "_rank": "",
+    "_score": 7.6,
+    "_total": "7 votes"
   },
   "14724": {
     "id": 250376,
@@ -29291,7 +29467,7 @@
     "id": "",
     "title": "X Cross",
     "sub": "(X Cross)",
-    "_skip": 5
+    "_skip": 99
   },
   "14880": {
     "id": "",
@@ -29490,10 +29666,14 @@
     "_total": "10 votes"
   },
   "14904": {
-    "id": "",
+    "id": 259679,
     "title": "不得了、她是個變態！",
     "sub": "(TaiHEN HENtai)",
-    "_skip": 5
+    "_title": "タイヘン・ヘンタイ",
+    "_cover": "b0/db/259679_VljPB",
+    "_rank": "",
+    "_score": 6.2,
+    "_total": "5 votes"
   },
   "14905": {
     "id": 246705,
@@ -29731,7 +29911,7 @@
     "id": "",
     "title": "Tempest",
     "sub": "(Tempest)",
-    "_skip": 5
+    "_skip": 99
   },
   "14950": {
     "id": "",
@@ -29964,10 +30144,14 @@
     "_total": "64 votes"
   },
   "15055": {
-    "id": "",
+    "id": 274307,
     "title": "精靈來日",
     "sub": "(Welcome To Japan, Elf-san)",
-    "_skip": 5
+    "_title": "日本へようこそエルフさん 。",
+    "_cover": "3f/a0/274307_I8A12",
+    "_rank": 4462,
+    "_score": 6.5,
+    "_total": "27 votes"
   },
   "15060": {
     "id": "",
@@ -31495,10 +31679,14 @@
     "_total": "0 votes"
   },
   "15355": {
-    "id": "",
+    "id": 238148,
     "title": "侵替",
     "sub": "(Narikawari)   替換人生",
-    "_skip": 3
+    "_title": "ナリカワリ",
+    "_cover": "0e/c4/238148_54SDZ",
+    "_rank": "",
+    "_score": 6,
+    "_total": "7 votes"
   },
   "15356": {
     "id": "",
@@ -32789,7 +32977,7 @@
     "id": "",
     "title": "廢棄城市",
     "sub": "(Feiqichengshi)",
-    "_skip": 5
+    "_skip": 99
   },
   "15594": {
     "id": 276974,
@@ -35184,10 +35372,14 @@
     "_total": "3 votes"
   },
   "15959": {
-    "id": "",
+    "id": 42433,
     "title": "女神異聞錄persona",
     "sub": "(Persona)   女神異聞録ペルソナ",
-    "_skip": 5
+    "_title": "女神異聞録ペルソナ 新装版",
+    "_cover": "f9/19/42433_aQjAq",
+    "_rank": "",
+    "_score": 7.6,
+    "_total": "13 votes"
   },
   "15962": {
     "id": 290470,
@@ -35682,10 +35874,14 @@
     "_skip": 10
   },
   "16041": {
-    "id": "",
+    "id": 288055,
     "title": "VS EVIL",
     "sub": "(VS EVIL)",
-    "_skip": 5
+    "_title": "VS EVIL",
+    "_cover": "03/29/288055_6yiSD",
+    "_rank": "",
+    "_score": 6.8,
+    "_total": "9 votes"
   },
   "16042": {
     "id": 145977,
@@ -35726,10 +35922,14 @@
     "_skip": 10
   },
   "16054": {
-    "id": "",
+    "id": 119431,
     "title": "JOJOveller畫集",
     "sub": "(JOJOVELLER)",
-    "_skip": 3
+    "_title": "JOJOVELLER",
+    "_cover": "fa/7a/119431_jp",
+    "_rank": "",
+    "_score": 8,
+    "_total": "7 votes"
   },
   "16056": {
     "id": 145118,
@@ -35813,7 +36013,7 @@
     "id": "",
     "title": "是乃的短篇合集",
     "sub": "(Shinai)",
-    "_skip": 5
+    "_skip": 99
   },
   "16088": {
     "id": "",
@@ -36228,10 +36428,14 @@
     "_total": "23 votes"
   },
   "16204": {
-    "id": "",
+    "id": 164116,
     "title": "Marry Marry Marry",
     "sub": "(Marry Marry Marry)",
-    "_skip": 5
+    "_title": "マリーマリーマリー",
+    "_cover": "bf/07/164116_YPtGF",
+    "_rank": "",
+    "_score": 8.1,
+    "_total": "14 votes"
   },
   "16205": {
     "id": 192998,
@@ -36597,7 +36801,7 @@
     "id": "",
     "title": "戀愛舞台",
     "sub": "(LOVE STAGE!!)",
-    "_skip": 5
+    "_skip": 99
   },
   "16280": {
     "id": 177054,
@@ -36650,10 +36854,14 @@
     "_total": "9 votes"
   },
   "16293": {
-    "id": "",
+    "id": 225705,
     "title": "聖女的魔力是萬能的",
     "sub": "(Seijo No Maryoku Wa Banno Desu)",
-    "_skip": 3
+    "_title": "聖女の魔力は万能です",
+    "_cover": "66/93/225705_eAcSS",
+    "_rank": 5074,
+    "_score": 5.8,
+    "_total": "27 votes"
   },
   "16295": {
     "id": 291620,
@@ -37259,10 +37467,14 @@
     "_total": "28 votes"
   },
   "16423": {
-    "id": "",
+    "id": 67993,
     "title": "憑依！",
     "sub": "(Pingyi)",
-    "_skip": 5
+    "_title": "ひょうい☆ドン!",
+    "_cover": "b5/63/67993_a1251",
+    "_rank": "",
+    "_score": 5.7,
+    "_total": "9 votes"
   },
   "16424": {
     "id": 284311,
@@ -38072,10 +38284,14 @@
     "_skip": 10
   },
   "16627": {
-    "id": "",
+    "id": 209476,
     "title": "電玩咖",
     "sub": "(GAMERS!)",
-    "_skip": 5
+    "_title": "ゲーマーズ!",
+    "_cover": "53/3a/209476_NPe5b",
+    "_rank": "",
+    "_score": 7.2,
+    "_total": "10 votes"
   },
   "16629": {
     "id": 261593,
@@ -38402,10 +38618,14 @@
     "_total": "3 votes"
   },
   "16697": {
-    "id": "",
+    "id": 208356,
     "title": "新世紀福爾摩斯",
     "sub": "(SHERLOCK)",
-    "_skip": 5
+    "_title": "SHERLOCK",
+    "_cover": "f2/04/208356_BwWNK",
+    "_rank": "",
+    "_score": 7,
+    "_total": "1 votes"
   },
   "16700": {
     "id": 178912,
@@ -38540,10 +38760,14 @@
     "_total": "5 votes"
   },
   "16726": {
-    "id": "",
+    "id": 97810,
     "title": "思春期bitter change",
     "sub": "(Bitter Change)   思春期交換",
-    "_skip": 5
+    "_title": "思春期ビターチェンジ",
+    "_cover": "42/71/97810_638i6",
+    "_rank": 3037,
+    "_score": 7.3,
+    "_total": "61 votes"
   },
   "16727": {
     "id": 21602,
@@ -38667,7 +38891,7 @@
     "id": "",
     "title": "HIGH POSITION",
     "sub": "(HIGH POSITION)",
-    "_skip": 5
+    "_skip": 99
   },
   "16761": {
     "id": 188916,
@@ -38818,10 +39042,14 @@
     "_total": "15 votes"
   },
   "16791": {
-    "id": "",
+    "id": 286906,
     "title": "明天，我會成為誰的女友",
     "sub": "(Tomorrow I Will Be Someone's Girlfrend)   明天，我是誰的女友",
-    "_skip": 5
+    "_title": "明日、私は誰かのカノジョ",
+    "_cover": "09/c6/286906_Z2d2T",
+    "_rank": "",
+    "_score": 6.9,
+    "_total": "17 votes"
   },
   "16792": {
     "id": 228858,
@@ -39460,10 +39688,14 @@
     "_total": "2 votes"
   },
   "16967": {
-    "id": "",
+    "id": 270507,
     "title": "荒神一族",
     "sub": "(Animal X)",
-    "_skip": 5
+    "_title": "Animal X 荒神の一族",
+    "_cover": "4c/d2/270507_ez2BQ",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "16968": {
     "id": 242486,
@@ -40069,7 +40301,7 @@
     "id": "",
     "title": "深紫色",
     "sub": "(Deep Purple)",
-    "_skip": 5
+    "_skip": 99
   },
   "17114": {
     "id": 240931,
@@ -40145,7 +40377,7 @@
     "id": "",
     "title": "百器徒然袋 風",
     "sub": "(Hyakki Tsurezure Bukuro)",
-    "_skip": 5
+    "_skip": 99
   },
   "17127": {
     "id": 357420,
@@ -40247,7 +40479,7 @@
     "id": "",
     "title": "哆啦A夢 青文原創版",
     "sub": "(Doraemon)   機器貓",
-    "_skip": 5
+    "_skip": 99
   },
   "17155": {
     "id": 182583,
@@ -40570,10 +40802,14 @@
     "_total": "1 votes"
   },
   "17200": {
-    "id": "",
+    "id": 128096,
     "title": "愛麗絲19歲",
     "sub": "(Alice19th)",
-    "_skip": 5
+    "_title": "ありす19th",
+    "_cover": "ac/d4/128096_KY9VU",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "6 votes"
   },
   "17201": {
     "id": "",
@@ -40654,10 +40890,14 @@
     "_total": "63 votes"
   },
   "17217": {
-    "id": "",
+    "id": 13630,
     "title": "佐藤君的大本命",
     "sub": "(Zuo Teng Jun)",
-    "_skip": 5
+    "_title": "アイツの大本命",
+    "_cover": "b0/ba/13630_Eka5c",
+    "_rank": 2856,
+    "_score": 7.3,
+    "_total": "29 votes"
   },
   "17239": {
     "id": "",
@@ -40792,10 +41032,14 @@
     "_total": "2 votes"
   },
   "17274": {
-    "id": "",
+    "id": 158271,
     "title": "美少女死神還我H之魂！",
     "sub": "(So, I Can't Play H!)   H神馬的我才沒辦法呢",
-    "_skip": 4
+    "_title": "だから僕は、Hができない。",
+    "_cover": "59/cc/158271_Zq363",
+    "_rank": "",
+    "_score": 5.1,
+    "_total": "8 votes"
   },
   "17280": {
     "id": 313518,
@@ -41372,7 +41616,7 @@
     "id": "",
     "title": "俏妞出招",
     "sub": "(QIAO NIU CHU ZHAO)",
-    "_skip": 5
+    "_skip": 99
   },
   "17403": {
     "id": 8634,
@@ -44735,10 +44979,14 @@
     "_skip": 10
   },
   "18257": {
-    "id": "",
+    "id": 311737,
     "title": "生而為狗 我很幸福",
     "sub": "(Shenger Weigou)",
-    "_skip": 5
+    "_title": "犬になったら好きな人に拾われた。",
+    "_cover": "e1/48/311737_S3bF9",
+    "_rank": 4740,
+    "_score": 6.3,
+    "_total": "26 votes"
   },
   "18258": {
     "id": 305623,
@@ -44998,7 +45246,7 @@
     "id": "",
     "title": "伏魔殿",
     "sub": "(Fukumaden)",
-    "_skip": 5
+    "_skip": 99
   },
   "18318": {
     "id": 71039,
@@ -45210,7 +45458,7 @@
     "id": "",
     "title": "請讓我順利交稿吧",
     "sub": "(Qingweiliaowotuo)   請為了我脫光身上所有衣服請爲了我成爲作畫素材",
-    "_skip": 5
+    "_skip": 99
   },
   "18405": {
     "id": "",
@@ -45289,10 +45537,14 @@
     "_total": "9 votes"
   },
   "18431": {
-    "id": "",
+    "id": 124553,
     "title": "噬神者 2",
     "sub": "(GOD EATER 2)",
-    "_skip": 5
+    "_title": "GOD EATER 2",
+    "_cover": "ee/88/124553_22pKV",
+    "_rank": "",
+    "_score": 7.8,
+    "_total": "4 votes"
   },
   "18434": {
     "id": "",
@@ -45672,7 +45924,7 @@
     "id": "",
     "title": "與妳相依 敲響心扉的百合精選集",
     "sub": "(Girlslove)",
-    "_skip": 5
+    "_skip": 99
   },
   "18544": {
     "id": 308152,
@@ -45803,10 +46055,14 @@
     "_total": "47 votes"
   },
   "18573": {
-    "id": "",
+    "id": 77661,
     "title": "鬼畜眼鏡",
     "sub": "(Kichiku Megane)",
-    "_skip": 5
+    "_title": "鬼畜眼鏡 全カップリング網羅編",
+    "_cover": "71/99/77661_jp",
+    "_rank": "",
+    "_score": 7,
+    "_total": "4 votes"
   },
   "18574": {
     "id": 306525,
@@ -46439,10 +46695,14 @@
     "_skip": 5
   },
   "18722": {
-    "id": "",
+    "id": 48370,
     "title": "如果折斷她的旗",
     "sub": "(If You Break Her Flag)",
-    "_skip": 5
+    "_title": "彼女がフラグをおられたら",
+    "_cover": "96/f1/48370_srTW2",
+    "_rank": "",
+    "_score": 6.7,
+    "_total": "3 votes"
   },
   "18723": {
     "id": "",
@@ -47506,10 +47766,14 @@
     "_total": "915 votes"
   },
   "19017": {
-    "id": "",
+    "id": 22478,
     "title": "改造新人類",
     "sub": "(Katteni Kaizo)",
-    "_skip": 5
+    "_title": "かってに改蔵",
+    "_cover": "7d/75/22478_V26md",
+    "_rank": 1746,
+    "_score": 7.7,
+    "_total": "39 votes"
   },
   "19018": {
     "id": 182935,
@@ -48068,16 +48332,24 @@
     "_skip": 10
   },
   "19177": {
-    "id": "",
+    "id": 32638,
     "title": "鄰家女孩(台版)",
     "sub": "(TOUCH)",
-    "_skip": 5
+    "_title": "タッチ",
+    "_cover": "a5/3b/32638_uaVrb",
+    "_rank": 46,
+    "_score": 8.7,
+    "_total": "414 votes"
   },
   "19178": {
-    "id": "",
+    "id": 32780,
     "title": "我愛芳鄰(台版)",
     "sub": "(Rough)",
-    "_skip": 5
+    "_title": "ラフ",
+    "_cover": "13/16/32780_8Gw47",
+    "_rank": 316,
+    "_score": 8.3,
+    "_total": "130 votes"
   },
   "19194": {
     "id": "",
@@ -48440,10 +48712,14 @@
     "_total": "8 votes"
   },
   "19300": {
-    "id": "",
+    "id": 335843,
     "title": "印斯茅斯之影",
     "sub": "(The Shadow Over Innsmouth)",
-    "_skip": 5
+    "_title": "インスマスの影 ラヴクラフト傑作集",
+    "_cover": "38/78/335843_fM4B4",
+    "_rank": "",
+    "_score": 7.1,
+    "_total": "9 votes"
   },
   "19304": {
     "id": 5239,
@@ -49072,7 +49348,7 @@
     "id": "",
     "title": "每一天都是愛你的一天",
     "sub": "(Every Day Is A Day To Love You)",
-    "_skip": 5
+    "_skip": 99
   },
   "19470": {
     "id": 302329,
@@ -49989,10 +50265,14 @@
     "_total": "0 votes"
   },
   "19697": {
-    "id": "",
+    "id": 274658,
     "title": "王立魔法學園的劣等生",
     "sub": "(Ouritsu Mahou Gakuen No Saikasei)   王立魔法學園的最下生",
-    "_skip": 5
+    "_title": "劣等眼の転生魔術師 ~虐げられた元勇者は未来の世界を余裕で生き抜く~",
+    "_cover": "bb/ee/274658_DHon8",
+    "_rank": "",
+    "_score": 5.1,
+    "_total": "7 votes"
   },
   "19700": {
     "id": 322890,
@@ -50243,10 +50523,14 @@
     "_total": "4 votes"
   },
   "19753": {
-    "id": "",
+    "id": 330602,
     "title": "荒島‧甜心‧世界",
     "sub": "(WILD HONEY WORLD)",
-    "_skip": 5
+    "_title": "ワイルド・ハニー・ワールド",
+    "_cover": "bb/48/330602_87TAE",
+    "_rank": "",
+    "_score": 7,
+    "_total": "1 votes"
   },
   "19771": {
     "id": "",
@@ -50414,7 +50698,7 @@
     "id": "",
     "title": "女市長事件簿",
     "sub": "(Nszsjb)",
-    "_skip": 5
+    "_skip": 99
   },
   "19822": {
     "id": 139656,
@@ -50810,7 +51094,7 @@
     "id": "",
     "title": "漫畫世界文學名著",
     "sub": "(Manga World Literary Masterpiece)",
-    "_skip": 5
+    "_skip": 99
   },
   "19978": {
     "id": 304551,
@@ -51462,7 +51746,7 @@
     "id": "",
     "title": "樂園神社",
     "sub": "(Jinja)",
-    "_skip": 5
+    "_skip": 99
   },
   "20167": {
     "id": 391519,
@@ -52449,10 +52733,14 @@
     "_total": "0 votes"
   },
   "20450": {
-    "id": "",
+    "id": 214177,
     "title": "碧藍幻想",
     "sub": "(Granblue Fantasy)",
-    "_skip": 3
+    "_title": "グランブルーファンタジー",
+    "_cover": "15/24/214177_PBW9q",
+    "_rank": "",
+    "_score": 5,
+    "_total": "1 votes"
   },
   "20458": {
     "id": 350677,
@@ -53437,10 +53725,14 @@
     "_total": "2 votes"
   },
   "20774": {
-    "id": "",
+    "id": 65003,
     "title": "女調酒師",
     "sub": "(La Sommeliere)",
-    "_skip": 5
+    "_title": "ソムリエール",
+    "_cover": "68/b6/65003_9go7U",
+    "_rank": "",
+    "_score": 6.8,
+    "_total": "8 votes"
   },
   "20775": {
     "id": "",
@@ -53478,7 +53770,7 @@
     "id": "",
     "title": "NTR百合合集",
     "sub": "(NeToRara Yuri)",
-    "_skip": 5
+    "_skip": 99
   },
   "20788": {
     "id": 291331,
@@ -53539,10 +53831,14 @@
     "_skip": 10
   },
   "20823": {
-    "id": "",
+    "id": 318155,
     "title": "梗角色轉生太過頭了！",
     "sub": "(Gengjuese)",
-    "_skip": 5
+    "_title": "ネタキャラ転生とかあんまりだ！ THE COMIC",
+    "_cover": "b4/70/318155_DS9ma",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "4 votes"
   },
   "20825": {
     "id": 165389,
@@ -53947,10 +54243,14 @@
     "_total": "3 votes"
   },
   "20940": {
-    "id": "",
+    "id": 171652,
     "title": "瓦礫下的醫師",
     "sub": "(Dr. Dmat)",
-    "_skip": 5
+    "_title": "Dr.DMAT〜瓦礫の下のヒポクラテス〜",
+    "_cover": "7a/ad/171652_047qB",
+    "_rank": "",
+    "_score": 7,
+    "_total": "1 votes"
   },
   "20941": {
     "id": 131615,
@@ -54022,7 +54322,7 @@
     "id": "",
     "title": "求愛中毒",
     "sub": "(Qiuaizhongdu)",
-    "_skip": 5
+    "_skip": 99
   },
   "20973": {
     "id": 331277,
@@ -54113,10 +54413,14 @@
     "_total": "1 votes"
   },
   "21014": {
-    "id": "",
+    "id": 95741,
     "title": "抓狂一族(新裝版)",
     "sub": "(Urayasu Tekkin Kazoku)",
-    "_skip": 5
+    "_title": "毎度!浦安鉄筋家族",
+    "_cover": "e5/c9/95741_J3Ke2",
+    "_rank": "",
+    "_score": 7.5,
+    "_total": "2 votes"
   },
   "21015": {
     "id": 71072,
@@ -54160,7 +54464,7 @@
     "id": "",
     "title": "創世的大河",
     "sub": "(Taiga Of Genesis)",
-    "_skip": 5
+    "_skip": 99
   },
   "21027": {
     "id": 245419,
@@ -54425,10 +54729,14 @@
     "_skip": 10
   },
   "21089": {
-    "id": "",
+    "id": 270902,
     "title": "千金花嫁閨事調教",
     "sub": "(Qianjinhuajia)",
-    "_skip": 5
+    "_title": "令嬢花嫁閨事調教-無垢なつぼみは夜開く-",
+    "_cover": "60/f4/270902_ltS1a",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "2 votes"
   },
   "21091": {
     "id": 114487,
@@ -54451,10 +54759,14 @@
     "_total": "17 votes"
   },
   "21100": {
-    "id": "",
+    "id": 347380,
     "title": "青梅竹馬是同卵雙胞胎野獸",
     "sub": "(Tongluanshuangbaotaiyeshou)",
-    "_skip": 5
+    "_title": "幼馴染は一卵性の獣",
+    "_cover": "fc/27/347380_voNz6",
+    "_rank": "",
+    "_score": 5.3,
+    "_total": "3 votes"
   },
   "21102": {
     "id": 191900,
@@ -54487,10 +54799,14 @@
     "_total": "1 votes"
   },
   "21109": {
-    "id": "",
+    "id": 336353,
     "title": "肉食系自戀男子與絕對不戀愛的女子",
     "sub": "(Roushixinanzi)",
-    "_skip": 5
+    "_title": "性行為を前提としたお誘いですか?~肉食ナルシストと絶対恋愛しない女子~",
+    "_cover": "21/67/336353_2ZxaI",
+    "_rank": "",
+    "_score": 7,
+    "_total": "2 votes"
   },
   "21123": {
     "id": "",
@@ -54567,16 +54883,20 @@
     "_skip": 5
   },
   "21151": {
-    "id": "",
+    "id": 348680,
     "title": "專情而絕倫的秋君",
     "sub": "(Qiujun)",
-    "_skip": 5
+    "_title": "抱かせてください、今夜こそ！～秋くんは一途で絶倫～",
+    "_cover": "be/99/348680_6cuUp",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "21152": {
     "id": "",
     "title": "5個國王",
     "sub": "(5geguowang)",
-    "_skip": 5
+    "_skip": 99
   },
   "21157": {
     "id": "",
@@ -54595,10 +54915,14 @@
     "_total": "2 votes"
   },
   "21170": {
-    "id": "",
+    "id": 332273,
     "title": "虛偽的相上 被討厭的青梅竹馬懷抱著",
     "sub": "(Qingmeizhuma)",
-    "_skip": 5
+    "_title": "相上さんはニセモノ~大嫌いな幼なじみに抱かれます~",
+    "_cover": "37/76/332273_BCBK4",
+    "_rank": "",
+    "_score": 7.4,
+    "_total": "8 votes"
   },
   "21173": {
     "id": 67991,
@@ -54639,10 +54963,14 @@
     "_skip": 5
   },
   "21210": {
-    "id": "",
+    "id": 186036,
     "title": "五十嵐與中原的青春交叉口",
     "sub": "(Igarashi-kun To Nakahara-kun)   五十嵐くんと中原くん",
-    "_skip": 5
+    "_title": "五十嵐くんと中原くん",
+    "_cover": "61/4d/186036_xsgEJ",
+    "_rank": "",
+    "_score": 6,
+    "_total": "1 votes"
   },
   "21215": {
     "id": "",
@@ -54686,7 +55014,7 @@
     "id": "",
     "title": "怪‧刺繪本",
     "sub": "(Guaicihuiben)   怪、刺す",
-    "_skip": 3
+    "_skip": 99
   },
   "21270": {
     "id": 93938,
@@ -54721,10 +55049,14 @@
     "_skip": 5
   },
   "21284": {
-    "id": "",
+    "id": 2123,
     "title": "庫洛魔法使",
     "sub": "(CARDCAPTOR SAKURA)",
-    "_skip": 5
+    "_title": "カードキャプターさくら",
+    "_cover": "5a/1e/2123_vRzfr",
+    "_rank": 340,
+    "_score": 8.2,
+    "_total": "382 votes"
   },
   "21290": {
     "id": 203442,
@@ -54896,7 +55228,7 @@
     "id": "",
     "title": "女孩子的身體",
     "sub": "(Nvhaizideshenti)",
-    "_skip": 5
+    "_skip": 99
   },
   "21358": {
     "id": "",
@@ -54965,10 +55297,14 @@
     "_skip": 10
   },
   "21397": {
-    "id": "",
+    "id": 299068,
     "title": "大小姐與黑社會",
     "sub": "(Daxiaojie)",
-    "_skip": 5
+    "_title": "お嬢とヤクザ 若頭の愛撫は甘いが猛々しい",
+    "_cover": "75/2b/299068_pHTsu",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "21403": {
     "id": 57579,
@@ -55020,7 +55356,7 @@
     "id": "",
     "title": "再見了戀人、再會吧朋友",
     "sub": "(Zaijianle)   戀人再見、朋友歡迎再來",
-    "_skip": 5
+    "_skip": 99
   },
   "21421": {
     "id": "",
@@ -55103,10 +55439,14 @@
     "_total": "1 votes"
   },
   "21501": {
-    "id": "",
+    "id": 327301,
     "title": "死亡筆記短篇集",
     "sub": "(DEATH NOTE ShortStory)",
-    "_skip": 5
+    "_title": "DEATH NOTE短編集",
+    "_cover": "3b/af/327301_OW4Wd",
+    "_rank": "",
+    "_score": 7.3,
+    "_total": "15 votes"
   },
   "21502": {
     "id": "",
@@ -55179,10 +55519,14 @@
     "_skip": 5
   },
   "21550": {
-    "id": "",
+    "id": 244105,
     "title": "肉食組長要吃淨盯上的肉體",
     "sub": "(Roushizuzhang)",
-    "_skip": 5
+    "_title": "肉食係長の抱き方は尋常じゃない",
+    "_cover": "da/cc/244105_8226y",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "21555": {
     "id": 288267,
@@ -56024,7 +56368,7 @@
     "id": "",
     "title": "古怪成人小說家的下流愛好",
     "sub": "(Guguai)",
-    "_skip": 5
+    "_skip": 99
   },
   "21893": {
     "id": 94953,
@@ -56076,7 +56420,7 @@
     "id": "",
     "title": "情定尼羅河",
     "sub": "(Qingdinniluohe)",
-    "_skip": 5
+    "_skip": 99
   },
   "21912": {
     "id": "",
@@ -56088,7 +56432,7 @@
     "id": "",
     "title": "老師，再做一次吧",
     "sub": "(Laoshi)",
-    "_skip": 5
+    "_skip": 99
   },
   "21926": {
     "id": "",
@@ -56116,7 +56460,7 @@
     "id": "",
     "title": "愛上怪物先生",
     "sub": "(One Loves Monster)",
-    "_skip": 5
+    "_skip": 99
   },
   "21943": {
     "id": "",
@@ -56272,7 +56616,7 @@
     "id": "",
     "title": "Book×Tea",
     "sub": "(Book Tea)",
-    "_skip": 5
+    "_skip": 99
   },
   "22027": {
     "id": 357988,
@@ -56331,10 +56675,14 @@
     "_total": "1 votes"
   },
   "22062": {
-    "id": "",
+    "id": 293435,
     "title": "我想欺負的只有妳一個",
     "sub": "(Qifu)",
-    "_skip": 5
+    "_title": "イジメたいのはお前だけ～腹黒後輩にイカされちゃう！？",
+    "_cover": "cc/de/293435_x428H",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "22066": {
     "id": "",
@@ -56534,7 +56882,7 @@
     "id": "",
     "title": "暗夜的神話",
     "sub": "(Anyedeshenhua)",
-    "_skip": 5
+    "_skip": 99
   },
   "22177": {
     "id": "",
@@ -56579,10 +56927,14 @@
     "_total": "5 votes"
   },
   "22192": {
-    "id": "",
+    "id": 47186,
     "title": "煌如星",
     "sub": "(HRX)",
-    "_skip": 5
+    "_title": "煌如星シリーズ",
+    "_cover": "ba/f0/47186_RS3MM",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "22200": {
     "id": 19585,
@@ -56794,7 +57146,7 @@
     "id": "",
     "title": "山坡上的魔法師",
     "sub": "(Spsdmfs)",
-    "_skip": 5
+    "_skip": 99
   },
   "22355": {
     "id": "",
@@ -56896,7 +57248,7 @@
     "id": "",
     "title": "黑或白",
     "sub": "(Black Or White)",
-    "_skip": 5
+    "_skip": 99
   },
   "22389": {
     "id": "",
@@ -56944,7 +57296,7 @@
     "id": "",
     "title": "年輕男人是野獸",
     "sub": "(Yeshou)",
-    "_skip": 5
+    "_skip": 99
   },
   "22408": {
     "id": 301083,
@@ -57011,10 +57363,14 @@
     "_skip": 10
   },
   "22427": {
-    "id": "",
+    "id": 339030,
     "title": "橘君請抱我",
     "sub": "(Jujunqingbaowo)",
-    "_skip": 5
+    "_title": "橘くん 抱いてください！ ハジメテの相手は同僚王子！？",
+    "_cover": "2f/14/339030_O5F4q",
+    "_rank": "",
+    "_score": 9.3,
+    "_total": "3 votes"
   },
   "22429": {
     "id": 258819,
@@ -57077,7 +57433,7 @@
     "id": "",
     "title": "學不乖的女大生",
     "sub": "(Xbgdnds)",
-    "_skip": 5
+    "_skip": 99
   },
   "22443": {
     "id": "",
@@ -57147,7 +57503,7 @@
     "id": "",
     "title": "不求我就不讓妳高潮",
     "sub": "(Onegai Shinakya Ikasete Yannai)",
-    "_skip": 5
+    "_skip": 99
   },
   "22478": {
     "id": 85156,
@@ -57447,7 +57803,7 @@
     "id": "",
     "title": "花鳥風月(台版)",
     "sub": "(Flower And Bird)",
-    "_skip": 3
+    "_skip": 99
   },
   "22572": {
     "id": "",
@@ -57946,10 +58302,14 @@
     "_total": "0 votes"
   },
   "22817": {
-    "id": "",
+    "id": 303190,
     "title": "見面一戳絕頂除靈！",
     "sub": "(Deatte Hito Tsuki De Zecchou Jorei! @comic)   一擊絕頂除靈",
-    "_skip": 4
+    "_title": "出会ってひと突きで絶頂除霊！ @comic",
+    "_cover": "1a/35/303190_meaAG",
+    "_rank": "",
+    "_score": 7.5,
+    "_total": "2 votes"
   },
   "22828": {
     "id": 289605,
@@ -58537,7 +58897,7 @@
     "id": "",
     "title": "與理想的男友發情中。",
     "sub": "(Lixiangnanyou)",
-    "_skip": 5
+    "_skip": 99
   },
   "23246": {
     "id": "",
@@ -58635,7 +58995,7 @@
     "id": "",
     "title": "野獸上司是黑社會",
     "sub": "(Yeshoushangsisjhiheishehui)",
-    "_skip": 5
+    "_skip": 99
   },
   "23281": {
     "id": 350923,
@@ -58688,10 +59048,14 @@
     "_total": "2 votes"
   },
   "23301": {
-    "id": "",
+    "id": 350308,
     "title": "戀=SEX?",
     "sub": "(Lian)",
-    "_skip": 5
+    "_title": "恋=SEXだろ？ イケメン小説家とセフレ契約 ※推しの命がかかってます",
+    "_cover": "7f/42/350308_52AAC",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "23302": {
     "id": "",
@@ -58862,16 +59226,24 @@
     "_total": "1 votes"
   },
   "23353": {
-    "id": "",
+    "id": 356074,
     "title": "神之雫 最終章～Mariage～",
     "sub": "(Kami No Shizuku)",
-    "_skip": 5
+    "_title": "マリアージュ~神の雫 最終章~",
+    "_cover": "bc/8a/356074_saTXV",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "23366": {
-    "id": "",
+    "id": 174656,
     "title": "今夜月色真美",
     "sub": "(Isn't The Moon Beautiful)   月が綺麗ですね。",
-    "_skip": 5
+    "_title": "月が綺麗ですね",
+    "_cover": "67/10/174656_20VIs",
+    "_rank": 1692,
+    "_score": 7.8,
+    "_total": "28 votes"
   },
   "23371": {
     "id": "",
@@ -58903,7 +59275,7 @@
     "id": "",
     "title": "情婦的純愛",
     "sub": "(Qfdca)",
-    "_skip": 5
+    "_skip": 99
   },
   "23401": {
     "id": "",
@@ -58956,10 +59328,14 @@
     "_total": "6 votes"
   },
   "23416": {
-    "id": "",
+    "id": 313724,
     "title": "性癖學姐@開发中",
     "sub": "(Xingpixuejie)",
-    "_skip": 5
+    "_title": "ご愁傷さま二ノ宮くん",
+    "_cover": "48/93/313724_Aaprp",
+    "_rank": "",
+    "_score": 6,
+    "_total": "1 votes"
   },
   "23417": {
     "id": "",
@@ -59106,10 +59482,14 @@
     "_total": "8 votes"
   },
   "23487": {
-    "id": "",
+    "id": 28921,
     "title": "無賴勇者的鬼畜美學",
     "sub": "(Hagure Yuusha No Kichiku Bigaku)   流氓勇者的鬼畜美學",
-    "_skip": 5
+    "_title": "はぐれ勇者の鬼畜美学",
+    "_cover": "8c/c9/28921_bnkx2",
+    "_rank": 5180,
+    "_score": 5.7,
+    "_total": "37 votes"
   },
   "23489": {
     "id": 363712,
@@ -59321,7 +59701,7 @@
     "id": "",
     "title": "一個人漂泊的日子",
     "sub": "(Piaobo)   一個人的小繁華",
-    "_skip": 5
+    "_skip": 99
   },
   "23556": {
     "id": "",
@@ -59378,10 +59758,14 @@
     "_total": "0 votes"
   },
   "23568": {
-    "id": "",
+    "id": 68725,
     "title": "高木直子一個人系列",
     "sub": "(Single Life)",
-    "_skip": 5
+    "_title": "ひとりぐらしも9年め",
+    "_cover": "98/c0/68725_lT3aU",
+    "_rank": "",
+    "_score": 7.3,
+    "_total": "4 votes"
   },
   "23569": {
     "id": 361988,
@@ -59649,7 +60033,7 @@
     "id": "",
     "title": "等待花開時(台版)",
     "sub": "(Hana Wa Saku Ka)   花は咲くか",
-    "_skip": 5
+    "_skip": 99
   },
   "23711": {
     "id": "",
@@ -59898,10 +60282,14 @@
     "_total": "9 votes"
   },
   "23839": {
-    "id": "",
+    "id": 144405,
     "title": "藍色慾望",
     "sub": "(Blue Lust)",
-    "_skip": 5
+    "_title": "Blue Lust",
+    "_cover": "07/ab/144405_Sc1PT",
+    "_rank": "",
+    "_score": 7,
+    "_total": "4 votes"
   },
   "23843": {
     "id": 38525,
@@ -59917,7 +60305,7 @@
     "id": "",
     "title": "這樣才好「前傳」",
     "sub": "(Kouiunogaii)   That's good",
-    "_skip": 5
+    "_skip": 99
   },
   "23851": {
     "id": 308976,
@@ -60249,7 +60637,7 @@
     "id": "",
     "title": "外星聖戰",
     "sub": "(Alien Jihad)   星雲兒",
-    "_skip": 5
+    "_skip": 99
   },
   "24025": {
     "id": 361989,
@@ -60583,7 +60971,7 @@
     "id": "",
     "title": "我是官能小說女主角",
     "sub": "(Wsgnxsnzj)",
-    "_skip": 5
+    "_skip": 99
   },
   "24206": {
     "id": "",
@@ -61515,7 +61903,7 @@
     "id": "",
     "title": "M",
     "sub": "(M)",
-    "_skip": 5
+    "_skip": 99
   },
   "24593": {
     "id": 201280,
@@ -62478,10 +62866,14 @@
     "_total": "2 votes"
   },
   "24887": {
-    "id": "",
+    "id": 273157,
     "title": "秘密內幕~女警的反擊～",
     "sub": "(NJDFJ)   ハコヅメ~交番女子の逆襲~",
-    "_skip": 5
+    "_title": "ハコヅメ~交番女子の逆襲~",
+    "_cover": "09/b0/273157_3X9LS",
+    "_rank": "",
+    "_score": 7.8,
+    "_total": "8 votes"
   },
   "24889": {
     "id": 186121,
@@ -62765,10 +63157,14 @@
     "_total": "2 votes"
   },
   "24977": {
-    "id": "",
+    "id": 247484,
     "title": "Kizuna絆",
     "sub": "(KIZUNA)",
-    "_skip": 5
+    "_title": "バーチャルYouTuber キズナアイ 公式コミックアンソロジー ~トモダチをつくろう編~",
+    "_cover": "01/44/247484_MT76H",
+    "_rank": "",
+    "_score": 6.3,
+    "_total": "3 votes"
   },
   "24978": {
     "id": 121627,
@@ -63594,10 +63990,14 @@
     "_total": "0 votes"
   },
   "25319": {
-    "id": "",
+    "id": 295503,
     "title": "貧窮未婚妻",
     "sub": "(Platinum Garden)   プラチナガーデン",
-    "_skip": 5
+    "_title": "にわか令嬢は王太子殿下の雇われ婚約者",
+    "_cover": "ed/80/295503_20ahS",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "25322": {
     "id": "",
@@ -63880,7 +64280,7 @@
     "id": "",
     "title": "子藏屋",
     "sub": "(Fan Fiction Collection)",
-    "_skip": 5
+    "_skip": 99
   },
   "25473": {
     "id": 6561,
@@ -64021,10 +64421,14 @@
     "_total": "2 votes"
   },
   "25528": {
-    "id": "",
+    "id": 327737,
     "title": "strategic lovers",
     "sub": "(Strategic Lovers)",
-    "_skip": 5
+    "_title": "ストラテジックラバーズ",
+    "_cover": "b2/ad/327737_PiHZm",
+    "_rank": "",
+    "_score": 4.8,
+    "_total": "4 votes"
   },
   "25529": {
     "id": 214749,
@@ -64199,10 +64603,14 @@
     "_skip": 10
   },
   "25613": {
-    "id": "",
+    "id": 64199,
     "title": "反鬥前鋒",
     "sub": "(Buttobi Itto)   反鬥先鋒",
-    "_skip": 5
+    "_title": "かっとび一斗",
+    "_cover": "73/78/64199_207r5",
+    "_rank": "",
+    "_score": 8.7,
+    "_total": "3 votes"
   },
   "25617": {
     "id": "",
@@ -65430,7 +65838,7 @@
     "id": "",
     "title": "耽美同人合集",
     "sub": "(BL FAN BOOKS)",
-    "_skip": 5
+    "_skip": 99
   },
   "26455": {
     "id": "",
@@ -66049,10 +66457,14 @@
     "_total": "382 votes"
   },
   "50048": {
-    "id": "",
+    "id": 30935,
     "title": "闇之聲",
     "sub": "(Anzhisheng)",
-    "_skip": 5
+    "_title": "闇の声",
+    "_cover": "00/fa/30935_6HLxN",
+    "_rank": 3169,
+    "_score": 7.2,
+    "_total": "60 votes"
   },
   "50049": {
     "id": 12535,
@@ -66207,10 +66619,14 @@
     "_total": "1232 votes"
   },
   "50078": {
-    "id": "",
+    "id": 61703,
     "title": "鹹味人生 Saltiness",
     "sub": "(Saltiness)",
-    "_skip": 5
+    "_title": "サルチネス",
+    "_cover": "3a/be/61703_O1xyX",
+    "_rank": "",
+    "_score": 7.4,
+    "_total": "15 votes"
   },
   "50080": {
     "id": 57532,
@@ -66737,10 +67153,14 @@
     "_total": "80 votes"
   },
   "50162": {
-    "id": "",
+    "id": 187373,
     "title": "就是遊戲人生!",
     "sub": "(No Game No Life, Desu!)",
-    "_skip": 5
+    "_title": "ノーゲーム・ノーライフ、です!",
+    "_cover": "4e/67/187373_xnQnJ",
+    "_rank": "",
+    "_score": 7.1,
+    "_total": "7 votes"
   },
   "50163": {
     "id": 228675,
@@ -67076,10 +67496,14 @@
     "_total": "119 votes"
   },
   "50227": {
-    "id": "",
+    "id": 186066,
     "title": "Fate/Apocrypha",
     "sub": "(Fate/Apocrypha)   フェイト/アポクリファ",
-    "_skip": 5
+    "_title": "Fate/Apocrypha",
+    "_cover": "cf/a9/186066_7YuMK",
+    "_rank": "",
+    "_score": 6.6,
+    "_total": "10 votes"
   },
   "50228": {
     "id": "",
@@ -67257,7 +67681,7 @@
     "id": "",
     "title": "歡迎回來",
     "sub": "(Welcome Back)",
-    "_skip": 5
+    "_skip": 99
   },
   "50260": {
     "id": "",
@@ -67305,7 +67729,7 @@
     "id": "",
     "title": "日本妖怪大全",
     "sub": "(Japanese Monster)   駭人聽聞的718種著名妖怪",
-    "_skip": 5
+    "_skip": 99
   },
   "50293": {
     "id": "",
@@ -67997,7 +68421,7 @@
     "id": "",
     "title": "霸-LORD-",
     "sub": "(Lord)   超三國志~霸~, SOUL霸",
-    "_skip": 5
+    "_skip": 99
   },
   "50433": {
     "id": 282107,
@@ -68029,7 +68453,7 @@
     "id": "",
     "title": "幻影劇場",
     "sub": "(Ballet Doll)   芭蕾娃娃",
-    "_skip": 5
+    "_skip": 99
   },
   "50438": {
     "id": 136607,
@@ -68456,10 +68880,14 @@
     "_total": "6 votes"
   },
   "50501": {
-    "id": "",
+    "id": 81437,
     "title": "ReRe Hello",
     "sub": "(ReRe Hello)",
-    "_skip": 5
+    "_title": "ReReハロ",
+    "_cover": "f0/18/81437_nJn1a",
+    "_rank": 4699,
+    "_score": 6.5,
+    "_total": "43 votes"
   },
   "50502": {
     "id": 150915,
@@ -68505,7 +68933,7 @@
     "id": "",
     "title": "鶴田謙二作品集",
     "sub": "(Spirit Of Wonder)",
-    "_skip": 5
+    "_skip": 99
   },
   "50511": {
     "id": "",
@@ -68702,10 +69130,14 @@
     "_total": "46 votes"
   },
   "50558": {
-    "id": "",
+    "id": 72023,
     "title": "天降未來新娘",
     "sub": "(My Wife In The Future Comes From The Sky)",
-    "_skip": 5
+    "_title": "Re:まりな",
+    "_cover": "19/7a/72023_ze1ci",
+    "_rank": 4681,
+    "_score": 6.4,
+    "_total": "38 votes"
   },
   "50560": {
     "id": 22829,
@@ -68804,10 +69236,14 @@
     "_total": "6 votes"
   },
   "50581": {
-    "id": "",
+    "id": 61104,
     "title": "十字架+吸血姬 seasonⅡ",
     "sub": "(The Vampire Girl With Cross)   十字架與吸血姬2",
-    "_skip": 5
+    "_title": "ロザリオとバンパイア season II",
+    "_cover": "db/77/61104_FnvgJ",
+    "_rank": 4631,
+    "_score": 6.5,
+    "_total": "38 votes"
   },
   "50582": {
     "id": 32473,
@@ -68905,7 +69341,7 @@
     "id": "",
     "title": "Short Cuts",
     "sub": "(Short Cuts)",
-    "_skip": 5
+    "_skip": 99
   },
   "50606": {
     "id": 140074,
@@ -68983,7 +69419,7 @@
     "id": "",
     "title": "魔劍美神",
     "sub": "(Slayer)   秀逗魔導士",
-    "_skip": 5
+    "_skip": 99
   },
   "50620": {
     "id": 38358,
@@ -69360,10 +69796,14 @@
     "_total": "130 votes"
   },
   "50691": {
-    "id": "",
+    "id": 129817,
     "title": "下流梗不存在的灰暗世界",
     "sub": "(Shimoneta)   不存在黃段子的無聊世界",
-    "_skip": 5
+    "_title": "下ネタという概念が存在しない退屈な世界 マン●篇",
+    "_cover": "d1/c6/129817_RFg5A",
+    "_rank": "",
+    "_score": 6.8,
+    "_total": "6 votes"
   },
   "50692": {
     "id": 592,
@@ -69386,10 +69826,14 @@
     "_total": "289 votes"
   },
   "50695": {
-    "id": "",
+    "id": 45334,
     "title": "我的妹妹哪有這麼可愛！",
     "sub": "(Ore No Imouto Ga Konnani Kawaii Wake Ga Nai)   俺妹",
-    "_skip": 4
+    "_title": "俺の妹がこんなに可愛いわけがない",
+    "_cover": "2c/d0/45334_c3ZER",
+    "_rank": 2444,
+    "_score": 7.5,
+    "_total": "26 votes"
   },
   "50696": {
     "id": 118893,
@@ -69482,10 +69926,14 @@
     "_total": "1 votes"
   },
   "50706": {
-    "id": "",
+    "id": 27934,
     "title": "我的狐仙女友",
     "sub": "(Wdhxny)",
-    "_skip": 3
+    "_title": "かのこん コミックス",
+    "_cover": "3a/4f/27934_mlsU1",
+    "_rank": "",
+    "_score": 5.6,
+    "_total": "7 votes"
   },
   "50709": {
     "id": 75741,
@@ -69832,10 +70280,14 @@
     "_total": "928 votes"
   },
   "50787": {
-    "id": "",
+    "id": 73155,
     "title": "我要高飛",
     "sub": "(Fly High Manga)",
-    "_skip": 5
+    "_title": "ガンバ!Fly high",
+    "_cover": "97/9c/73155_4QK4C",
+    "_rank": "",
+    "_score": 7,
+    "_total": "8 votes"
   },
   "50789": {
     "id": 155807,
@@ -70303,7 +70755,7 @@
     "id": "",
     "title": "頂尖淑女",
     "sub": "(Qi Teng)",
-    "_skip": 5
+    "_skip": 99
   },
   "50879": {
     "id": 71564,
@@ -70405,7 +70857,7 @@
     "id": "",
     "title": "出雲傳奇",
     "sub": "(chu yun chuan qi)",
-    "_skip": 5
+    "_skip": 99
   },
   "50898": {
     "id": 304148,
@@ -70861,10 +71313,14 @@
     "_skip": 5
   },
   "51011": {
-    "id": "",
+    "id": 2123,
     "title": "魔卡少女櫻(簡體版)",
     "sub": "(Card Captor Sakura(Simplified))",
-    "_skip": 5
+    "_title": "カードキャプターさくら",
+    "_cover": "5a/1e/2123_vRzfr",
+    "_rank": 340,
+    "_score": 8.2,
+    "_total": "382 votes"
   },
   "51012": {
     "id": 270286,
@@ -71076,7 +71532,7 @@
     "id": "",
     "title": "少女變形記",
     "sub": "(QO)",
-    "_skip": 5
+    "_skip": 99
   },
   "51050": {
     "id": 180834,
@@ -71424,7 +71880,7 @@
     "id": "",
     "title": "妖豔短篇集",
     "sub": "(YYDPJ)",
-    "_skip": 5
+    "_skip": 99
   },
   "51107": {
     "id": 19139,
@@ -72111,10 +72567,14 @@
     "_skip": 5
   },
   "51252": {
-    "id": "",
+    "id": 184422,
     "title": "行運超人",
     "sub": "(Lucky Man)",
-    "_skip": 5
+    "_title": "とっても！ラッキーマン",
+    "_cover": "9b/f6/184422_jp",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "51253": {
     "id": "",
@@ -72489,10 +72949,14 @@
     "_total": "5 votes"
   },
   "51328": {
-    "id": "",
+    "id": 112775,
     "title": "Lovelive!學園偶像日志",
     "sub": "(Lovelive! School Idol Diary)",
-    "_skip": 5
+    "_title": "ラブライブ! School idol diary",
+    "_cover": "3e/1b/112775_3Z5pf",
+    "_rank": "",
+    "_score": 7.3,
+    "_total": "6 votes"
   },
   "51332": {
     "id": 137121,
@@ -72610,7 +73074,7 @@
     "id": "",
     "title": "人間椅子",
     "sub": "(Ningen-isu)",
-    "_skip": 5
+    "_skip": 99
   },
   "51362": {
     "id": 335843,
@@ -73112,7 +73576,7 @@
     "id": "",
     "title": "ソードアート・オンライン(刀劍神域)",
     "sub": "(Sword Art Online)",
-    "_skip": 5
+    "_skip": 99
   },
   "51472": {
     "id": 84888,
@@ -73332,7 +73796,7 @@
     "id": "",
     "title": "吾",
     "sub": "(No.5)",
-    "_skip": 5
+    "_skip": 99
   },
   "51514": {
     "id": 57757,
@@ -73445,10 +73909,14 @@
     "_total": "2 votes"
   },
   "51534": {
-    "id": "",
+    "id": 75094,
     "title": "秒速五公分",
     "sub": "(Five Centimeters Per Second)   秒速5センチメートル,秒速五厘米",
-    "_skip": 5
+    "_title": "秒速5センチメートル",
+    "_cover": "35/c0/75094_B5o6K",
+    "_rank": 2047,
+    "_score": 7.5,
+    "_total": "75 votes"
   },
   "51536": {
     "id": 116577,
@@ -73602,7 +74070,7 @@
     "id": "",
     "title": "元祖！愛生事家庭",
     "sub": "(Ganso! Crazy Family)",
-    "_skip": 5
+    "_skip": 99
   },
   "51556": {
     "id": 258217,
@@ -73671,10 +74139,14 @@
     "_total": "68 votes"
   },
   "51568": {
-    "id": "",
+    "id": 195882,
     "title": "歐姆社學習漫畫",
     "sub": "(The Manga Guide)   通過漫畫就可以學習的知識",
-    "_skip": 5
+    "_title": "マンガでわかるシリーズ",
+    "_cover": "da/24/195882_p1it3",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "2 votes"
   },
   "51569": {
     "id": "",
@@ -73818,7 +74290,7 @@
     "id": "",
     "title": "百日薔薇",
     "sub": "(Maiden Rose)",
-    "_skip": 5
+    "_skip": 99
   },
   "51599": {
     "id": 88285,
@@ -73917,10 +74389,14 @@
     "_skip": 10
   },
   "51616": {
-    "id": "",
+    "id": 3966,
     "title": "喰霊がれい",
     "sub": "(The Enchained Spiritual Beast [GA-REI)   喰霊 GA-REI",
-    "_skip": 5
+    "_title": "喰霊",
+    "_cover": "43/d7/3966_3AyJu",
+    "_rank": 4502,
+    "_score": 6.8,
+    "_total": "126 votes"
   },
   "51619": {
     "id": 164131,
@@ -74060,7 +74536,7 @@
     "id": "",
     "title": "殘忍的愛",
     "sub": "(Brute Love)   人でなしの戀",
-    "_skip": 5
+    "_skip": 99
   },
   "51647": {
     "id": "",
@@ -74085,10 +74561,14 @@
     "_skip": 5
   },
   "51653": {
-    "id": "",
+    "id": 50540,
     "title": "完美出包",
     "sub": "(To Love Ru Data Book)   出包王女公式角色資料書",
-    "_skip": 5
+    "_title": "To LOVEる－とらぶる－＆To LOVEる－とらぶる－ダークネス公式データブック / ぱ〜ふぇくとらぶる!",
+    "_cover": "09/8c/50540_mAcCG",
+    "_rank": "",
+    "_score": 6.9,
+    "_total": "17 votes"
   },
   "51664": {
     "id": 89062,
@@ -74874,7 +75354,7 @@
     "id": "",
     "title": "惡魔的默示錄",
     "sub": "(E Me De Mo Shi Lu)",
-    "_skip": 5
+    "_skip": 99
   },
   "51885": {
     "id": 148144,
@@ -75343,16 +75823,20 @@
     "_total": "50 votes"
   },
   "51996": {
-    "id": "",
+    "id": 79451,
     "title": "粉紅系男孩",
     "sub": "(Pink Boy)",
-    "_skip": 5
+    "_title": "オトメン（乙男）",
+    "_cover": "b9/9b/79451_NYVag",
+    "_rank": "",
+    "_score": 7.3,
+    "_total": "4 votes"
   },
   "52001": {
     "id": "",
     "title": "女裝少年",
     "sub": "(Zsacbudou)",
-    "_skip": 5
+    "_skip": 99
   },
   "52008": {
     "id": 216579,
@@ -75643,10 +76127,14 @@
     "_total": "47 votes"
   },
   "52072": {
-    "id": "",
+    "id": 281345,
     "title": "傳說的勇者的傳說",
     "sub": "(The Legend Of The Legendary Heroes)",
-    "_skip": 5
+    "_title": "伝説の勇者の伝説",
+    "_cover": "20/03/281345_64062",
+    "_rank": "",
+    "_score": 8.5,
+    "_total": "2 votes"
   },
   "52073": {
     "id": "",
@@ -75655,10 +76143,14 @@
     "_skip": 5
   },
   "52074": {
-    "id": "",
+    "id": 219249,
     "title": "86 -Eighty-Six-",
     "sub": "(Eighty Six)   86 不存在的戰區",
-    "_skip": 5
+    "_title": "86―エイティシックス―",
+    "_cover": "e6/e4/219249_bpuR8",
+    "_rank": "",
+    "_score": 7.2,
+    "_total": "19 votes"
   },
   "52076": {
     "id": 93199,
@@ -75747,10 +76239,14 @@
     "_total": "6 votes"
   },
   "52093": {
-    "id": "",
+    "id": 47272,
     "title": "GOSICK",
     "sub": "(GOSICK)",
-    "_skip": 3
+    "_title": "GOSICK",
+    "_cover": "0b/05/47272_oA377",
+    "_rank": "",
+    "_score": 7.5,
+    "_total": "8 votes"
   },
   "52095": {
     "id": 161074,
@@ -75921,10 +76417,14 @@
     "_total": "7 votes"
   },
   "52129": {
-    "id": "",
+    "id": 25364,
     "title": "小女神花鈴",
     "sub": "(FL)   小女神花鈴chu",
-    "_skip": 5
+    "_title": "かみちゃまかりん",
+    "_cover": "f3/19/25364_Asx4D",
+    "_rank": "",
+    "_score": 6.9,
+    "_total": "18 votes"
   },
   "52130": {
     "id": 75212,
@@ -76122,7 +76622,7 @@
     "id": "",
     "title": "樂園物語",
     "sub": "(The Paradise Story)",
-    "_skip": 5
+    "_skip": 99
   },
   "52199": {
     "id": 124426,
@@ -76207,10 +76707,14 @@
     "_skip": 5
   },
   "52218": {
-    "id": "",
+    "id": 2763,
     "title": "喬喬的奇妙冒險",
     "sub": "(JoJo's Bizarre Adventure)   ジョジョの奇妙な冒険,JOJO的奇妙冒險",
-    "_skip": 5
+    "_title": "ジョジョの奇妙な冒険 Part1『ファントムブラッド』",
+    "_cover": "f8/04/2763_9OlXd",
+    "_rank": 1378,
+    "_score": 7.7,
+    "_total": "532 votes"
   },
   "52222": {
     "id": 55914,
@@ -77009,10 +77513,14 @@
     "_total": "47 votes"
   },
   "52394": {
-    "id": "",
+    "id": 150099,
     "title": "從零開始的魔法書",
     "sub": "(Magic Book To Start From Zero)",
-    "_skip": 5
+    "_title": "ゼロから始める魔法の書",
+    "_cover": "47/e9/150099_LrFYL",
+    "_rank": "",
+    "_score": 6.8,
+    "_total": "17 votes"
   },
   "52395": {
     "id": 118904,
@@ -77136,7 +77644,7 @@
     "id": "",
     "title": "賭命兄弟",
     "sub": "(BROTHERS)   金剛戰士",
-    "_skip": 5
+    "_skip": 99
   },
   "52417": {
     "id": 179463,
@@ -77921,10 +78429,14 @@
     "_total": "49 votes"
   },
   "52564": {
-    "id": "",
+    "id": 118271,
     "title": "黑博物館 Ghost&Lady",
     "sub": "(HBWGG&L)",
-    "_skip": 5
+    "_title": "黒博物館ゴースト アンド レディ",
+    "_cover": "d9/a8/118271_ey818",
+    "_rank": 1556,
+    "_score": 7.8,
+    "_total": "43 votes"
   },
   "52565": {
     "id": "",
@@ -78421,10 +78933,14 @@
     "_skip": 5
   },
   "52659": {
-    "id": "",
+    "id": 61011,
     "title": "絕對彼氏",
     "sub": "(Absolute Boyfriend)",
-    "_skip": 5
+    "_title": "絶対彼氏。",
+    "_cover": "ab/f9/61011_XNN8W",
+    "_rank": "",
+    "_score": 6.7,
+    "_total": "9 votes"
   },
   "52660": {
     "id": 169402,
@@ -78872,7 +79388,7 @@
     "id": "",
     "title": "淚眼煞星",
     "sub": "(LeiYanShaXing)",
-    "_skip": 5
+    "_skip": 99
   },
   "52732": {
     "id": 243272,
@@ -79922,10 +80438,14 @@
     "_skip": 10
   },
   "52930": {
-    "id": "",
+    "id": 127757,
     "title": "魔性之線",
     "sub": "(DEVILS LINE)",
-    "_skip": 5
+    "_title": "デビルズライン",
+    "_cover": "92/91/127757_TsT29",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "15 votes"
   },
   "52931": {
     "id": 189039,
@@ -80029,7 +80549,7 @@
     "id": "",
     "title": "美眉伴身邊",
     "sub": "(Ai Kora)",
-    "_skip": 5
+    "_skip": 99
   },
   "52951": {
     "id": 131793,
@@ -80656,10 +81176,14 @@
     "_total": "21 votes"
   },
   "53068": {
-    "id": "",
+    "id": 198546,
     "title": "Midnight Blue",
     "sub": "(Midnight Blue)   ミッドナイトブルー-フィールコミックス",
-    "_skip": 5
+    "_title": "ミッドナイトブルー",
+    "_cover": "c2/9c/198546_88gii",
+    "_rank": 3140,
+    "_score": 7.3,
+    "_total": "156 votes"
   },
   "53069": {
     "id": 138748,
@@ -81075,7 +81599,7 @@
     "id": "",
     "title": "妖魔的封印",
     "sub": "(The Seal Of The Devil)",
-    "_skip": 5
+    "_skip": 99
   },
   "53137": {
     "id": "",
@@ -81430,10 +81954,14 @@
     "_total": "0 votes"
   },
   "53229": {
-    "id": "",
+    "id": 103527,
     "title": "我的腦內戀礙選項",
     "sub": "(Ore No Nounai Sentakushi Ga Gakuen Love-comedy Wo)   我的腦內選項、正在全力妨礙學園戀愛喜劇",
-    "_skip": 5
+    "_title": "俺の脳内選択肢が、学園ラブコメを全力で邪魔しているH",
+    "_cover": "99/a9/103527_9gL19",
+    "_rank": "",
+    "_score": 6.3,
+    "_total": "7 votes"
   },
   "53232": {
     "id": 90410,
@@ -81486,10 +82014,14 @@
     "_total": "20 votes"
   },
   "53239": {
-    "id": "",
+    "id": 181462,
     "title": "我妹的時尚宅男改造計畫",
     "sub": "(Do It This Way If You Wear The Clothes)   衣服要這麽穿,我妹的時尚宅男改造計劃",
-    "_skip": 5
+    "_title": "服を着るならこんなふうに",
+    "_cover": "fe/38/181462_9r9qi",
+    "_rank": 3188,
+    "_score": 7.2,
+    "_total": "30 votes"
   },
   "53240": {
     "id": 108549,
@@ -82128,10 +82660,14 @@
     "_total": "34 votes"
   },
   "53391": {
-    "id": "",
+    "id": 293448,
     "title": "契約足球員",
     "sub": "(LOST MAN)",
-    "_skip": 5
+    "_title": "LOST MAN",
+    "_cover": "e8/dd/293448_u1scs",
+    "_rank": "",
+    "_score": 6.5,
+    "_total": "2 votes"
   },
   "53392": {
     "id": "",
@@ -82837,10 +83373,14 @@
     "_total": "4 votes"
   },
   "53520": {
-    "id": "",
+    "id": 56761,
     "title": "新手巨乳妻",
     "sub": "(Leo Kyunyusan)   おくさん",
-    "_skip": 5
+    "_title": "おくさん",
+    "_cover": "76/1e/56761_KgbR0",
+    "_rank": "",
+    "_score": 7.1,
+    "_total": "10 votes"
   },
   "53522": {
     "id": 152283,
@@ -82951,10 +83491,14 @@
     "_total": "1 votes"
   },
   "53546": {
-    "id": "",
+    "id": 212467,
     "title": "小職員週記",
     "sub": "(Soumubusoumuka)   小職員周記 総務部総務課山口六平太",
-    "_skip": 5
+    "_title": "総務部総務課山口六平太",
+    "_cover": "9e/5f/212467_lCr8X",
+    "_rank": "",
+    "_score": 0,
+    "_total": "0 votes"
   },
   "53547": {
     "id": "",
@@ -83807,10 +84351,14 @@
     "_total": "1 votes"
   },
   "53680": {
-    "id": "",
+    "id": 115141,
     "title": "勇者故事．新的傳說",
     "sub": "(Brave Story)",
-    "_skip": 5
+    "_title": "ブレイブ・ストーリー〜新説〜",
+    "_cover": "69/ef/115141_6lZUZ",
+    "_rank": "",
+    "_score": 6.2,
+    "_total": "6 votes"
   },
   "53688": {
     "id": 399111,
@@ -84210,7 +84758,7 @@
     "id": "",
     "title": "高危險遊戲",
     "sub": "(N/a)",
-    "_skip": 5
+    "_skip": 99
   },
   "53773": {
     "id": 6621,
@@ -84509,10 +85057,14 @@
     "_total": "7 votes"
   },
   "53840": {
-    "id": "",
+    "id": 292841,
     "title": "感應",
     "sub": "(Sensor)",
-    "_skip": 5
+    "_title": "センサー",
+    "_cover": "21/43/292841_4kD44",
+    "_rank": "",
+    "_score": 6.2,
+    "_total": "13 votes"
   },
   "53842": {
     "id": 131397,
@@ -84683,10 +85235,14 @@
     "_total": "10 votes"
   },
   "53865": {
-    "id": "",
+    "id": 36329,
     "title": "咲-Saki- 阿知賀篇",
     "sub": "(Saki Episode Of Side-A)   咲-Saki- 阿知賀編",
-    "_skip": 5
+    "_title": "咲-Saki- 阿知賀編 episode of side-A",
+    "_cover": "20/77/36329_w47zB",
+    "_rank": 4268,
+    "_score": 6.9,
+    "_total": "133 votes"
   },
   "53867": {
     "id": "",
@@ -84705,10 +85261,14 @@
     "_total": "2 votes"
   },
   "53871": {
-    "id": "",
+    "id": 33378,
     "title": "神劍好小子",
     "sub": "(Asu No Yoichi)   明日的與一  道場4+1",
-    "_skip": 5
+    "_title": "明日のよいち!",
+    "_cover": "44/f3/33378_oShon",
+    "_rank": "",
+    "_score": 5.8,
+    "_total": "18 votes"
   },
   "53872": {
     "id": 66767,
@@ -84744,7 +85304,7 @@
     "id": "",
     "title": "我要衝線",
     "sub": "(Woyaochongxian)",
-    "_skip": 5
+    "_skip": 99
   },
   "53878": {
     "id": 129764,
@@ -86326,7 +86886,7 @@
     "id": "",
     "title": "黑暗守護神",
     "sub": "(AEGIS IN THE DARK)",
-    "_skip": 5
+    "_skip": 99
   },
   "54172": {
     "id": 45748,
@@ -86496,7 +87056,7 @@
     "id": "",
     "title": "百分百網球",
     "sub": "(Shanimuni GO)   藍天下的網球場",
-    "_skip": 5
+    "_skip": 99
   },
   "54198": {
     "id": "",
@@ -86628,13 +87188,13 @@
     "id": "",
     "title": "石黑正數短篇集",
     "sub": "(Masakazu Ishiguro)   探偵綺譚,積極老師",
-    "_skip": 5
+    "_skip": 99
   },
   "54224": {
     "id": "",
     "title": "復仇鬼",
     "sub": "(Damons)   惡魔",
-    "_skip": 5
+    "_skip": 99
   },
   "54225": {
     "id": 210317,
@@ -86653,10 +87213,14 @@
     "_skip": 5
   },
   "54227": {
-    "id": "",
+    "id": 36695,
     "title": "魔法少女☆伊莉雅",
     "sub": "(Fate/kaleid Liner)",
-    "_skip": 5
+    "_title": "Fate/kaleid liner プリズマ☆イリヤ",
+    "_cover": "43/f2/36695_44UTZ",
+    "_rank": 4041,
+    "_score": 7,
+    "_total": "130 votes"
   },
   "54228": {
     "id": 22347,
@@ -87156,7 +87720,7 @@
     "id": "",
     "title": "偶像H生活",
     "sub": "(H LIFE)",
-    "_skip": 5
+    "_skip": 99
   },
   "54310": {
     "id": "",
@@ -87626,7 +88190,7 @@
     "id": "",
     "title": "超級巨星",
     "sub": "(Kirara No Hoshi)   閃亮新星 閃亮亮之星",
-    "_skip": 5
+    "_skip": 99
   },
   "54383": {
     "id": 250377,
@@ -87734,7 +88298,7 @@
     "id": "",
     "title": "紐約紐約",
     "sub": "(New York, New York)",
-    "_skip": 5
+    "_skip": 99
   },
   "54403": {
     "id": 106243,
@@ -87875,10 +88439,14 @@
     "_skip": 10
   },
   "54427": {
-    "id": "",
+    "id": 305206,
     "title": "神通小精靈",
     "sub": "(Taruru)",
-    "_skip": 5
+    "_title": "まじかる☆タルるートくん",
+    "_cover": "64/83/305206_65tF8",
+    "_rank": "",
+    "_score": 5.5,
+    "_total": "2 votes"
   },
   "54430": {
     "id": 289844,
@@ -88069,10 +88637,14 @@
     "_total": "6 votes"
   },
   "54481": {
-    "id": "",
+    "id": 31005,
     "title": "迷幻藥局",
     "sub": "(Lawful Drug)",
-    "_skip": 5
+    "_title": "合法ドラッグ",
+    "_cover": "f8/8f/31005_xXbj5",
+    "_rank": 4019,
+    "_score": 6.8,
+    "_total": "33 votes"
   },
   "54482": {
     "id": 211716,
@@ -88128,7 +88700,7 @@
     "id": "",
     "title": "明星情侶",
     "sub": "(Star Lover)",
-    "_skip": 5
+    "_skip": 99
   },
   "54490": {
     "id": 87153,
@@ -88326,7 +88898,7 @@
     "id": "",
     "title": "致命分身",
     "sub": "(Fraction)   フラクション",
-    "_skip": 5
+    "_skip": 99
   },
   "54529": {
     "id": 118147,
@@ -88382,7 +88954,7 @@
     "id": "",
     "title": "變身",
     "sub": "(HEADS)   腦部叛亂",
-    "_skip": 3
+    "_skip": 99
   },
   "54538": {
     "id": 120184,
@@ -88608,7 +89180,7 @@
     "id": "",
     "title": "女學館",
     "sub": "(Girl's Senior High School)",
-    "_skip": 5
+    "_skip": 99
   },
   "54570": {
     "id": 75641,
@@ -88944,7 +89516,7 @@
     "id": "",
     "title": "Honey",
     "sub": "(Honey)",
-    "_skip": 5
+    "_skip": 99
   },
   "54642": {
     "id": 123469,
@@ -89110,7 +89682,7 @@
     "id": "",
     "title": "高爾夫小子",
     "sub": "(Dan Doh!!)   彈道",
-    "_skip": 5
+    "_skip": 99
   },
   "54674": {
     "id": "",
@@ -89162,7 +89734,7 @@
     "id": "",
     "title": "海王子",
     "sub": "(Triton Of The Sea)",
-    "_skip": 5
+    "_skip": 99
   },
   "54682": {
     "id": 105712,
@@ -89528,7 +90100,7 @@
     "id": "",
     "title": "妙殿下",
     "sub": "(Patalliro!)   帕塔利洛!  / パタリロ！",
-    "_skip": 5
+    "_skip": 99
   },
   "54761": {
     "id": 190415,
@@ -89759,10 +90331,14 @@
     "_total": "68 votes"
   },
   "54816": {
-    "id": "",
+    "id": 71665,
     "title": "HEAT怒火街頭",
     "sub": "(HEAT)",
-    "_skip": 5
+    "_title": "HEAT -灼熱-",
+    "_cover": "eb/a9/71665_BnKB0",
+    "_rank": "",
+    "_score": 6.3,
+    "_total": "3 votes"
   },
   "54819": {
     "id": 44652,
@@ -90241,10 +90817,14 @@
     "_total": "27 votes"
   },
   "54965": {
-    "id": "",
+    "id": 60963,
     "title": "MW",
     "sub": "(MW)",
-    "_skip": 5
+    "_title": "MW -ムウ-",
+    "_cover": "5f/61/60963_La3D4",
+    "_rank": 580,
+    "_score": 8.4,
+    "_total": "29 votes"
   },
   "54968": {
     "id": 106813,
@@ -90594,7 +91174,7 @@
     "id": "",
     "title": "黑獄聖女",
     "sub": "(Maria)",
-    "_skip": 5
+    "_skip": 99
   },
   "55057": {
     "id": 311014,
@@ -90682,7 +91262,7 @@
     "id": "",
     "title": "槍魂",
     "sub": "(The Gun Spirit)   拳銃神",
-    "_skip": 5
+    "_skip": 99
   },
   "55074": {
     "id": 148198,
@@ -91365,10 +91945,14 @@
     "_total": "9 votes"
   },
   "55242": {
-    "id": "",
+    "id": 98250,
     "title": "巨乳學園",
     "sub": "(Eiken)",
-    "_skip": 5
+    "_title": "エイケン",
+    "_cover": "9c/e4/98250_JBUXG",
+    "_rank": "",
+    "_score": 5.2,
+    "_total": "5 votes"
   },
   "55245": {
     "id": "",
@@ -91876,7 +92460,7 @@
     "id": "",
     "title": "一個人好孝順",
     "sub": "(Can You Be Filial Duty)   出发吧!和爸媽一起! ,高木直子帶著爸媽去旅行，親孝行できるかな？",
-    "_skip": 5
+    "_skip": 99
   },
   "55341": {
     "id": 184743,
@@ -91974,7 +92558,7 @@
     "id": "",
     "title": "人家一點都不喜歡啦！",
     "sub": "(I Don't Like You At All, Big Brother!!)   腹黑妹妹控兄記",
-    "_skip": 5
+    "_skip": 99
   },
   "55360": {
     "id": 190827,
@@ -92446,7 +93030,7 @@
     "id": "",
     "title": "魔界學園",
     "sub": "(Devildom School)",
-    "_skip": 5
+    "_skip": 99
   },
   "55456": {
     "id": 44085,
@@ -92601,10 +93185,14 @@
     "_total": "39 votes"
   },
   "55484": {
-    "id": "",
+    "id": 41336,
     "title": "再生魔人",
     "sub": "(The Story Of Frankenstein)",
-    "_skip": 5
+    "_title": "エンバーミング-THE ANOTHER TALE OF FRANKENSTEIN-",
+    "_cover": "83/41/41336_H5E6K",
+    "_rank": "",
+    "_score": 6,
+    "_total": "1 votes"
   },
   "55486": {
     "id": 46070,
@@ -92674,13 +93262,13 @@
     "id": "",
     "title": "拳皇京",
     "sub": "(The King Of Fighters Kyo)",
-    "_skip": 5
+    "_skip": 99
   },
   "55501": {
     "id": "",
     "title": "拳皇96",
     "sub": "(The King Of Fighters 96)",
-    "_skip": 5
+    "_skip": 99
   },
   "55502": {
     "id": 218033,

@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-01-13 14:02:22
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-03-09 17:36:31
+ * @Last Modified time: 2022-09-21 19:25:09
  */
 const utils = require('../utils')
 
@@ -30,7 +30,7 @@ anime.forEach(item => {
 })
 
 official.data = Object.keys(official.sum)
-  .filter(item => official.sum[item] >= 5)
+  .filter(item => official.sum[item] >= 8)
   .sort((a, b) => official.sum[b] - official.sum[a])
 utils.write(__official, official)
 process.exit()
