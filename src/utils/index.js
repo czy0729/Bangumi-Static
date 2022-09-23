@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-12-29 11:11:10
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-20 18:20:44
+ * @Last Modified time: 2022-09-23 08:21:32
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -45,7 +45,8 @@ function root(filePath = '') {
  * 读
  * @param {*} path
  */
-function read(path) {
+function read(path, toSimple = false) {
+  if (toSimple) return JSON.parse(toSimplifiedChar(String(fs.readFileSync(path))))
   return JSON.parse(fs.readFileSync(path))
 }
 

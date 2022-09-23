@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2020-07-14 14:08:29
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-09-21 19:15:02
+ * @Last Modified time: 2022-09-23 07:26:47
  */
 const utils = require('../utils')
 
@@ -27,7 +27,7 @@ async function run() {
   const idsAnime = Object.keys(anime)
   for (let indexAnime = 0; indexAnime <= idsAnime.length; indexAnime++) {
     const itemAnime = anime[indexAnime] || {}
-    if (itemAnime.cn || itemAnime.jp) continue
+    // if (itemAnime.cn || itemAnime.jp) continue
 
     const idBgm = Number(itemAnime.id)
     if (itemAnime && idBgm) {
@@ -45,21 +45,24 @@ async function run() {
 
         item.jp = data.name || ''
         item.cn = data.name_cn || ''
-        if (data.images && data.images.medium) {
-          item.image = data.images.medium
-            .replace('http://lain.bgm.tv/pic/cover/m/', '')
-            .replace('.jpg', '')
+        if (
+          data.images &&
+          data.images.medium &&
+          data.images.medium.includes('/m/')
+        ) {
+          item.image = data.images.medium.split('/m/')[1].replace('.jpg', '')
         }
 
         console.log(
           `[${indexAnime} | ${idsAnime.length}]`,
           item.cn || item.jp,
           item.score,
-          item.rank
+          item.rank,
+          item.image
         )
       }
 
-      if (indexAnime % 20 === 0) {
+      if (indexAnime % 50 === 0) {
         console.log('save', indexAnime)
         utils.write(__anime, anime)
       }

@@ -21,6 +21,8 @@
     "age:min": "node src/agefans/min.js",
     "age:update": "node src/agefans/update.js",
     "age:app": "node src/agefans/app-fallback.js",
+    "age:finger": "node src/agefans/finger.js",
+    "age:push": "node src/agefans/5t5.js",
     "wk8": "node src/wk8/wenku.js",
     "wk8:skip": "node src/wk8/skip.js",
     "wk8:min": "node src/wk8/min.js",
