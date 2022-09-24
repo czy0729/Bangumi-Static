@@ -49,7 +49,10 @@
     "onair": "node src/onair/index.js",
     "catalog": "node src/catalog/index.js",
     "catalog:min": "node src/catalog/min.js",
-    "catalog:cn": "node src/catalog/cn.js"
+    "catalog:cn": "node src/catalog/cn.js",
+    "game:finger": "node src/game/finger.js",
+    "game:adv": "node src/game/finger.adv.js",
+    "game:push": "node src/game/5t5.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
