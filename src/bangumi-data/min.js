@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-01-12 16:39:05
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-04-27 18:42:55
+ * @Last Modified time: 2022-10-03 11:08:51
  */
 const utils = require('../utils')
 
@@ -20,15 +20,15 @@ const sitesMap = {
   acfun: 'a',
   bilibili: 'b',
   bilibili_hk_mo_tw: 'bhmt',
-  sohu: 's',
-  youku: 'y',
+  // sohu: 's',
+  // youku: 'y',
   qq: 'q',
   iqiyi: 'i',
-  letv: 'l',
-  pptv: 'p',
-  mgtv: 'm',
-  nicovideo: 'ni',
-  netflix: 'n'
+  // letv: 'l',
+  // pptv: 'p',
+  // mgtv: 'm',
+  // nicovideo: 'ni',
+  // netflix: 'n'
 }
 let min = []
 items.forEach(item => {

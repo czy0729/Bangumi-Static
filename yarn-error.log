@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /opt/local/libexec/yarn/bin/yarn.js add bangumi-data@0.3.99
+  /usr/local/bin/node /opt/local/libexec/yarn/bin/yarn.js
 
 PATH: 
   /Users/chen/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/chen/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/bin/remote-cli:/Users/chen/Library/Android/sdk/platform-tools:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin
@@ -40,12 +40,26 @@ npm manifest:
       "age:min": "node src/agefans/min.js",
       "age:update": "node src/agefans/update.js",
       "age:app": "node src/agefans/app-fallback.js",
+      "age:finger": "node src/agefans/finger.js",
+      "age:push": "node src/agefans/5t5.js",
       "wk8": "node src/wk8/wenku.js",
+      "wk8:skip": "node src/wk8/skip.js",
       "wk8:min": "node src/wk8/min.js",
       "wk8:fixed": "node src/wk8/fixed.js",
       "wk8:author": "node src/wk8/author.js",
       "wk8:cate": "node src/wk8/cate.js",
       "wk8:app": "node src/wk8/app-fallback.js",
+      "wk8:finger": "node src/wk8/finger.js",
+      "wk8:push": "node src/wk8/5t5.js",
+      "mox": "node src/mox/raw.js",
+      "mox:detail": "node src/mox/detail.js",
+      "mox:map": "node src/mox/map.js",
+      "mox:auto": "node src/mox/auto.js",
+      "mox:avg": "node src/mox/avg.js",
+      "mox:bgm": "node src/mox/bgm.js",
+      "mox:min": "node src/mox/min.js",
+      "mox:push": "node src/mox/5t5.js",
+      "mox:finger": "node src/mox/finger.js",
       "h": "node src/h/raw.js",
       "h:list": "node src/h/list.js",
       "h:detail": "node src/h/detail.js",
@@ -53,14 +67,19 @@ npm manifest:
       "h:min": "node src/h/min.js",
       "h:url": "node src/h/url.js",
       "h:test": "node src/h/test.js",
+      "h:finger": "node src/h/finger.js",
+      "h:push": "node src/h/5t5.js",
       "onair": "node src/onair/index.js",
       "catalog": "node src/catalog/index.js",
       "catalog:min": "node src/catalog/min.js",
-      "catalog:cn": "node src/catalog/cn.js"
+      "catalog:cn": "node src/catalog/cn.js",
+      "game:finger": "node src/game/finger.js",
+      "game:adv": "node src/game/finger.adv.js",
+      "game:push": "node src/game/5t5.js"
     },
     "dependencies": {
       "axios": "^0.19.2",
-      "bangumi-data": "0.3.96",
+      "bangumi-data": "0.3.101",
       "cheerio-without-node-native": "0.20.2",
       "cn-chars": "^0.1.1",
       "copy-paste": "^1.3.0",
@@ -526,10 +545,10 @@ Lockfile:
     dependencies:
       follow-redirects "1.5.10"
   
-  bangumi-data@0.3.96:
-    version "0.3.96"
-    resolved "https://registry.yarnpkg.com/bangumi-data/-/bangumi-data-0.3.96.tgz#0f7e5352b496f21d1fd8b00f5cb302ba4d9e95ba"
-    integrity sha512-aBXJ23pP+AcqUfAjL+KC0C8Mf5cfzXmW6mT5xPReUwKHtRAVhJnmgK4A4YFAszpQ/nbTZ0uMkls6RRJ7Lw0GDw==
+  bangumi-data@0.3.99:
+    version "0.3.99"
+    resolved "https://registry.yarnpkg.com/bangumi-data/-/bangumi-data-0.3.99.tgz#7eeec2b018c0d711eda5bb3bf56d8fc9d499a282"
+    integrity sha512-nHPYxv8cpRDpDqJTvKvp3Qq6/OcqN+vT1rVQAzBpNEsBSMLNgBa6Sf2Mk0VVMt34TvTtTfa0oSFjxsHQa/qTzg==
   
   base64-js@^1.3.1, base64-js@^1.5.1:
     version "1.5.1"

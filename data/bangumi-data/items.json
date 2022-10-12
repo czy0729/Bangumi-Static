@@ -130302,5 +130302,1027 @@
         "id": "385928"
       }
     ]
+  },
+  {
+    "title": "風都探偵",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "332133"
+      },
+      {
+        "site": "gamer",
+        "id": "118966"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "风都侦探"
+      ]
+    }
+  },
+  {
+    "title": "夜は猫といっしょ",
+    "type": "web",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "379456"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "关于养猫我一直是新手"
+      ]
+    }
+  },
+  {
+    "title": "パチスロ ボンバーガール 4コマアニメ",
+    "type": "web",
+    "sites": []
+  },
+  {
+    "title": "デュエル・マスターズ WIN",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "396443"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "决斗大师WIN"
+      ]
+    }
+  },
+  {
+    "title": "転生したら剣でした",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "350224"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339671"
+      },
+      {
+        "site": "gamer",
+        "id": "119827"
+      }
+    ]
+  },
+  {
+    "title": "悪役令嬢なのでラスボスを飼ってみました",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "351375"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339708"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339713"
+      },
+      {
+        "site": "gamer",
+        "id": "123508"
+      }
+    ]
+  },
+  {
+    "title": "うちの師匠はしっぽがない",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "344874"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339672"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339715"
+      },
+      {
+        "site": "gamer",
+        "id": "118994"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "我家师傅没有尾巴"
+      ]
+    }
+  },
+  {
+    "title": "チキップダンサーズ(第2シリーズ)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "396487"
+      }
+    ]
+  },
+  {
+    "title": "弱虫ペダル LIMIT BREAK",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "361110"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339722"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "飙速宅男 LIMIT BREAK"
+      ]
+    }
+  },
+  {
+    "title": "ヤマノススメ Next Summit",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "290980"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339719"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339744"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "向山进发 Next Summit"
+      ]
+    }
+  },
+  {
+    "title": "ポプテピピック TVアニメーション作品第二シリーズ",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "363600"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339726"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "pop子和pipi美的日常 第二季"
+      ]
+    }
+  },
+  {
+    "title": "宇崎ちゃんは遊びたい！ω",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "315744"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339743"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "宇崎学妹想要玩！ω"
+      ]
+    }
+  },
+  {
+    "title": "ゴールデンカムイ(第四期)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "361095"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "黄金神威 第四季"
+      ]
+    }
+  },
+  {
+    "title": "モブサイコ100III",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "353605"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339668"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339709"
+      },
+      {
+        "site": "gamer",
+        "id": "120203"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "灵能百分百 第三季"
+      ]
+    }
+  },
+  {
+    "title": "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "383631"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339666"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339712"
+      },
+      {
+        "site": "gamer",
+        "id": "124956"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "被勇者队伍开除的驯兽师，邂逅最强种猫耳少女"
+      ]
+    }
+  },
+  {
+    "title": "夫婦以上、恋人未満。",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "359177"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339840"
+      },
+      {
+        "site": "gamer",
+        "id": "120724"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "夫妇以上，恋人未满。"
+      ]
+    }
+  },
+  {
+    "title": "新米錬金術師の店舗経営",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "349317"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339721"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339742"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "新人炼金术师的店铺经营"
+      ]
+    }
+  },
+  {
+    "title": "アキバ冥途戦争",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "389450"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339624"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "秋叶原女仆战争"
+      ]
+    }
+  },
+  {
+    "title": "ジョジョの奇妙な冒険 ストーンオーシャン(第2クール)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "375913"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "JOJO的奇妙冒险 石之海 Part.2"
+      ]
+    }
+  },
+  {
+    "title": "SPY×FAMILY(第2クール)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "373267"
+      },
+      {
+        "site": "gamer",
+        "id": "120396"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "间谍过家家 第二部分"
+      ]
+    }
+  },
+  {
+    "title": "陰の実力者になりたくて！",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "329114"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339747"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "想要成为影之实力者！"
+      ]
+    }
+  },
+  {
+    "title": "チェンソーマン",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "321885"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339623"
+      },
+      {
+        "site": "gamer",
+        "id": "110764"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "链锯人"
+      ]
+    }
+  },
+  {
+    "title": "Do It Yourself!! -どぅー・いっと・ゆあせるふ-",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "331445"
+      }
+    ]
+  },
+  {
+    "title": "4人はそれぞれウソをつく",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "376565"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "4个人各自有着自己的秘密"
+      ]
+    }
+  },
+  {
+    "title": "農民関連のスキルばっか上げてたら何故か強くなった。",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "371842"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339711"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339718"
+      },
+      {
+        "site": "gamer",
+        "id": "124639"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "点满农民相关技能后，不知为何就变强了。"
+      ]
+    }
+  },
+  {
+    "title": "恋愛フロップス",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "375735"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339746"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "恋爱FLOPS"
+      ]
+    }
+  },
+  {
+    "title": "虫かぶり姫",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "366695"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339720"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339745"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "书虫公主"
+      ]
+    }
+  },
+  {
+    "title": "忍の一時",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "368829"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339628"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339738"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "忍者一时"
+      ]
+    }
+  },
+  {
+    "title": "不徳のギルド",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "373712"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339748"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "无良公会"
+      ]
+    }
+  },
+  {
+    "title": "機動戦士ガンダム 水星の魔女",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "349441"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339736"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339749"
+      },
+      {
+        "site": "gamer",
+        "id": "119702"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "机动战士高达 水星的魔女"
+      ]
+    }
+  },
+  {
+    "title": "後宮の烏",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "362479"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339851"
+      },
+      {
+        "site": "gamer",
+        "id": "121043"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "后宫之乌"
+      ]
+    }
+  },
+  {
+    "title": "クールドジ男子",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "378860"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339724"
+      },
+      {
+        "site": "gamer",
+        "id": "125606"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "呆萌酷男孩"
+      ]
+    }
+  },
+  {
+    "title": "ヒューマンバグ大学 -不死学部不幸学科-",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "386469"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "人类毛病大学 -不死学部不幸学科-"
+      ]
+    }
+  },
+  {
+    "title": "僕のヒーローアカデミア(第6期)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "236657"
+      },
+      {
+        "site": "gamer",
+        "id": "121103"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "我的英雄学院 第六季"
+      ]
+    }
+  },
+  {
+    "title": "ぼっち・ざ・ろっく！",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "328609"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339735"
+      },
+      {
+        "site": "gamer",
+        "id": "115950"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "孤独摇滚！"
+      ]
+    }
+  },
+  {
+    "title": "VAZZROCK THE ANIMATION",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "318869"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "月野艺能 华彩原石"
+      ]
+    }
+  },
+  {
+    "title": "ブルーロック",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "341163"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339713"
+      },
+      {
+        "site": "gamer",
+        "id": "119140"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "蓝色监狱"
+      ]
+    }
+  },
+  {
+    "title": "聖剣伝説 Legend of Mana -The Teardrop Crystal-",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "340188"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "圣剑传说 玛娜传奇 -泪珠水晶-"
+      ]
+    }
+  },
+  {
+    "title": "ある朝ダミーヘッドマイクになっていた俺クンの人生",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "391672"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "某天早上变成人头麦克风的我君的人生"
+      ]
+    }
+  },
+  {
+    "title": "うる星やつら(2022)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "364468"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "福星小子"
+      ]
+    }
+  },
+  {
+    "title": "永久少年 Eternal Boys",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "374563"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "永久少年 Eternal Boys"
+      ]
+    }
+  },
+  {
+    "title": "女体化した僕を騎士様達がねらってます",
+    "type": "tv",
+    "sites": []
+  },
+  {
+    "title": "ハーレムきゃんぷっ！",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "395537"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "后宫露营！"
+      ]
+    }
+  },
+  {
+    "title": "シルバニアファミリー フレアのハッピーダイアリー",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "400601"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "森林家族小故事 芙蕾雅的快乐日记"
+      ]
+    }
+  },
+  {
+    "title": "不滅のあなたへ Season2",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "348128"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339716"
+      },
+      {
+        "site": "gamer",
+        "id": "119447"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "致不灭的你 Season2"
+      ]
+    }
+  },
+  {
+    "title": "BLEACH 千年血戦篇",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "302286"
+      },
+      {
+        "site": "gamer",
+        "id": "110487"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "死神 千年血战篇"
+      ]
+    }
+  },
+  {
+    "title": "ベルセルク 黄金時代篇 MEMORIAL EDITION",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "388981"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "剑风传奇 黄金时代篇 MEMORIAL EDITION"
+      ]
+    }
+  },
+  {
+    "title": "魔入りました！入間くん(第3シリーズ)",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "348699"
+      },
+      {
+        "site": "bilibili_hk_mo_tw",
+        "id": "28339667"
+      },
+      {
+        "site": "bilibili",
+        "id": "28339710"
+      },
+      {
+        "site": "gamer",
+        "id": "119657"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "入间同学入魔了 第三季"
+      ]
+    }
+  },
+  {
+    "title": "マブラヴ オルタネイティヴ 第二期",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "363263"
+      },
+      {
+        "site": "gamer",
+        "id": "126658"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "Muv-Luv Alternative 第二季"
+      ]
+    }
+  },
+  {
+    "title": "名探偵コナン 犯人の犯沢さん",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "351712"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "名侦探柯南 犯人犯泽先生"
+      ]
+    }
+  },
+  {
+    "title": "メガトン級ムサシ シーズン2",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "361290"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "百万吨级武藏 第二季"
+      ]
+    }
+  },
+  {
+    "title": "ピーター・グリルと賢者の時間 Super Extra",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "356793"
+      },
+      {
+        "site": "gamer",
+        "id": "127445"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "彼得·格里尔的贤者时间 Super Extra"
+      ]
+    }
+  },
+  {
+    "title": "アニメ ボス・ベイビー シーズン2",
+    "type": "tv",
+    "sites": []
+  },
+  {
+    "title": "ぷにるんず",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "398762"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "噗尼轮轮"
+      ]
+    }
+  },
+  {
+    "title": "アークナイツ【黎明前奏/PRELUDE TO DAWN】",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "354190"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "明日方舟：黎明前奏"
+      ]
+    }
+  },
+  {
+    "title": "令和のデ・ジ・キャラット",
+    "type": "tv",
+    "sites": [
+      {
+        "site": "bangumi",
+        "id": "338802"
+      }
+    ],
+    "titleTranslate": {
+      "zh-Hans": [
+        "令和のデ・ジ・キャラット"
+      ]
+    }
   }
 ]
